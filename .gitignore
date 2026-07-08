@@ -15,8 +15,10 @@ node_modules/
 test-results/
 playwright-report/
 
-# Generated API artifacts (rebuilt in CI from data/ — never committed)
+# Generated artifacts (rebuilt in CI from data/ — never committed)
 site/api/
+build/
+screenshots/
 
 # Local env / secrets
 .env
