@@ -1,0 +1,26 @@
+# Claude Code session config (not part of the project)
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Node / Playwright
+node_modules/
+test-results/
+playwright-report/
+
+# Generated API artifacts (rebuilt in CI from data/ — never committed)
+site/api/
+
+# Local env / secrets
+.env
+*.key
+
+# OS
+.DS_Store

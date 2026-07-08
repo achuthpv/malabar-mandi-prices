@@ -1,0 +1,8 @@
+date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_price,unit,source,fetched_at
+2026-07-08,Kasargod,Kanjangadu Market,black-pepper,Malabar,FAQ,63700,64500,64000,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Kannur,Kannur Market,black-pepper,Other,Grade Range-1,65000,67000,66000,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Kasargod,Kasargod Market,black-pepper,Malabar,Local,60000,60500,60200,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,60000,67000,63500,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Kasargod,Manjeswaram Market,black-pepper,Other,FAQ,67500,68000,67750,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Wayanad,Pulpally Market,black-pepper,Ungrabled,Local,68600,68800,68700,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Wayanad,Sultan bathery Market,black-pepper,Ungrabled,Local,68495,68500,68500,Rs/quintal,ogd,2026-07-08T22:30:33+00:00

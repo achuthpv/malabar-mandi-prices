@@ -1,0 +1,5 @@
+date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_price,unit,source,fetched_at
+2026-07-08,Kasargod,Kanjangadu Market,arecanut,Malbar,FAQ,40600,41500,41000,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Kasargod,Kasargod Market,arecanut,Malbar,Local,43000,43500,43200,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Kannur,Kuthuparambu Market,arecanut,Malbar,Local,30000,38000,34000,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Kasargod,Manjeswaram Market,arecanut,Other,FAQ,47000,47200,47100,Rs/quintal,ogd,2026-07-08T22:30:33+00:00

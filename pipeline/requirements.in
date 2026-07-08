@@ -1,0 +1,4 @@
+# Runtime dependencies (compile with: pip-compile --generate-hashes requirements.in)
+requests>=2.32
+PyYAML>=6.0
+pandas>=2.1

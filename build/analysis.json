@@ -1,0 +1,378 @@
+{
+ "today": "2026-07-08",
+ "commodities": {
+  "arecanut": {
+   "slug": "arecanut",
+   "display": "Arecanut",
+   "unit": "Rs/quintal",
+   "region": {
+    "level": "Calicut & North Kerala (Malabar)",
+    "n_obs": 1,
+    "freshness": {
+     "last_observed": "2026-07-08",
+     "days_stale": 0,
+     "stale": false
+    },
+    "latest": {
+     "date": "2026-07-08",
+     "modal_price": 42100
+    },
+    "trend": {
+     "ma30": null,
+     "ma90": null,
+     "yoy_pct": null,
+     "slope_pct_per_year": null,
+     "direction": "flat"
+    },
+    "signal": null,
+    "seasonality": null,
+    "narrative": [
+     "Not enough multi-year history yet to estimate seasonality for Arecanut in Calicut & North Kerala (Malabar). The daily pipeline is accumulating data."
+    ],
+    "monthly": [
+     {
+      "month": "2026-07",
+      "median": 42100,
+      "n_obs": 1
+     }
+    ]
+   },
+   "districts": {
+    "Kannur": {
+     "level": "Kannur",
+     "n_obs": 1,
+     "freshness": {
+      "last_observed": "2026-07-08",
+      "days_stale": 0,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-07-08",
+      "modal_price": 34000
+     },
+     "trend": {
+      "ma30": null,
+      "ma90": null,
+      "yoy_pct": null,
+      "slope_pct_per_year": null,
+      "direction": "flat"
+     },
+     "signal": null,
+     "seasonality": null,
+     "narrative": [
+      "Not enough multi-year history yet to estimate seasonality for Arecanut in Kannur. The daily pipeline is accumulating data."
+     ],
+     "monthly": [
+      {
+       "month": "2026-07",
+       "median": 34000,
+       "n_obs": 1
+      }
+     ]
+    },
+    "Kasargod": {
+     "level": "Kasargod",
+     "n_obs": 1,
+     "freshness": {
+      "last_observed": "2026-07-08",
+      "days_stale": 0,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-07-08",
+      "modal_price": 43200
+     },
+     "trend": {
+      "ma30": null,
+      "ma90": null,
+      "yoy_pct": null,
+      "slope_pct_per_year": null,
+      "direction": "flat"
+     },
+     "signal": null,
+     "seasonality": null,
+     "narrative": [
+      "Not enough multi-year history yet to estimate seasonality for Arecanut in Kasargod. The daily pipeline is accumulating data."
+     ],
+     "monthly": [
+      {
+       "month": "2026-07",
+       "median": 43200,
+       "n_obs": 1
+      }
+     ]
+    }
+   }
+  },
+  "black-pepper": {
+   "slug": "black-pepper",
+   "display": "Black Pepper",
+   "unit": "Rs/quintal",
+   "region": {
+    "level": "Calicut & North Kerala (Malabar)",
+    "n_obs": 1,
+    "freshness": {
+     "last_observed": "2026-07-08",
+     "days_stale": 0,
+     "stale": false
+    },
+    "latest": {
+     "date": "2026-07-08",
+     "modal_price": 66000
+    },
+    "trend": {
+     "ma30": null,
+     "ma90": null,
+     "yoy_pct": null,
+     "slope_pct_per_year": null,
+     "direction": "flat"
+    },
+    "signal": null,
+    "seasonality": null,
+    "narrative": [
+     "Not enough multi-year history yet to estimate seasonality for Black Pepper in Calicut & North Kerala (Malabar). The daily pipeline is accumulating data."
+    ],
+    "monthly": [
+     {
+      "month": "2026-07",
+      "median": 66000,
+      "n_obs": 1
+     }
+    ]
+   },
+   "districts": {
+    "Kannur": {
+     "level": "Kannur",
+     "n_obs": 1,
+     "freshness": {
+      "last_observed": "2026-07-08",
+      "days_stale": 0,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-07-08",
+      "modal_price": 64750
+     },
+     "trend": {
+      "ma30": null,
+      "ma90": null,
+      "yoy_pct": null,
+      "slope_pct_per_year": null,
+      "direction": "flat"
+     },
+     "signal": null,
+     "seasonality": null,
+     "narrative": [
+      "Not enough multi-year history yet to estimate seasonality for Black Pepper in Kannur. The daily pipeline is accumulating data."
+     ],
+     "monthly": [
+      {
+       "month": "2026-07",
+       "median": 64750,
+       "n_obs": 1
+      }
+     ]
+    },
+    "Kasargod": {
+     "level": "Kasargod",
+     "n_obs": 1,
+     "freshness": {
+      "last_observed": "2026-07-08",
+      "days_stale": 0,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-07-08",
+      "modal_price": 64000
+     },
+     "trend": {
+      "ma30": null,
+      "ma90": null,
+      "yoy_pct": null,
+      "slope_pct_per_year": null,
+      "direction": "flat"
+     },
+     "signal": null,
+     "seasonality": null,
+     "narrative": [
+      "Not enough multi-year history yet to estimate seasonality for Black Pepper in Kasargod. The daily pipeline is accumulating data."
+     ],
+     "monthly": [
+      {
+       "month": "2026-07",
+       "median": 64000,
+       "n_obs": 1
+      }
+     ]
+    },
+    "Wayanad": {
+     "level": "Wayanad",
+     "n_obs": 1,
+     "freshness": {
+      "last_observed": "2026-07-08",
+      "days_stale": 0,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-07-08",
+      "modal_price": 68600
+     },
+     "trend": {
+      "ma30": null,
+      "ma90": null,
+      "yoy_pct": null,
+      "slope_pct_per_year": null,
+      "direction": "flat"
+     },
+     "signal": null,
+     "seasonality": null,
+     "narrative": [
+      "Not enough multi-year history yet to estimate seasonality for Black Pepper in Wayanad. The daily pipeline is accumulating data."
+     ],
+     "monthly": [
+      {
+       "month": "2026-07",
+       "median": 68600,
+       "n_obs": 1
+      }
+     ]
+    }
+   }
+  },
+  "coconut": {
+   "slug": "coconut",
+   "display": "Coconut",
+   "unit": "Rs/quintal",
+   "region": {
+    "level": "Calicut & North Kerala (Malabar)",
+    "n_obs": 1,
+    "freshness": {
+     "last_observed": "2026-07-08",
+     "days_stale": 0,
+     "stale": false
+    },
+    "latest": {
+     "date": "2026-07-08",
+     "modal_price": 5100
+    },
+    "trend": {
+     "ma30": null,
+     "ma90": null,
+     "yoy_pct": null,
+     "slope_pct_per_year": null,
+     "direction": "flat"
+    },
+    "signal": null,
+    "seasonality": null,
+    "narrative": [
+     "Not enough multi-year history yet to estimate seasonality for Coconut in Calicut & North Kerala (Malabar). The daily pipeline is accumulating data."
+    ],
+    "monthly": [
+     {
+      "month": "2026-07",
+      "median": 5100,
+      "n_obs": 1
+     }
+    ]
+   },
+   "districts": {
+    "Kasargod": {
+     "level": "Kasargod",
+     "n_obs": 1,
+     "freshness": {
+      "last_observed": "2026-07-08",
+      "days_stale": 0,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-07-08",
+      "modal_price": 4700
+     },
+     "trend": {
+      "ma30": null,
+      "ma90": null,
+      "yoy_pct": null,
+      "slope_pct_per_year": null,
+      "direction": "flat"
+     },
+     "signal": null,
+     "seasonality": null,
+     "narrative": [
+      "Not enough multi-year history yet to estimate seasonality for Coconut in Kasargod. The daily pipeline is accumulating data."
+     ],
+     "monthly": [
+      {
+       "month": "2026-07",
+       "median": 4700,
+       "n_obs": 1
+      }
+     ]
+    },
+    "Kozhikode": {
+     "level": "Kozhikode",
+     "n_obs": 1,
+     "freshness": {
+      "last_observed": "2026-07-08",
+      "days_stale": 0,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-07-08",
+      "modal_price": 5100
+     },
+     "trend": {
+      "ma30": null,
+      "ma90": null,
+      "yoy_pct": null,
+      "slope_pct_per_year": null,
+      "direction": "flat"
+     },
+     "signal": null,
+     "seasonality": null,
+     "narrative": [
+      "Not enough multi-year history yet to estimate seasonality for Coconut in Kozhikode. The daily pipeline is accumulating data."
+     ],
+     "monthly": [
+      {
+       "month": "2026-07",
+       "median": 5100,
+       "n_obs": 1
+      }
+     ]
+    },
+    "Wayanad": {
+     "level": "Wayanad",
+     "n_obs": 1,
+     "freshness": {
+      "last_observed": "2026-07-08",
+      "days_stale": 0,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-07-08",
+      "modal_price": 5950
+     },
+     "trend": {
+      "ma30": null,
+      "ma90": null,
+      "yoy_pct": null,
+      "slope_pct_per_year": null,
+      "direction": "flat"
+     },
+     "signal": null,
+     "seasonality": null,
+     "narrative": [
+      "Not enough multi-year history yet to estimate seasonality for Coconut in Wayanad. The daily pipeline is accumulating data."
+     ],
+     "monthly": [
+      {
+       "month": "2026-07",
+       "median": 5950,
+       "n_obs": 1
+      }
+     ]
+    }
+   }
+  }
+ }
+}

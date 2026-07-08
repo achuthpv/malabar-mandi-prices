@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="description" content="Daily wholesale mandi prices and seasonality analysis for arecanut, black pepper and coconut in Calicut & North Kerala, from Agmarknet.">
+<meta name="color-scheme" content="light dark">
+<title>Malabar Mandi Prices</title>
+<link rel="stylesheet" href="assets/uplot.min.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌴</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1>Malabar Mandi Prices</h1>
+    <p class="subtitle">Wholesale prices &amp; best time to sell — Calicut &amp; North Kerala</p>
+    <nav class="tabs" id="commodity-tabs" aria-label="Commodity"></nav>
+  </div>
+</header>
+
+<main class="wrap" id="main" hidden>
+  <section class="controls">
+    <label class="district-label" for="district-select">Area</label>
+    <select id="district-select" aria-label="District"></select>
+    <span class="badge" id="freshness-badge" hidden></span>
+  </section>
+
+  <section class="tiles" id="stat-tiles" aria-label="Key numbers"></section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2 id="chart-title">Price history</h2>
+      <div class="chart-controls">
+        <div class="seg" id="range-buttons" role="group" aria-label="Time range">
+          <button type="button" data-range="1y">1Y</button>
+          <button type="button" data-range="3y" class="active">3Y</button>
+          <button type="button" data-range="all">All</button>
+        </div>
+        <div class="seg" id="res-buttons" role="group" aria-label="Resolution">
+          <button type="button" data-res="weekly" class="active">Weekly</button>
+          <button type="button" data-res="daily">Daily</button>
+        </div>
+      </div>
+    </div>
+    <div id="chart" class="chart"></div>
+    <p class="chart-note" id="chart-note"></p>
+  </section>
+
+  <section class="panel">
+    <h2>Seasonality — when to sell, when to buy</h2>
+    <div class="season-bars" id="season-bars" aria-label="Seasonal price index by month"></div>
+    <div class="season-legend">
+      <span class="chip chip-sell">best months to sell</span>
+      <span class="chip chip-buy">cheapest months (buy)</span>
+    </div>
+    <div class="narrative" id="narrative"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Latest market prices</h2>
+    <div class="table-scroll">
+      <table id="markets-table">
+        <thead>
+          <tr><th>Market</th><th>District</th><th>Price</th><th>Range</th><th>Reported</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<div class="wrap">
+  <div class="error" id="error-box" hidden>
+    <strong>Could not load data.</strong>
+    <span>The data files may still be generating. Please try again in a few minutes.</span>
+  </div>
+  <div class="loading" id="loading">Loading price data…</div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Data: <a href="https://agmarknet.gov.in/" rel="noopener">Agmarknet</a> (Directorate of Marketing &amp; Inspection, Govt. of India) via
+      <a href="https://data.gov.in/" rel="noopener">data.gov.in</a>.
+      Historical archive: <a href="https://agmarknet.ceda.ashoka.edu.in/" rel="noopener">CEDA, Ashoka University</a>. Non-commercial project.</p>
+    <p>Prices are wholesale, Rs per quintal. Seasonal estimates are historical tendencies, not financial advice.</p>
+    <p><a href="openapi.json">Open API spec</a> · <a href="api/v1/index.json">API index</a> · <span id="footer-updated"></span></p>
+  </div>
+</footer>
+
+<script src="assets/uplot.iife.min.js"></script>
+<script src="assets/charts.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_price,unit,source,fetched_at
+2026-07-08,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,4200,4900,4600,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Kasargod,Manjeswaram Market,coconut,Other,FAQ,4700,4900,4800,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Kozhikode,Mukkom Market,coconut,Other,FAQ,5000,5300,5100,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Wayanad,Pulpally Market,coconut,Coconut,Local,6200,6400,6300,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
+2026-07-08,Wayanad,Sultan bathery Market,coconut,Other,Local,5595,5600,5600,Rs/quintal,ogd,2026-07-08T22:30:33+00:00

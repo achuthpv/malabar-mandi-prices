@@ -1,0 +1,11 @@
+[
+  {"state": "Keralam", "district": "Kozhikode(Calicut)", "market": "Mukkom Market", "commodity": "Coconut", "variety": "Other", "grade": "FAQ", "arrival_date": "08/07/2026", "min_price": 4800, "max_price": 5400, "modal_price": 5100},
+  {"state": "Keralam", "district": "Kannur", "market": "Kuthuparambu Market", "commodity": "Arecanut(Betelnut/Supari)", "variety": "Malbar", "grade": "Local", "arrival_date": "08/07/2026", "min_price": 33500, "max_price": 34500, "modal_price": 34000},
+  {"state": "Keralam", "district": "Wayanad", "market": "Pulpally Market", "commodity": "Black pepper", "variety": "Ungrabled", "grade": "Local", "arrival_date": "07/07/2026", "min_price": 68000, "max_price": 69500, "modal_price": 68700},
+  {"state": "Keralam", "district": "Ernakulam", "market": "Perumbavoor Market", "commodity": "Black pepper", "variety": "Garbled", "grade": "Grade Range-1", "arrival_date": "08/07/2026", "min_price": 79000, "max_price": 81000, "modal_price": 80000},
+  {"state": "Keralam", "district": "Kozhikode(Calicut)", "market": "Mukkom Market", "commodity": "Pineapple", "variety": "Other", "grade": "Large", "arrival_date": "08/07/2026", "min_price": 6800, "max_price": 7500, "modal_price": 7000},
+  {"state": "Keralam", "district": "Kasargod", "market": "Kasargod Market", "commodity": "Black pepper", "variety": "Malabar", "grade": "Local", "arrival_date": "not-a-date", "min_price": 60000, "max_price": 61000, "modal_price": 60200},
+  {"state": "Keralam", "district": "Kasargod", "market": "Kanjangadu Market", "commodity": "Coconut", "variety": "Coconut", "grade": "FAQ", "arrival_date": "08/07/2026", "min_price": 5000, "max_price": 4000, "modal_price": 4600},
+  {"state": "Keralam", "district": "Kasargod", "market": "Manjeswaram Market", "commodity": "Coconut", "variety": "Other", "grade": "FAQ", "arrival_date": "08/07/2026", "min_price": 100, "max_price": 90000, "modal_price": 55000},
+  {"state": "Keralam", "district": "Kannur", "market": "Kannur Market", "commodity": "Coconut", "variety": "Other", "grade": "FAQ", "arrival_date": "09/07/2027", "min_price": 4800, "max_price": 5400, "modal_price": 5100}
+]

@@ -1,0 +1,212 @@
+"""Generate the static JSON API under site/api/v1/.
+
+The published files ARE the public API (GitHub Pages serves them with
+`Access-Control-Allow-Origin: *`), described by site/openapi.json.
+Every payload carries generated_at + attribution.
+"""
+
+from __future__ import annotations
+
+import json
+from collections import defaultdict
+from pathlib import Path
+from typing import Any
+
+from .analyze import ANALYSIS_PATH, analyze_all
+from .config import API_DIR, Config
+from .store import read_all_rows
+
+ATTRIBUTION = {
+    "data_source": "Agmarknet (Directorate of Marketing & Inspection, Govt. of India) "
+    "via data.gov.in Open Government Data Platform",
+    "historical_source": "CEDA, Ashoka University (agmarknet.ceda.ashoka.edu.in) — "
+    "used non-commercially with attribution",
+    "license_note": "Personal, non-commercial project. Prices are wholesale mandi "
+    "prices in Rs per quintal unless stated otherwise.",
+}
+
+
+def _envelope(generated_at: str, payload: dict[str, Any]) -> dict[str, Any]:
+    return {"generated_at": generated_at, "attribution": ATTRIBUTION, **payload}
+
+
+def _write(path: Path, doc: dict[str, Any]) -> Path:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(doc, f, ensure_ascii=False, separators=(",", ":"))
+    return path
+
+
+def _load_analysis(cfg: Config) -> dict[str, Any]:
+    if ANALYSIS_PATH.exists():
+        with open(ANALYSIS_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return analyze_all(cfg)
+
+
+def publish_all(cfg: Config, generated_at: str, api_dir: Path | None = None,
+                data_base: Path | None = None,
+                analysis: dict[str, Any] | None = None) -> list[Path]:
+    api_dir = api_dir or API_DIR
+    analysis = analysis or _load_analysis(cfg)
+    rows = read_all_rows(data_base)
+    written: list[Path] = []
+
+    dates = sorted(r["date"] for r in rows) if rows else []
+
+    # --- meta + commodities + markets -------------------------------------
+    written.append(_write(api_dir / "meta.json", _envelope(generated_at, {
+        "region": cfg.region_label,
+        "districts": [d.name for d in cfg.districts],
+        "date_range": {"first": dates[0] if dates else None,
+                       "last": dates[-1] if dates else None},
+        "row_count": len(rows),
+        "analysis_as_of": analysis.get("today"),
+    })))
+
+    written.append(_write(api_dir / "commodities.json", _envelope(generated_at, {
+        "commodities": [
+            {"slug": c.slug, "display": c.display, "unit": c.unit,
+             "ogd_names": list(c.ogd_names)}
+            for c in cfg.commodities
+        ],
+    })))
+
+    markets: dict[tuple[str, str], dict[str, Any]] = {}
+    for r in rows:
+        key = (r["district"], r["market"])
+        m = markets.setdefault(key, {"district": key[0], "market": key[1],
+                                     "first_observed": r["date"],
+                                     "last_observed": r["date"],
+                                     "commodities": set()})
+        m["first_observed"] = min(m["first_observed"], r["date"])
+        m["last_observed"] = max(m["last_observed"], r["date"])
+        m["commodities"].add(r["commodity_slug"])
+    written.append(_write(api_dir / "markets.json", _envelope(generated_at, {
+        "markets": [
+            {**m, "commodities": sorted(m["commodities"])}
+            for _, m in sorted(markets.items())
+        ],
+    })))
+
+    # --- per-commodity price + analysis files ------------------------------
+    rows_by_slug: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for r in rows:
+        rows_by_slug[r["commodity_slug"]].append(r)
+
+    for c in cfg.commodities:
+        crows = sorted(rows_by_slug.get(c.slug, []),
+                       key=lambda r: (r["date"], r["district"], r["market"]))
+        canal = analysis["commodities"].get(c.slug, {})
+
+        # latest.json: newest row per market + district latest medians
+        latest_by_market: dict[tuple[str, str], dict[str, Any]] = {}
+        for r in crows:  # crows sorted by date => last write wins
+            latest_by_market[(r["district"], r["market"])] = r
+        district_latest = {
+            dname: {"date": d["latest"]["date"],
+                    "modal_price": d["latest"]["modal_price"],
+                    "days_stale": d["freshness"]["days_stale"]}
+            for dname, d in canal.get("districts", {}).items()
+        }
+        written.append(_write(api_dir / "prices" / c.slug / "latest.json",
+                              _envelope(generated_at, {
+            "commodity": c.slug,
+            "unit": c.unit,
+            "markets": [
+                {"district": r["district"], "market": r["market"],
+                 "date": r["date"], "variety": r["variety"], "grade": r["grade"],
+                 "min_price": int(r["min_price"]), "max_price": int(r["max_price"]),
+                 "modal_price": int(r["modal_price"])}
+                for _, r in sorted(latest_by_market.items())
+            ],
+            "districts": district_latest,
+        })))
+
+        # daily/{year}.json
+        by_year: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        for r in crows:
+            by_year[r["date"][:4]].append(r)
+        years = sorted(by_year)
+        for year, yrows in by_year.items():
+            written.append(_write(api_dir / "prices" / c.slug / "daily" / f"{year}.json",
+                                  _envelope(generated_at, {
+                "commodity": c.slug, "year": int(year), "unit": c.unit,
+                "columns": ["date", "district", "market", "variety", "grade",
+                            "min_price", "max_price", "modal_price"],
+                "rows": [
+                    [r["date"], r["district"], r["market"], r["variety"], r["grade"],
+                     int(r["min_price"]), int(r["max_price"]), int(r["modal_price"])]
+                    for r in yrows
+                ],
+            })))
+
+        # monthly.json: region + district monthly medians (compact history)
+        region = canal.get("region")
+        written.append(_write(api_dir / "prices" / c.slug / "monthly.json",
+                              _envelope(generated_at, {
+            "commodity": c.slug, "unit": c.unit,
+            "years_available": [int(y) for y in years],
+            "region": (region or {}).get("monthly", []),
+            "districts": {
+                dname: d.get("monthly", [])
+                for dname, d in canal.get("districts", {}).items()
+            },
+        })))
+
+        # analysis files
+        seasonality = (region or {}).get("seasonality")
+        written.append(_write(api_dir / "analysis" / c.slug / "seasonality.json",
+                              _envelope(generated_at, {
+            "commodity": c.slug,
+            "level": cfg.region_label,
+            "seasonality": seasonality,
+            "districts": {
+                dname: d.get("seasonality")
+                for dname, d in canal.get("districts", {}).items()
+            },
+        })))
+
+        written.append(_write(api_dir / "analysis" / c.slug / "summary.json",
+                              _envelope(generated_at, {
+            "commodity": c.slug,
+            "display": c.display,
+            "unit": c.unit,
+            "region": _summary_view(region),
+            "districts": {dname: _summary_view(d)
+                          for dname, d in canal.get("districts", {}).items()},
+        })))
+
+    # --- discovery index ----------------------------------------------------
+    endpoints = ["/api/v1/meta.json", "/api/v1/commodities.json", "/api/v1/markets.json"]
+    for c in cfg.commodities:
+        endpoints += [f"/api/v1/prices/{c.slug}/latest.json",
+                      f"/api/v1/prices/{c.slug}/monthly.json"]
+        endpoints += [f"/api/v1/prices/{c.slug}/daily/{y}.json"
+                      for y in sorted({r['date'][:4] for r in rows_by_slug.get(c.slug, [])})]
+        endpoints += [f"/api/v1/analysis/{c.slug}/seasonality.json",
+                      f"/api/v1/analysis/{c.slug}/summary.json"]
+    written.insert(0, _write(api_dir / "index.json", _envelope(generated_at, {
+        "endpoints": endpoints,
+        "openapi": "/openapi.json",
+    })))
+
+    return written
+
+
+def _summary_view(series: dict[str, Any] | None) -> dict[str, Any] | None:
+    """Everything an LLM needs in one call, without the bulky monthly table."""
+    if not series:
+        return None
+    seasonality = series.get("seasonality") or {}
+    return {
+        "level": series["level"],
+        "latest": series["latest"],
+        "freshness": series["freshness"],
+        "trend": series["trend"],
+        "signal": series["signal"],
+        "best_sell": seasonality.get("best_sell"),
+        "best_buy": seasonality.get("best_buy"),
+        "narrative": series["narrative"],
+        "n_obs": series["n_obs"],
+    }

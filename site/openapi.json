@@ -1,0 +1,500 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Malabar Mandi Prices API",
+    "version": "1.0.0",
+    "description": "Static JSON API for wholesale mandi prices of arecanut, black pepper and coconut in Calicut (Kozhikode) & North Kerala, sourced from Agmarknet via data.gov.in, with seasonality analysis (best months to sell/buy). All endpoints are static files regenerated after each data update; every payload carries `generated_at` and `attribution`. Prices are Rs per quintal. Intended for dashboards and LLM tool-use (start with /api/v1/analysis/{slug}/summary.json).",
+    "license": {
+      "name": "Non-commercial; data attribution: Agmarknet/data.gov.in, CEDA Ashoka University"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://REPLACE-WITH-YOUR-PAGES-DOMAIN",
+      "description": "GitHub Pages deployment"
+    }
+  ],
+  "paths": {
+    "/api/v1/index.json": {
+      "get": {
+        "operationId": "listEndpoints",
+        "summary": "Discovery: list every available endpoint",
+        "responses": {
+          "200": {
+            "description": "Endpoint list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    { "$ref": "#/components/schemas/Envelope" },
+                    {
+                      "type": "object",
+                      "required": ["endpoints", "openapi"],
+                      "properties": {
+                        "endpoints": { "type": "array", "items": { "type": "string" } },
+                        "openapi": { "type": "string" }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/meta.json": {
+      "get": {
+        "operationId": "getMeta",
+        "summary": "Dataset metadata: region, districts, date range, attribution",
+        "responses": {
+          "200": {
+            "description": "Metadata",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    { "$ref": "#/components/schemas/Envelope" },
+                    {
+                      "type": "object",
+                      "required": ["region", "districts", "date_range", "row_count"],
+                      "properties": {
+                        "region": { "type": "string" },
+                        "districts": { "type": "array", "items": { "type": "string" } },
+                        "date_range": {
+                          "type": "object",
+                          "properties": {
+                            "first": { "type": ["string", "null"], "format": "date" },
+                            "last": { "type": ["string", "null"], "format": "date" }
+                          }
+                        },
+                        "row_count": { "type": "integer" },
+                        "analysis_as_of": { "type": ["string", "null"], "format": "date" }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/commodities.json": {
+      "get": {
+        "operationId": "listCommodities",
+        "summary": "Tracked commodities with slugs, display names and units",
+        "responses": {
+          "200": {
+            "description": "Commodity list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    { "$ref": "#/components/schemas/Envelope" },
+                    {
+                      "type": "object",
+                      "required": ["commodities"],
+                      "properties": {
+                        "commodities": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "required": ["slug", "display", "unit"],
+                            "properties": {
+                              "slug": { "$ref": "#/components/schemas/Slug" },
+                              "display": { "type": "string" },
+                              "unit": { "type": "string" },
+                              "ogd_names": { "type": "array", "items": { "type": "string" } }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/markets.json": {
+      "get": {
+        "operationId": "listMarkets",
+        "summary": "Markets per district with first/last observed dates",
+        "responses": {
+          "200": {
+            "description": "Market list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    { "$ref": "#/components/schemas/Envelope" },
+                    {
+                      "type": "object",
+                      "required": ["markets"],
+                      "properties": {
+                        "markets": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "required": ["district", "market", "first_observed", "last_observed"],
+                            "properties": {
+                              "district": { "type": "string" },
+                              "market": { "type": "string" },
+                              "first_observed": { "type": "string", "format": "date" },
+                              "last_observed": { "type": "string", "format": "date" },
+                              "commodities": { "type": "array", "items": { "type": "string" } }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/prices/{slug}/latest.json": {
+      "get": {
+        "operationId": "getLatestPrices",
+        "summary": "Latest observation per market plus district latest medians",
+        "parameters": [{ "$ref": "#/components/parameters/SlugParam" }],
+        "responses": {
+          "200": {
+            "description": "Latest prices",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    { "$ref": "#/components/schemas/Envelope" },
+                    {
+                      "type": "object",
+                      "required": ["commodity", "unit", "markets", "districts"],
+                      "properties": {
+                        "commodity": { "$ref": "#/components/schemas/Slug" },
+                        "unit": { "type": "string" },
+                        "markets": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "required": ["district", "market", "date", "modal_price"],
+                            "properties": {
+                              "district": { "type": "string" },
+                              "market": { "type": "string" },
+                              "date": { "type": "string", "format": "date" },
+                              "variety": { "type": "string" },
+                              "grade": { "type": "string" },
+                              "min_price": { "type": "integer" },
+                              "max_price": { "type": "integer" },
+                              "modal_price": { "type": "integer" }
+                            }
+                          }
+                        },
+                        "districts": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "object",
+                            "properties": {
+                              "date": { "type": "string", "format": "date" },
+                              "modal_price": { "type": "integer" },
+                              "days_stale": { "type": "integer" }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/prices/{slug}/daily/{year}.json": {
+      "get": {
+        "operationId": "getDailyPrices",
+        "summary": "All daily rows for a commodity and year (columnar rows)",
+        "parameters": [
+          { "$ref": "#/components/parameters/SlugParam" },
+          {
+            "name": "year",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer", "minimum": 2000, "maximum": 2100 }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Daily price rows",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    { "$ref": "#/components/schemas/Envelope" },
+                    {
+                      "type": "object",
+                      "required": ["commodity", "year", "columns", "rows"],
+                      "properties": {
+                        "commodity": { "$ref": "#/components/schemas/Slug" },
+                        "year": { "type": "integer" },
+                        "unit": { "type": "string" },
+                        "columns": { "type": "array", "items": { "type": "string" } },
+                        "rows": {
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": { "type": ["string", "integer"] }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/prices/{slug}/monthly.json": {
+      "get": {
+        "operationId": "getMonthlyPrices",
+        "summary": "Full monthly-median history for region and districts (compact; best series for LLM analysis)",
+        "parameters": [{ "$ref": "#/components/parameters/SlugParam" }],
+        "responses": {
+          "200": {
+            "description": "Monthly medians",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    { "$ref": "#/components/schemas/Envelope" },
+                    {
+                      "type": "object",
+                      "required": ["commodity", "region", "districts"],
+                      "properties": {
+                        "commodity": { "$ref": "#/components/schemas/Slug" },
+                        "unit": { "type": "string" },
+                        "years_available": { "type": "array", "items": { "type": "integer" } },
+                        "region": { "$ref": "#/components/schemas/MonthlySeries" },
+                        "districts": {
+                          "type": "object",
+                          "additionalProperties": { "$ref": "#/components/schemas/MonthlySeries" }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/analysis/{slug}/seasonality.json": {
+      "get": {
+        "operationId": "getSeasonality",
+        "summary": "Detrended seasonal index (12 months) with best sell/buy windows and confidence",
+        "parameters": [{ "$ref": "#/components/parameters/SlugParam" }],
+        "responses": {
+          "200": {
+            "description": "Seasonality analysis",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    { "$ref": "#/components/schemas/Envelope" },
+                    {
+                      "type": "object",
+                      "required": ["commodity", "level"],
+                      "properties": {
+                        "commodity": { "$ref": "#/components/schemas/Slug" },
+                        "level": { "type": "string" },
+                        "seasonality": { "$ref": "#/components/schemas/Seasonality" },
+                        "districts": {
+                          "type": "object",
+                          "additionalProperties": { "$ref": "#/components/schemas/Seasonality" }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/analysis/{slug}/summary.json": {
+      "get": {
+        "operationId": "getSummary",
+        "summary": "One-call summary for LLM tool-use: latest price, trend, YoY, seasonal signal, best windows, narrative",
+        "parameters": [{ "$ref": "#/components/parameters/SlugParam" }],
+        "responses": {
+          "200": {
+            "description": "Analysis summary",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    { "$ref": "#/components/schemas/Envelope" },
+                    {
+                      "type": "object",
+                      "required": ["commodity", "display", "unit"],
+                      "properties": {
+                        "commodity": { "$ref": "#/components/schemas/Slug" },
+                        "display": { "type": "string" },
+                        "unit": { "type": "string" },
+                        "region": { "$ref": "#/components/schemas/SummaryView" },
+                        "districts": {
+                          "type": "object",
+                          "additionalProperties": { "$ref": "#/components/schemas/SummaryView" }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "parameters": {
+      "SlugParam": {
+        "name": "slug",
+        "in": "path",
+        "required": true,
+        "description": "Commodity slug",
+        "schema": { "$ref": "#/components/schemas/Slug" }
+      }
+    },
+    "schemas": {
+      "Slug": {
+        "type": "string",
+        "enum": ["arecanut", "black-pepper", "coconut"],
+        "description": "Commodity identifier. The authoritative list is /api/v1/commodities.json (this enum is regenerated when commodities are added)."
+      },
+      "Envelope": {
+        "type": "object",
+        "required": ["generated_at", "attribution"],
+        "properties": {
+          "generated_at": { "type": "string", "format": "date-time" },
+          "attribution": {
+            "type": "object",
+            "properties": {
+              "data_source": { "type": "string" },
+              "historical_source": { "type": "string" },
+              "license_note": { "type": "string" }
+            }
+          }
+        }
+      },
+      "MonthlySeries": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["month", "median", "n_obs"],
+          "properties": {
+            "month": { "type": "string", "pattern": "^\\d{4}-\\d{2}$" },
+            "median": { "type": "integer" },
+            "n_obs": { "type": "integer", "description": "observed market days in the month" }
+          }
+        }
+      },
+      "Window": {
+        "type": ["object", "null"],
+        "required": ["months", "month_names", "premium_pct", "confidence", "n_years"],
+        "properties": {
+          "months": { "type": "array", "items": { "type": "integer", "minimum": 1, "maximum": 12 } },
+          "month_names": { "type": "array", "items": { "type": "string" } },
+          "premium_pct": {
+            "type": "number",
+            "description": "mean seasonal index of the window vs yearly average, in percent"
+          },
+          "confidence": { "type": "string", "enum": ["high", "medium", "low"] },
+          "n_years": { "type": "integer" },
+          "mean_iqr": { "type": ["number", "null"] }
+        }
+      },
+      "Seasonality": {
+        "type": ["object", "null"],
+        "required": ["index", "iqr", "n_years"],
+        "properties": {
+          "index": {
+            "type": "array",
+            "minItems": 12,
+            "maxItems": 12,
+            "items": { "type": ["number", "null"] },
+            "description": "Detrended seasonal index Jan..Dec; 1.0 = yearly average"
+          },
+          "iqr": { "type": "array", "minItems": 12, "maxItems": 12, "items": { "type": ["number", "null"] } },
+          "n_years": { "type": "array", "minItems": 12, "maxItems": 12, "items": { "type": "integer" } },
+          "years_used": { "type": "array", "items": { "type": "integer" } },
+          "best_sell": { "$ref": "#/components/schemas/Window" },
+          "best_buy": { "$ref": "#/components/schemas/Window" }
+        }
+      },
+      "Freshness": {
+        "type": "object",
+        "required": ["last_observed", "days_stale", "stale"],
+        "properties": {
+          "last_observed": { "type": "string", "format": "date" },
+          "days_stale": { "type": "integer" },
+          "stale": { "type": "boolean", "description": "true when no observation for >30 days" }
+        }
+      },
+      "SummaryView": {
+        "type": ["object", "null"],
+        "required": ["level", "latest", "freshness", "narrative"],
+        "properties": {
+          "level": { "type": "string" },
+          "latest": {
+            "type": "object",
+            "properties": {
+              "date": { "type": "string", "format": "date" },
+              "modal_price": { "type": "integer" }
+            }
+          },
+          "freshness": { "$ref": "#/components/schemas/Freshness" },
+          "trend": {
+            "type": "object",
+            "properties": {
+              "ma30": { "type": ["integer", "null"] },
+              "ma90": { "type": ["integer", "null"] },
+              "yoy_pct": { "type": ["number", "null"] },
+              "slope_pct_per_year": { "type": ["number", "null"] },
+              "direction": { "type": "string", "enum": ["up", "down", "flat"] }
+            }
+          },
+          "signal": {
+            "type": ["object", "null"],
+            "properties": {
+              "month": { "type": "string" },
+              "vs_typical_pct": {
+                "type": "number",
+                "description": "current 30-day median vs what is typical for this month, in percent"
+              }
+            }
+          },
+          "best_sell": { "$ref": "#/components/schemas/Window" },
+          "best_buy": { "$ref": "#/components/schemas/Window" },
+          "narrative": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Plain-language findings, suitable for direct LLM consumption"
+          },
+          "n_obs": { "type": "integer" }
+        }
+      }
+    }
+  }
+}
