@@ -10,7 +10,7 @@
   },
   "servers": [
     {
-      "url": "https://REPLACE-WITH-YOUR-PAGES-DOMAIN",
+      "url": "https://achuthpv.github.io/malabar-mandi-prices",
       "description": "GitHub Pages deployment"
     }
   ],
