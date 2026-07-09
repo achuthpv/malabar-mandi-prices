@@ -129,6 +129,44 @@ th { color: var(--muted); font-weight: 600; font-size: .78rem; text-transform: u
 td.num { font-variant-numeric: tabular-nums; }
 tr.stale-row td { color: var(--muted); }
 
+/* Custom date range */
+.date-range { display: inline-flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.date-range label { color: var(--muted); font-size: .8rem; display: inline-flex; gap: 4px; align-items: center; }
+.date-range input[type="date"] {
+  background: var(--panel); color: var(--text); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 6px 8px; font-size: .85rem; min-height: 40px;
+}
+.date-range button {
+  appearance: none; border: 1px solid var(--line); background: none; color: var(--muted);
+  border-radius: var(--radius); padding: 6px 10px; font-size: .85rem; cursor: pointer; min-height: 40px;
+}
+
+/* Ask box */
+.ask-row { display: flex; gap: 8px; }
+#ask-input {
+  flex: 1; background: var(--bg); color: var(--text); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 10px 12px; font-size: 1rem; min-height: 44px; min-width: 0;
+}
+#ask-btn {
+  appearance: none; border: none; background: var(--accent); color: var(--panel);
+  border-radius: var(--radius); padding: 10px 18px; font-size: 1rem; font-weight: 600;
+  cursor: pointer; min-height: 44px;
+}
+.ask-suggestions { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+.chip-suggest {
+  appearance: none; border: 1px solid var(--line); background: none; color: var(--accent);
+  cursor: pointer; font-size: .8rem; padding: 6px 10px; border-radius: 999px;
+}
+.ask-log { margin-top: 6px; }
+.ask-q {
+  margin: 12px 0 4px; font-weight: 600; font-size: .92rem;
+}
+.ask-q::before { content: "Q: "; color: var(--muted); }
+.ask-a {
+  margin: 0; background: var(--accent-soft); border-radius: var(--radius);
+  padding: 10px 12px; font-size: .92rem; white-space: pre-line;
+}
+
 /* States */
 .loading { text-align: center; color: var(--muted); padding: 40px 0; }
 .error {

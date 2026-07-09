@@ -43,10 +43,30 @@
           <button type="button" data-res="weekly" class="active">Weekly</button>
           <button type="button" data-res="daily">Daily</button>
         </div>
+        <div class="date-range" aria-label="Custom date range">
+          <label>From <input type="date" id="date-from"></label>
+          <label>To <input type="date" id="date-to"></label>
+          <button type="button" id="date-clear" hidden>Clear</button>
+        </div>
       </div>
     </div>
     <div id="chart" class="chart"></div>
     <p class="chart-note" id="chart-note"></p>
+    <p class="chart-note">Tip: drag on the chart to zoom into a period; double-click to reset.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Ask about the market</h2>
+    <form id="ask-form">
+      <div class="ask-row">
+        <input type="text" id="ask-input" maxlength="200" autocomplete="off"
+               placeholder="e.g. When should I sell black pepper?">
+        <button type="submit" id="ask-btn">Ask</button>
+      </div>
+    </form>
+    <div class="ask-suggestions" id="ask-suggestions"></div>
+    <div class="ask-log" id="ask-log" aria-live="polite"></div>
+    <p class="chart-note">Answers come from this site's own historical analysis — no data leaves your browser. Not financial advice.</p>
   </section>
 
   <section class="panel">
@@ -92,6 +112,7 @@
 
 <script src="assets/uplot.iife.min.js"></script>
 <script src="assets/charts.js"></script>
+<script src="assets/assistant.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

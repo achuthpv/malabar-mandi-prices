@@ -15,6 +15,8 @@
     district: ALL_DISTRICTS,
     range: "3y",
     resolution: "weekly",
+    dateFrom: null, // custom range overrides the preset when set
+    dateTo: null,
     summary: null,
     latest: null,
     monthly: null,
@@ -57,9 +59,42 @@
       state.district = e.target.value;
       renderAll();
     });
-    $("#range-buttons").addEventListener("click", segHandler("range", "data-range", renderChart));
+    $("#range-buttons").addEventListener("click", segHandler("range", "data-range", () => {
+      clearCustomDates();
+      renderChart();
+    }));
     $("#res-buttons").addEventListener("click", segHandler("resolution", "data-res", renderChart));
+    for (const id of ["#date-from", "#date-to"]) {
+      $(id).addEventListener("change", onCustomDates);
+    }
+    $("#date-clear").addEventListener("click", () => {
+      clearCustomDates();
+      document.querySelectorAll("#range-buttons button")
+        .forEach((b) => b.classList.toggle("active", b.dataset.range === state.range));
+      renderChart();
+    });
+    initAsk();
     onRoute();
+  }
+
+  function onCustomDates() {
+    state.dateFrom = $("#date-from").value || null;
+    state.dateTo = $("#date-to").value || null;
+    if (state.dateFrom && state.dateTo && state.dateFrom > state.dateTo) {
+      [state.dateFrom, state.dateTo] = [state.dateTo, state.dateFrom];
+    }
+    const custom = !!(state.dateFrom || state.dateTo);
+    $("#date-clear").hidden = !custom;
+    document.querySelectorAll("#range-buttons button")
+      .forEach((b) => b.classList.toggle("active", !custom && b.dataset.range === state.range));
+    renderChart();
+  }
+
+  function clearCustomDates() {
+    state.dateFrom = state.dateTo = null;
+    $("#date-from").value = "";
+    $("#date-to").value = "";
+    $("#date-clear").hidden = true;
   }
 
   function segHandler(key, attr, after) {
@@ -242,13 +277,60 @@
     return d.toISOString().slice(0, 10);
   }
 
+  function rangeYears(from, to) {
+    const years = [];
+    for (let y = from; y <= to; y++) years.push(y);
+    return years;
+  }
+
+  /* collapse raw rows to one point per day (median across markets),
+     optionally then one per ISO week */
+  function collapse(daily, weekly) {
+    const byDay = new Map();
+    for (const r of daily) {
+      if (!byDay.has(r.date)) byDay.set(r.date, []);
+      byDay.get(r.date).push(r.price);
+    }
+    let points = [...byDay.entries()].sort((a, b) => (a[0] < b[0] ? -1 : 1))
+      .map(([date, prices]) => ({ date, price: median(prices) }));
+    if (weekly) {
+      const byWeek = new Map();
+      for (const p of points) {
+        const wk = isoWeekStart(p.date);
+        if (!byWeek.has(wk)) byWeek.set(wk, []);
+        byWeek.get(wk).push(p.price);
+      }
+      points = [...byWeek.entries()].sort((a, b) => (a[0] < b[0] ? -1 : 1))
+        .map(([date, prices]) => ({ date, price: median(prices) }));
+    }
+    return points;
+  }
+
   async function renderChart() {
     const el = $("#chart");
     const note = $("#chart-note");
     const asOf = state.summary.generated_at ? state.summary.generated_at.slice(0, 10) : new Date().toISOString().slice(0, 10);
     const endYear = +asOf.slice(0, 4);
+    const custom = !!(state.dateFrom || state.dateTo);
 
     let rows;
+    if (custom) {
+      const years = state.monthly.years_available || [endYear];
+      const from = state.dateFrom || `${years[0] || endYear}-01-01`;
+      const to = state.dateTo || asOf;
+      const perYear = await Promise.all(
+        rangeYears(+from.slice(0, 4), +to.slice(0, 4)).map(loadDaily));
+      let daily = perYear.flat().filter((r) => r.date >= from && r.date <= to);
+      if (state.district !== ALL_DISTRICTS) daily = daily.filter((r) => r.district === state.district);
+      const points = collapse(daily, state.resolution === "weekly");
+      note.textContent = points.length
+        ? `Showing ${from} to ${to} (${state.resolution} median).`
+        : `No reported prices between ${from} and ${to} for this selection.`;
+      window.MandiChart.render(el, points, {
+        resolution: state.resolution, label: labelFor(),
+      });
+      return;
+    }
     if (state.range === "all") {
       // monthly medians (compact) for the full history
       const series = state.district === ALL_DISTRICTS
@@ -261,36 +343,16 @@
     }
 
     const yearsBack = state.range === "1y" ? 1 : 3;
-    const years = [];
-    for (let y = endYear - yearsBack; y <= endYear; y++) years.push(y);
-    const perYear = await Promise.all(years.map(loadDaily));
+    const perYear = await Promise.all(
+      rangeYears(endYear - yearsBack, endYear).map(loadDaily));
     const cutoff = new Date(Date.parse(asOf) - yearsBack * 365 * 86400000).toISOString().slice(0, 10);
 
     let daily = perYear.flat().filter((r) => r.date >= cutoff);
     if (state.district !== ALL_DISTRICTS) daily = daily.filter((r) => r.district === state.district);
 
-    // collapse to one point per day (median across markets/varieties)
-    const byDay = new Map();
-    for (const r of daily) {
-      if (!byDay.has(r.date)) byDay.set(r.date, []);
-      byDay.get(r.date).push(r.price);
-    }
-    let points = [...byDay.entries()].sort((a, b) => a[0] < b[0] ? -1 : 1)
-      .map(([date, prices]) => ({ date, price: median(prices) }));
-
-    if (state.resolution === "weekly") {
-      const byWeek = new Map();
-      for (const p of points) {
-        const wk = isoWeekStart(p.date);
-        if (!byWeek.has(wk)) byWeek.set(wk, []);
-        byWeek.get(wk).push(p.price);
-      }
-      points = [...byWeek.entries()].sort((a, b) => a[0] < b[0] ? -1 : 1)
-        .map(([date, prices]) => ({ date, price: median(prices) }));
-      note.textContent = "Weekly median of reported market prices. Gaps are days with no reporting.";
-    } else {
-      note.textContent = "Daily median of reported market prices. Gaps are days with no reporting.";
-    }
+    const points = collapse(daily, state.resolution === "weekly");
+    note.textContent = (state.resolution === "weekly" ? "Weekly" : "Daily") +
+      " median of reported market prices. Gaps are days with no reporting.";
 
     if (!points.length) {
       el.textContent = "";
@@ -417,6 +479,45 @@
       td.textContent = "No markets reporting for this selection yet.";
       tr.appendChild(td);
       tbody.appendChild(tr);
+    }
+  }
+
+  /* ---------- ask-a-question box ---------- */
+
+  function initAsk() {
+    const sug = $("#ask-suggestions");
+    for (const ex of window.MandiAssistant.examples.slice(0, 4)) {
+      const chip = document.createElement("button");
+      chip.type = "button";
+      chip.className = "chip chip-suggest";
+      chip.textContent = ex;
+      chip.addEventListener("click", () => ask(ex));
+      sug.appendChild(chip);
+    }
+    $("#ask-form").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const q = $("#ask-input").value.trim();
+      if (q) ask(q);
+    });
+  }
+
+  async function ask(question) {
+    const log = $("#ask-log");
+    $("#ask-input").value = "";
+
+    const qEl = document.createElement("p");
+    qEl.className = "ask-q";
+    qEl.textContent = question;
+    const aEl = document.createElement("p");
+    aEl.className = "ask-a";
+    aEl.textContent = "…";
+    log.prepend(aEl);
+    log.prepend(qEl);
+
+    try {
+      aEl.textContent = await window.MandiAssistant.answer(question);
+    } catch (err) {
+      aEl.textContent = "Sorry — could not load the analysis data to answer that.";
     }
   }
 

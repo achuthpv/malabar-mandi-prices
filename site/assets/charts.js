@@ -58,7 +58,8 @@
         width: width,
         height: height,
         padding: [10, 8, 0, 0],
-        cursor: { drag: { x: false, y: false } },
+        // drag on the x axis to zoom into a period; double-click resets
+        cursor: { drag: { x: true, y: false, setScale: true } },
         legend: { show: true },
         scales: { x: { time: true } },
         axes: [

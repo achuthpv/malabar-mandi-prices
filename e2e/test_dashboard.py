@@ -131,6 +131,64 @@ def test_dark_mode_renders(page: Page, site_url: str):
     expect(page.locator("#stat-tiles .tile").first).to_be_visible()
 
 
+def test_custom_date_range_filters_chart(page: Page, site_url: str, errors):
+    _open(page, site_url, "/#/coconut")
+    page.fill("#date-from", "2024-01-01")
+    page.fill("#date-to", "2024-06-30")
+    page.dispatch_event("#date-to", "change")
+    page.wait_for_timeout(400)
+    expect(page.locator("#chart canvas").first).to_be_visible()
+    note = page.locator("#chart-note").inner_text()
+    assert "2024-01-01" in note and "2024-06-30" in note
+    # preset buttons deactivate while a custom range is active
+    assert page.locator("#range-buttons button.active").count() == 0
+    page.click("#date-clear")
+    page.wait_for_timeout(300)
+    assert page.locator("#range-buttons button.active").count() == 1
+    assert errors == []
+
+
+def test_ask_box_sell_timing(page: Page, site_url: str):
+    _open(page, site_url)
+    page.fill("#ask-input", "When should I sell black pepper?")
+    page.click("#ask-btn")
+    page.wait_for_timeout(600)
+    answer = page.locator(".ask-a").first.inner_text()
+    assert "Black Pepper" in answer
+    assert "confidence" in answer
+    assert any(m in answer for m in
+               ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"])
+
+
+def test_ask_box_now_question(page: Page, site_url: str):
+    _open(page, site_url)
+    page.fill("#ask-input", "Is now a good time to sell coconut?")
+    page.click("#ask-btn")
+    page.wait_for_timeout(600)
+    answer = page.locator(".ask-a").first.inner_text()
+    assert "₹" in answer and "%" in answer
+    assert "Coconut" in answer
+
+
+def test_ask_box_help_for_unknown(page: Page, site_url: str):
+    _open(page, site_url)
+    page.fill("#ask-input", "hello there")
+    page.click("#ask-btn")
+    page.wait_for_timeout(600)
+    answer = page.locator(".ask-a").first.inner_text()
+    assert "Try" in answer or "ask" in answer.lower()
+
+
+def test_ask_suggestion_chips(page: Page, site_url: str):
+    _open(page, site_url)
+    chips = page.locator(".chip-suggest")
+    assert chips.count() >= 3
+    chips.first.click()
+    page.wait_for_timeout(600)
+    assert len(page.locator(".ask-a").first.inner_text()) > 30
+
+
 def test_openapi_and_all_endpoints_valid_json(site_url: str):
     with urllib.request.urlopen(site_url + "/openapi.json") as resp:  # noqa: S310
         spec = json.load(resp)

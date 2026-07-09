@@ -15,6 +15,16 @@ sell (and buy) each commodity.
   ready to be wired to an LLM for "why did prices change?" Q&A.
 - **Stack**: Python (pipeline, runs only in CI) + vanilla HTML/CSS/JS with
   [uPlot](https://github.com/leeoniya/uPlot) (vendored, ~13 KB gz). No build step.
+- **Interactive**: hover/touch price probe, preset ranges (1Y/3Y/All),
+  weekly/daily resolution, custom From/To dates, drag-to-zoom
+  (double-click resets), district filter.
+- **"Ask about the market"**: a question box that answers
+  sell/buy-timing, "is now a good time?", "why are prices low?", price and
+  trend questions from the site's own analysis — rule-based, free, runs
+  entirely in the browser. LLM-ready: call
+  `window.MandiAssistant.setLLM(async (question, context) => "...")` to
+  route questions to a model (the `context` carries every commodity's
+  `summary.json`); rules remain the fallback.
 
 ## How it works
 
