@@ -183,6 +183,15 @@ td.vsmed.down { color: var(--sell); font-weight: 600; }
   color: var(--muted); font-size: .82rem; cursor: pointer; min-height: 32px;
 }
 .llm-controls { padding: 8px 0 2px; }
+.llm-grid { display: grid; gap: 8px; margin-bottom: 10px; }
+.llm-grid label { display: flex; flex-direction: column; gap: 4px;
+  color: var(--muted); font-size: .82rem; }
+.llm-grid input, .llm-grid select {
+  background: var(--bg); color: var(--text); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 10px 12px; font-size: .9rem; min-height: 44px;
+}
+.llm-error { color: var(--error); }
+@media (min-width: 640px) { .llm-grid { grid-template-columns: 1fr 1fr; } }
 #llm-key { flex: 1; min-width: 0; background: var(--bg); color: var(--text);
   border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px;
   font-size: .9rem; min-height: 44px; }

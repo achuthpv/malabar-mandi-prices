@@ -42,9 +42,14 @@ below.
 
 ## Site
 - Static site; strict CSP: `default-src 'self'`, no inline scripts,
-  `object-src 'none'`, `base-uri 'none'`. The ONLY external host the CSP
-  permits is `https://api.anthropic.com`, used exclusively by the opt-in
-  demo AI mode below.
+  `object-src 'none'`, `base-uri 'none'`. `connect-src` permits `https:`
+  and `http://localhost:*` so the opt-in demo AI mode can call a
+  user-configured endpoint (Anthropic, any OpenAI-compatible API, or a
+  local Ollama/LM Studio). This is a deliberate, documented trade-off:
+  `script-src` remains `'self'`, so only this site's own audited code can
+  make requests — there is no third-party or inline script that could
+  abuse the wider connect-src, and endpoint URLs are validated (https
+  only, plain http restricted to localhost).
 - All strings derived from upstream data or user input are inserted with
   `textContent`, never `innerHTML` — upstream feed data is treated as
   untrusted input throughout.
@@ -53,12 +58,15 @@ below.
 - **Default (always available):** the question box is a rule engine running
   entirely in the visitor's browser over the site's published JSON. There
   is no API to spam, no key to steal, and questions never leave the page.
-- **Demo AI mode (opt-in, bring-your-own-key):** the demo-er pastes their
-  own Anthropic API key at demo time.
-  - The key is held in `sessionStorage` only — it dies when the tab closes
-    and is never written to localStorage, cookies, the URL or any server.
-  - It is sent only to `api.anthropic.com` (the CSP blocks every other
-    external host), with a key-format check before enabling.
+- **Demo AI mode (opt-in, bring-your-own-key):** the demo-er configures a
+  provider at demo time — Claude (Anthropic) or any OpenAI-compatible
+  endpoint (OpenAI, Groq, OpenRouter, a local Ollama/LM Studio server).
+  - The key/endpoint config is held in `sessionStorage` only — it dies when
+    the tab closes and is never written to localStorage, cookies, the URL
+    or any server.
+  - Requests go only to the endpoint the demo-er themselves configured;
+    endpoint URLs must be https (plain http allowed only for localhost),
+    and Anthropic keys are format-checked before enabling.
   - **Spam/abuse:** impossible by construction — there is no shared key and
     no proxy. A visitor can only spend their *own* key. A 401/403 response
     auto-disables AI mode.

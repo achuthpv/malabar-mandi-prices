@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- connect-src allows exactly one external host: the Anthropic API, used
-     only in opt-in demo AI mode with a key the user pastes for this tab. -->
+<!-- connect-src allows https + localhost so the opt-in demo AI mode can call
+     a user-configured endpoint (Anthropic, OpenAI-compatible, local Ollama).
+     script-src stays 'self', so only this site's own code can make requests. -->
 <meta http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://api.anthropic.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https: http://localhost:* http://127.0.0.1:*; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="description" content="Daily wholesale mandi prices and seasonality analysis for arecanut, black pepper and coconut in Calicut & North Kerala, from Agmarknet.">
 <meta name="color-scheme" content="light dark">
 <title>Malabar Mandi Prices</title>
@@ -72,15 +73,33 @@
     <details class="llm-details" id="llm-details">
       <summary>AI mode (demo)</summary>
       <div class="llm-controls" id="llm-off-controls">
-        <p class="chart-note">Optional: answer with Claude instead of the built-in rules.
-          Paste an Anthropic API key — it is kept <strong>only in this tab</strong>
-          (cleared when the tab closes), sent only to api.anthropic.com, and never stored or shared.
-          Each question costs a fraction of a paisa on your key.</p>
+        <p class="chart-note">Optional: answer with an AI model instead of the built-in rules.
+          Your key and settings are kept <strong>only in this tab</strong> (cleared when it
+          closes), sent only to the provider you configure, and never stored or shared.</p>
+        <div class="llm-grid">
+          <label>Provider
+            <select id="llm-provider">
+              <option value="anthropic">Claude (Anthropic)</option>
+              <option value="openai">OpenAI-compatible (OpenAI, Groq, Ollama…)</option>
+            </select>
+          </label>
+          <label class="llm-openai-only" hidden>Base URL
+            <input type="url" id="llm-url" maxlength="300" autocomplete="off"
+                   placeholder="https://api.openai.com/v1 or http://localhost:11434/v1">
+          </label>
+          <label class="llm-openai-only" hidden>Model
+            <input type="text" id="llm-model" maxlength="100" autocomplete="off"
+                   placeholder="gpt-4o-mini / llama3.1 …">
+          </label>
+          <label>API key <span class="llm-openai-only" hidden>(optional for local servers)</span>
+            <input type="password" id="llm-key" maxlength="300" autocomplete="off"
+                   placeholder="sk-ant-…">
+          </label>
+        </div>
         <div class="ask-row">
-          <input type="password" id="llm-key" maxlength="200" autocomplete="off"
-                 placeholder="sk-ant-…">
           <button type="button" id="llm-enable">Enable for this tab</button>
         </div>
+        <p class="chart-note llm-error" id="llm-error" hidden></p>
       </div>
       <div class="llm-controls" id="llm-on-controls" hidden>
         <p class="chart-note"><span class="badge" id="llm-badge">AI answers: ON (this tab)</span></p>

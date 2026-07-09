@@ -557,18 +557,35 @@
       const on = window.MandiAssistant.llmEnabled();
       $("#llm-off-controls").hidden = on;
       $("#llm-on-controls").hidden = !on;
+      if (on) {
+        $("#llm-badge").textContent =
+          "AI answers: ON — " + window.MandiAssistant.llmLabel() + " (this tab)";
+      }
       $("#ask-mode-note").textContent = on
-        ? "AI answers are ON for this tab (your key, sent only to Anthropic). Not financial advice."
+        ? "AI answers are ON for this tab (your key, sent only to the endpoint you configured). Not financial advice."
         : "Answers come from this site's own historical analysis — no data leaves your browser. Not financial advice.";
     };
+    $("#llm-provider").addEventListener("change", () => {
+      const openai = $("#llm-provider").value === "openai";
+      document.querySelectorAll(".llm-openai-only")
+        .forEach((el) => { el.hidden = !openai; });
+      $("#llm-key").placeholder = openai ? "sk-… (leave empty for local Ollama)" : "sk-ant-…";
+    });
     $("#llm-enable").addEventListener("click", () => {
+      const errEl = $("#llm-error");
+      errEl.hidden = true;
       try {
-        window.MandiAssistant.enableLLM($("#llm-key").value);
+        window.MandiAssistant.enableLLM({
+          provider: $("#llm-provider").value,
+          key: $("#llm-key").value,
+          baseUrl: $("#llm-url").value,
+          model: $("#llm-model").value,
+        });
         $("#llm-key").value = "";
         syncLLM();
       } catch (err) {
-        $("#llm-key").value = "";
-        $("#llm-key").placeholder = err.message;
+        errEl.textContent = err.message;
+        errEl.hidden = false;
       }
     });
     $("#llm-disable").addEventListener("click", () => {

@@ -228,11 +228,11 @@ def test_ask_which_market(page: Page, site_url: str):
 
 def test_ai_mode_off_by_default(page: Page, site_url: str):
     _open(page, site_url)
-    # collapsed details, rules-mode note, no key stored
+    # collapsed details, rules-mode note, no config stored
     expect(page.locator("#llm-off-controls")).to_be_hidden()  # inside closed <details>
     note = page.locator("#ask-mode-note").inner_text()
     assert "no data leaves your browser" in note
-    assert page.evaluate("sessionStorage.getItem('mandi_demo_anthropic_key')") is None
+    assert page.evaluate("sessionStorage.getItem('mandi_demo_llm_config')") is None
 
 
 def test_ai_mode_rejects_bad_key(page: Page, site_url: str):
@@ -240,8 +240,59 @@ def test_ai_mode_rejects_bad_key(page: Page, site_url: str):
     page.click("#llm-details summary")
     page.fill("#llm-key", "not-a-real-key")
     page.click("#llm-enable")
-    assert page.evaluate("sessionStorage.getItem('mandi_demo_anthropic_key')") is None
-    assert "sk-ant" in page.locator("#llm-key").get_attribute("placeholder")
+    assert page.evaluate("sessionStorage.getItem('mandi_demo_llm_config')") is None
+    err = page.locator("#llm-error")
+    expect(err).to_be_visible()
+    assert "sk-ant" in err.inner_text()
+
+
+def test_ai_mode_rejects_insecure_url(page: Page, site_url: str):
+    _open(page, site_url)
+    page.click("#llm-details summary")
+    page.select_option("#llm-provider", "openai")
+    page.fill("#llm-url", "http://evil.example.com/v1")  # plain http, not localhost
+    page.fill("#llm-model", "some-model")
+    page.click("#llm-enable")
+    assert page.evaluate("sessionStorage.getItem('mandi_demo_llm_config')") is None
+    expect(page.locator("#llm-error")).to_be_visible()
+
+
+def test_ai_mode_openai_compatible(page: Page, site_url: str):
+    """OpenAI-compatible endpoint: enable -> ask (stubbed) -> disable."""
+    captured = []
+
+    def stub(route):
+        req = route.request
+        captured.append({
+            "auth": req.headers.get("authorization"),
+            "body": json.loads(req.post_data),
+        })
+        route.fulfill(status=200, content_type="application/json", body=json.dumps({
+            "choices": [{"message": {"role": "assistant",
+                                     "content": "Stubbed GPT answer."}}]}))
+
+    page.route("https://api.openai.com/**", stub)
+    _open(page, site_url)
+    page.click("#llm-details summary")
+    page.select_option("#llm-provider", "openai")
+    page.fill("#llm-url", "https://api.openai.com/v1")
+    page.fill("#llm-model", "gpt-4o-mini")
+    page.fill("#llm-key", "sk-test-openai-key")
+    page.click("#llm-enable")
+    expect(page.locator("#llm-on-controls")).to_be_visible()
+    assert "gpt-4o-mini @ api.openai.com" in page.locator("#llm-badge").inner_text()
+
+    page.fill("#ask-input", "When should I sell coconut?")
+    page.click("#ask-btn")
+    page.wait_for_timeout(700)
+    assert page.locator(".ask-a").first.inner_text() == "Stubbed GPT answer."
+    assert len(captured) == 1
+    assert captured[0]["auth"] == "Bearer sk-test-openai-key"
+    assert captured[0]["body"]["model"] == "gpt-4o-mini"
+    assert captured[0]["body"]["messages"][0]["role"] == "system"
+
+    page.click("#llm-disable")
+    assert page.evaluate("sessionStorage.getItem('mandi_demo_llm_config')") is None
 
 
 def test_ai_mode_enable_ask_disable(page: Page, site_url: str):
@@ -272,7 +323,7 @@ def test_ai_mode_enable_ask_disable(page: Page, site_url: str):
 
     # turn off: key forgotten, rules answer again (no further API calls)
     page.click("#llm-disable")
-    assert page.evaluate("sessionStorage.getItem('mandi_demo_anthropic_key')") is None
+    assert page.evaluate("sessionStorage.getItem('mandi_demo_llm_config')") is None
     page.fill("#ask-input", "When should I sell black pepper?")
     page.click("#ask-btn")
     page.wait_for_timeout(700)

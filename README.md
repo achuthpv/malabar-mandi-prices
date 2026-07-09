@@ -23,11 +23,14 @@ sell (and buy) each commodity.
   market pays most?", price and trend questions from the site's own
   analysis — rule-based, free, runs entirely in the browser.
 - **Demo AI mode (opt-in)**: under the ask box, "AI mode (demo)" lets you
-  paste your own Anthropic API key to get Claude-written answers *for that
-  browser tab only* — ideal for demos. The key lives in sessionStorage
-  (gone when the tab closes), is sent only to api.anthropic.com, and
-  there's no shared key or backend, so nobody else can spend or spam it.
-  Turn it off with one click; the rule engine is always the fallback.
+  bring your own model *for that browser tab only* — ideal for demos.
+  Choose **Claude (Anthropic)** and paste an API key, or **any
+  OpenAI-compatible endpoint** (base URL + model + optional key): OpenAI,
+  Groq, OpenRouter, or a free local `ollama serve` /LM Studio at
+  `http://localhost:11434/v1`. The config lives in sessionStorage (gone
+  when the tab closes), requests go only to the endpoint you configured,
+  and there's no shared key or backend, so nobody else can spend or spam
+  it. Turn it off with one click; the rule engine is always the fallback.
   See SECURITY.md for the full threat model.
 
 ## How it works

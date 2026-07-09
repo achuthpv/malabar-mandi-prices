@@ -227,8 +227,9 @@
      and every answer still renders via textContent. Visitors without a
      key use the free rule engine — nothing for strangers to spam. */
 
-  const KEY_STORAGE = "mandi_demo_anthropic_key";
-  const LLM_MODEL = "claude-haiku-4-5-20251001";
+  const CFG_STORAGE = "mandi_demo_llm_config";
+  const LEGACY_KEY_STORAGE = "mandi_demo_anthropic_key";
+  const ANTHROPIC_MODEL = "claude-haiku-4-5-20251001";
   let busy = false;
 
   const SYSTEM_PROMPT =
@@ -243,58 +244,132 @@
     "data staleness when relevant. (4) Historical tendencies are not financial " +
     "advice — say so when giving timing suggestions. (5) Keep answers under 120 words.";
 
-  function llmEnabled() {
-    return !!sessionStorage.getItem(KEY_STORAGE);
+  function llmConfig() {
+    try {
+      return JSON.parse(sessionStorage.getItem(CFG_STORAGE)) || null;
+    } catch (e) {
+      return null;
+    }
   }
 
-  function enableLLM(key) {
-    key = String(key || "").trim();
-    if (!/^sk-ant-[A-Za-z0-9_-]{20,}$/.test(key)) {
-      throw new Error("That does not look like an Anthropic API key (sk-ant-…).");
+  function llmEnabled() {
+    return !!llmConfig();
+  }
+
+  /* cfg: {provider: "anthropic", key}
+        | {provider: "openai", baseUrl, model, key?}  (OpenAI-compatible) */
+  function enableLLM(cfg) {
+    cfg = cfg || {};
+    if (cfg.provider === "anthropic") {
+      const key = String(cfg.key || "").trim();
+      if (!/^sk-ant-[A-Za-z0-9_-]{20,}$/.test(key)) {
+        throw new Error("That does not look like an Anthropic API key (sk-ant-…).");
+      }
+      cfg = { provider: "anthropic", key: key };
+    } else if (cfg.provider === "openai") {
+      const url = normalizeBaseUrl(cfg.baseUrl);
+      const model = String(cfg.model || "").trim();
+      if (!model || model.length > 100) throw new Error("Enter the model name (e.g. gpt-4o-mini).");
+      cfg = { provider: "openai", baseUrl: url, model: model,
+              key: String(cfg.key || "").trim() };
+    } else {
+      throw new Error("Unknown provider.");
     }
-    sessionStorage.setItem(KEY_STORAGE, key);
-    llm = callAnthropic;
+    sessionStorage.setItem(CFG_STORAGE, JSON.stringify(cfg));
+    llm = callConfiguredLLM;
+  }
+
+  function normalizeBaseUrl(raw) {
+    let u;
+    try {
+      u = new URL(String(raw || "").trim());
+    } catch (e) {
+      throw new Error("Enter the endpoint base URL (e.g. https://api.openai.com/v1).");
+    }
+    const isLocal = u.hostname === "localhost" || u.hostname === "127.0.0.1";
+    if (u.protocol !== "https:" && !(u.protocol === "http:" && isLocal)) {
+      throw new Error("Endpoint must be https:// (or http://localhost for a local server).");
+    }
+    // accept ".../v1", ".../v1/" or a full ".../chat/completions"
+    let base = u.href.replace(/\/+$/, "");
+    if (!/\/chat\/completions$/.test(base)) base += "/chat/completions";
+    return base;
   }
 
   function disableLLM() {
-    sessionStorage.removeItem(KEY_STORAGE);
+    sessionStorage.removeItem(CFG_STORAGE);
+    sessionStorage.removeItem(LEGACY_KEY_STORAGE);
     llm = null;
   }
 
-  async function callAnthropic(question, context) {
+  function llmLabel() {
+    const cfg = llmConfig();
+    if (!cfg) return "";
+    return cfg.provider === "anthropic"
+      ? "Claude (Anthropic)"
+      : cfg.model + " @ " + new URL(cfg.baseUrl).host;
+  }
+
+  async function callConfiguredLLM(question, context) {
     if (busy) return "One question at a time, please — still answering the previous one.";
     busy = true;
     try {
-      const resp = await fetch("https://api.anthropic.com/v1/messages", {
-        method: "POST",
-        headers: {
-          "x-api-key": sessionStorage.getItem(KEY_STORAGE) || "",
-          "anthropic-version": "2023-06-01",
-          "anthropic-dangerous-direct-browser-access": "true",
-          "content-type": "application/json",
-        },
-        body: JSON.stringify({
-          model: LLM_MODEL,
-          max_tokens: 400,
-          system: SYSTEM_PROMPT,
-          messages: [{
-            role: "user",
-            content: JSON.stringify({
-              question: String(question).slice(0, 200),
-              data: context.summaries,
-            }),
-          }],
-        }),
+      const cfg = llmConfig();
+      if (!cfg) return null;
+      const userContent = JSON.stringify({
+        question: String(question).slice(0, 200),
+        data: context.summaries,
       });
+
+      let resp;
+      if (cfg.provider === "anthropic") {
+        resp = await fetch("https://api.anthropic.com/v1/messages", {
+          method: "POST",
+          headers: {
+            "x-api-key": cfg.key,
+            "anthropic-version": "2023-06-01",
+            "anthropic-dangerous-direct-browser-access": "true",
+            "content-type": "application/json",
+          },
+          body: JSON.stringify({
+            model: ANTHROPIC_MODEL,
+            max_tokens: 400,
+            system: SYSTEM_PROMPT,
+            messages: [{ role: "user", content: userContent }],
+          }),
+        });
+      } else {
+        const headers = { "content-type": "application/json" };
+        if (cfg.key) headers["authorization"] = "Bearer " + cfg.key;
+        resp = await fetch(cfg.baseUrl, {
+          method: "POST",
+          headers: headers,
+          body: JSON.stringify({
+            model: cfg.model,
+            max_tokens: 400,
+            messages: [
+              { role: "system", content: SYSTEM_PROMPT },
+              { role: "user", content: userContent },
+            ],
+          }),
+        });
+      }
+
       if (resp.status === 401 || resp.status === 403) {
         disableLLM();
-        return "That API key was rejected — AI mode has been turned off. " +
+        return "The endpoint rejected that key — AI mode has been turned off. " +
           "Falling back to built-in answers next time.";
       }
       if (!resp.ok) throw new Error("HTTP " + resp.status);
       const doc = await resp.json();
-      const text = (doc.content || []).filter((b) => b.type === "text")
-        .map((b) => b.text).join("\n").trim();
+      let text;
+      if (cfg.provider === "anthropic") {
+        text = (doc.content || []).filter((b) => b.type === "text")
+          .map((b) => b.text).join("\n").trim();
+      } else {
+        const msg = doc.choices && doc.choices[0] && doc.choices[0].message;
+        text = String((msg && msg.content) || "").trim();
+      }
       return text || null; // null -> rules fallback
     } finally {
       busy = false;
@@ -302,7 +377,7 @@
   }
 
   // restore within the same tab session only
-  if (llmEnabled()) llm = callAnthropic;
+  if (llmEnabled()) llm = callConfiguredLLM;
 
   window.MandiAssistant = {
     answer: answer,
@@ -311,5 +386,6 @@
     enableLLM: enableLLM,
     disableLLM: disableLLM,
     llmEnabled: llmEnabled,
+    llmLabel: llmLabel,
   };
 })();
