@@ -1075,11 +1075,16 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2022-10-01,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-02,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-02,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-03,Ernakulam,Aluva,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-03,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-03,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-03,Kasargod,Kasargod,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-03,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-03,Wayanad,Mananthavady,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-03,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2500,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-03,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-03,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-04,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-04,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-04,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -1087,203 +1092,388 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2022-10-05,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-05,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-06,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-06,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-06,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-06,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-06,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,16166,16166,16166,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-06,Wayanad,Mananthavady,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-06,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-06,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-06,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-07,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-07,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-07,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-07,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-07,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-07,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-07,Malappuram,Manjeri,coconut,Without Husk,DES,2250,2250,2250,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-07,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-07,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-07,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-07,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-08,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-08,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-08,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-09,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-09,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-10,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-10,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-10,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-10,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-10,Malappuram,Kottakkal Market,coconut,Other,FAQ,2000,2120,2100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-10,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-10,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-10,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-10,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-10,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-10,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-11,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-11,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-11,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-11,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2360,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-11,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-11,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-11,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-11,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-11,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-12,Ernakulam,Aluva,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-12,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-12,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-12,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-12,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-12,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-12,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-12,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-12,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-13,Ernakulam,Aluva,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-13,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-13,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-13,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-13,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-13,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,10260,15660,15060,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-13,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-13,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2600,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-13,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-13,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-14,Ernakulam,Aluva,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-14,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-14,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-14,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-14,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-14,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-14,Malappuram,Manjeri,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-14,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-14,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-14,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-14,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-15,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-15,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-15,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-15,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-15,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-15,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-15,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-15,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-15,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-16,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-17,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-17,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-17,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-17,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-17,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2450,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-17,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-17,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-17,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-17,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-17,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-18,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-18,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-18,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-18,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-18,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-18,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-18,Kannur,Taliparamba Market,coconut,Other,FAQ,2000,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-18,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-19,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-19,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-19,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-19,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-19,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-19,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7800,8200,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-19,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-19,Kannur,Taliparamba Market,coconut,Other,FAQ,2000,2500,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-19,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-20,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-20,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-20,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-20,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-20,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-20,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,9400,15966,15100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-20,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-20,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-20,Kannur,Taliparamba Market,coconut,Other,FAQ,2000,2500,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-20,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-21,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-21,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-21,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-21,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-21,Malappuram,Manjeri,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-21,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-21,Kannur,Taliparamba Market,coconut,Other,FAQ,2000,2500,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-21,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-22,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-22,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-22,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-22,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-22,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-22,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-22,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-22,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-22,Kannur,Taliparamba Market,coconut,Other,FAQ,2000,2500,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-22,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-23,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-24,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-24,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-24,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-25,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-25,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-25,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-25,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-25,Wayanad,Mananthavady,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-25,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-25,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-25,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-26,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-26,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-26,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-26,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-26,Wayanad,Mananthavady,coconut,Without Husk,DES,2200,2200,2200,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-26,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-26,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-26,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-26,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-27,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-27,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-27,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-27,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-27,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,10330,15000,14260,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-27,Wayanad,Mananthavady,coconut,Without Husk,DES,2200,2200,2200,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-27,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-27,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-28,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-28,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-28,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-28,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-28,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-28,Wayanad,Mananthavady,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-28,Malappuram,Manjeri,coconut,Without Husk,DES,2350,2350,2350,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-28,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-28,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-28,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-28,Kannur,Thalassery,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-29,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-29,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-29,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-29,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-29,Wayanad,Mananthavady,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-29,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-29,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-29,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-29,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-30,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-31,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-31,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-31,Kannur,Kannur,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-10-31,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-31,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2300,2250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-31,Wayanad,Mananthavady,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-31,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2600,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-31,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-10-31,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-01,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-01,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-01,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-01,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-01,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2440,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-01,Wayanad,Mananthavady,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-01,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-01,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-01,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-01,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-02,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-02,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-02,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-02,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-02,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-02,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-02,Wayanad,Mananthavady,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-02,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-02,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-02,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-02,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-03,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-03,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-03,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-03,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-03,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-03,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-03,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,10660,16300,15900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-03,Wayanad,Mananthavady,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-03,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-03,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-03,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-04,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-04,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-04,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-04,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-04,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-04,Wayanad,Mananthavady,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-04,Malappuram,Manjeri,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-04,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-04,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-04,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-04,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-04,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-05,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-05,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-05,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-05,Kasargod,Kasargod,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-05,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-05,Wayanad,Mananthavady,coconut,Without Husk,DES,2300,2300,2300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-05,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-05,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-05,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-06,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-06,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-07,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-07,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-07,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-07,Kasargod,Kasargod,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-07,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-07,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-07,Wayanad,Mananthavady,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-07,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-07,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-07,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-07,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-08,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-08,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-08,Kasargod,Kasargod,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-08,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-08,Wayanad,Mananthavady,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-08,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-08,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-08,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-08,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-08,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-09,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-09,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-09,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-09,Kasargod,Kasargod,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-09,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-09,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-09,Wayanad,Mananthavady,coconut,Without Husk,DES,2400,2400,2400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-09,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-09,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-09,Kannur,Taliparamba Market,coconut,Other,FAQ,2400,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-09,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-10,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-10,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-10,Kasargod,Kasargod,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-10,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-10,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-10,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,11000,17700,16400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-10,Wayanad,Mananthavady,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-10,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-10,Kannur,Taliparamba Market,coconut,Other,FAQ,2400,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-10,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-11,Ernakulam,Aluva,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-11,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-11,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-11,Kasargod,Kasargod,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-11,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-11,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-11,Wayanad,Mananthavady,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-11,Malappuram,Manjeri,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-11,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-11,Ernakulam,North Paravur,coconut,Without Husk,DES,2650,2650,2650,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-11,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-11,Kannur,Taliparamba Market,coconut,Other,FAQ,2200,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-11,Kannur,Thalassery,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-12,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-12,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-12,Kannur,Taliparamba Market,coconut,Other,FAQ,2300,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-13,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-13,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-14,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-14,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-14,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-14,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-14,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-14,Wayanad,Mananthavady,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-14,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-14,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-14,Kannur,Taliparamba Market,coconut,Other,FAQ,2100,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-14,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-15,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-15,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-15,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-15,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-15,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-15,Wayanad,Mananthavady,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-15,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-15,Ernakulam,North Paravur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-15,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-15,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-15,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-16,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-16,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-16,Kannur,Kannur,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-16,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-16,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-16,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-16,Wayanad,Mananthavady,coconut,Without Husk,DES,2500,2500,2500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-16,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2600,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-16,Ernakulam,North Paravur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-16,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-16,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-16,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-17,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-17,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-17,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,11400,17660,16330,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -1291,70 +1481,122 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2022-11-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-17,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-17,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-18,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-18,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3400,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-18,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-18,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-18,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-18,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-18,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-18,Malappuram,Manjeri,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-18,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-18,Ernakulam,North Paravur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-18,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-18,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-19,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-19,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3400,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-19,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-19,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-19,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-19,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-19,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-19,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-19,Ernakulam,North Paravur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-19,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-19,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-20,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-20,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-20,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-21,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-21,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-21,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-21,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-21,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-21,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-21,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-21,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-21,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-21,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-22,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3500,3700,3700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-22,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-22,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-22,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-22,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-22,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-22,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-22,Ernakulam,North Paravur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-22,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-22,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-22,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-23,Ernakulam,Aluva,coconut,Without Husk,DES,3300,3300,3300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-23,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3400,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-23,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-23,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-23,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-23,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-23,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-23,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-23,Ernakulam,North Paravur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-23,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-23,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-23,Kannur,Thalassery,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-24,Ernakulam,Aluva,coconut,Without Husk,DES,3300,3300,3300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-24,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1800,2000,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-24,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3500,3700,3700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-24,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-24,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-24,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-24,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-24,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,11400,18053,17200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-24,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-24,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-24,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-24,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-25,Ernakulam,Aluva,coconut,Without Husk,DES,3300,3300,3300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-25,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3500,3700,3700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-25,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-25,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-25,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-25,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-25,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-25,Malappuram,Manjeri,coconut,Without Husk,DES,2750,2750,2750,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-25,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-25,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-25,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-25,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-25,Kannur,Thalassery,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-26,Ernakulam,Aluva,coconut,Without Husk,DES,3300,3300,3300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-26,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3500,3700,3700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-26,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-26,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-26,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-26,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-26,Wayanad,Mananthavady,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-26,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-26,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-26,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-26,Kannur,Thalassery,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-27,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-27,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-28,Ernakulam,Aluva,coconut,Without Husk,DES,3300,3300,3300,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-28,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-28,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-28,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-28,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-28,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-28,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-28,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-28,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-28,Kannur,Thalassery,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-29,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-29,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-29,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -1362,67 +1604,119 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2022-11-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-29,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-29,Kannur,Taliparamba Market,coconut,Other,FAQ,2500,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-30,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-30,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3500,3700,3700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-30,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-11-30,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-30,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-30,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2460,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-30,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-30,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-30,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-11-30,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-11-30,Kannur,Taliparamba Market,coconut,Other,FAQ,2500,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-11-30,Kannur,Thalassery,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-01,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-01,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1000,1500,1300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-01,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-01,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-01,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-01,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-01,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,11586,18260,17800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-01,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-01,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-01,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-01,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-01,Kannur,Thalassery,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-02,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-02,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-02,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-02,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-02,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-02,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-02,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-02,Malappuram,Manjeri,coconut,Without Husk,DES,2750,2750,2750,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-02,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-02,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-02,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1310,2400,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-02,Kannur,Taliparamba Market,coconut,Other,FAQ,2500,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-02,Kannur,Thalassery,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-03,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-03,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-03,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-03,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-03,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-03,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-03,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-03,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-03,Kannur,Thalassery,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-04,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-04,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-04,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-05,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-05,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-05,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-05,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-05,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-05,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-05,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-05,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-05,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-05,Kannur,Taliparamba Market,coconut,Other,FAQ,2000,2500,2270,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-05,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-06,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1400,2000,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-06,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-06,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-06,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-06,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-06,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-06,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-06,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-06,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-06,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-06,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-07,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-07,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1400,2000,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-07,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-07,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-07,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-07,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-07,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-07,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2400,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-07,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-07,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-07,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-07,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-08,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-08,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-08,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-08,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-08,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-08,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,11000,17930,16930,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-08,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-08,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2400,2800,2600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-08,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-08,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-09,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-09,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-09,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-09,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-09,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-09,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-09,Malappuram,Manjeri,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-09,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-09,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-09,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-09,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-10,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-10,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -1431,72 +1725,126 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2022-12-11,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-12,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1400,2000,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-12,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-12,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-12,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-12,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-12,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-12,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-12,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-12,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-12,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-12,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-13,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-13,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-13,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-13,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-13,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-13,Malappuram,Manjeri Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-13,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-13,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-13,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-13,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-14,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-14,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1400,2000,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-14,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-14,Kannur,Kannur,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-14,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-14,Malappuram,Kottakkal Market,coconut,Other,FAQ,2550,2650,2600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-14,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-14,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-14,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-14,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-14,Kannur,Taliparamba Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-14,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-15,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-15,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-15,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-15,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-15,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-15,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-15,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-15,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2600,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-15,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-15,Kannur,Taliparamba Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-15,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-16,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-16,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-16,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-16,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-16,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-16,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-16,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-16,Malappuram,Manjeri,coconut,Without Husk,DES,2600,2600,2600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-16,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-16,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-16,Kannur,Taliparamba Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-16,Kannur,Thalassery,coconut,Without Husk,DES,2850,2850,2850,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-17,Ernakulam,Aluva,coconut,Without Husk,DES,3600,3600,3600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-17,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-17,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-17,Kasargod,Kasargod,coconut,Without Husk,DES,2900,2900,2900,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-17,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-17,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2680,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-17,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-17,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-17,Kannur,Taliparamba Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-17,Kannur,Thalassery,coconut,Without Husk,DES,2800,2800,2800,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-18,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-18,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3000,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-19,Ernakulam,Aluva,coconut,Without Husk,DES,3600,3600,3600,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-19,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-19,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-19,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-19,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-19,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-19,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-19,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-19,Kannur,Taliparamba Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-19,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-20,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1400,2000,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-20,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-20,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-20,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-20,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-20,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-20,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2100,2500,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-20,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-20,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-20,Kannur,Taliparamba Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-20,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-21,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-21,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-21,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-21,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-21,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3300,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-21,Malappuram,Kottakkal Market,coconut,Other,FAQ,2550,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-21,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-21,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-21,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-21,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-21,Kannur,Taliparamba Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-21,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-22,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-22,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-22,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-22,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-22,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-22,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,16906,16906,16906,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-22,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-22,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2700,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-22,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-22,Kannur,Taliparamba Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-22,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-23,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1900,2400,2100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-23,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-23,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3300,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -1504,53 +1852,92 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2022-12-23,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-23,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-24,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-24,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-24,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-24,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-24,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3300,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-24,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-24,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-24,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-24,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-24,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-24,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-24,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-25,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3200,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-25,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-26,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-26,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1400,2000,1800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-26,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-26,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-26,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-26,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3200,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-26,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-26,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-26,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-26,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-26,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-26,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-27,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-27,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-27,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-27,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-27,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-27,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-27,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-27,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-27,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-27,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-28,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-28,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1500,2200,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-28,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-28,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-28,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-28,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3200,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-28,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2630,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-28,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-28,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-28,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-28,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-28,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-28,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-29,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-29,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-29,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-29,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3200,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-29,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2550,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-29,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,10130,17913,16330,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-29,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-29,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-29,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-29,Kannur,Thalassery,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-30,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-30,Coimbatore,Coimbatore APMC,coconut,Coconut,FAQ,1100,2000,1400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-30,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-30,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-30,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3200,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-30,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2580,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-30,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-30,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-30,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-30,Coimbatore,Pollachi APMC,coconut,Other,FAQ,1410,2500,1900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-30,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-30,Kannur,Thalassery,coconut,Without Husk,DES,2750,2750,2750,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-31,Ernakulam,Aluva,coconut,Without Husk,DES,3400,3400,3400,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-31,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3600,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-31,Kannur,Kannur,coconut,Without Husk,DES,2700,2700,2700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-12-31,Kasargod,Kasargod,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-31,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3000,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-31,Malappuram,Kottakkal Market,coconut,Other,FAQ,2480,2520,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-31,Wayanad,Mananthavady,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-31,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-12-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-31,Ernakulam,North Paravur,coconut,Without Husk,DES,3000,3000,3000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-12-31,Kannur,Taliparamba Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-12-31,Kannur,Thalassery,coconut,Without Husk,DES,2750,2750,2750,Rs/quintal,des,2026-07-09T17:00:42+00:00
