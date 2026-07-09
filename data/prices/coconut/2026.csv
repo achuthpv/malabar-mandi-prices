@@ -1420,10 +1420,10 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-07-08,Uttara Kannada,Sirsi APMC,coconut,Small,Local,4000,5500,4750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2026-07-08,Wayanad,Sultan bathery Market,coconut,Other,Local,5595,5600,5600,Rs/quintal,ogd,2026-07-08T22:30:33+00:00
 2026-07-08,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4200,4500,4350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
-2026-07-09,Kasargod,Manjeswaram Market,coconut,Other,FAQ,4700,4900,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
-2026-07-09,Kozhikode,Mukkom Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
-2026-07-09,Ernakulam,North Paravur Market,coconut,Big,Local,4800,6000,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
-2026-07-09,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4000,4500,4250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
-2026-07-09,Wayanad,Pulpally Market,coconut,Coconut,Local,6200,6500,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
-2026-07-09,Wayanad,Sultan bathery Market,coconut,Other,Local,5595,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
-2026-07-09,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4000,4500,4250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2026-07-09,Kasargod,Manjeswaram Market,coconut,Other,FAQ,4700,4900,4800,Rs/quintal,ogd,2026-07-09T16:02:17+00:00
+2026-07-09,Kozhikode,Mukkom Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,ogd,2026-07-09T16:02:17+00:00
+2026-07-09,Ernakulam,North Paravur Market,coconut,Big,Local,4800,6000,5500,Rs/quintal,ogd,2026-07-09T16:02:17+00:00
+2026-07-09,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4000,4500,4250,Rs/quintal,ogd,2026-07-09T16:02:17+00:00
+2026-07-09,Wayanad,Pulpally Market,coconut,Coconut,Local,6200,6500,6400,Rs/quintal,ogd,2026-07-09T16:02:17+00:00
+2026-07-09,Wayanad,Sultan bathery Market,coconut,Other,Local,5595,5600,5600,Rs/quintal,ogd,2026-07-09T16:02:17+00:00
+2026-07-09,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4000,4500,4250,Rs/quintal,ogd,2026-07-09T16:02:17+00:00
