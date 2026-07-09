@@ -23,6 +23,7 @@ jobs:
     permissions:
       contents: write # to push the data commit
       issues: write # to open a failure alert
+      actions: write # to dispatch the deploy workflow after a data push
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
@@ -43,9 +44,11 @@ jobs:
         run: python -m mandi fetch
 
       - name: Commit data if changed
+        id: commit
         run: |
           if git diff --quiet data/; then
             echo "no data changes"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "mandi-bot"
@@ -53,6 +56,15 @@ jobs:
           git add data/
           git commit -m "data: update $(date -u +%F)"
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # Pushes made with github.token intentionally do not trigger other
+      # workflows (GitHub anti-loop rule), so dispatch the deploy explicitly.
+      - name: Trigger site deploy
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
 
       - name: Open alert issue on failure
         if: failure()
