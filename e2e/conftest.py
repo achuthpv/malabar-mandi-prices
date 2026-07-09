@@ -51,23 +51,28 @@ def _price(slug: str, day: date, market_offset: int) -> int:
 
 
 def _seed_rows() -> list[dict]:
+    # arecanut trades as two varieties (Rashi premium vs Chali base) so the
+    # variety selector / prices-by-type panel have something to show
+    varieties = {"arecanut": [("Chali", 1.0), ("Rashi", 1.2)]}
     rows = []
     day = date(2021, 7, 1)
     while day <= TODAY:
         if day.weekday() < 5:  # weekends = natural gaps
             for slug, markets in MARKETS.items():
                 for i, (district, market) in enumerate(markets):
-                    price = _price(slug, day, i)
+                    base = _price(slug, day, i)
                     if market == "Sirsi APMC":
-                        price = int(price * 1.15)
-                    rows.append({
-                        "date": day.isoformat(), "district": district,
-                        "market": market, "commodity_slug": slug,
-                        "variety": "Other", "grade": "FAQ",
-                        "min_price": price - 300, "max_price": price + 300,
-                        "modal_price": price, "unit": "Rs/quintal",
-                        "source": "ogd", "fetched_at": FETCHED_AT,
-                    })
+                        base = int(base * 1.15)
+                    for variety, mult in varieties.get(slug, [("Other", 1.0)]):
+                        price = int(base * mult)
+                        rows.append({
+                            "date": day.isoformat(), "district": district,
+                            "market": market, "commodity_slug": slug,
+                            "variety": variety, "grade": "FAQ",
+                            "min_price": price - 300, "max_price": price + 300,
+                            "modal_price": price, "unit": "Rs/quintal",
+                            "source": "ogd", "fetched_at": FETCHED_AT,
+                        })
         day += timedelta(days=1)
     return rows
 

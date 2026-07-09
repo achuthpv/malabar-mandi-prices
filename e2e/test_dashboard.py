@@ -66,7 +66,7 @@ def test_district_selector_filters_markets(page: Page, site_url: str):
     rows = page.locator("#markets-table tbody tr")
     assert 0 < rows.count() < rows_all
     for i in range(rows.count()):
-        expect(rows.nth(i).locator("td").nth(1)).to_have_text("Wayanad")
+        expect(rows.nth(i).locator("td").nth(2)).to_have_text("Wayanad")
 
 
 def test_seasonality_panel(page: Page, site_url: str):
@@ -195,14 +195,42 @@ def test_spread_line_and_benchmark_star(page: Page, site_url: str):
     expect(spread).to_be_visible()
     text = spread.inner_text()
     assert "Sirsi APMC" in text and "%" in text and "gap" in text.lower()
-    # benchmark market is starred; home markets are not
-    star_row = page.locator("#markets-table tbody tr", has_text="Sirsi APMC")
+    # benchmark market rows are starred; home markets are not
+    star_row = page.locator("#markets-table tbody tr", has_text="Sirsi APMC").first
     expect(star_row.locator(".bench-star")).to_have_count(1)
-    home_row = page.locator("#markets-table tbody tr", has_text="Kasargod Market")
+    home_row = page.locator("#markets-table tbody tr", has_text="Kasargod Market").first
     expect(home_row.locator(".bench-star")).to_have_count(0)
-    # Vs median column shows signed percentages
-    vs = star_row.locator("td.vsmed").inner_text()
-    assert vs.startswith("+") and vs.endswith("%")
+    # Vs median column shows signed percentages somewhere in the table
+    vs_cells = page.locator("#markets-table td.vsmed").all_inner_texts()
+    assert any(v.startswith("+") and v.endswith("%") for v in vs_cells)
+
+
+def test_variety_selector_and_panel(page: Page, site_url: str):
+    _open(page, site_url, "/#/arecanut")
+    # selector visible with both types; panel lists Rashi (premium) first
+    expect(page.locator("#variety-select")).to_be_visible()
+    options = page.locator("#variety-select option").all_inner_texts()
+    assert "All types" in options and "Rashi" in options and "Chali" in options
+    rows = page.locator("#varieties-table tbody tr").all_inner_texts()
+    assert len(rows) == 2 and "Rashi" in rows[0]
+
+    # selecting a type filters the markets table and annotates the chart
+    page.select_option("#variety-select", "Rashi")
+    page.wait_for_timeout(400)
+    types = page.locator("#markets-table tbody tr td:nth-child(2)").all_inner_texts()
+    assert types and all(t == "Rashi" for t in types)
+    assert "type: Rashi" in page.locator("#chart-note").inner_text()
+    painted = page.evaluate(
+        """() => { const c = document.querySelector('#chart canvas');
+        const d = c.getContext('2d').getImageData(0,0,c.width,c.height).data;
+        for (let i=3;i<d.length;i+=4) if (d[i]!==0) return true; return false; }""")
+    assert painted
+
+
+def test_variety_selector_hidden_for_single_type(page: Page, site_url: str):
+    _open(page, site_url, "/#/coconut")
+    expect(page.locator("#variety-select")).to_be_hidden()
+    expect(page.locator("#varieties-panel")).to_be_hidden()
 
 
 def test_benchmark_excluded_from_seasonality_but_selectable(page: Page, site_url: str):
@@ -212,8 +240,9 @@ def test_benchmark_excluded_from_seasonality_but_selectable(page: Page, site_url
     page.select_option("#district-select", "Uttara Kannada")
     page.wait_for_timeout(300)
     rows = page.locator("#markets-table tbody tr")
-    assert rows.count() == 1
-    expect(rows.first).to_contain_text("Sirsi APMC")
+    assert rows.count() == 2  # one per variety (Chali, Rashi)
+    for i in range(2):
+        expect(rows.nth(i)).to_contain_text("Sirsi APMC")
 
 
 def test_ask_which_market(page: Page, site_url: str):

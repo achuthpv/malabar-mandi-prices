@@ -42,3 +42,23 @@ def test_spread_excludes_variety_outliers():
 def test_spread_needs_two_markets():
     assert _spread({("A", "M1"): _row("M1", "A", 40000)}) is None
     assert _spread({}) is None
+
+
+def test_variety_summary():
+    from mandi.publish import _variety_summary
+
+    def crow(variety, price, date="2026-07-08"):
+        return {"date": date, "district": "A", "market": "M1", "variety": variety,
+                "modal_price": price}
+
+    rows = [
+        crow("Rashi", 48000), crow("Rashi", 50000),
+        crow("Chali", 38000),
+        crow("Chali", 99999, date="2020-01-01"),  # outside 30-day window
+    ]
+    out = _variety_summary(rows)
+    assert [v["variety"] for v in out] == ["Rashi", "Chali"]  # highest median first
+    rashi = out[0]
+    assert rashi["median_modal"] == 49000 and rashi["n_obs"] == 2
+    assert out[1]["n_obs"] == 1  # old row excluded
+    assert _variety_summary([]) == []

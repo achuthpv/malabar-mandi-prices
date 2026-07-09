@@ -99,11 +99,12 @@ def publish_all(cfg: Config, generated_at: str, api_dir: Path | None = None,
                        key=lambda r: (r["date"], r["district"], r["market"]))
         canal = analysis["commodities"].get(c.slug, {})
 
-        # latest.json: newest row per market + district latest medians
-        latest_by_market: dict[tuple[str, str], dict[str, Any]] = {}
+        # latest.json: newest row per market×variety + district latest medians
+        latest_by_market: dict[tuple[str, str, str], dict[str, Any]] = {}
         for r in crows:  # crows sorted by date => last write wins
-            latest_by_market[(r["district"], r["market"])] = r
+            latest_by_market[(r["district"], r["market"], r["variety"])] = r
         spread = _spread(latest_by_market)
+        varieties = _variety_summary(crows)
         district_latest = {
             dname: {"date": d["latest"]["date"],
                     "modal_price": d["latest"]["modal_price"],
@@ -123,6 +124,7 @@ def publish_all(cfg: Config, generated_at: str, api_dir: Path | None = None,
             ],
             "districts": district_latest,
             "spread": spread,
+            "varieties": varieties,
         })))
 
         # daily/{year}.json
@@ -216,7 +218,42 @@ def _summary_view(series: dict[str, Any] | None) -> dict[str, Any] | None:
     }
 
 
-def _spread(latest_by_market: dict[tuple[str, str], dict[str, Any]],
+def _variety_summary(crows: list[dict[str, Any]], window_days: int = 30
+                     ) -> list[dict[str, Any]]:
+    """Recent price summary per variety (e.g. Rashi vs Chali vs Hale Chali).
+
+    Uses the last window_days relative to the newest observation so a
+    commodity whose feed pauses for a few days still gets a summary.
+    """
+    from datetime import date, timedelta
+    from statistics import median
+
+    if not crows:
+        return []
+    newest = max(date.fromisoformat(r["date"]) for r in crows)
+    cutoff = (newest - timedelta(days=window_days)).isoformat()
+    by_variety: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for r in crows:
+        if r["date"] >= cutoff:
+            by_variety[r["variety"]].append(r)
+
+    out = []
+    for variety, rows in by_variety.items():
+        prices = [int(r["modal_price"]) for r in rows]
+        out.append({
+            "variety": variety,
+            "median_modal": round(median(prices)),
+            "min_modal": min(prices),
+            "max_modal": max(prices),
+            "n_obs": len(rows),
+            "n_markets": len({(r["district"], r["market"]) for r in rows}),
+            "last_observed": max(r["date"] for r in rows),
+        })
+    out.sort(key=lambda v: -v["median_modal"])
+    return out
+
+
+def _spread(latest_by_market: dict[tuple, dict[str, Any]],
             window_days: int = 7, band: float = 2.0) -> dict[str, Any] | None:
     """Current cross-market price gap: highest vs lowest recent market price.
 

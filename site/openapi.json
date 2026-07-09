@@ -206,7 +206,24 @@
                             }
                           }
                         },
-                        "spread": { "$ref": "#/components/schemas/Spread" }
+                        "spread": { "$ref": "#/components/schemas/Spread" },
+                        "varieties": {
+                          "type": "array",
+                          "description": "Recent (30-day) price summary per variety, highest median first — e.g. Rashi vs Chali vs Hale Chali (old) arecanut",
+                          "items": {
+                            "type": "object",
+                            "required": ["variety", "median_modal", "n_obs"],
+                            "properties": {
+                              "variety": { "type": "string" },
+                              "median_modal": { "type": "integer" },
+                              "min_modal": { "type": "integer" },
+                              "max_modal": { "type": "integer" },
+                              "n_obs": { "type": "integer" },
+                              "n_markets": { "type": "integer" },
+                              "last_observed": { "type": "string", "format": "date" }
+                            }
+                          }
+                        }
                       }
                     }
                   ]

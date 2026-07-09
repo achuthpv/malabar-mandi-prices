@@ -8,11 +8,13 @@
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
                   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const ALL_DISTRICTS = "__region__";
+  const ALL_VARIETIES = "__all__";
 
   const state = {
     commodities: [],
     slug: null,
     district: ALL_DISTRICTS,
+    variety: ALL_VARIETIES,
     range: "3y",
     resolution: "weekly",
     dateFrom: null, // custom range overrides the preset when set
@@ -57,6 +59,10 @@
     window.addEventListener("hashchange", onRoute);
     $("#district-select").addEventListener("change", (e) => {
       state.district = e.target.value;
+      renderAll();
+    });
+    $("#variety-select").addEventListener("change", (e) => {
+      state.variety = e.target.value;
       renderAll();
     });
     $("#range-buttons").addEventListener("click", segHandler("range", "data-range", () => {
@@ -137,7 +143,9 @@
     } catch (err) {
       return fail(err);
     }
+    state.variety = ALL_VARIETIES; // reset when switching commodity
     renderDistrictSelect();
+    renderVarietySelect();
     renderAll();
     $("#loading").hidden = true;
     $("#main").hidden = false;
@@ -185,6 +193,61 @@
     sel.value = state.district;
   }
 
+  function renderVarietySelect() {
+    const sel = $("#variety-select");
+    const label = $("#variety-label");
+    const varieties = (state.latest.varieties || []);
+    const show = varieties.length > 1;
+    sel.hidden = !show;
+    label.hidden = !show;
+    sel.textContent = "";
+    if (!show) { state.variety = ALL_VARIETIES; return; }
+    const optAll = document.createElement("option");
+    optAll.value = ALL_VARIETIES;
+    optAll.textContent = "All types";
+    sel.appendChild(optAll);
+    for (const v of varieties) {
+      const opt = document.createElement("option");
+      opt.value = v.variety;
+      opt.textContent = v.variety;
+      sel.appendChild(opt);
+    }
+    if (![...sel.options].some((o) => o.value === state.variety)) {
+      state.variety = ALL_VARIETIES;
+    }
+    sel.value = state.variety;
+  }
+
+  function renderVarietiesTable() {
+    const panel = $("#varieties-panel");
+    const tbody = $("#varieties-table tbody");
+    tbody.textContent = "";
+    const varieties = state.latest.varieties || [];
+    if (varieties.length < 2) { panel.hidden = true; return; }
+    panel.hidden = false;
+    const asOf = state.summary.generated_at ? state.summary.generated_at.slice(0, 10) : null;
+    for (const v of varieties) {
+      const tr = document.createElement("tr");
+      if (state.variety !== ALL_VARIETIES && v.variety === state.variety) {
+        tr.style.fontWeight = "600";
+      }
+      const cells = [
+        v.variety,
+        fmtPrice(v.median_modal),
+        `${fmtPrice(v.min_modal)}–${fmtPrice(v.max_modal)}`,
+        String(v.n_markets),
+        relDate(v.last_observed, asOf),
+      ];
+      cells.forEach((text, i) => {
+        const td = document.createElement("td");
+        if (i === 1 || i === 2) td.className = "num";
+        td.textContent = text;
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    }
+  }
+
   function currentView() {
     return state.district === ALL_DISTRICTS
       ? state.summary.region
@@ -196,6 +259,7 @@
     renderTiles();
     renderChart();
     renderSeasonality();
+    renderVarietiesTable();
     renderMarkets();
   }
 
@@ -252,9 +316,9 @@
         const doc = await getJSON(`${API}/prices/${state.slug}/daily/${year}.json`);
         const cols = doc.columns;
         const iDate = cols.indexOf("date"), iDistrict = cols.indexOf("district"),
-              iModal = cols.indexOf("modal_price");
+              iVariety = cols.indexOf("variety"), iModal = cols.indexOf("modal_price");
         state.dailyCache.set(key, doc.rows.map((r) => ({
-          date: r[iDate], district: r[iDistrict], price: r[iModal],
+          date: r[iDate], district: r[iDistrict], variety: r[iVariety], price: r[iModal],
         })));
       } catch (err) {
         state.dailyCache.set(key, []); // year file may not exist yet
@@ -275,6 +339,17 @@
     const day = (d.getUTCDay() + 6) % 7; // Mon=0
     d.setUTCDate(d.getUTCDate() - day);
     return d.toISOString().slice(0, 10);
+  }
+
+  /* apply the district + variety selection to raw daily rows */
+  function filterArea(daily) {
+    if (state.district !== ALL_DISTRICTS) {
+      daily = daily.filter((r) => r.district === state.district);
+    }
+    if (state.variety !== ALL_VARIETIES) {
+      daily = daily.filter((r) => r.variety === state.variety);
+    }
+    return daily;
   }
 
   function rangeYears(from, to) {
@@ -312,19 +387,22 @@
     const asOf = state.summary.generated_at ? state.summary.generated_at.slice(0, 10) : new Date().toISOString().slice(0, 10);
     const endYear = +asOf.slice(0, 4);
     const custom = !!(state.dateFrom || state.dateTo);
+    const varietyNote = state.variety === ALL_VARIETIES ? "" : ` · type: ${state.variety}`;
 
     let rows;
-    if (custom) {
+    if (custom || (state.range === "all" && state.variety !== ALL_VARIETIES)) {
+      // custom dates, or "All" with a type filter (monthly medians are
+      // variety-agnostic, so build from daily files instead)
       const years = state.monthly.years_available || [endYear];
       const from = state.dateFrom || `${years[0] || endYear}-01-01`;
       const to = state.dateTo || asOf;
       const perYear = await Promise.all(
         rangeYears(+from.slice(0, 4), +to.slice(0, 4)).map(loadDaily));
       let daily = perYear.flat().filter((r) => r.date >= from && r.date <= to);
-      if (state.district !== ALL_DISTRICTS) daily = daily.filter((r) => r.district === state.district);
+      daily = filterArea(daily);
       const points = collapse(daily, state.resolution === "weekly");
       note.textContent = points.length
-        ? `Showing ${from} to ${to} (${state.resolution} median).`
+        ? `Showing ${from} to ${to} (${state.resolution} median)${varietyNote}.`
         : `No reported prices between ${from} and ${to} for this selection.`;
       window.MandiChart.render(el, points, {
         resolution: state.resolution, label: labelFor(),
@@ -347,12 +425,11 @@
       rangeYears(endYear - yearsBack, endYear).map(loadDaily));
     const cutoff = new Date(Date.parse(asOf) - yearsBack * 365 * 86400000).toISOString().slice(0, 10);
 
-    let daily = perYear.flat().filter((r) => r.date >= cutoff);
-    if (state.district !== ALL_DISTRICTS) daily = daily.filter((r) => r.district === state.district);
+    const daily = filterArea(perYear.flat().filter((r) => r.date >= cutoff));
 
     const points = collapse(daily, state.resolution === "weekly");
     note.textContent = (state.resolution === "weekly" ? "Weekly" : "Daily") +
-      " median of reported market prices. Gaps are days with no reporting.";
+      " median of reported market prices. Gaps are days with no reporting" + varietyNote + ".";
 
     if (!points.length) {
       el.textContent = "";
@@ -464,6 +541,9 @@
     if (state.district !== ALL_DISTRICTS) {
       markets = markets.filter((m) => m.district === state.district);
     }
+    if (state.variety !== ALL_VARIETIES) {
+      markets = markets.filter((m) => m.variety === state.variety);
+    }
 
     // median of recently-reported markets (≤7 days behind the newest shown)
     const newest = markets.reduce((a, m) => (m.date > a ? m.date : a), "");
@@ -494,6 +574,7 @@
       tr.appendChild(tdMarket);
 
       const rest = [
+        [m.variety || "–", ""],
         [m.district, ""],
         [fmtPrice(m.modal_price), "num"],
         [vs == null ? "–" : `${vs >= 0 ? "+" : ""}${vs.toFixed(1)}%`,
@@ -512,7 +593,7 @@
     if (!markets.length) {
       const tr = document.createElement("tr");
       const td = document.createElement("td");
-      td.colSpan = 6;
+      td.colSpan = 7;
       td.textContent = "No markets reporting for this selection yet.";
       tr.appendChild(td);
       tbody.appendChild(tr);
