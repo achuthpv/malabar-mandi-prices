@@ -56,9 +56,33 @@ def load_frame(base: Path | None = None) -> pd.DataFrame:
     return df
 
 
+VARIETY_BAND = 2.0  # varieties priced outside median/BAND..median*BAND are
+# a different product form (e.g. fresh Ripe arecanut ~Rs7k vs Dry ~Rs36k)
+
+
+def _comparable_varieties(df: pd.DataFrame) -> pd.DataFrame:
+    """Drop variety price-tiers that would distort the pooled series.
+
+    The pooled daily median mixes whatever varieties happen to report that
+    day; a cheap product form (fresh Ripe arecanut vs dried nuts) reporting
+    intermittently would move the series — and everything computed from it
+    (seasonality, trend, YoY) — for pure composition reasons. Keep only
+    varieties whose own median price sits within VARIETY_BAND of the
+    cross-variety median, mirroring the spread's comparability band.
+    """
+    if df.empty or df["variety"].nunique() <= 1:
+        return df
+    variety_medians = df.groupby("variety")["modal_price"].median()
+    center = variety_medians.median()
+    keep = variety_medians[(variety_medians >= center / VARIETY_BAND)
+                           & (variety_medians <= center * VARIETY_BAND)].index
+    return df[df["variety"].isin(keep)]
+
+
 def _daily_series(df: pd.DataFrame) -> pd.Series:
-    """Collapse rows to one value per day: median across markets/varieties."""
-    return df.groupby("date")["modal_price"].median().sort_index()
+    """Collapse rows to one value per day: median across markets, pooling
+    only price-comparable varieties (see _comparable_varieties)."""
+    return _comparable_varieties(df).groupby("date")["modal_price"].median().sort_index()
 
 
 def _monthly_median(daily: pd.Series) -> pd.DataFrame:

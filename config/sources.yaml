@@ -70,21 +70,39 @@ states:
         benchmark: true
         markets: ["Pollachi", "Coimbatore", "Sulur"]
 
+# commodities:
+#   des_items: item headings in the Kerala DES bulletin (Quintal tables only)
+#              that map to this commodity, with the variety name to store.
 commodities:
   - slug: arecanut
     display: Arecanut
     ogd_names: ["Arecanut(Betelnut/Supari)", "Arecanut", "Betelnuts"]
     unit: "Rs/quintal"
     sanity: { min: 5000, max: 150000 }
+    des_items:
+      "Arecanut (Ripe)": "Ripe"
+      "Tender Arecanut (Paiga)": "Tender (Paiga)"
+      "Arecanut Dry 1st Quality": "Dry 1st Quality"
+      "Arecanut Dry 2nd Quality": "Dry 2nd Quality"
+      "Arecanut Dry New": "Dry New"
+      "Arecanut Dry Old": "Dry Old"
 
   - slug: black-pepper
     display: Black Pepper
     ogd_names: ["Black pepper", "Pepper ungarbled", "Pepper garbled", "Pepper"]
     unit: "Rs/quintal"
     sanity: { min: 10000, max: 250000 }
+    des_items:
+      "Pepper (Nadan)": "Nadan"
+      "Pepper Garbled": "Garbled"
+      "Pepper (Ungarbled)": "Ungarbled"
+      "Pepper (Wayanadan)": "Wayanadan"
+      "Pepper (Chettan)": "Chettan"
 
   - slug: coconut
     display: Coconut
     ogd_names: ["Coconut"]
     unit: "Rs/quintal"
     sanity: { min: 500, max: 30000 }
+    des_items:
+      "Coconut Without Husk (W O H)": "Without Husk"

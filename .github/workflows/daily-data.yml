@@ -45,7 +45,12 @@ jobs:
 
       # Kerala DES daily wholesale bulletin (Kozhikode-town prices).
       # Incremental via data/des_state.json — missed days heal on the next run.
+      # continue-on-error: a DES outage must NOT block committing the OGD
+      # rows fetched above (that window is unrecoverable); the failure is
+      # re-raised after the commit so the alert issue still opens.
       - name: Fetch Kerala DES bulletin
+        id: des
+        continue-on-error: true
         run: python -m mandi des-fetch
 
       - name: Commit data if changed
@@ -70,6 +75,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run deploy.yml --ref main
+
+      - name: Surface DES failure after commit
+        if: steps.des.outcome == 'failure'
+        run: |
+          echo "des-fetch failed (data committed anyway; DES gap heals on next run)"
+          exit 1
 
       - name: Open alert issue on failure
         if: failure()

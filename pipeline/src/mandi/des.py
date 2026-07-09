@@ -11,13 +11,22 @@ Agmarknet has almost no Kozhikode coverage (Kerala has no APMC system), but
 DES surveys every district HQ daily and distinguishes arecanut forms
 (Dry New vs Dry Old vs Ripe vs Tender) and five pepper types.
 
+Mapping is config-driven (config/sources.yaml): districts declare
+`des_markets` town names and commodities declare `des_items` heading ->
+variety mappings, so adding a commodity or town needs no code change.
+Parsed entries are reshaped into OGD record form and pushed through
+normalize.normalize_records — the same validation/quarantine path every
+other source uses.
+
 The upload id space is shared with other DES publications (e.g. "Rubber
 Timber Price"), so every PDF's header is verified before parsing.
 
 Incremental state lives in data/des_state.json (committed by the daily
-cron): {"last_id": N}. `des-fetch` ingests everything newer than last_id up
-to the latest listed bulletin — so a few days of cron downtime heal
-automatically on the next run.
+cron): {"last_id": N}. When the /daily-data listing is reachable its newest
+bulletin id is authoritative (ids below it are already allocated and can
+never become bulletins later); when it is not, we probe forward but only
+advance the state past ids that actually EXISTED — an id that 404s today
+may be published tomorrow and must be revisited.
 """
 
 from __future__ import annotations
@@ -35,6 +44,7 @@ import requests
 from pypdf import PdfReader
 
 from .config import DATA_DIR, Config
+from .normalize import normalize_records
 from .store import upsert_rows, write_quarantine
 
 log = logging.getLogger(__name__)
@@ -44,6 +54,7 @@ STATE_PATH = DATA_DIR / "des_state.json"
 TIMEOUT_S = 60
 SLEEP_S = 0.5
 MAX_RETRIES = 3
+PROBE_WINDOW = 15  # forward-probe width when the listing page is down
 FIRST_KNOWN_ID = 457  # ~2022-09-27, earliest bulletin we verified
 USER_AGENT = "malabar-mandi-dashboard (personal non-commercial project)"
 
@@ -64,23 +75,6 @@ NOISE_RE = re.compile(
     re.IGNORECASE,
 )
 
-# DES item heading -> (commodity slug, variety). Quintal items only; the
-# per-1000-nuts quotes and oil/copra products are different units/products.
-ITEM_MAP = {
-    "Arecanut (Ripe)": ("arecanut", "Ripe"),
-    "Tender Arecanut (Paiga)": ("arecanut", "Tender (Paiga)"),
-    "Arecanut Dry 1st Quality": ("arecanut", "Dry 1st Quality"),
-    "Arecanut Dry 2nd Quality": ("arecanut", "Dry 2nd Quality"),
-    "Arecanut Dry New": ("arecanut", "Dry New"),
-    "Arecanut Dry Old": ("arecanut", "Dry Old"),
-    "Pepper (Nadan)": ("black-pepper", "Nadan"),
-    "Pepper Garbled": ("black-pepper", "Garbled"),
-    "Pepper (Ungarbled)": ("black-pepper", "Ungarbled"),
-    "Pepper (Wayanadan)": ("black-pepper", "Wayanadan"),
-    "Pepper (Chettan)": ("black-pepper", "Chettan"),
-    "Coconut Without Husk (W O H)": ("coconut", "Without Husk"),
-}
-
 
 class DesError(RuntimeError):
     pass
@@ -93,13 +87,18 @@ def _session() -> requests.Session:
 
 
 def _get(session: requests.Session, url: str) -> requests.Response | None:
-    """GET with retries; returns None on 404."""
+    """GET with retries and 429 backoff; returns None on 404."""
     last: Exception | None = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             resp = session.get(url, timeout=TIMEOUT_S)
             if resp.status_code == 404:
                 return None
+            if resp.status_code == 429:
+                wait = 30 * attempt
+                log.warning("DES 429 rate-limited; sleeping %ss", wait)
+                time.sleep(wait)
+                continue
             resp.raise_for_status()
             return resp
         except requests.RequestException as e:
@@ -153,13 +152,29 @@ def parse_bulletin_text(text: str) -> tuple[str, list[dict[str, Any]]]:
     market: str | None = None
     prices: list[float] = []
 
+    def current_price(vals: list[float]) -> float:
+        """Pick the day's price from a decimals group.
+
+        3 values = (prev, current, variation). 2 values are ambiguous:
+        (prev, current) when the variation column is blank, but
+        (current, variation) when the previous-day column is blank (e.g. a
+        newly surveyed market). Disambiguate by magnitude: a variation is
+        small relative to a price, and prev/current are the same scale.
+        """
+        if len(vals) >= 3:
+            return vals[1]
+        if len(vals) == 2:
+            hi = max(abs(vals[0]), abs(vals[1]))
+            if hi > 0 and abs(vals[1]) <= 0.5 * hi and abs(vals[0]) > abs(vals[1]):
+                return vals[0]  # (current, variation)
+            return vals[1]  # (prev, current)
+        return vals[0]
+
     def flush() -> None:
         nonlocal market, prices
         if item and market and prices:
-            # 3 decimals = (prev, current, variation); fewer = last is current
-            price = prices[1] if len(prices) >= 2 else prices[0]
             entries.append({"item": item, "unit": unit,
-                            "market": market, "price": price})
+                            "market": market, "price": current_price(prices)})
         market, prices = None, []
 
     for raw in text.split("\n"):
@@ -196,44 +211,37 @@ def parse_bulletin_text(text: str) -> tuple[str, list[dict[str, Any]]]:
     return date, entries
 
 
-def _to_rows(cfg: Config, date: str, entries: list[dict[str, Any]],
-             fetched_at: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
-    rows, quarantined = [], []
+def _to_ogd_shape(cfg: Config, date: str,
+                  entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Reshape in-scope bulletin entries into OGD record form so they flow
+    through normalize.normalize_records like every other source."""
+    shaped = []
     for e in entries:
         if e["unit"] != "Quintal":
             continue
-        mapped = ITEM_MAP.get(e["item"])
+        mapped = cfg.des_item_map.get(e["item"])
         if not mapped:
-            continue
-        slug, variety = mapped
+            continue  # item not configured for any commodity — out of scope
+        commodity, variety = mapped
         town = e["market"].strip()
         district = cfg.district_by_des_market.get(town.lower()) \
             or cfg.district_by_des_market.get(town.split(" (")[0].lower())
         if district is None:
             continue  # town not configured — out of scope
-        commodity = cfg.commodity(slug)
-        price = int(round(e["price"]))
-        row = {
-            "date": date,
-            "district": district.name,
+        price = e["price"]
+        shaped.append({
+            "state": district.state_aliases[0],
+            "district": district.ogd_names[0],
             "market": town,
-            "commodity_slug": slug,
+            "commodity": commodity.ogd_names[0],
             "variety": variety,
             "grade": "DES",
+            "arrival_date": date,  # ISO accepted by parse_arrival_date
             "min_price": price,
             "max_price": price,
             "modal_price": price,
-            "unit": commodity.unit,
-            "source": "des",
-            "fetched_at": fetched_at,
-        }
-        if price <= 0:
-            quarantined.append({"reason": "nonpositive_modal", "source": "des", **row})
-        elif not (commodity.sanity_min <= price <= commodity.sanity_max):
-            quarantined.append({"reason": "outside_sanity_range", "source": "des", **row})
-        else:
-            rows.append(row)
-    return rows, quarantined
+        })
+    return shaped
 
 
 # --------------------------------------------------------------------------
@@ -254,28 +262,66 @@ def _save_state(state: dict[str, Any]) -> None:
         f.write("\n")
 
 
-def ingest_id(cfg: Config, session: requests.Session, pdf_id: int,
-              fetched_at: str) -> tuple[int, int] | None:
-    """Fetch + ingest one upload id. None if missing/not a price bulletin."""
+def _read_bulletin(session: requests.Session, pdf_id: int
+                   ) -> tuple[str, tuple[str, list[dict[str, Any]]] | None]:
+    """Fetch one upload id. Returns (status, payload):
+    ("missing", None)  — 404: nothing at this id (may be published later)
+    ("other", None)    — exists but is another DES publication / unreadable
+    ("ok", (date, entries))
+    """
     resp = _get(session, f"{BASE}/storage/daily-data/{pdf_id}.pdf")
     if resp is None:
-        return None
+        return "missing", None
     try:
         reader = PdfReader(io.BytesIO(resp.content))
-        text = "\n".join(page.extract_text() for page in reader.pages)
-        date, entries = parse_bulletin_text(text)
+        # extract_text() can return None for image-only pages — never let
+        # one bad page discard the whole bulletin
+        text = "\n".join((page.extract_text() or "") for page in reader.pages)
+        return "ok", parse_bulletin_text(text)
     except DesError:
-        return None  # some other DES publication sharing the id space
+        return "other", None  # different publication sharing the id space
     except Exception as e:  # noqa: BLE001 — malformed PDF: skip, don't abort
         log.warning("DES id %d: unreadable PDF (%s)", pdf_id, e)
-        return None
+        return "other", None
 
-    rows, quarantined = _to_rows(cfg, date, entries, fetched_at)
+
+def _ingest_range(cfg: Config, session: requests.Session,
+                  start_id: int, end_id: int) -> dict[str, int]:
+    """Shared ingestion loop for fetch and backfill.
+
+    Accumulates rows across all bulletins and upserts ONCE at the end —
+    per-bulletin upserts rewrote each year partition hundreds of times
+    over a long backfill (O(n^2) I/O).
+    """
+    fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    shaped_all: list[dict[str, Any]] = []
+    bulletins = 0
+    max_existing = 0
+
+    for pdf_id in range(start_id, end_id + 1):
+        status, payload = _read_bulletin(session, pdf_id)
+        if status == "missing":
+            continue  # no politeness sleep needed for an instant 404
+        max_existing = pdf_id
+        if status == "ok":
+            date, entries = payload
+            shaped = _to_ogd_shape(cfg, date, entries)
+            shaped_all.extend(shaped)
+            bulletins += 1
+            log.info("DES id %d (%s): %d entries -> %d in-scope",
+                     pdf_id, date, len(entries), len(shaped))
+        time.sleep(SLEEP_S)
+
+    rows, quarantined = normalize_records(cfg, shaped_all, source="des",
+                                          fetched_at=fetched_at)
     changed = sum(upsert_rows(rows).values())
     write_quarantine(quarantined)
-    log.info("DES id %d (%s): %d entries -> %d in-scope, %d changed, %d quarantined",
-             pdf_id, date, len(entries), len(rows), changed, len(quarantined))
-    return changed, len(rows)
+
+    if bulletins and not rows:
+        log.warning("bulletins parsed but produced no in-scope rows — "
+                    "check des_items/des_markets in sources.yaml for drift")
+    return {"bulletins": bulletins, "rows": len(rows), "changed": changed,
+            "quarantined": len(quarantined), "max_existing": max_existing}
 
 
 def fetch(cfg: Config) -> int:
@@ -287,28 +333,29 @@ def fetch(cfg: Config) -> int:
     listed = discover_bulletins(session)
     newest_listed = max((i for i, _ in listed), default=None)
     if newest_listed is None:
-        # listing unreachable — probe a small window forward instead
-        newest_listed = last_id + 15
-        log.warning("DES listing unavailable; probing ids %d..%d",
-                    last_id + 1, newest_listed)
+        end_id = last_id + PROBE_WINDOW
+        log.warning("DES listing unavailable; probing ids %d..%d", last_id + 1, end_id)
+    else:
+        end_id = newest_listed
+    if end_id <= last_id:
+        print(f"des-fetch: no new bulletins (last_id={last_id})")
+        return 0
 
-    fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    total_changed = ingested = 0
-    for pdf_id in range(last_id + 1, newest_listed + 1):
-        result = ingest_id(cfg, session, pdf_id, fetched_at)
-        if result:
-            total_changed += result[0]
-            ingested += 1
-        time.sleep(SLEEP_S)
+    stats = _ingest_range(cfg, session, last_id + 1, end_id)
 
-    if newest_listed > last_id:
-        state["last_id"] = newest_listed
+    # State advance rules (a 404 today may be published tomorrow):
+    # - listing reachable: its newest id is authoritative — ids below it are
+    #   already allocated and can never become bulletins later.
+    # - listing down: only advance past ids that actually existed.
+    new_last = newest_listed if newest_listed is not None \
+        else max(last_id, stats["max_existing"])
+    if new_last > last_id:
+        state["last_id"] = new_last
         _save_state(state)
-    print(f"des-fetch: ids {last_id + 1}..{newest_listed}, "
-          f"{ingested} bulletins ingested, {total_changed} rows changed")
-    if ingested and total_changed == 0:
-        log.warning("bulletins parsed but produced no in-scope rows — "
-                    "check ITEM_MAP/des_markets for drift")
+
+    print(f"des-fetch: ids {last_id + 1}..{end_id}, "
+          f"{stats['bulletins']} bulletins, {stats['changed']} rows changed, "
+          f"{stats['quarantined']} quarantined, state -> {new_last}")
     return 0
 
 
@@ -317,25 +364,25 @@ def backfill(cfg: Config, start_id: int | None = None,
     """One-time historical sweep over the upload id range."""
     session = _session()
     start_id = start_id or FIRST_KNOWN_ID
+    listed_end = None
     if end_id is None:
         listed = discover_bulletins(session)
-        end_id = max((i for i, _ in listed), default=None)
-        if end_id is None:
+        listed_end = max((i for i, _ in listed), default=None)
+        if listed_end is None:
             raise DesError("could not discover the latest bulletin id; pass --end-id")
+        end_id = listed_end
 
-    fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    total_changed = bulletins = 0
-    for pdf_id in range(start_id, end_id + 1):
-        result = ingest_id(cfg, session, pdf_id, fetched_at)
-        if result:
-            total_changed += result[0]
-            bulletins += 1
-        time.sleep(SLEEP_S)
+    stats = _ingest_range(cfg, session, start_id, end_id)
 
     state = _load_state()
-    if end_id > int(state.get("last_id", 0)):
-        state["last_id"] = end_id
+    # only a listing-derived end is authoritative; a manual --end-id may
+    # point past what exists, so fall back to the highest id actually seen
+    new_last = listed_end if listed_end is not None else stats["max_existing"]
+    if new_last and new_last > int(state.get("last_id", 0)):
+        state["last_id"] = new_last
         _save_state(state)
+
     print(f"des-backfill complete: ids {start_id}..{end_id}, "
-          f"{bulletins} bulletins, {total_changed} rows changed")
+          f"{stats['bulletins']} bulletins, {stats['changed']} rows changed, "
+          f"{stats['quarantined']} quarantined")
     return 0

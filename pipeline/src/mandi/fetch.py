@@ -10,6 +10,7 @@ from __future__ import annotations
 import logging
 import os
 import random
+import re
 import time
 from typing import Any, Iterator
 
@@ -40,11 +41,21 @@ def api_key() -> str:
     return key
 
 
+def _redact(text: str) -> str:
+    """Strip the api-key query param from error text before it reaches logs.
+
+    The OGD API takes the key as a URL parameter and requests embeds full
+    URLs in exception messages. GitHub Actions masks registered secrets,
+    but local terminal runs would print the key verbatim without this.
+    """
+    return re.sub(r"api-key=[^&\s]+", "api-key=REDACTED", text)
+
+
 def _request_page(
     cfg: Config, session: requests.Session, params: dict[str, Any]
 ) -> dict[str, Any]:
     url = f"{cfg.base_url}/{cfg.ogd_resource}"
-    last_error: Exception | None = None
+    last_error = ""
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             resp = session.get(url, params=params, timeout=TIMEOUT_S)
@@ -56,11 +67,12 @@ def _request_page(
             resp.raise_for_status()
             return resp.json()
         except (requests.RequestException, ValueError) as e:
-            last_error = e
+            last_error = _redact(str(e))
             if attempt < MAX_RETRIES:
                 # jitter is for retry spreading, not crypto
                 backoff = (2**attempt) + random.uniform(0, 1)  # noqa: S311
-                log.warning("fetch attempt %d failed (%s); retrying in %.1fs", attempt, e, backoff)
+                log.warning("fetch attempt %d failed (%s); retrying in %.1fs",
+                            attempt, last_error, backoff)
                 time.sleep(backoff)
     raise FetchError(f"OGD API request failed after {MAX_RETRIES} attempts: {last_error}")
 

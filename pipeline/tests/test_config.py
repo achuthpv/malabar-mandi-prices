@@ -50,6 +50,41 @@ commodities:
         load_config(bad)
 
 
+def test_des_mappings_loaded(cfg):
+    # commodity des_items -> (Commodity, variety) map
+    c, variety = cfg.des_item_map["Arecanut Dry Old"]
+    assert c.slug == "arecanut" and variety == "Dry Old"
+    assert cfg.des_item_map["Pepper (Wayanadan)"][0].slug == "black-pepper"
+    # district des_markets town map
+    assert cfg.district_by_des_market["thalassery"].name == "Kannur"
+
+
+def test_duplicate_des_mappings_rejected(tmp_path):
+    base = """
+source: {ogd_resource: x, base_url: y}
+region_label: test
+states:
+  - names: [Keralam]
+    districts:
+      - {name: A, ogd_names: [a], des_markets: [Town]}
+      - {name: B, ogd_names: [b], des_markets: [%s]}
+commodities:
+  - {slug: one, display: X, ogd_names: [x], unit: u, sanity: {min: 1, max: 2},
+     des_items: {"Item X": "V"}}
+  - {slug: two, display: Y, ogd_names: [y], unit: u, sanity: {min: 1, max: 2},
+     des_items: {%s}}
+"""
+    dup_town = tmp_path / "town.yaml"
+    dup_town.write_text(base % ("Town", '"Item Y": "V"'))
+    with pytest.raises(ConfigError, match="des_markets"):
+        load_config(dup_town)
+
+    dup_item = tmp_path / "item.yaml"
+    dup_item.write_text(base % ("OtherTown", '"Item X": "V"'))
+    with pytest.raises(ConfigError, match="des_items"):
+        load_config(dup_item)
+
+
 def test_all_benchmark_config_rejected(tmp_path):
     bad = tmp_path / "sources.yaml"
     bad.write_text(

@@ -218,24 +218,31 @@ def _summary_view(series: dict[str, Any] | None) -> dict[str, Any] | None:
     }
 
 
-def _variety_summary(crows: list[dict[str, Any]], window_days: int = 30
-                     ) -> list[dict[str, Any]]:
-    """Recent price summary per variety (e.g. Rashi vs Chali vs Hale Chali).
+def _recent_rows(rows: list[dict[str, Any]], window_days: int
+                 ) -> list[dict[str, Any]]:
+    """Rows within window_days of the newest observation.
 
-    Uses the last window_days relative to the newest observation so a
-    commodity whose feed pauses for a few days still gets a summary.
+    Anchoring on the newest row (not today) keeps summaries meaningful
+    when a feed pauses for a few days. Shared by the spread and the
+    variety summary so 'recent' means the same thing everywhere.
     """
     from datetime import date, timedelta
+
+    if not rows:
+        return []
+    newest = max(date.fromisoformat(r["date"]) for r in rows)
+    cutoff = (newest - timedelta(days=window_days)).isoformat()
+    return [r for r in rows if r["date"] >= cutoff]
+
+
+def _variety_summary(crows: list[dict[str, Any]], window_days: int = 30
+                     ) -> list[dict[str, Any]]:
+    """Recent price summary per variety (e.g. Rashi vs Chali vs Hale Chali)."""
     from statistics import median
 
-    if not crows:
-        return []
-    newest = max(date.fromisoformat(r["date"]) for r in crows)
-    cutoff = (newest - timedelta(days=window_days)).isoformat()
     by_variety: dict[str, list[dict[str, Any]]] = defaultdict(list)
-    for r in crows:
-        if r["date"] >= cutoff:
-            by_variety[r["variety"]].append(r)
+    for r in _recent_rows(crows, window_days):
+        by_variety[r["variety"]].append(r)
 
     out = []
     for variety, rows in by_variety.items():
@@ -255,45 +262,58 @@ def _variety_summary(crows: list[dict[str, Any]], window_days: int = 30
 
 def _spread(latest_by_market: dict[tuple, dict[str, Any]],
             window_days: int = 7, band: float = 2.0) -> dict[str, Any] | None:
-    """Current cross-market price gap: highest vs lowest recent market price.
+    """Current cross-market price gap: highest vs lowest recent MARKET price.
+
+    Input rows are one per (district, market, variety); they are collapsed
+    to one representative price per market (median across that market's
+    varieties) BEFORE comparing, so two varieties of one town can never be
+    presented as a cross-market gap and n_markets counts real markets.
 
     Two comparability guards, because a naive max-vs-min is misleading:
     - staleness: only markets that reported within window_days of the newest
       observation count — a stale price is not an arbitrage opportunity;
     - variety/product outliers: markets priced outside [median/band,
-      median*band] are excluded (e.g. premium Rashi arecanut vs cheap
-      Sippegotu, or copra-grade coconut vs fresh nuts, are different
-      products, not a spread).
+      median*band] of the cross-market median are excluded (e.g. a market
+      quoting only cheap fresh-form arecanut is a different product, not a
+      spread).
     """
-    from datetime import date, timedelta
     from statistics import median
 
-    rows = list(latest_by_market.values())
-    if len(rows) < 2:
-        return None
-    newest = max(date.fromisoformat(r["date"]) for r in rows)
-    cutoff = (newest - timedelta(days=window_days)).isoformat()
-    recent = [r for r in rows if r["date"] >= cutoff]
+    recent = _recent_rows(list(latest_by_market.values()), window_days)
     if len(recent) < 2:
         return None
-    med = median(int(r["modal_price"]) for r in recent)
-    comparable = [r for r in recent
-                  if med / band <= int(r["modal_price"]) <= med * band]
+
+    # one representative price per market: median across its variety rows
+    by_market: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
+    for r in recent:
+        by_market[(r["district"], r["market"])].append(r)
+    markets = []
+    for (district, market), rows in by_market.items():
+        prices = sorted(int(r["modal_price"]) for r in rows)
+        markets.append({
+            "district": district,
+            "market": market,
+            "modal_price": prices[len(prices) // 2],
+            "date": max(r["date"] for r in rows),
+        })
+    if len(markets) < 2:
+        return None
+
+    med = median(m["modal_price"] for m in markets)
+    comparable = [m for m in markets
+                  if med / band <= m["modal_price"] <= med * band]
     if len(comparable) < 2:
         return None
-    lo = min(comparable, key=lambda r: int(r["modal_price"]))
-    hi = max(comparable, key=lambda r: int(r["modal_price"]))
-    lo_p, hi_p = int(lo["modal_price"]), int(hi["modal_price"])
-    if lo_p <= 0 or hi is lo:
+    lo = min(comparable, key=lambda m: m["modal_price"])
+    hi = max(comparable, key=lambda m: m["modal_price"])
+    if lo["modal_price"] <= 0 or hi is lo:
         return None
     return {
-        "as_of": newest.isoformat(),
+        "as_of": max(m["date"] for m in markets),
         "window_days": window_days,
         "n_markets": len(comparable),
-        "n_excluded": len(recent) - len(comparable),
-        "high": {"market": hi["market"], "district": hi["district"],
-                 "modal_price": hi_p, "date": hi["date"], "variety": hi["variety"]},
-        "low": {"market": lo["market"], "district": lo["district"],
-                "modal_price": lo_p, "date": lo["date"], "variety": lo["variety"]},
-        "spread_pct": round((hi_p / lo_p - 1.0) * 100, 1),
+        "n_excluded": len(markets) - len(comparable),
+        "high": hi,
+        "low": lo,
+        "spread_pct": round((hi["modal_price"] / lo["modal_price"] - 1.0) * 100, 1),
     }

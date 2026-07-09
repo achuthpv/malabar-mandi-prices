@@ -28,6 +28,8 @@ class Commodity:
     unit: str
     sanity_min: int
     sanity_max: int
+    # Kerala DES bulletin item heading -> variety name to store
+    des_items: tuple[tuple[str, str], ...] = ()
 
 
 @dataclass(frozen=True)
@@ -63,6 +65,8 @@ class Config:
     commodity_by_ogd_name: dict[str, Commodity] = field(default_factory=dict)
     district_by_ogd_name: dict[str, District] = field(default_factory=dict)
     district_by_des_market: dict[str, District] = field(default_factory=dict)
+    # DES item heading -> (Commodity, variety)
+    des_item_map: dict[str, tuple[Commodity, str]] = field(default_factory=dict)
 
     @property
     def state_names(self) -> tuple[str, ...]:
@@ -119,6 +123,8 @@ def load_config(path: Path | None = None) -> Config:
                 unit=c["unit"],
                 sanity_min=int(c["sanity"]["min"]),
                 sanity_max=int(c["sanity"]["max"]),
+                des_items=tuple((str(k), str(v))
+                                for k, v in (c.get("des_items") or {}).items()),
             )
             for c in raw["commodities"]
         )
@@ -137,6 +143,8 @@ def load_config(path: Path | None = None) -> Config:
     for c in cfg.commodities:
         for name in c.ogd_names:
             cfg.commodity_by_ogd_name[name.lower()] = c
+        for item, variety in c.des_items:
+            cfg.des_item_map[item] = (c, variety)
     for d in cfg.districts:
         for name in d.ogd_names:
             cfg.district_by_ogd_name[name.lower()] = d
@@ -168,10 +176,21 @@ def _validate(cfg: Config) -> None:
             if key in seen:
                 raise ConfigError(f"ogd_name {name!r} mapped to more than one commodity")
             seen.add(key)
+    seen_items: set[str] = set()
+    for c in cfg.commodities:
+        for item, _variety in c.des_items:
+            if item in seen_items:
+                raise ConfigError(f"des_items heading {item!r} mapped to more than one commodity")
+            seen_items.add(item)
     seen_d: set[str] = set()
+    seen_towns: set[str] = set()
     for d in cfg.districts:
         for name in d.ogd_names:
             key = name.lower()
             if key in seen_d:
                 raise ConfigError(f"district ogd_name {name!r} mapped more than once")
             seen_d.add(key)
+        for town in d.des_markets:
+            if town in seen_towns:
+                raise ConfigError(f"des_markets town {town!r} listed under more than one district")
+            seen_towns.add(town)

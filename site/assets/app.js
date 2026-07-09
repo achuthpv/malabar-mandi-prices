@@ -197,7 +197,7 @@
     const sel = $("#variety-select");
     const label = $("#variety-label");
     const varieties = (state.latest.varieties || []);
-    const show = varieties.length > 1;
+    const show = hasVarieties();
     sel.hidden = !show;
     label.hidden = !show;
     sel.textContent = "";
@@ -218,12 +218,16 @@
     sel.value = state.variety;
   }
 
+  function hasVarieties() {
+    return (state.latest.varieties || []).length > 1;
+  }
+
   function renderVarietiesTable() {
     const panel = $("#varieties-panel");
     const tbody = $("#varieties-table tbody");
     tbody.textContent = "";
     const varieties = state.latest.varieties || [];
-    if (varieties.length < 2) { panel.hidden = true; return; }
+    if (!hasVarieties()) { panel.hidden = true; return; }
     panel.hidden = false;
     const asOf = state.summary.generated_at ? state.summary.generated_at.slice(0, 10) : null;
     for (const v of varieties) {
@@ -341,7 +345,17 @@
     return d.toISOString().slice(0, 10);
   }
 
-  /* apply the district + variety selection to raw daily rows */
+  function renderEmptyChart(el, note, message) {
+    el.textContent = "";
+    const msg = document.createElement("p");
+    msg.className = "chart-note";
+    msg.textContent = message;
+    el.appendChild(msg);
+    note.textContent = "";
+  }
+
+  /* apply the district + variety selection to rows carrying
+     .district / .variety (daily chart rows and latest.json market rows) */
   function filterArea(daily) {
     if (state.district !== ALL_DISTRICTS) {
       daily = daily.filter((r) => r.district === state.district);
@@ -401,9 +415,12 @@
       let daily = perYear.flat().filter((r) => r.date >= from && r.date <= to);
       daily = filterArea(daily);
       const points = collapse(daily, state.resolution === "weekly");
-      note.textContent = points.length
-        ? `Showing ${from} to ${to} (${state.resolution} median)${varietyNote}.`
-        : `No reported prices between ${from} and ${to} for this selection.`;
+      if (!points.length) {
+        renderEmptyChart(el, note,
+          `No reported prices between ${from} and ${to} for this selection.`);
+        return;
+      }
+      note.textContent = `Showing ${from} to ${to} (${state.resolution} median)${varietyNote}.`;
       window.MandiChart.render(el, points, {
         resolution: state.resolution, label: labelFor(),
       });
@@ -432,12 +449,8 @@
       " median of reported market prices. Gaps are days with no reporting" + varietyNote + ".";
 
     if (!points.length) {
-      el.textContent = "";
-      const msg = document.createElement("p");
-      msg.className = "chart-note";
-      msg.textContent = "No price data in this range yet. The daily pipeline is accumulating history.";
-      el.appendChild(msg);
-      note.textContent = "";
+      renderEmptyChart(el, note,
+        "No price data in this range yet. The daily pipeline is accumulating history.");
       return;
     }
     window.MandiChart.render(el, points, {
@@ -537,21 +550,25 @@
     tbody.textContent = "";
     const asOf = state.summary.generated_at ? state.summary.generated_at.slice(0, 10) : null;
     const benchmarks = benchmarkDistricts();
-    let markets = state.latest.markets || [];
-    if (state.district !== ALL_DISTRICTS) {
-      markets = markets.filter((m) => m.district === state.district);
-    }
-    if (state.variety !== ALL_VARIETIES) {
-      markets = markets.filter((m) => m.variety === state.variety);
-    }
+    // rows are one per market×variety; reuse the same selection logic as the chart
+    const markets = filterArea(state.latest.markets || []);
 
-    // median of recently-reported markets (≤7 days behind the newest shown)
+    // recency window: ≤7 days behind the newest shown row
     const newest = markets.reduce((a, m) => (m.date > a ? m.date : a), "");
     const recentCutoff = newest
       ? new Date(Date.parse(newest) - 7 * 86400000).toISOString().slice(0, 10) : "";
-    const recentPrices = markets.filter((m) => m.date >= recentCutoff)
-      .map((m) => m.modal_price);
-    const med = median(recentPrices);
+
+    // 'Vs median' compares within the SAME variety only — a pooled median
+    // would show variety price tiers as market-to-market deviation
+    const byVariety = new Map();
+    for (const m of markets) {
+      if (m.date < recentCutoff) continue;
+      if (!byVariety.has(m.variety)) byVariety.set(m.variety, []);
+      byVariety.get(m.variety).push(m.modal_price);
+    }
+    const medByVariety = new Map(
+      [...byVariety.entries()].filter(([, p]) => p.length >= 2)
+        .map(([v, p]) => [v, median(p)]));
 
     renderSpreadLine();
 
@@ -560,6 +577,7 @@
       const days = asOf ? Math.round((Date.parse(asOf) - Date.parse(m.date)) / 86400000) : 0;
       if (days > 30) tr.className = "stale-row";
       const isRecent = m.date >= recentCutoff;
+      const med = medByVariety.get(m.variety);
       const vs = med && isRecent ? (m.modal_price / med - 1) * 100 : null;
 
       const tdMarket = document.createElement("td");

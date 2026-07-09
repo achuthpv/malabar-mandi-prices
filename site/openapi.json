@@ -464,13 +464,13 @@
       },
       "Spread": {
         "type": ["object", "null"],
-        "description": "Current cross-market price gap (arbitrage view): highest vs lowest market price among markets that reported within window_days of the newest observation. Benchmark districts (e.g. Sirsi for arecanut, Kochi for pepper, Pollachi for coconut) are included.",
+        "description": "Current cross-market price gap (arbitrage view). Each market is first collapsed to one representative price (median across its variety rows) so high and low are always DISTINCT markets, then stale markets (older than window_days vs the newest observation) and variety/product outliers (outside a 2x band of the cross-market median) are excluded. Benchmark districts (e.g. Sirsi for arecanut, Kochi for pepper, Pollachi for coconut) are included.",
         "required": ["as_of", "high", "low", "spread_pct"],
         "properties": {
           "as_of": { "type": "string", "format": "date" },
           "window_days": { "type": "integer" },
-          "n_markets": { "type": "integer", "description": "comparable markets used" },
-          "n_excluded": { "type": "integer", "description": "recent markets excluded as variety/product outliers (price outside 2x band of the cross-market median)" },
+          "n_markets": { "type": "integer", "description": "distinct comparable markets used" },
+          "n_excluded": { "type": "integer", "description": "distinct recent markets excluded as variety/product outliers" },
           "high": { "$ref": "#/components/schemas/SpreadSide" },
           "low": { "$ref": "#/components/schemas/SpreadSide" },
           "spread_pct": { "type": "number", "description": "high vs low, in percent" }
@@ -482,9 +482,8 @@
         "properties": {
           "market": { "type": "string" },
           "district": { "type": "string" },
-          "modal_price": { "type": "integer" },
-          "date": { "type": "string", "format": "date" },
-          "variety": { "type": "string" }
+          "modal_price": { "type": "integer", "description": "the market's representative price: median across its recent variety rows" },
+          "date": { "type": "string", "format": "date" }
         }
       },
       "Freshness": {

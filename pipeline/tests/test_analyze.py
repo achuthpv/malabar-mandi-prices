@@ -101,6 +101,35 @@ def test_benchmark_district_excluded_from_region(cfg, tmp_path):
     assert areca["districts"]["Kasargod"]["benchmark"] is False
 
 
+def test_cheap_variety_tier_excluded_from_pooled_series(cfg, tmp_path):
+    """Fresh Ripe arecanut (~Rs7k) must not drag the pooled Dry (~Rs36k)
+    series — variety composition shifts would otherwise fake seasonality."""
+    def row(day, variety, price):
+        return {
+            "date": day, "district": "Kozhikode", "market": "Kozhikode",
+            "commodity_slug": "arecanut", "variety": variety, "grade": "DES",
+            "min_price": price, "max_price": price, "modal_price": price,
+            "unit": "Rs/quintal", "source": "des",
+            "fetched_at": "2026-07-08T00:00:00+00:00",
+        }
+
+    rows = []
+    for m in range(1, 7):
+        rows.append(row(f"2026-{m:02d}-10", "Dry New", 36000))
+        rows.append(row(f"2026-{m:02d}-10", "Dry Old", 38000))
+        # cheap product form reports intermittently — including a day when
+        # ONLY Ripe reports, which used to punch a 7k hole in the series
+        rows.append(row(f"2026-{m:02d}-1{m}", "Ripe", 7000))
+    upsert_rows(rows, base=tmp_path)
+
+    res = analyze_all(cfg, base=tmp_path, today=date(2026, 7, 8))
+    region = res["commodities"]["arecanut"]["region"]
+    # latest observation comes from the comparable (Dry) tier, not Ripe
+    assert region["latest"]["modal_price"] >= 36000
+    # ripe-only days are gaps, not 7k values: series has one point per month
+    assert region["n_obs"] == 6
+
+
 def test_sparse_history_degrades_gracefully(cfg, tmp_path):
     """A few months of data: no seasonality, but latest/freshness still work."""
     rows = [{

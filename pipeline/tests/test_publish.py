@@ -44,6 +44,30 @@ def test_spread_needs_two_markets():
     assert _spread({}) is None
 
 
+def test_spread_never_pairs_one_market_with_itself():
+    """Rows are per market×variety; two varieties of one town must not be
+    presented as a cross-market gap, and n_markets counts real markets."""
+    s = _spread({
+        ("A", "M1", "Dry New"): _row("M1", "A", 36000, variety="Dry New"),
+        ("A", "M1", "Dry Old"): _row("M1", "A", 60000, variety="Dry Old"),
+        ("B", "M2", "Dry New"): _row("M2", "B", 40000, variety="Dry New"),
+    })
+    assert s is not None
+    assert s["high"]["market"] != s["low"]["market"]
+    assert s["n_markets"] == 2  # distinct markets, not variety-rows
+    # M1's representative price is the median of its varieties
+    m1 = s["high"] if s["high"]["market"] == "M1" else s["low"]
+    assert m1["modal_price"] in (36000, 60000)  # median of two = lower-middle
+
+
+def test_spread_single_market_multiple_varieties_is_none():
+    s = _spread({
+        ("A", "M1", "V1"): _row("M1", "A", 36000, variety="V1"),
+        ("A", "M1", "V2"): _row("M1", "A", 42000, variety="V2"),
+    })
+    assert s is None
+
+
 def test_variety_summary():
     from mandi.publish import _variety_summary
 

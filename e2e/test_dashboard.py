@@ -200,9 +200,12 @@ def test_spread_line_and_benchmark_star(page: Page, site_url: str):
     expect(star_row.locator(".bench-star")).to_have_count(1)
     home_row = page.locator("#markets-table tbody tr", has_text="Kasargod Market").first
     expect(home_row.locator(".bench-star")).to_have_count(0)
-    # Vs median column shows signed percentages somewhere in the table
-    vs_cells = page.locator("#markets-table td.vsmed").all_inner_texts()
-    assert any(v.startswith("+") and v.endswith("%") for v in vs_cells)
+    # Vs median is per-variety: the premium Sirsi rows themselves must show
+    # a positive signed percentage (not just some cell somewhere)
+    sirsi_rows = page.locator("#markets-table tbody tr", has_text="Sirsi APMC")
+    for i in range(sirsi_rows.count()):
+        vs = sirsi_rows.nth(i).locator("td.vsmed").inner_text()
+        assert vs.startswith("+") and vs.endswith("%"), f"Sirsi row {i}: {vs}"
 
 
 def test_variety_selector_and_panel(page: Page, site_url: str):

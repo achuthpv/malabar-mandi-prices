@@ -114,10 +114,12 @@ Edit [`config/sources.yaml`](config/sources.yaml) — one block, no code
 changes. Run `python -m mandi discover` first to learn the exact commodity /
 district spellings the feed uses (they are surprising: "Keralam",
 "Kozhikode(Calicut)", "Arecanut(Betelnut/Supari)"). For a new commodity,
-also add the slug to the `Slug` enum in `site/openapi.json`. Everything
+also add the slug to the `Slug` enum in `site/openapi.json`, and — if the
+Kerala DES bulletin covers it — its item headings under `des_items`
+(heading → variety, e.g. `"Arecanut Dry Old": "Dry Old"`). Everything
 else (fetch, analysis, API, frontend tabs) picks the change up
-automatically. Re-run `python -m mandi backfill` after adding areas to
-fetch their history.
+automatically. Re-run `python -m mandi backfill` and
+`python -m mandi des-backfill` after adding areas to fetch their history.
 
 Districts support two extra keys, built for **arbitrage watching**:
 
