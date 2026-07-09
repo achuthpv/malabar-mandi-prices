@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import json
-import urllib.request
+import urllib.request  # noqa: F401  (used by endpoint validity test)
 
 import pytest
 from playwright.sync_api import Page, expect
@@ -224,6 +224,60 @@ def test_ask_which_market(page: Page, site_url: str):
     answer = page.locator(".ask-a").first.inner_text()
     assert "Sirsi APMC" in answer
     assert "gap" in answer.lower() and "%" in answer
+
+
+def test_ai_mode_off_by_default(page: Page, site_url: str):
+    _open(page, site_url)
+    # collapsed details, rules-mode note, no key stored
+    expect(page.locator("#llm-off-controls")).to_be_hidden()  # inside closed <details>
+    note = page.locator("#ask-mode-note").inner_text()
+    assert "no data leaves your browser" in note
+    assert page.evaluate("sessionStorage.getItem('mandi_demo_anthropic_key')") is None
+
+
+def test_ai_mode_rejects_bad_key(page: Page, site_url: str):
+    _open(page, site_url)
+    page.click("#llm-details summary")
+    page.fill("#llm-key", "not-a-real-key")
+    page.click("#llm-enable")
+    assert page.evaluate("sessionStorage.getItem('mandi_demo_anthropic_key')") is None
+    assert "sk-ant" in page.locator("#llm-key").get_attribute("placeholder")
+
+
+def test_ai_mode_enable_ask_disable(page: Page, site_url: str):
+    """Full demo lifecycle with a stubbed Anthropic API."""
+    calls = []
+
+    def stub(route):
+        calls.append(route.request.headers.get("x-api-key"))
+        route.fulfill(status=200, content_type="application/json", body=json.dumps({
+            "content": [{"type": "text",
+                         "text": "Stubbed Claude answer about pepper."}]}))
+
+    page.route("https://api.anthropic.com/**", stub)
+    _open(page, site_url)
+    page.click("#llm-details summary")
+    page.fill("#llm-key", "sk-ant-test0123456789abcdefghij")
+    page.click("#llm-enable")
+    expect(page.locator("#llm-on-controls")).to_be_visible()
+    assert "AI answers are ON" in page.locator("#ask-mode-note").inner_text()
+    # key never rendered anywhere in the page
+    assert "sk-ant-test" not in page.content()
+
+    page.fill("#ask-input", "When should I sell black pepper?")
+    page.click("#ask-btn")
+    page.wait_for_timeout(700)
+    assert page.locator(".ask-a").first.inner_text() == "Stubbed Claude answer about pepper."
+    assert calls == ["sk-ant-test0123456789abcdefghij"]
+
+    # turn off: key forgotten, rules answer again (no further API calls)
+    page.click("#llm-disable")
+    assert page.evaluate("sessionStorage.getItem('mandi_demo_anthropic_key')") is None
+    page.fill("#ask-input", "When should I sell black pepper?")
+    page.click("#ask-btn")
+    page.wait_for_timeout(700)
+    answer = page.locator(".ask-a").first.inner_text()
+    assert "confidence" in answer and len(calls) == 1
 
 
 def test_openapi_and_all_endpoints_valid_json(site_url: str):

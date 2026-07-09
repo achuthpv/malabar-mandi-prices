@@ -19,12 +19,16 @@ sell (and buy) each commodity.
   weekly/daily resolution, custom From/To dates, drag-to-zoom
   (double-click resets), district filter.
 - **"Ask about the market"**: a question box that answers
-  sell/buy-timing, "is now a good time?", "why are prices low?", price and
-  trend questions from the site's own analysis — rule-based, free, runs
-  entirely in the browser. LLM-ready: call
-  `window.MandiAssistant.setLLM(async (question, context) => "...")` to
-  route questions to a model (the `context` carries every commodity's
-  `summary.json`); rules remain the fallback.
+  sell/buy-timing, "is now a good time?", "why are prices low?", "which
+  market pays most?", price and trend questions from the site's own
+  analysis — rule-based, free, runs entirely in the browser.
+- **Demo AI mode (opt-in)**: under the ask box, "AI mode (demo)" lets you
+  paste your own Anthropic API key to get Claude-written answers *for that
+  browser tab only* — ideal for demos. The key lives in sessionStorage
+  (gone when the tab closes), is sent only to api.anthropic.com, and
+  there's no shared key or backend, so nobody else can spend or spam it.
+  Turn it off with one click; the rule engine is always the fallback.
+  See SECURITY.md for the full threat model.
 
 ## How it works
 

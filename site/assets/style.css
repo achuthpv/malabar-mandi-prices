@@ -177,6 +177,21 @@ td.vsmed.down { color: var(--sell); font-weight: 600; }
   padding: 10px 12px; font-size: .92rem; white-space: pre-line;
 }
 
+/* Demo AI mode */
+.llm-details { margin-top: 10px; }
+.llm-details summary {
+  color: var(--muted); font-size: .82rem; cursor: pointer; min-height: 32px;
+}
+.llm-controls { padding: 8px 0 2px; }
+#llm-key { flex: 1; min-width: 0; background: var(--bg); color: var(--text);
+  border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px;
+  font-size: .9rem; min-height: 44px; }
+#llm-enable, #llm-disable {
+  appearance: none; border: 1px solid var(--line); background: none; color: var(--accent);
+  border-radius: var(--radius); padding: 10px 14px; font-size: .9rem; cursor: pointer;
+  min-height: 44px; font-weight: 600;
+}
+
 /* States */
 .loading { text-align: center; color: var(--muted); padding: 40px 0; }
 .error {

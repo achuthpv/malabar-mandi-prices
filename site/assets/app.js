@@ -551,10 +551,36 @@
       const q = $("#ask-input").value.trim();
       if (q) ask(q);
     });
+
+    // demo AI mode controls
+    const syncLLM = () => {
+      const on = window.MandiAssistant.llmEnabled();
+      $("#llm-off-controls").hidden = on;
+      $("#llm-on-controls").hidden = !on;
+      $("#ask-mode-note").textContent = on
+        ? "AI answers are ON for this tab (your key, sent only to Anthropic). Not financial advice."
+        : "Answers come from this site's own historical analysis — no data leaves your browser. Not financial advice.";
+    };
+    $("#llm-enable").addEventListener("click", () => {
+      try {
+        window.MandiAssistant.enableLLM($("#llm-key").value);
+        $("#llm-key").value = "";
+        syncLLM();
+      } catch (err) {
+        $("#llm-key").value = "";
+        $("#llm-key").placeholder = err.message;
+      }
+    });
+    $("#llm-disable").addEventListener("click", () => {
+      window.MandiAssistant.disableLLM();
+      syncLLM();
+    });
+    syncLLM();
   }
 
   async function ask(question) {
     const log = $("#ask-log");
+    const btn = $("#ask-btn");
     $("#ask-input").value = "";
 
     const qEl = document.createElement("p");
@@ -566,10 +592,13 @@
     log.prepend(aEl);
     log.prepend(qEl);
 
+    btn.disabled = true;
     try {
       aEl.textContent = await window.MandiAssistant.answer(question);
     } catch (err) {
-      aEl.textContent = "Sorry — could not load the analysis data to answer that.";
+      aEl.textContent = "Sorry — could not answer that right now.";
+    } finally {
+      btn.disabled = false;
     }
   }
 
