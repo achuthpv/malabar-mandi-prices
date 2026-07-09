@@ -5,7 +5,9 @@ Natural key: (date, market, commodity_slug, variety, grade)
 
 Conflict rules on upsert:
   - source rank: "ogd" (official daily feed) > "agmarknet" (agmarknet.gov.in
-    report API backfill) > "ceda" (archive)
+    report API backfill) > "des" (Kerala DES bulletin) > "ceda" (archive).
+    In practice DES rows rarely conflict: their variety/grade values
+    ("Dry New"/"DES") give them distinct natural keys.
   - same source: latest fetched_at wins
 
 Files are written sorted by natural key, so re-running the pipeline on the
@@ -25,7 +27,7 @@ from .normalize import COLUMNS
 
 Key = tuple[str, str, str, str, str]
 
-SOURCE_RANK = {"ceda": 0, "agmarknet": 1, "ogd": 2}
+SOURCE_RANK = {"ceda": 0, "des": 1, "agmarknet": 2, "ogd": 3}
 
 QUARANTINE_COLUMNS = ["quarantined_at", "reason", "source", "record"]
 

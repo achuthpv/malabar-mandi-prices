@@ -37,6 +37,7 @@ class District:
     state_aliases: tuple[str, ...]  # lowercased state spellings this district belongs to
     markets: tuple[str, ...] = ()  # lowercased whitelist substrings; empty = all markets
     benchmark: bool = False  # reference area only; excluded from region pooling
+    des_markets: tuple[str, ...] = ()  # lowercased Kerala DES bulletin town names
 
     def accepts_market(self, market: str) -> bool:
         if not self.markets:
@@ -61,6 +62,7 @@ class Config:
     # Derived lookup tables (lowercased ogd name -> canonical object)
     commodity_by_ogd_name: dict[str, Commodity] = field(default_factory=dict)
     district_by_ogd_name: dict[str, District] = field(default_factory=dict)
+    district_by_des_market: dict[str, District] = field(default_factory=dict)
 
     @property
     def state_names(self) -> tuple[str, ...]:
@@ -102,6 +104,7 @@ def load_config(path: Path | None = None) -> Config:
                         state_aliases=tuple(n.lower() for n in g["names"]),
                         markets=tuple(m.lower() for m in d.get("markets", [])),
                         benchmark=bool(d.get("benchmark", False)),
+                        des_markets=tuple(m.lower() for m in d.get("des_markets", [])),
                     )
                     for d in g["districts"]
                 ),
@@ -137,6 +140,8 @@ def load_config(path: Path | None = None) -> Config:
     for d in cfg.districts:
         for name in d.ogd_names:
             cfg.district_by_ogd_name[name.lower()] = d
+        for town in d.des_markets:
+            cfg.district_by_des_market[town] = d
     return cfg
 
 

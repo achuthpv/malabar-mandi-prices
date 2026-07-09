@@ -4,11 +4,14 @@
 # changes. Verify exact feed spellings first with:  python -m mandi discover
 #
 # districts:
-#   markets:   optional whitelist (substring match, case-insensitive).
-#              Omit to ingest every market in the district.
-#   benchmark: true = reference area for price comparison/arbitrage only —
-#              shown in tables, charts and spreads, but EXCLUDED from the
-#              home region's pooled seasonality analysis.
+#   markets:     optional whitelist (substring match, case-insensitive).
+#                Omit to ingest every market in the district.
+#   benchmark:   true = reference area for price comparison/arbitrage only —
+#                shown in tables, charts and spreads, but EXCLUDED from the
+#                home region's pooled seasonality analysis.
+#   des_markets: town names as printed in the Kerala DES daily wholesale
+#                price bulletin (ecostat.kerala.gov.in) that belong to this
+#                district. Only listed towns are ingested from DES.
 # ============================================================================
 
 source:
@@ -23,20 +26,28 @@ states:
     districts:
       - name: Kozhikode
         ogd_names: ["Kozhikode(Calicut)", "Kozhikode", "Calicut"]
+        des_markets: ["Kozhikode", "Vadakara", "Vatakara", "Koyilandy", "Quilandy"]
       - name: Kannur
         ogd_names: ["Kannur", "Cannanore"]
+        des_markets: ["Kannur", "Thalassery", "Taliparamba", "Payyannur"]
       - name: Kasargod
         ogd_names: ["Kasargod", "Kasaragod"]
+        des_markets: ["Kasaragod", "Kasargod", "Kanhangad"]
       - name: Wayanad
         ogd_names: ["Wayanad", "Waynad"]
+        des_markets: ["Mananthavady", "Kalpetta", "Sulthan Bathery", "Sulthanbathery"]
       - name: Malappuram
         ogd_names: ["Malappuram"]
+        des_markets: ["Malappuram", "Manjeri", "Perinthalmanna", "Ponnani", "Tirur"]
       - name: Palakkad
         ogd_names: ["Palakkad", "Palghat"]
+        des_markets: ["Palakkad", "Ottappalam", "Chittur", "Alathur"]
       # Kochi-area terminal markets set the pepper reference price
       - name: Ernakulam
         ogd_names: ["Ernakulam"]
         benchmark: true
+        des_markets: ["Kochi", "Ernakulam", "Perumbavoor", "Aluva", "North Paravur",
+                      "Angamaly", "Muvattupuzha", "Kothamangalam"]
 
   # ---- out-of-state benchmarks (arbitrage reference) ----------------------
   - names: ["Karnataka"]

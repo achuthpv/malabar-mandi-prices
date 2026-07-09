@@ -2129,40 +2129,86 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2022-09-26,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,47500,48500,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-26,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47000,49000,47800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-26,Kannur,Thalasserry Market,black-pepper,Other,FAQ,47000,47800,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-27,Ernakulam,Aluva,black-pepper,Ungarbled,DES,48500,48500,48500,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-09-27,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-27,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,49000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-27,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,42800,43500,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-27,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-27,Kasargod,Kasargod,black-pepper,Ungarbled,DES,48000,48000,48000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-27,Ernakulam,Kochi,black-pepper,Garbled,DES,51400,51400,51400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-27,Ernakulam,Kochi,black-pepper,Ungarbled,DES,49400,49400,49400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-27,Kozhikode,Kozhikode,black-pepper,Chettan,DES,48700,48700,48700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-27,Kozhikode,Kozhikode,black-pepper,Nadan,DES,47700,47700,47700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-27,Kozhikode,Kozhikode,black-pepper,Wayanadan,DES,48200,48200,48200,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-09-27,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,46000,49000,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-27,Wayanad,Mananthavady,black-pepper,Chettan,DES,48500,48500,48500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-27,Wayanad,Mananthavady,black-pepper,Wayanadan,DES,49000,49000,49000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-27,Ernakulam,Muvattupuzha,black-pepper,Ungarbled,DES,48000,48000,48000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-09-27,Kannur,Payyannur Market,black-pepper,Other,FAQ,36500,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-27,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,47000,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-27,Kannur,Taliparamba Market,black-pepper,Other,FAQ,46500,48500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-27,Kannur,Thalasserry Market,black-pepper,Other,FAQ,47200,47700,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-27,Kannur,Thalassery,black-pepper,Ungarbled,DES,47500,47500,47500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-28,Ernakulam,Aluva,black-pepper,Ungarbled,DES,49000,49000,49000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-09-28,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-28,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,49000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-28,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,42800,43500,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-28,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-28,Kasargod,Kasargod,black-pepper,Ungarbled,DES,48000,48000,48000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-28,Ernakulam,Kochi,black-pepper,Garbled,DES,51400,51400,51400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-28,Ernakulam,Kochi,black-pepper,Ungarbled,DES,49400,49400,49400,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-28,Ernakulam,Kothamangalam,black-pepper,Ungarbled,DES,47000,47000,47000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-28,Kozhikode,Kozhikode,black-pepper,Chettan,DES,48700,48700,48700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-28,Kozhikode,Kozhikode,black-pepper,Nadan,DES,47700,47700,47700,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-28,Kozhikode,Kozhikode,black-pepper,Wayanadan,DES,48200,48200,48200,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-28,Wayanad,Mananthavady,black-pepper,Chettan,DES,48500,48500,48500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-28,Wayanad,Mananthavady,black-pepper,Wayanadan,DES,49000,49000,49000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-09-28,Kannur,Payyannur Market,black-pepper,Other,FAQ,46500,48500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-28,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,47000,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-28,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,30366,49301,45327,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-28,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47300,47700,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-28,Kannur,Thalasserry Market,black-pepper,Other,FAQ,47150,47650,47400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-28,Kannur,Thalassery,black-pepper,Ungarbled,DES,47500,47500,47500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-29,Ernakulam,Aluva,black-pepper,Ungarbled,DES,49000,49000,49000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-09-29,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,49000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-29,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43800,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-29,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-29,Kasargod,Kasargod,black-pepper,Ungarbled,DES,48000,48000,48000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-29,Ernakulam,Kochi,black-pepper,Garbled,DES,51300,51300,51300,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-29,Ernakulam,Kochi,black-pepper,Ungarbled,DES,49300,49300,49300,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-29,Kozhikode,Kozhikode,black-pepper,Chettan,DES,48600,48600,48600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-29,Kozhikode,Kozhikode,black-pepper,Nadan,DES,47600,47600,47600,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-29,Kozhikode,Kozhikode,black-pepper,Wayanadan,DES,48100,48100,48100,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-09-29,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,46000,49000,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-29,Wayanad,Mananthavady,black-pepper,Chettan,DES,48500,48500,48500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-29,Wayanad,Mananthavady,black-pepper,Wayanadan,DES,49000,49000,49000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-29,Ernakulam,Muvattupuzha,black-pepper,Ungarbled,DES,48000,48000,48000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-09-29,Kannur,Payyannur Market,black-pepper,Other,FAQ,46500,48500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-29,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,47000,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-29,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47200,47700,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-29,Kannur,Thalasserry Market,black-pepper,Other,FAQ,47400,47600,47550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-29,Kannur,Thalassery,black-pepper,Ungarbled,DES,47000,47000,47000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Ernakulam,Aluva,black-pepper,Ungarbled,DES,49000,49000,49000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-09-30,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-30,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,49000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-30,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43800,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-30,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-30,Kasargod,Kasargod,black-pepper,Ungarbled,DES,48000,48000,48000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Ernakulam,Kochi,black-pepper,Garbled,DES,51200,51200,51200,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Ernakulam,Kochi,black-pepper,Ungarbled,DES,49200,49200,49200,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Ernakulam,Kothamangalam,black-pepper,Ungarbled,DES,47000,47000,47000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Kozhikode,Kozhikode,black-pepper,Chettan,DES,48500,48500,48500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Kozhikode,Kozhikode,black-pepper,Nadan,DES,47500,47500,47500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Kozhikode,Kozhikode,black-pepper,Wayanadan,DES,48000,48000,48000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Wayanad,Mananthavady,black-pepper,Chettan,DES,48500,48500,48500,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Wayanad,Mananthavady,black-pepper,Wayanadan,DES,49000,49000,49000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Malappuram,Manjeri,black-pepper,Ungarbled,DES,47000,47000,47000,Rs/quintal,des,2026-07-09T17:00:42+00:00
+2022-09-30,Ernakulam,Muvattupuzha,black-pepper,Ungarbled,DES,48000,48000,48000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-09-30,Kannur,Payyannur Market,black-pepper,Other,FAQ,46500,48500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-30,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,47000,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-30,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47200,47700,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-09-30,Kannur,Thalasserry Market,black-pepper,Other,FAQ,47500,47800,47600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2022-09-30,Kannur,Thalassery,black-pepper,Ungarbled,DES,47000,47000,47000,Rs/quintal,des,2026-07-09T17:00:42+00:00
 2022-10-01,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-01,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,48500,49500,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2022-10-01,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,42800,43500,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00

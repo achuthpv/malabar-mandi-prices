@@ -43,6 +43,11 @@ jobs:
           DATA_GOV_IN_API_KEY: ${{ secrets.DATA_GOV_IN_API_KEY }}
         run: python -m mandi fetch
 
+      # Kerala DES daily wholesale bulletin (Kozhikode-town prices).
+      # Incremental via data/des_state.json — missed days heal on the next run.
+      - name: Fetch Kerala DES bulletin
+        run: python -m mandi des-fetch
+
       - name: Commit data if changed
         id: commit
         run: |

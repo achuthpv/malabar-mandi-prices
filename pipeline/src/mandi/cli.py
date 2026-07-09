@@ -64,6 +64,18 @@ def cmd_publish(_args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_des_fetch(_args: argparse.Namespace) -> int:
+    from .des import fetch as des_fetch
+
+    return des_fetch(load_config())
+
+
+def cmd_des_backfill(args: argparse.Namespace) -> int:
+    from .des import backfill as des_backfill
+
+    return des_backfill(load_config(), start_id=args.start_id, end_id=args.end_id)
+
+
 def cmd_backfill(args: argparse.Namespace) -> int:
     cfg = load_config()
     if args.source == "ceda":
@@ -90,6 +102,16 @@ def main(argv: list[str] | None = None) -> int:
         func=cmd_analyze
     )
     sub.add_parser("publish", help="generate site/api/v1 JSON").set_defaults(func=cmd_publish)
+
+    sub.add_parser(
+        "des-fetch",
+        help="ingest new Kerala DES daily bulletins since the saved state (cron)",
+    ).set_defaults(func=cmd_des_fetch)
+
+    p_des = sub.add_parser("des-backfill", help="historical sweep of DES bulletins")
+    p_des.add_argument("--start-id", type=int, default=None)
+    p_des.add_argument("--end-id", type=int, default=None)
+    p_des.set_defaults(func=cmd_des_backfill)
 
     p_back = sub.add_parser("backfill", help="one-time historical backfill")
     p_back.add_argument("--source", choices=["agmarknet", "ceda"], default="agmarknet",
