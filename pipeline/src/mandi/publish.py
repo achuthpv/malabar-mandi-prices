@@ -103,6 +103,7 @@ def publish_all(cfg: Config, generated_at: str, api_dir: Path | None = None,
         latest_by_market: dict[tuple[str, str], dict[str, Any]] = {}
         for r in crows:  # crows sorted by date => last write wins
             latest_by_market[(r["district"], r["market"])] = r
+        spread = _spread(latest_by_market)
         district_latest = {
             dname: {"date": d["latest"]["date"],
                     "modal_price": d["latest"]["modal_price"],
@@ -121,6 +122,7 @@ def publish_all(cfg: Config, generated_at: str, api_dir: Path | None = None,
                 for _, r in sorted(latest_by_market.items())
             ],
             "districts": district_latest,
+            "spread": spread,
         })))
 
         # daily/{year}.json
@@ -175,6 +177,7 @@ def publish_all(cfg: Config, generated_at: str, api_dir: Path | None = None,
             "region": _summary_view(region),
             "districts": {dname: _summary_view(d)
                           for dname, d in canal.get("districts", {}).items()},
+            "spread": spread,
         })))
 
     # --- discovery index ----------------------------------------------------
@@ -201,6 +204,7 @@ def _summary_view(series: dict[str, Any] | None) -> dict[str, Any] | None:
     seasonality = series.get("seasonality") or {}
     return {
         "level": series["level"],
+        "benchmark": bool(series.get("benchmark", False)),
         "latest": series["latest"],
         "freshness": series["freshness"],
         "trend": series["trend"],
@@ -209,4 +213,50 @@ def _summary_view(series: dict[str, Any] | None) -> dict[str, Any] | None:
         "best_buy": seasonality.get("best_buy"),
         "narrative": series["narrative"],
         "n_obs": series["n_obs"],
+    }
+
+
+def _spread(latest_by_market: dict[tuple[str, str], dict[str, Any]],
+            window_days: int = 7, band: float = 2.0) -> dict[str, Any] | None:
+    """Current cross-market price gap: highest vs lowest recent market price.
+
+    Two comparability guards, because a naive max-vs-min is misleading:
+    - staleness: only markets that reported within window_days of the newest
+      observation count — a stale price is not an arbitrage opportunity;
+    - variety/product outliers: markets priced outside [median/band,
+      median*band] are excluded (e.g. premium Rashi arecanut vs cheap
+      Sippegotu, or copra-grade coconut vs fresh nuts, are different
+      products, not a spread).
+    """
+    from datetime import date, timedelta
+    from statistics import median
+
+    rows = list(latest_by_market.values())
+    if len(rows) < 2:
+        return None
+    newest = max(date.fromisoformat(r["date"]) for r in rows)
+    cutoff = (newest - timedelta(days=window_days)).isoformat()
+    recent = [r for r in rows if r["date"] >= cutoff]
+    if len(recent) < 2:
+        return None
+    med = median(int(r["modal_price"]) for r in recent)
+    comparable = [r for r in recent
+                  if med / band <= int(r["modal_price"]) <= med * band]
+    if len(comparable) < 2:
+        return None
+    lo = min(comparable, key=lambda r: int(r["modal_price"]))
+    hi = max(comparable, key=lambda r: int(r["modal_price"]))
+    lo_p, hi_p = int(lo["modal_price"]), int(hi["modal_price"])
+    if lo_p <= 0 or hi is lo:
+        return None
+    return {
+        "as_of": newest.isoformat(),
+        "window_days": window_days,
+        "n_markets": len(comparable),
+        "n_excluded": len(recent) - len(comparable),
+        "high": {"market": hi["market"], "district": hi["district"],
+                 "modal_price": hi_p, "date": hi["date"], "variety": hi["variety"]},
+        "low": {"market": lo["market"], "district": lo["district"],
+                "modal_price": lo_p, "date": lo["date"], "variety": lo["variety"]},
+        "spread_pct": round((hi_p / lo_p - 1.0) * 100, 1),
     }

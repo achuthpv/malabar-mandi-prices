@@ -87,6 +87,13 @@ def normalize_records(
         commodity = cfg.commodity_by_ogd_name.get(_clean(rec.get("commodity")).lower())
         if district is None or commodity is None:
             continue  # out of scope
+        # guard against same-named districts in other states
+        state = _clean(rec.get("state")).lower()
+        if state and state not in district.state_aliases:
+            continue
+        market = _clean(rec.get("market"))
+        if not district.accepts_market(market):
+            continue  # not on this district's market whitelist
 
         def reject(reason: str, rec: dict[str, Any] = rec) -> None:
             quarantined.append({"reason": reason, "source": source, **rec})
@@ -122,7 +129,7 @@ def normalize_records(
             {
                 "date": day.isoformat(),
                 "district": district.name,
-                "market": _clean(rec.get("market")),
+                "market": market,
                 "commodity_slug": commodity.slug,
                 "variety": _clean(rec.get("variety")) or "Other",
                 "grade": _clean(rec.get("grade")) or "FAQ",

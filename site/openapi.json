@@ -205,7 +205,8 @@
                               "days_stale": { "type": "integer" }
                             }
                           }
-                        }
+                        },
+                        "spread": { "$ref": "#/components/schemas/Spread" }
                       }
                     }
                   ]
@@ -355,7 +356,8 @@
                         "districts": {
                           "type": "object",
                           "additionalProperties": { "$ref": "#/components/schemas/SummaryView" }
-                        }
+                        },
+                        "spread": { "$ref": "#/components/schemas/Spread" }
                       }
                     }
                   ]
@@ -443,6 +445,31 @@
           "best_buy": { "$ref": "#/components/schemas/Window" }
         }
       },
+      "Spread": {
+        "type": ["object", "null"],
+        "description": "Current cross-market price gap (arbitrage view): highest vs lowest market price among markets that reported within window_days of the newest observation. Benchmark districts (e.g. Sirsi for arecanut, Kochi for pepper, Pollachi for coconut) are included.",
+        "required": ["as_of", "high", "low", "spread_pct"],
+        "properties": {
+          "as_of": { "type": "string", "format": "date" },
+          "window_days": { "type": "integer" },
+          "n_markets": { "type": "integer", "description": "comparable markets used" },
+          "n_excluded": { "type": "integer", "description": "recent markets excluded as variety/product outliers (price outside 2x band of the cross-market median)" },
+          "high": { "$ref": "#/components/schemas/SpreadSide" },
+          "low": { "$ref": "#/components/schemas/SpreadSide" },
+          "spread_pct": { "type": "number", "description": "high vs low, in percent" }
+        }
+      },
+      "SpreadSide": {
+        "type": "object",
+        "required": ["market", "district", "modal_price", "date"],
+        "properties": {
+          "market": { "type": "string" },
+          "district": { "type": "string" },
+          "modal_price": { "type": "integer" },
+          "date": { "type": "string", "format": "date" },
+          "variety": { "type": "string" }
+        }
+      },
       "Freshness": {
         "type": "object",
         "required": ["last_observed", "days_stale", "stale"],
@@ -457,6 +484,7 @@
         "required": ["level", "latest", "freshness", "narrative"],
         "properties": {
           "level": { "type": "string" },
+          "benchmark": { "type": "boolean", "description": "true = out-of-region reference area, excluded from the home region's pooled analysis" },
           "latest": {
             "type": "object",
             "properties": {

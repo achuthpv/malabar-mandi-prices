@@ -34,19 +34,45 @@ class Commodity:
 class District:
     name: str
     ogd_names: tuple[str, ...]
+    state_aliases: tuple[str, ...]  # lowercased state spellings this district belongs to
+    markets: tuple[str, ...] = ()  # lowercased whitelist substrings; empty = all markets
+    benchmark: bool = False  # reference area only; excluded from region pooling
+
+    def accepts_market(self, market: str) -> bool:
+        if not self.markets:
+            return True
+        m = market.lower()
+        return any(tok in m for tok in self.markets)
+
+
+@dataclass(frozen=True)
+class StateGroup:
+    names: tuple[str, ...]  # spelling variants, first is canonical
+    districts: tuple[District, ...]
 
 
 @dataclass(frozen=True)
 class Config:
     ogd_resource: str
     base_url: str
-    state_names: tuple[str, ...]
     region_label: str
-    districts: tuple[District, ...]
+    states: tuple[StateGroup, ...]
     commodities: tuple[Commodity, ...]
     # Derived lookup tables (lowercased ogd name -> canonical object)
     commodity_by_ogd_name: dict[str, Commodity] = field(default_factory=dict)
     district_by_ogd_name: dict[str, District] = field(default_factory=dict)
+
+    @property
+    def state_names(self) -> tuple[str, ...]:
+        """All state spelling variants across groups (fetch loops over these)."""
+        out: list[str] = []
+        for g in self.states:
+            out.extend(n for n in g.names if n not in out)
+        return tuple(out)
+
+    @property
+    def districts(self) -> tuple[District, ...]:
+        return tuple(d for g in self.states for d in g.districts)
 
     def commodity(self, slug: str) -> Commodity:
         for c in self.commodities:
@@ -66,9 +92,21 @@ def load_config(path: Path | None = None) -> Config:
 
     try:
         src = raw["source"]
-        districts = tuple(
-            District(name=d["name"], ogd_names=tuple(d["ogd_names"]))
-            for d in raw["districts"]
+        states = tuple(
+            StateGroup(
+                names=tuple(g["names"]),
+                districts=tuple(
+                    District(
+                        name=d["name"],
+                        ogd_names=tuple(d["ogd_names"]),
+                        state_aliases=tuple(n.lower() for n in g["names"]),
+                        markets=tuple(m.lower() for m in d.get("markets", [])),
+                        benchmark=bool(d.get("benchmark", False)),
+                    )
+                    for d in g["districts"]
+                ),
+            )
+            for g in raw["states"]
         )
         commodities = tuple(
             Commodity(
@@ -84,9 +122,8 @@ def load_config(path: Path | None = None) -> Config:
         cfg = Config(
             ogd_resource=src["ogd_resource"],
             base_url=src["base_url"].rstrip("/"),
-            state_names=tuple(src["state_names"]),
             region_label=raw["region_label"],
-            districts=districts,
+            states=states,
             commodities=commodities,
         )
     except (KeyError, TypeError) as e:
@@ -114,8 +151,11 @@ def _validate(cfg: Config) -> None:
             raise ConfigError(f"commodity {c.slug}: ogd_names must not be empty")
         if c.sanity_min <= 0 or c.sanity_max <= c.sanity_min:
             raise ConfigError(f"commodity {c.slug}: bad sanity range")
-    if not cfg.districts:
-        raise ConfigError("districts must not be empty")
+    if not cfg.states or not any(g.districts for g in cfg.states):
+        raise ConfigError("states/districts must not be empty")
+    if all(d.benchmark for d in cfg.districts):
+        raise ConfigError("at least one district must be non-benchmark (the home region)")
+
     seen: set[str] = set()
     for c in cfg.commodities:
         for name in c.ogd_names:
@@ -123,3 +163,10 @@ def _validate(cfg: Config) -> None:
             if key in seen:
                 raise ConfigError(f"ogd_name {name!r} mapped to more than one commodity")
             seen.add(key)
+    seen_d: set[str] = set()
+    for d in cfg.districts:
+        for name in d.ogd_names:
+            key = name.lower()
+            if key in seen_d:
+                raise ConfigError(f"district ogd_name {name!r} mapped more than once")
+            seen_d.add(key)

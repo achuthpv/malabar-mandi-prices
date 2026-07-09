@@ -141,6 +141,16 @@ tr.stale-row td { color: var(--muted); }
   border-radius: var(--radius); padding: 6px 10px; font-size: .85rem; cursor: pointer; min-height: 40px;
 }
 
+/* Spread / arbitrage line */
+.spread-line {
+  margin: 0 0 10px; font-size: .92rem;
+  background: var(--sell-soft); color: var(--text);
+  border-radius: var(--radius); padding: 10px 12px;
+}
+td .bench-star { color: var(--sell); }
+td.vsmed.up { color: var(--accent); font-weight: 600; }
+td.vsmed.down { color: var(--sell); font-weight: 600; }
+
 /* Ask box */
 .ask-row { display: flex; gap: 8px; }
 #ask-input {

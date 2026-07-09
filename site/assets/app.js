@@ -447,39 +447,91 @@
 
   /* ---------- markets table ---------- */
 
+  function benchmarkDistricts() {
+    const out = new Set();
+    for (const [name, view] of Object.entries(state.summary.districts || {})) {
+      if (view && view.benchmark) out.add(name);
+    }
+    return out;
+  }
+
   function renderMarkets() {
     const tbody = $("#markets-table tbody");
     tbody.textContent = "";
     const asOf = state.summary.generated_at ? state.summary.generated_at.slice(0, 10) : null;
+    const benchmarks = benchmarkDistricts();
     let markets = state.latest.markets || [];
     if (state.district !== ALL_DISTRICTS) {
       markets = markets.filter((m) => m.district === state.district);
     }
+
+    // median of recently-reported markets (≤7 days behind the newest shown)
+    const newest = markets.reduce((a, m) => (m.date > a ? m.date : a), "");
+    const recentCutoff = newest
+      ? new Date(Date.parse(newest) - 7 * 86400000).toISOString().slice(0, 10) : "";
+    const recentPrices = markets.filter((m) => m.date >= recentCutoff)
+      .map((m) => m.modal_price);
+    const med = median(recentPrices);
+
+    renderSpreadLine();
+
     for (const m of markets) {
       const tr = document.createElement("tr");
       const days = asOf ? Math.round((Date.parse(asOf) - Date.parse(m.date)) / 86400000) : 0;
       if (days > 30) tr.className = "stale-row";
-      const cells = [
-        m.market, m.district, fmtPrice(m.modal_price),
-        `${fmtPrice(m.min_price)}–${fmtPrice(m.max_price)}`,
-        relDate(m.date, asOf),
+      const isRecent = m.date >= recentCutoff;
+      const vs = med && isRecent ? (m.modal_price / med - 1) * 100 : null;
+
+      const tdMarket = document.createElement("td");
+      tdMarket.textContent = m.market + " ";
+      if (benchmarks.has(m.district)) {
+        const star = document.createElement("span");
+        star.className = "bench-star";
+        star.textContent = "★";
+        star.title = "benchmark market (outside the home region)";
+        tdMarket.appendChild(star);
+      }
+      tr.appendChild(tdMarket);
+
+      const rest = [
+        [m.district, ""],
+        [fmtPrice(m.modal_price), "num"],
+        [vs == null ? "–" : `${vs >= 0 ? "+" : ""}${vs.toFixed(1)}%`,
+         "num vsmed " + (vs == null ? "" : vs >= 2 ? "up" : vs <= -2 ? "down" : "")],
+        [`${fmtPrice(m.min_price)}–${fmtPrice(m.max_price)}`, "num"],
+        [relDate(m.date, asOf), ""],
       ];
-      cells.forEach((text, i) => {
+      for (const [text, cls] of rest) {
         const td = document.createElement("td");
-        if (i === 2 || i === 3) td.className = "num";
+        if (cls.trim()) td.className = cls.trim();
         td.textContent = text;
         tr.appendChild(td);
-      });
+      }
       tbody.appendChild(tr);
     }
     if (!markets.length) {
       const tr = document.createElement("tr");
       const td = document.createElement("td");
-      td.colSpan = 5;
+      td.colSpan = 6;
       td.textContent = "No markets reporting for this selection yet.";
       tr.appendChild(td);
       tbody.appendChild(tr);
     }
+  }
+
+  function renderSpreadLine() {
+    const el = $("#spread-line");
+    const s = state.latest.spread;
+    // region-wide figure; hide when a single district is selected
+    if (!s || state.district !== ALL_DISTRICTS || s.spread_pct < 2) {
+      el.hidden = true;
+      return;
+    }
+    el.textContent = `Widest current gap: ${s.high.market} (${s.high.district}) ` +
+      `${fmtPrice(s.high.modal_price)} vs ${s.low.market} (${s.low.district}) ` +
+      `${fmtPrice(s.low.modal_price)} — ${s.spread_pct}% apart across ` +
+      `${s.n_markets} recently-reporting markets.`;
+    el.hidden = false;
   }
 
   /* ---------- ask-a-question box ---------- */

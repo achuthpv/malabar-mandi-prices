@@ -101,14 +101,38 @@ python -m playwright install chromium       # once
 python -m pytest e2e -q                     # Playwright E2E (frozen dataset)
 ```
 
-## Adding a commodity or district
+## Adding a commodity, district or market
 
 Edit [`config/sources.yaml`](config/sources.yaml) — one block, no code
 changes. Run `python -m mandi discover` first to learn the exact commodity /
 district spellings the feed uses (they are surprising: "Keralam",
-"Kozhikode(Calicut)", "Arecanut(Betelnut/Supari)"). Add the new slug to the
-`Slug` enum in `site/openapi.json`. Everything else (fetch, analysis, API,
-frontend tabs) picks the change up automatically.
+"Kozhikode(Calicut)", "Arecanut(Betelnut/Supari)"). For a new commodity,
+also add the slug to the `Slug` enum in `site/openapi.json`. Everything
+else (fetch, analysis, API, frontend tabs) picks the change up
+automatically. Re-run `python -m mandi backfill` after adding areas to
+fetch their history.
+
+Districts support two extra keys, built for **arbitrage watching**:
+
+```yaml
+- name: Uttara Kannada          # Karnataka's Sirsi arecanut belt
+  ogd_names: ["Uttara Kannada", "Karwar(Uttar Kannand)"]
+  benchmark: true               # reference area: shown in tables, spreads and
+                                # the district selector, but EXCLUDED from the
+                                # home region's pooled seasonality analysis
+  markets: ["Sirsi", "Yellapur"]  # optional whitelist (substring match);
+                                  # omit to take every market in the district
+```
+
+The shipped config tracks three benchmark areas: the Sirsi belt +
+Shivamogga (arecanut reference), Ernakulam/Kochi terminals (pepper
+reference) and Coimbatore/Pollachi (coconut reference). The dashboard
+shows a **spread line** ("widest current gap: X vs Y — Z% apart"), a
+**Vs median** column per market, and ★ marks on benchmark markets; the
+API exposes the same via `spread` in `latest.json` / `summary.json`.
+Spreads are computed only across markets that reported within the last
+7 days — a stale price is not an arbitrage opportunity — and are quoted
+before transport, quality and market-fee differences.
 
 ## API
 

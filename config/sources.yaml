@@ -1,39 +1,64 @@
 # ============================================================================
 # Data source configuration — THE extensibility point.
-# To track a new commodity or district, add a block here. No code changes.
+# To track a new commodity, district or market, add a block here. No code
+# changes. Verify exact feed spellings first with:  python -m mandi discover
 #
-# ogd_names are the EXACT strings the data.gov.in / Agmarknet feed uses.
-# Verify with:  python -m mandi discover
+# districts:
+#   markets:   optional whitelist (substring match, case-insensitive).
+#              Omit to ingest every market in the district.
+#   benchmark: true = reference area for price comparison/arbitrage only —
+#              shown in tables, charts and spreads, but EXCLUDED from the
+#              home region's pooled seasonality analysis.
 # ============================================================================
 
 source:
   ogd_resource: "9ef84268-d588-465a-a308-a864a43d0070"
   base_url: "https://api.data.gov.in/resource"
-  # The OGD feed currently reports Kerala as "Keralam"; keep old spelling too.
-  state_names: ["Keralam", "Kerala"]
 
 region_label: "Calicut & North Kerala (Malabar)"
 
-# Districts of interest. ogd_names lists every spelling seen in the feed.
-districts:
-  - name: Kozhikode
-    ogd_names: ["Kozhikode(Calicut)", "Kozhikode", "Calicut"]
-  - name: Kannur
-    ogd_names: ["Kannur", "Cannanore"]
-  - name: Kasargod
-    ogd_names: ["Kasargod", "Kasaragod"]
-  - name: Wayanad
-    ogd_names: ["Wayanad", "Waynad"]
-  - name: Malappuram
-    ogd_names: ["Malappuram"]
-  - name: Palakkad
-    ogd_names: ["Palakkad", "Palghat"]
+states:
+  # ---- home region -------------------------------------------------------
+  - names: ["Keralam", "Kerala"]   # the OGD feed currently says "Keralam"
+    districts:
+      - name: Kozhikode
+        ogd_names: ["Kozhikode(Calicut)", "Kozhikode", "Calicut"]
+      - name: Kannur
+        ogd_names: ["Kannur", "Cannanore"]
+      - name: Kasargod
+        ogd_names: ["Kasargod", "Kasaragod"]
+      - name: Wayanad
+        ogd_names: ["Wayanad", "Waynad"]
+      - name: Malappuram
+        ogd_names: ["Malappuram"]
+      - name: Palakkad
+        ogd_names: ["Palakkad", "Palghat"]
+      # Kochi-area terminal markets set the pepper reference price
+      - name: Ernakulam
+        ogd_names: ["Ernakulam"]
+        benchmark: true
 
-# Commodities of interest.
-#   slug     : stable identifier used in file paths, API URLs and the frontend
-#   ogd_names: exact commodity strings in the OGD feed that map to this slug
-#   unit     : display unit (OGD mandi prices are Rs per quintal)
-#   sanity   : hard bounds for modal price; rows outside go to quarantine
+  # ---- out-of-state benchmarks (arbitrage reference) ----------------------
+  - names: ["Karnataka"]
+    districts:
+      # Sirsi belt — the national arecanut reference
+      - name: Uttara Kannada
+        ogd_names: ["Uttara Kannada", "Karwar(Uttar Kannand)", "Uttar Kannad"]
+        benchmark: true
+        markets: ["Sirsi", "Yellapur", "Honnavar", "Kumta", "Siddapur"]
+      - name: Shivamogga
+        ogd_names: ["Shivamogga", "Shimoga"]
+        benchmark: true
+        markets: ["Shimoga", "Shivamogga", "Sagar"]
+
+  - names: ["Tamil Nadu"]
+    districts:
+      # Pollachi/Coimbatore — the coconut & copra reference
+      - name: Coimbatore
+        ogd_names: ["Coimbatore"]
+        benchmark: true
+        markets: ["Pollachi", "Coimbatore", "Sulur"]
+
 commodities:
   - slug: arecanut
     display: Arecanut

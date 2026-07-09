@@ -189,6 +189,43 @@ def test_ask_suggestion_chips(page: Page, site_url: str):
     assert len(page.locator(".ask-a").first.inner_text()) > 30
 
 
+def test_spread_line_and_benchmark_star(page: Page, site_url: str):
+    _open(page, site_url, "/#/arecanut")
+    spread = page.locator("#spread-line")
+    expect(spread).to_be_visible()
+    text = spread.inner_text()
+    assert "Sirsi APMC" in text and "%" in text and "gap" in text.lower()
+    # benchmark market is starred; home markets are not
+    star_row = page.locator("#markets-table tbody tr", has_text="Sirsi APMC")
+    expect(star_row.locator(".bench-star")).to_have_count(1)
+    home_row = page.locator("#markets-table tbody tr", has_text="Kasargod Market")
+    expect(home_row.locator(".bench-star")).to_have_count(0)
+    # Vs median column shows signed percentages
+    vs = star_row.locator("td.vsmed").inner_text()
+    assert vs.startswith("+") and vs.endswith("%")
+
+
+def test_benchmark_excluded_from_seasonality_but_selectable(page: Page, site_url: str):
+    _open(page, site_url, "/#/arecanut")
+    options = page.locator("#district-select option").all_inner_texts()
+    assert any("Uttara Kannada" in o for o in options)
+    page.select_option("#district-select", "Uttara Kannada")
+    page.wait_for_timeout(300)
+    rows = page.locator("#markets-table tbody tr")
+    assert rows.count() == 1
+    expect(rows.first).to_contain_text("Sirsi APMC")
+
+
+def test_ask_which_market(page: Page, site_url: str):
+    _open(page, site_url)
+    page.fill("#ask-input", "Which market pays most for arecanut?")
+    page.click("#ask-btn")
+    page.wait_for_timeout(600)
+    answer = page.locator(".ask-a").first.inner_text()
+    assert "Sirsi APMC" in answer
+    assert "gap" in answer.lower() and "%" in answer
+
+
 def test_openapi_and_all_endpoints_valid_json(site_url: str):
     with urllib.request.urlopen(site_url + "/openapi.json") as resp:  # noqa: S310
         spec = json.load(resp)

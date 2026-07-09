@@ -1,176 +1,248 @@
 date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_price,unit,source,fetched_at
 2021-07-10,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-10,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-10,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,37518,41226,38144,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-10,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-10,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38400,38800,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-11,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-11,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38500,38800,38600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-12,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-12,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-12,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-12,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37400,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-12,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-12,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-12,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,32899,41369,37864,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-12,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-13,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-13,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-13,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36700,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-13,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-13,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-13,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,37199,38499,37599,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-13,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,34099,41899,38510,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-13,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,31699,37891,36269,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-14,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-14,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-14,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-14,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-14,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-14,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,35000,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-14,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-14,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,37696,41899,38453,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-14,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38600,38800,38650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-15,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-15,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-15,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-15,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-15,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-15,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-15,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,31413,39408,36895,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-15,Kannur,Taliparamba Market,black-pepper,Other,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-15,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38400,38600,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-16,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-16,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-16,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-16,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-16,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,30413,39599,37439,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-16,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-17,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-17,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-17,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-17,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,36689,41755,38332,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-17,Kannur,Taliparamba Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-18,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-18,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-19,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-19,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-19,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-19,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37400,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-19,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-19,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-19,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-19,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-19,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,33699,40399,37926,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-19,Kannur,Taliparamba Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-19,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,31087,38531,37220,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-20,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-20,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-20,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-20,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-20,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-20,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-20,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-20,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,35959,42109,38072,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-20,Kannur,Taliparamba Market,black-pepper,Other,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-20,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38000,38500,38200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-21,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-21,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-21,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-21,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-21,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-21,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37600,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-22,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-22,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-22,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-22,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-22,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-22,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-22,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-22,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,37869,40499,38592,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-22,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-22,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38500,38200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-23,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-23,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-23,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-23,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-23,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-23,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-23,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-23,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-23,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38900,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-24,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-24,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-24,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-24,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-24,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37900,38300,38200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-26,Ernakulam,Aluva Market,black-pepper,Other,FAQ,39000,40000,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-26,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-26,Kannur,Irikkur Market,black-pepper,Other,FAQ,37000,37000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-26,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-26,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37400,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-26,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-26,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-26,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-26,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-27,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-27,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-27,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-27,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-27,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-27,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,33389,42199,37342,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-27,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-27,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38100,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-28,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-28,Kannur,Irikkur Market,black-pepper,Other,FAQ,37000,37000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-28,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-28,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37400,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-28,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-28,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-28,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-28,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,33799,40289,37682,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-28,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-28,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37850,38300,38100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-29,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-29,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-29,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-29,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,26000,27000,26500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-29,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-29,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38300,38050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-30,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-30,Kannur,Irikkur Market,black-pepper,Other,FAQ,37000,37000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-30,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-30,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-30,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-30,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-30,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-31,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-31,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-07-31,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,32499,42299,37411,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-31,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-07-31,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,39200,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-02,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-02,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-02,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-02,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-03,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-03,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-03,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-03,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-03,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-03,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37350,37600,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-04,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-04,Kannur,Irikkur Market,black-pepper,Other,FAQ,37000,37000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-04,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-04,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-04,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-04,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-04,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-04,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,35399,40209,37219,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-04,Kannur,Taliparamba Market,black-pepper,Other,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-04,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37300,37900,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-05,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-05,Kannur,Irikkur Market,black-pepper,Other,FAQ,37000,37000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-05,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-05,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-05,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-05,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-05,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-05,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-05,Kannur,Taliparamba Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-05,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37600,38000,37700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-06,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-06,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-06,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-06,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-06,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,34309,41089,37565,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-06,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-06,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37200,37500,37400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-07,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-07,Kannur,Irikkur Market,black-pepper,Other,FAQ,37000,37000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-07,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-07,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-07,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-07,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-07,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37000,37500,37100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-08,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36700,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-08,Kannur,Thalasserry Market,black-pepper,Other,FAQ,36800,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-09,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-09,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-09,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-09,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,34700,35500,35000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-09,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-09,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-09,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-09,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-09,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-09,Kannur,Thalasserry Market,black-pepper,Other,FAQ,36900,37300,37200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-10,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-10,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-10,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-10,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,34800,35500,35000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-10,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-10,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-10,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-10,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-10,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,36699,39899,37967,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-10,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-10,Kannur,Thalasserry Market,black-pepper,Other,FAQ,36900,37500,37100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-11,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-11,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-11,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-11,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,34800,35400,35000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-11,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-11,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-11,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-11,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-11,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,32299,39561,37306,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-11,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-11,Kannur,Thalasserry Market,black-pepper,Other,FAQ,36700,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-12,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-12,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-12,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-12,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,34800,35400,35000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-12,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-12,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-12,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-12,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-12,Kannur,Thalasserry Market,black-pepper,Other,FAQ,36700,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-13,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-13,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-13,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,34800,35500,35000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-13,Kannur,Kannur Market,black-pepper,Other,FAQ,34000,35000,34500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-13,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-13,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-13,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-13,Kannur,Taliparamba Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-13,Kannur,Thalasserry Market,black-pepper,Other,FAQ,36500,37000,36800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-14,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -178,67 +250,94 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-08-14,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,34700,35600,35000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-14,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-14,Kannur,Payyannur Market,black-pepper,Other,FAQ,36500,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-14,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-14,Kannur,Taliparamba Market,black-pepper,Other,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-14,Kannur,Thalasserry Market,black-pepper,Other,FAQ,36800,37200,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-15,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-15,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37000,37500,37300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-16,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-16,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-16,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-16,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-16,Kannur,Payyannur Market,black-pepper,Other,FAQ,36500,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-16,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-16,Kannur,Taliparamba Market,black-pepper,Other,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-16,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37000,37400,37150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-17,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-17,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-17,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-17,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-17,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-17,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,27000,28000,27500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-17,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,36699,39409,38512,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-17,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-17,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37050,37300,37100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-18,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-18,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,38500,39500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-18,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-18,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-18,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-18,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,37609,41506,39088,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-18,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-18,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37100,37500,37200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-19,Ernakulam,Aluva Market,black-pepper,Other,FAQ,40000,41000,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-19,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,37000,47000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-19,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-19,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-19,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-19,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-19,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-19,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-20,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-20,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-20,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-20,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-20,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-20,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-20,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-20,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37500,38000,37600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-21,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-21,Kannur,Taliparamba Market,black-pepper,Other,FAQ,36500,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-21,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37050,37500,37300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-23,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-23,Kannur,Irikkur Market,black-pepper,Other,FAQ,37500,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-23,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-23,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-23,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-23,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-23,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,38508,41111,39982,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-23,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37200,37600,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-24,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-24,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-24,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-24,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-24,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-24,Kannur,Payyannur Market,black-pepper,Other,FAQ,37500,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-24,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-24,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,38569,42619,39627,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-24,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37150,37500,37300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-24,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,32899,39791,37501,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-25,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-25,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-25,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-25,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-25,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-25,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-25,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-25,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,37222,42899,37987,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-25,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37300,37900,37400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-26,Kannur,Irikkur Market,black-pepper,Other,FAQ,38000,38000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-26,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-26,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-26,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-26,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-27,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-27,Kannur,Irikkur Market,black-pepper,Other,FAQ,38000,38000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-27,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-27,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-27,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-27,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-27,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,36469,39619,39389,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-27,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37250,37900,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-28,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-28,Kannur,Payyannur Market,black-pepper,Other,FAQ,37500,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -246,16 +345,24 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-08-29,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37650,38000,37800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-30,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-30,Kannur,Payyannur Market,black-pepper,Other,FAQ,37500,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-30,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-30,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37600,37800,37650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-31,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-31,Kannur,Irikkur Market,black-pepper,Other,FAQ,38000,38000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-31,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-31,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-08-31,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-31,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-31,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,37699,39389,38899,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-08-31,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,37508,40299,38636,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-01,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-01,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-01,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36500,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-01,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-01,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-01,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-01,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-01,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,38489,40099,38639,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-01,Kannur,Thalasserry Market,black-pepper,Other,FAQ,36500,37200,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-02,Kannur,Irikkur Market,black-pepper,Other,FAQ,39000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-02,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -263,50 +370,71 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-09-02,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-02,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-02,Kannur,Payyannur Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-02,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-02,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37000,37400,37150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-03,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-03,Kannur,Irikkur Market,black-pepper,Other,FAQ,39000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-03,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-03,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-03,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-03,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-03,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-03,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-03,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,38019,42399,40619,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-03,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-04,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35700,36500,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-04,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-04,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-04,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-04,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,36609,39299,38299,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-04,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-04,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38200,38600,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-05,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-05,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38400,38550,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-06,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-06,Kannur,Irikkur Market,black-pepper,Other,FAQ,39000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-06,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36500,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-06,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-06,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-06,Kannur,Payyannur Market,black-pepper,Other,FAQ,37500,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-06,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-06,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,34289,39699,37460,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-06,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-06,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38200,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-07,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-07,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-07,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-07,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-07,Kannur,Payyannur Market,black-pepper,Other,FAQ,36500,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-07,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-07,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,33699,39799,38799,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-07,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,33019,40539,37996,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-07,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-07,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37900,38300,38200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-07,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,34899,39940,37299,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-08,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,35000,37000,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-08,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-08,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-08,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35700,36500,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-08,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-08,Kannur,Payyannur Market,black-pepper,Other,FAQ,36500,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-08,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-08,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,38299,40099,38964,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-08,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-08,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38100,38500,38200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-09,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-09,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-09,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-09,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-09,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-09,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-09,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-09,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38200,38500,38400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-10,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-10,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-10,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-10,Kannur,Payyannur Market,black-pepper,Other,FAQ,37500,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-10,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-10,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-10,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38150,38500,38300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-11,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -318,36 +446,49 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-09-12,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-12,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-12,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38200,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-13,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-13,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-13,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-13,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35700,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-13,Kannur,Kannur Market,black-pepper,Other,FAQ,35000,36000,35500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-13,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-13,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-13,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-13,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-13,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-14,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-14,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39500,40500,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-14,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-14,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-14,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-14,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-14,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-14,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-14,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37500,38200,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-15,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-15,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-15,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39500,40500,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-15,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-15,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-15,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-15,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-15,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-15,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,38699,43689,39927,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-15,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-15,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37900,38500,38100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-16,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-16,Kannur,Irikkur Market,black-pepper,Other,FAQ,39000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-16,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39500,40500,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-16,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36700,37500,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-16,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-16,Kannur,Payyannur Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-16,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-16,Shivamogga,Sagar APMC,black-pepper,Other,FAQ,37609,37609,37609,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-16,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-16,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37900,38150,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-16,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,37420,40211,39440,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-17,Ernakulam,Aluva Market,black-pepper,Other,FAQ,40000,41000,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-17,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-17,Kannur,Irikkur Market,black-pepper,Other,FAQ,39000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-17,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-17,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37400,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -355,11 +496,14 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-09-17,Kannur,Payyannur Market,black-pepper,Other,FAQ,37500,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-17,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37599,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-17,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38100,38500,38200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-17,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,36599,42299,39399,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-18,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-18,Kannur,Irikkur Market,black-pepper,Other,FAQ,39000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-18,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39500,40500,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-18,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37400,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-18,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-18,Kannur,Payyannur Market,black-pepper,Other,FAQ,36500,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-18,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-18,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-18,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38000,38250,38150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-19,Kannur,Irikkur Market,black-pepper,Other,FAQ,39000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -371,41 +515,54 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-09-20,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-20,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-20,Kannur,Payyannur Market,black-pepper,Other,FAQ,36500,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-20,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-20,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-20,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37850,38200,38100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-21,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-21,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-21,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-21,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,36800,37400,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-21,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-21,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-21,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-21,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-21,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-22,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-22,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-22,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-22,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-22,Kannur,Payyannur Market,black-pepper,Other,FAQ,36000,38000,37000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-22,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-22,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,38869,41199,39535,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-22,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-22,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37600,38100,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-23,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-23,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-23,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-23,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36500,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-23,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-23,Kannur,Payyannur Market,black-pepper,Other,FAQ,36500,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-23,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-23,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-23,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38200,38500,38300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-24,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-24,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-24,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-24,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35700,36500,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-24,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,37000,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-24,Kannur,Payyannur Market,black-pepper,Other,FAQ,37500,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-24,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-24,Kannur,Taliparamba Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-24,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37900,38500,38300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-25,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-25,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-25,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-25,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35700,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-25,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-25,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,37000,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-25,Kannur,Payyannur Market,black-pepper,Other,FAQ,36500,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-25,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-25,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,34609,41019,39105,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-25,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-25,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37900,38500,38300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-26,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -416,22 +573,28 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-09-27,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-27,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-27,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-27,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,38589,41699,40053,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-28,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-28,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-28,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-28,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35700,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-28,Kannur,Kannur Market,black-pepper,Other,FAQ,36000,37000,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-28,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-28,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-28,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-28,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-28,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38500,38200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-29,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-29,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-29,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-29,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-29,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-29,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-29,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40000,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-29,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,31813,42199,36671,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-29,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-29,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37900,38500,38150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-09-30,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-30,Kannur,Irikkur Market,black-pepper,Other,FAQ,38500,38500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-30,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-30,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35700,36500,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -440,6 +603,7 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-09-30,Kannur,Payyannur Market,black-pepper,Other,FAQ,37500,39500,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-30,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-09-30,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37500,38000,37900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-01,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-01,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-01,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,47800,48400,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-01,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -452,69 +616,94 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-10-02,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-02,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-03,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35700,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-04,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-04,Kannur,Irikkur Market,black-pepper,Other,FAQ,39000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-04,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-04,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-04,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-04,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-04,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,37529,41099,39689,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-04,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-04,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38500,38300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-05,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-05,Kannur,Irikkur Market,black-pepper,Other,FAQ,39000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-05,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-05,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35700,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-05,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-05,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,37000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-05,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-05,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,37500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-05,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,40239,42899,42149,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-05,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38500,39500,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-05,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38000,38500,38400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-06,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-06,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,40500,41500,41500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-06,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35700,36500,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-06,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-06,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,37000,40000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-06,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-06,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-06,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,39089,43255,41628,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-06,Kannur,Taliparamba Market,black-pepper,Other,FAQ,39500,39500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-06,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38200,38600,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-07,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-07,Kannur,Irikkur Market,black-pepper,Other,FAQ,39500,39500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-07,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,40500,41500,41500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-07,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-07,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-07,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,36000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-07,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-07,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-07,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-08,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-08,Kannur,Irikkur Market,black-pepper,Other,FAQ,39500,39500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-08,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,40000,41000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-08,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,35800,36400,36000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-08,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-08,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,37000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-08,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-08,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-08,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,37699,46229,41882,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-08,Kannur,Taliparamba Market,black-pepper,Other,FAQ,39000,39000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-08,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38600,38200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-09,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-09,Kannur,Irikkur Market,black-pepper,Other,FAQ,39500,39500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-09,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,40000,41000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-09,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37600,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-09,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-09,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-09,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-09,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-09,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,39500,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-09,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37650,38400,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-10,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-11,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-11,Kannur,Irikkur Market,black-pepper,Other,FAQ,40000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-11,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,40500,41500,41500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-11,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37600,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-11,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-11,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,40000,41500,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-11,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-11,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-11,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,39089,43599,41780,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-11,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38900,39100,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-12,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-12,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,40500,41500,41500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-12,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38600,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-12,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-12,Kannur,Payyannur Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-12,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-12,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,37913,46089,42254,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-12,Kannur,Taliparamba Market,black-pepper,Other,FAQ,39000,45000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-12,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37850,38500,38100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-13,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-13,Kannur,Irikkur Market,black-pepper,Other,FAQ,40000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-13,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,41000,42000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-13,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-13,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-13,Kannur,Payyannur Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-13,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-13,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,38213,46699,42163,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-13,Kannur,Taliparamba Market,black-pepper,Other,FAQ,39800,40200,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-13,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37900,38650,38300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-14,Kannur,Irikkur Market,black-pepper,Other,FAQ,40000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -522,60 +711,79 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-10-14,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37600,38400,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-14,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-14,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-14,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-14,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38000,38600,38400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-15,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-15,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,41000,42000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-15,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38600,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-15,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-15,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-15,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-15,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-15,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37650,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-16,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-16,Kannur,Irikkur Market,black-pepper,Other,FAQ,40000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-16,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,41000,42000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-16,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37500,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-16,Kannur,Kannur Market,black-pepper,Other,FAQ,37000,38000,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-16,Kannur,Payyannur Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-16,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-16,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38990,39010,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-17,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-17,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38600,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-18,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-18,Kannur,Irikkur Market,black-pepper,Other,FAQ,40000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-18,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,41000,42000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-18,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37500,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-18,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-18,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-18,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,37500,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-18,Kannur,Taliparamba Market,black-pepper,Other,FAQ,39990,40010,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-18,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37850,38500,38100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-19,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,39000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-19,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-19,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-19,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-19,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38990,39010,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-20,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-20,Kannur,Irikkur Market,black-pepper,Other,FAQ,40000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-20,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,41000,42000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-20,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38600,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-20,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-20,Kannur,Payyannur Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-20,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-20,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,43419,43669,43544,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-20,Kannur,Taliparamba Market,black-pepper,Other,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-21,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-21,Kannur,Irikkur Market,black-pepper,Other,FAQ,40000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-21,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,41000,42000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-21,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38600,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-21,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-21,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,39000,41500,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-21,Kannur,Payyannur Market,black-pepper,Other,FAQ,37000,39000,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-21,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-21,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,41292,44539,43809,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-21,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38900,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-21,Kannur,Thalasserry Market,black-pepper,Other,FAQ,37800,38600,38400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-22,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-22,Kannur,Irikkur Market,black-pepper,Other,FAQ,40000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-22,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,41000,42000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-22,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-22,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-22,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,39000,41500,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-22,Kannur,Payyannur Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-22,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-22,Kannur,Taliparamba Market,black-pepper,Other,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-22,Kannur,Thalasserry Market,black-pepper,Other,FAQ,38050,38800,38400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-22,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,40099,44000,42599,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-23,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-23,Kannur,Irikkur Market,black-pepper,Other,FAQ,0,41000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-23,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,41000,42000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-23,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38400,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-23,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-23,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,39000,41500,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-23,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-23,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-23,Kannur,Taliparamba Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-23,Kannur,Thalasserry Market,black-pepper,Other,FAQ,39000,39500,39250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-24,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38400,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -586,29 +794,46 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-10-25,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-25,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,40000,44000,43500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-25,Kannur,Payyannur Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-25,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-25,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,44599,50170,46966,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-25,Kannur,Taliparamba Market,black-pepper,Other,FAQ,41000,43000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-25,Kannur,Thalasserry Market,black-pepper,Other,FAQ,39600,40000,39700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-26,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-26,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-26,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,40000,44000,43500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-26,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-26,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,44042,46522,45889,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-26,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,40213,48196,46406,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-26,Kannur,Thalasserry Market,black-pepper,Other,FAQ,39700,40000,39800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-26,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,43599,46677,45401,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-27,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-27,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,42000,43000,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-27,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38600,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-27,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-27,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,40000,45000,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-27,Kannur,Payyannur Market,black-pepper,Other,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-27,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-27,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,41213,51869,47855,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-27,Kannur,Taliparamba Market,black-pepper,Other,FAQ,42000,44000,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-27,Kannur,Thalasserry Market,black-pepper,Other,FAQ,39800,40050,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-28,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,42000,44000,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-28,Kannur,Irikkur Market,black-pepper,Other,FAQ,42500,42500,42500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-28,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,43000,44000,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-28,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38600,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-28,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-28,Kannur,Payyannur Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-28,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,39000,40000,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-28,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,44809,47699,46599,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-28,Kannur,Taliparamba Market,black-pepper,Other,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-28,Kannur,Thalasserry Market,black-pepper,Other,FAQ,40000,40500,40200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-29,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,44000,45000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-29,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37700,38400,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-29,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-29,Kannur,Payyannur Market,black-pepper,Other,FAQ,38000,40000,39000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-29,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,40000,41000,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-29,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,43089,47289,46369,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-29,Uttara Kannada,Siddapur APMC,black-pepper,Other,FAQ,48889,48889,48889,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-29,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,44013,51499,48355,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-29,Kannur,Taliparamba Market,black-pepper,Other,FAQ,45000,47000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-29,Kannur,Thalasserry Market,black-pepper,Other,FAQ,39800,40500,40200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-30,Kannur,Irikkur Market,black-pepper,Other,FAQ,42500,42500,42500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -617,27 +842,36 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-10-30,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-30,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,40000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-30,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-10-30,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,40000,41000,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-30,Kannur,Taliparamba Market,black-pepper,Other,FAQ,46000,48000,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-30,Kannur,Thalasserry Market,black-pepper,Other,FAQ,40000,40400,40150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-31,Kannur,Irikkur Market,black-pepper,Other,FAQ,42500,42500,42500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-10-31,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37700,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-01,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,41000,43000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-01,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,45000,46000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-01,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37600,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-01,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-01,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,41000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-01,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-01,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,42000,43000,42500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-01,Kannur,Thalasserry Market,black-pepper,Other,FAQ,43500,44600,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-02,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,41000,43000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-02,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38500,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-02,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-02,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,40000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-02,Kannur,Payyannur Market,black-pepper,Other,FAQ,38500,40500,39500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-02,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,41500,42500,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-02,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,46289,48689,47689,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-02,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,46689,50475,47999,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-02,Kannur,Taliparamba Market,black-pepper,Other,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-02,Kannur,Thalasserry Market,black-pepper,Other,FAQ,44500,45200,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-03,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,41000,43000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-03,Kannur,Irikkur Market,black-pepper,Other,FAQ,40000,40000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-03,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,37800,38400,38000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-03,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-03,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,42000,47000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-03,Kannur,Payyannur Market,black-pepper,Other,FAQ,41000,43000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-03,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,42000,43000,42500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-03,Kannur,Taliparamba Market,black-pepper,Other,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-03,Kannur,Thalasserry Market,black-pepper,Other,FAQ,44700,45000,44800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-04,Kannur,Irikkur Market,black-pepper,Other,FAQ,44500,44500,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -645,210 +879,306 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-11-04,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-04,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,42000,47000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-04,Kannur,Payyannur Market,black-pepper,Other,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-04,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,43500,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-04,Kannur,Taliparamba Market,black-pepper,Other,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-04,Kannur,Thalasserry Market,black-pepper,Other,FAQ,45000,45400,45150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-05,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-05,Kannur,Irikkur Market,black-pepper,Other,FAQ,44500,44500,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-05,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-05,Kannur,Kannur Market,black-pepper,Other,FAQ,38000,39000,38500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-05,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,42000,47000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-05,Kannur,Payyannur Market,black-pepper,Other,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-05,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,43500,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-05,Kannur,Thalasserry Market,black-pepper,Other,FAQ,44800,45500,45100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-06,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,41000,43000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-06,Kannur,Irikkur Market,black-pepper,Other,FAQ,44500,44500,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-06,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44600,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-06,Kannur,Kannur Market,black-pepper,Other,FAQ,41000,42000,41500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-06,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,42000,47000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-06,Kannur,Payyannur Market,black-pepper,Other,FAQ,39000,41000,40000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-06,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,43500,45000,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-06,Kannur,Taliparamba Market,black-pepper,Other,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-06,Kannur,Thalasserry Market,black-pepper,Other,FAQ,44500,45200,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-07,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43600,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-08,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-08,Kannur,Irikkur Market,black-pepper,Other,FAQ,44500,44500,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-08,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44600,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-08,Kannur,Kannur Market,black-pepper,Other,FAQ,44000,45000,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-08,Kannur,Payyannur Market,black-pepper,Other,FAQ,39500,41500,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-08,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,43500,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-08,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,46598,49689,47986,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-08,Kannur,Taliparamba Market,black-pepper,Other,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-09,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-09,Kannur,Irikkur Market,black-pepper,Other,FAQ,44500,44500,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-09,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44600,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-09,Kannur,Kannur Market,black-pepper,Other,FAQ,43000,44000,43500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-09,Kannur,Payyannur Market,black-pepper,Other,FAQ,41000,43000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-09,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,43500,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-09,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,44869,48039,46869,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-09,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,46899,48999,48132,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-09,Kannur,Taliparamba Market,black-pepper,Other,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-09,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,43210,48199,47261,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-10,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,41000,43000,42000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-10,Kannur,Irikkur Market,black-pepper,Other,FAQ,44000,44000,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-10,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-10,Kannur,Kannur Market,black-pepper,Other,FAQ,45000,46000,45500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-10,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,47500,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-10,Kannur,Payyannur Market,black-pepper,Other,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-10,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,44000,45000,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-10,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,41299,51879,48208,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-10,Kannur,Taliparamba Market,black-pepper,Other,FAQ,45400,45600,45500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-11,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-11,Kannur,Irikkur Market,black-pepper,Other,FAQ,45000,45000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-11,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44800,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-11,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-11,Kannur,Payyannur Market,black-pepper,Other,FAQ,39500,41500,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-11,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,44000,45000,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-11,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,47889,50915,49057,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-11,Kannur,Taliparamba Market,black-pepper,Other,FAQ,45000,47000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-11,Kannur,Thalasserry Market,black-pepper,Other,FAQ,45200,46000,45500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-12,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-12,Kannur,Irikkur Market,black-pepper,Other,FAQ,45000,45000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-12,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44600,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-12,Kannur,Payyannur Market,black-pepper,Other,FAQ,39500,41500,40500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-12,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,45000,46000,45500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-12,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,47309,49699,48869,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-12,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,47889,50809,49575,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-12,Kannur,Taliparamba Market,black-pepper,Other,FAQ,45000,47000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-12,Kannur,Thalasserry Market,black-pepper,Other,FAQ,45400,45600,45500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-12,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,44060,49651,48601,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-13,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44600,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-13,Kannur,Kannur Market,black-pepper,Other,FAQ,45000,46000,45500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-13,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,49000,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-13,Kannur,Payyannur Market,black-pepper,Other,FAQ,43000,45000,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-13,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,44000,45000,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-13,Kannur,Taliparamba Market,black-pepper,Other,FAQ,45000,47000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-14,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43800,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-15,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-15,Kannur,Irikkur Market,black-pepper,Other,FAQ,47500,47500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-15,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44600,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-15,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-15,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,49000,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-15,Kannur,Payyannur Market,black-pepper,Other,FAQ,45000,47000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-15,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,44000,45000,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-15,Shivamogga,Sagar APMC,black-pepper,Other,FAQ,46869,47829,46869,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-15,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,49096,52569,50632,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-15,Kannur,Taliparamba Market,black-pepper,Other,FAQ,45000,47000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-16,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-16,Kannur,Irikkur Market,black-pepper,Other,FAQ,47500,47500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-16,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44600,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-16,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-16,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,50000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-16,Kannur,Payyannur Market,black-pepper,Other,FAQ,42000,44000,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-16,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,44000,45000,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-16,Kannur,Taliparamba Market,black-pepper,Other,FAQ,40000,60000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-16,Kannur,Thalasserry Market,black-pepper,Other,FAQ,45800,46100,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-17,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,46000,48000,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-17,Kannur,Irikkur Market,black-pepper,Other,FAQ,47500,47500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-17,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,43700,44500,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-17,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-17,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,45000,52500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-17,Kannur,Payyannur Market,black-pepper,Other,FAQ,43000,45000,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-17,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,44000,45000,44500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-17,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,48066,54089,52351,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-17,Kannur,Taliparamba Market,black-pepper,Other,FAQ,40000,60000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-17,Kannur,Thalasserry Market,black-pepper,Other,FAQ,45600,46200,45800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-18,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-18,Kannur,Irikkur Market,black-pepper,Other,FAQ,51000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-18,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49300,50000,49700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-18,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-18,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,45000,52500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-18,Kannur,Payyannur Market,black-pepper,Other,FAQ,43000,45000,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-18,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,47500,48500,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-18,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-18,Kannur,Thalasserry Market,black-pepper,Other,FAQ,45800,46500,46200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-19,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-19,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49200,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-19,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-19,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,45000,52500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-19,Kannur,Payyannur Market,black-pepper,Other,FAQ,43000,45000,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-19,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,47000,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-19,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,47010,54899,53471,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-19,Kannur,Taliparamba Market,black-pepper,Other,FAQ,50000,53000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-19,Kannur,Thalasserry Market,black-pepper,Other,FAQ,45900,46500,46200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-20,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-20,Kannur,Irikkur Market,black-pepper,Other,FAQ,50000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-20,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49300,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-20,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-20,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,45000,52500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-20,Kannur,Payyannur Market,black-pepper,Other,FAQ,40000,42000,41000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-20,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,47500,48500,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-20,Kannur,Taliparamba Market,black-pepper,Other,FAQ,50000,53000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-20,Kannur,Thalasserry Market,black-pepper,Other,FAQ,46000,46600,46300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-21,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49300,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-21,Kannur,Thalasserry Market,black-pepper,Other,FAQ,48000,49200,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-22,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-22,Kannur,Irikkur Market,black-pepper,Other,FAQ,51000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-22,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49300,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-22,Kannur,Kannur Market,black-pepper,Other,FAQ,47000,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-22,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,47500,52500,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-22,Kannur,Payyannur Market,black-pepper,Other,FAQ,42000,44000,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-22,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,48000,49000,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-22,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,53570,58299,54606,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-22,Kannur,Taliparamba Market,black-pepper,Other,FAQ,51000,53000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-22,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49500,50200,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-23,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-23,Kannur,Irikkur Market,black-pepper,Other,FAQ,51000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-23,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49300,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-23,Kannur,Kannur Market,black-pepper,Other,FAQ,47000,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-23,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,47500,52500,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-23,Kannur,Payyannur Market,black-pepper,Other,FAQ,42000,44000,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-23,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,48000,49000,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-23,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,40069,55509,53389,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-23,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,53899,57599,55115,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-23,Kannur,Taliparamba Market,black-pepper,Other,FAQ,51000,53000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-23,Kannur,Thalasserry Market,black-pepper,Other,FAQ,50500,51000,50800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-24,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-24,Kannur,Irikkur Market,black-pepper,Other,FAQ,51000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-24,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49300,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-24,Kannur,Kannur Market,black-pepper,Other,FAQ,46000,47000,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-24,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,47500,52500,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-24,Kannur,Payyannur Market,black-pepper,Other,FAQ,42000,44000,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-24,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-24,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,52299,61599,53137,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-24,Kannur,Taliparamba Market,black-pepper,Other,FAQ,51000,53000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-24,Kannur,Thalasserry Market,black-pepper,Other,FAQ,50300,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-25,Ernakulam,Aluva Market,black-pepper,Other,FAQ,52000,55000,53800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-25,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-25,Kannur,Irikkur Market,black-pepper,Other,FAQ,51000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-25,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49300,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-25,Kannur,Kannur Market,black-pepper,Other,FAQ,47000,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-25,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,47500,52500,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-25,Kannur,Payyannur Market,black-pepper,Other,FAQ,42000,44000,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-25,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,49500,50500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-25,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,51508,61099,53901,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-25,Kannur,Taliparamba Market,black-pepper,Other,FAQ,51000,53000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-25,Kannur,Thalasserry Market,black-pepper,Other,FAQ,50200,51000,50700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-26,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-26,Kannur,Irikkur Market,black-pepper,Other,FAQ,51000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-26,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49300,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-26,Kannur,Kannur Market,black-pepper,Other,FAQ,47000,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-26,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,47500,52500,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-26,Kannur,Payyannur Market,black-pepper,Other,FAQ,42000,44000,43000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-26,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,49500,50500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-26,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,52089,55069,52809,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-26,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,44696,60599,53537,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-26,Kannur,Taliparamba Market,black-pepper,Other,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-26,Kannur,Thalasserry Market,black-pepper,Other,FAQ,50500,51100,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-27,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-27,Kannur,Irikkur Market,black-pepper,Other,FAQ,50000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-27,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49300,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-27,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-27,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,47500,52500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-27,Kannur,Payyannur Market,black-pepper,Other,FAQ,44000,46000,45000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-27,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-27,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,51399,57590,52629,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-27,Kannur,Taliparamba Market,black-pepper,Other,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-27,Kannur,Thalasserry Market,black-pepper,Other,FAQ,50250,51200,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-28,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,49400,50100,49600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-28,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49000,49200,49100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-29,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-29,Kannur,Irikkur Market,black-pepper,Other,FAQ,49000,49000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-29,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-29,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-29,Kannur,Payyannur Market,black-pepper,Other,FAQ,43000,45000,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-29,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-29,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,48509,52699,51809,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-29,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,49010,57399,51194,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-29,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47000,49000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-30,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-30,Kannur,Irikkur Market,black-pepper,Other,FAQ,49000,49000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-30,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-30,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-30,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-30,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,48089,52222,52089,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-11-30,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,48090,54199,50382,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-11-30,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47000,49000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-01,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-01,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,50000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-01,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-01,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-01,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,49000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-01,Kannur,Payyannur Market,black-pepper,Other,FAQ,43000,45000,44000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-01,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-01,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,40199,53899,48168,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-01,Kannur,Thalasserry Market,black-pepper,Other,FAQ,46800,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-02,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-02,Kannur,Irikkur Market,black-pepper,Other,FAQ,47500,47500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-02,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,50000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-02,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46800,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-02,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-02,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,49000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-02,Kannur,Payyannur Market,black-pepper,Other,FAQ,45500,47500,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-02,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-02,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,47302,58299,50129,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-02,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-03,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-03,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,50000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-03,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-03,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-03,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,49000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-03,Kannur,Payyannur Market,black-pepper,Other,FAQ,44500,46500,45500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-03,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,46509,50089,48289,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-03,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,48170,54548,49947,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-03,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-03,Kannur,Thalasserry Market,black-pepper,Other,FAQ,47000,47500,47200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-04,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-04,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,49000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-04,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,47700,48600,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-04,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-04,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,49000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-04,Kannur,Payyannur Market,black-pepper,Other,FAQ,46500,48500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-04,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,49099,57299,51173,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-04,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-05,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,47800,48500,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-06,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-06,Kannur,Irikkur Market,black-pepper,Other,FAQ,50000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-06,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,49000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-06,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-06,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-06,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,51000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-06,Kannur,Payyannur Market,black-pepper,Other,FAQ,35500,37500,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-06,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-06,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,48299,52339,51026,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-06,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-06,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49000,49500,49200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-07,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-07,Kannur,Irikkur Market,black-pepper,Other,FAQ,50000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-07,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-07,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-07,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-07,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,52000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-07,Kannur,Payyannur Market,black-pepper,Other,FAQ,45500,47500,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-07,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-07,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,49469,52639,51299,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-07,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,48570,52698,50955,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-07,Kannur,Taliparamba Market,black-pepper,Other,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-07,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49400,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-08,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-08,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-08,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46800,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-08,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-08,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,44000,53000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-08,Kannur,Payyannur Market,black-pepper,Other,FAQ,45500,47500,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-08,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-08,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,46509,53576,50643,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-08,Kannur,Taliparamba Market,black-pepper,Other,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-09,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-09,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-09,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-09,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-09,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,44000,53000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-09,Kannur,Payyannur Market,black-pepper,Other,FAQ,45500,47500,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-09,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-09,Kannur,Taliparamba Market,black-pepper,Other,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-09,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49000,49800,49300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-10,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-10,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-10,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-10,Kannur,Payyannur Market,black-pepper,Other,FAQ,36500,38500,37500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-10,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-10,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,51389,52889,52499,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-10,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,47699,52308,50206,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-10,Kannur,Taliparamba Market,black-pepper,Other,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-10,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49500,50000,49800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-11,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -856,82 +1186,117 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-12-11,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-11,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,44000,51500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-11,Kannur,Payyannur Market,black-pepper,Other,FAQ,45500,47500,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-11,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-11,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47000,49000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-11,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49400,50000,49800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-12,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-13,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,49000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-13,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-13,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-13,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,44000,51500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-13,Kannur,Payyannur Market,black-pepper,Other,FAQ,35500,37500,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-13,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-13,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,49699,52398,51094,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-13,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-13,Kannur,Thalasserry Market,black-pepper,Other,FAQ,48800,49500,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-14,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,51000,53000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-14,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-14,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46800,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-14,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-14,Kannur,Payyannur Market,black-pepper,Other,FAQ,45500,47500,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-14,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-14,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,49089,51889,50409,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-14,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,47299,55599,50911,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-14,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-14,Kannur,Thalasserry Market,black-pepper,Other,FAQ,48500,49800,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-15,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-15,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-15,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-15,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-15,Kannur,Payyannur Market,black-pepper,Other,FAQ,45500,47500,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-15,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-15,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,47508,55070,50216,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-15,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47500,49500,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-15,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49500,50500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-16,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-16,Kannur,Irikkur Market,black-pepper,Other,FAQ,48000,48000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-16,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-16,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46800,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-16,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-16,Kannur,Payyannur Market,black-pepper,Other,FAQ,45500,47500,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-16,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-16,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,48069,51299,49757,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-16,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47500,49500,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-17,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-17,Kannur,Irikkur Market,black-pepper,Other,FAQ,48000,48000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-17,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-17,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-17,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-17,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,44000,51500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-17,Kannur,Payyannur Market,black-pepper,Other,FAQ,44500,46500,45500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-17,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-17,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,48109,50639,49899,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-17,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,48299,52879,50488,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-17,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47500,49500,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-17,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49000,50200,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-18,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-18,Kannur,Irikkur Market,black-pepper,Other,FAQ,48000,48000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-18,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,50000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-18,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-18,Kannur,Kannur Market,black-pepper,Other,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-18,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,44000,51500,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-18,Kannur,Payyannur Market,black-pepper,Other,FAQ,46000,48000,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-18,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-18,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47500,49500,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-18,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49500,50000,49650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-19,Kannur,Irikkur Market,black-pepper,Other,FAQ,48000,48000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-19,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-20,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-20,Kannur,Irikkur Market,black-pepper,Other,FAQ,48000,48000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-20,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,50000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-20,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47800,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-20,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-20,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,43000,50000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-20,Kannur,Payyannur Market,black-pepper,Other,FAQ,46000,48000,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-20,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-20,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-20,Uttara Kannada,Yellapur APMC,black-pepper,Other,FAQ,44699,50699,48699,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-21,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-21,Kannur,Irikkur Market,black-pepper,Other,FAQ,48000,48000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-21,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,50000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-21,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46600,47800,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-21,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-21,Kannur,Payyannur Market,black-pepper,Other,FAQ,45500,47500,46500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-21,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-21,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,49109,51289,49609,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-21,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,49076,52125,50362,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-21,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-22,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-22,Kannur,Irikkur Market,black-pepper,Other,FAQ,16700,16700,16700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-22,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-22,Kannur,Kannur Market,black-pepper,Other,FAQ,48000,49000,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-22,Kannur,Payyannur Market,black-pepper,Other,FAQ,46000,48000,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-22,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-22,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,49570,53179,50838,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-22,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-23,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-23,Kannur,Irikkur Market,black-pepper,Other,FAQ,50000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-23,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,51000,52000,52000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-23,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-23,Kannur,Kannur Market,black-pepper,Other,FAQ,48000,49000,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-23,Kannur,Payyannur Market,black-pepper,Other,FAQ,35500,37500,36500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-23,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-23,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48500,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-23,Kannur,Thalasserry Market,black-pepper,Other,FAQ,48500,49300,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-24,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-24,Kannur,Irikkur Market,black-pepper,Other,FAQ,50000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-24,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,50000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-24,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47600,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-24,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-24,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,44000,51000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-24,Kannur,Payyannur Market,black-pepper,Other,FAQ,46500,48500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-24,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-24,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,49089,51089,49389,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-24,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-24,Kannur,Thalasserry Market,black-pepper,Other,FAQ,49000,49500,49150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-25,Kannur,Irikkur Market,black-pepper,Other,FAQ,50000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -944,18 +1309,24 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-12-26,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,50000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-26,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-26,Kannur,Thalasserry Market,black-pepper,Other,FAQ,48400,48700,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-27,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-27,Kannur,Irikkur Market,black-pepper,Other,FAQ,50000,50000,50000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-27,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,50000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-27,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,46700,47500,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-27,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-27,Kannur,Payyannur Market,black-pepper,Other,FAQ,46500,48500,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-27,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,49070,51298,50472,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-27,Kannur,Taliparamba Market,black-pepper,Other,FAQ,48000,50000,49000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-27,Kannur,Thalasserry Market,black-pepper,Other,FAQ,48300,49000,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-28,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-28,Kannur,Irikkur Market,black-pepper,Other,FAQ,48000,48000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-28,Wayanad,Kalpetta Market,black-pepper,Other,FAQ,50000,51000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-28,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,47300,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-28,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-28,Kannur,Payyannur Market,black-pepper,Other,FAQ,46400,48400,47400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-28,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-28,Uttara Kannada,Siddapur APMC,black-pepper,Malabar,FAQ,45689,49599,48689,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-28,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,46070,55199,49475,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-28,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47500,49500,48500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-28,Kannur,Thalasserry Market,black-pepper,Other,FAQ,48150,48800,48350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-29,Kannur,Irikkur Market,black-pepper,Other,FAQ,48000,48000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -964,12 +1335,16 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2021-12-29,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-29,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,40000,49000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-29,Kannur,Payyannur Market,black-pepper,Other,FAQ,45000,47000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-29,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-29,Uttara Kannada,Sirsi APMC,black-pepper,Malabar,FAQ,46299,53999,48344,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-29,Kannur,Taliparamba Market,black-pepper,Other,FAQ,47000,49000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-29,Kannur,Thalasserry Market,black-pepper,Other,FAQ,47800,48500,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-30,Ernakulam,Angamaly Market,black-pepper,Ungrabled,FAQ,50000,52000,51000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-30,Kasargod,Kanjangadu Market,black-pepper,Other,FAQ,47300,48000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-30,Kannur,Kannur Market,black-pepper,Other,FAQ,49000,50000,49500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-30,Kannur,Kuthuparambu Market,black-pepper,Other,FAQ,40000,49000,47500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-30,Kannur,Payyannur Market,black-pepper,Other,FAQ,45000,47000,46000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2021-12-30,Ernakulam,Perumbavoor Market,black-pepper,Garbled,FAQ,50000,51000,50500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-30,Kannur,Taliparamba Market,black-pepper,Other,FAQ,46000,48000,47000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-30,Kannur,Thalasserry Market,black-pepper,Other,FAQ,47800,48500,48200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2021-12-31,Kannur,Irikkur Market,black-pepper,Other,FAQ,48000,48000,48000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00

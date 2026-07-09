@@ -264,6 +264,11 @@ def analyze_all(cfg: Config, base: Path | None = None,
     df = load_frame(base)
     today = today or (df["date"].max().date() if not df.empty else date.today())
 
+    # benchmark districts are comparison references (e.g. Sirsi for arecanut,
+    # Kochi for pepper) — analyzed individually but excluded from the home
+    # region's pooled series so they don't distort local seasonality
+    benchmark_names = {d.name for d in cfg.districts if d.benchmark}
+
     out: dict[str, Any] = {"today": today.isoformat(), "commodities": {}}
     for c in cfg.commodities:
         cdf = df[df["commodity_slug"] == c.slug] if not df.empty else df
@@ -272,12 +277,14 @@ def analyze_all(cfg: Config, base: Path | None = None,
             for dname, ddf in cdf.groupby("district"):
                 res = _analyze_series(ddf, c.display, str(dname), today)
                 if res:
+                    res["benchmark"] = str(dname) in benchmark_names
                     districts[str(dname)] = res
+        home = cdf[~cdf["district"].isin(benchmark_names)] if not cdf.empty else cdf
         out["commodities"][c.slug] = {
             "slug": c.slug,
             "display": c.display,
             "unit": c.unit,
-            "region": _analyze_series(cdf, c.display, cfg.region_label, today),
+            "region": _analyze_series(home, c.display, cfg.region_label, today),
             "districts": districts,
         }
     return out

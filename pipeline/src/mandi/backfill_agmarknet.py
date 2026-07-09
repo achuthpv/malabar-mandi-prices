@@ -82,14 +82,18 @@ def _get_filters(session: requests.Session) -> dict[str, Any]:
     return resp.json()["data"]
 
 
-def _match_ids(cfg: Config, filters: dict[str, Any]) -> tuple[int, dict[str, tuple[int, int]]]:
-    """Return (state_id, {slug: (cmdt_id, cmdt_group_id)})."""
+def _match_ids(cfg: Config, filters: dict[str, Any]
+               ) -> tuple[dict[str, int], dict[str, tuple[int, int]]]:
+    """Return ({canonical state name: state_id}, {slug: (cmdt_id, group_id)})."""
     states = {s["state_name"].strip().lower(): int(s["state_id"])
               for s in filters["state_data"]}
-    state_id = next((states[n.lower()] for n in cfg.state_names
-                     if n.lower() in states), None)
-    if state_id is None:
-        raise AgmarknetError(f"none of {cfg.state_names} in agmarknet state list")
+    state_ids: dict[str, int] = {}
+    for group in cfg.states:
+        sid = next((states[n.lower()] for n in group.names if n.lower() in states), None)
+        if sid is None:
+            log.warning("state group %s not in agmarknet state list", group.names)
+        else:
+            state_ids[group.names[0]] = sid
 
     by_name = {c["cmdt_name"].strip().lower(): (int(c["cmdt_id"]), int(c["cmdt_group_id"]))
                for c in filters["cmdt_data"]}
@@ -102,7 +106,7 @@ def _match_ids(cfg: Config, filters: dict[str, Any]) -> tuple[int, dict[str, tup
                 break
         else:
             log.warning("no agmarknet commodity match for %s", c.slug)
-    return state_id, ids
+    return state_ids, ids
 
 
 def _to_ogd_shape(rec: dict[str, Any]) -> dict[str, Any]:
@@ -158,10 +162,10 @@ def backfill(cfg: Config, years: int = 5, dry_run: bool = False,
              today: date | None = None) -> int:
     session = _session()
     filters = _get_filters(session)
-    state_id, ids = _match_ids(cfg, filters)
-    log.info("agmarknet ids: state=%s commodities=%s", state_id, ids)
+    state_ids, ids = _match_ids(cfg, filters)
+    log.info("agmarknet ids: states=%s commodities=%s", state_ids, ids)
     if dry_run:
-        print(f"dry-run: state_id={state_id}")
+        print(f"dry-run: state ids={state_ids}")
         print(f"dry-run: commodity ids={ids}")
         return 0
 
@@ -169,27 +173,41 @@ def backfill(cfg: Config, years: int = 5, dry_run: bool = False,
     start = max(today - timedelta(days=365 * years), EARLIEST)
     fetched_at = f"{today.isoformat()}T00:00:00+00:00"
 
-    total_changed, all_quarantined = 0, []
-    for slug, (cmdt_id, group_id) in ids.items():
-        chunk_start = start
-        while chunk_start <= today:
-            chunk_end = min(chunk_start + timedelta(days=364), today)
-            raw = _fetch_chunk(session, cmdt_id, group_id, state_id,
-                               chunk_start, chunk_end)
-            shaped = [_to_ogd_shape(r) for r in raw]
-            rows, quarantined = normalize_records(
-                cfg, shaped, source="agmarknet", fetched_at=fetched_at)
-            changed = upsert_rows(rows)
-            n = sum(changed.values())
-            total_changed += n
-            all_quarantined.extend(quarantined)
-            log.info("%s %s..%s: %d raw -> %d in-scope, %d changed, %d quarantined",
-                     slug, chunk_start, chunk_end, len(raw), len(rows), n,
-                     len(quarantined))
-            chunk_start = chunk_end + timedelta(days=1)
-            time.sleep(SLEEP_S)
+    total_changed, all_quarantined, skipped = 0, [], []
+    for state_name, state_id in state_ids.items():
+        for slug, (cmdt_id, group_id) in ids.items():
+            chunk_start = start
+            while chunk_start <= today:
+                chunk_end = min(chunk_start + timedelta(days=364), today)
+                try:
+                    raw = _fetch_chunk(session, cmdt_id, group_id, state_id,
+                                       chunk_start, chunk_end)
+                except AgmarknetError as e:
+                    # the API 404s on some specific chunks server-side;
+                    # skip and report rather than abort the whole backfill
+                    log.warning("SKIPPED %s / %s %s..%s: %s", state_name, slug,
+                                chunk_start, chunk_end, e)
+                    skipped.append(f"{state_name}/{slug} {chunk_start}..{chunk_end}")
+                    chunk_start = chunk_end + timedelta(days=1)
+                    time.sleep(SLEEP_S)
+                    continue
+                shaped = [_to_ogd_shape(r) for r in raw]
+                rows, quarantined = normalize_records(
+                    cfg, shaped, source="agmarknet", fetched_at=fetched_at)
+                changed = upsert_rows(rows)
+                n = sum(changed.values())
+                total_changed += n
+                all_quarantined.extend(quarantined)
+                log.info("%s / %s %s..%s: %d raw -> %d in-scope, %d changed, "
+                         "%d quarantined", state_name, slug, chunk_start,
+                         chunk_end, len(raw), len(rows), n, len(quarantined))
+                chunk_start = chunk_end + timedelta(days=1)
+                time.sleep(SLEEP_S)
 
     write_quarantine(all_quarantined)
     print(f"agmarknet backfill complete: {total_changed} rows changed, "
           f"{len(all_quarantined)} quarantined")
+    if skipped:
+        print(f"WARNING: {len(skipped)} chunk(s) skipped (API errors) — "
+              f"re-run backfill later to retry: {', '.join(skipped)}")
     return 0

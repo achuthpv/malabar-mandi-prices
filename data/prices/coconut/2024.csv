@@ -9,14 +9,18 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2024-01-03,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-03,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-03,Coimbatore,Pollachi APMC,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-03,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-04,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-04,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,8066,20330,19060,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-04,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-04,Coimbatore,Pollachi APMC,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-04,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-05,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-05,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-05,Coimbatore,Pollachi APMC,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-05,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-06,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2400,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -24,6 +28,7 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2024-01-08,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-08,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-08,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-08,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-09,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2340,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-09,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -34,60 +39,83 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2024-01-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2400,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-10,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-11,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-11,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,17460,21433,20460,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-11,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2760,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-11,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-11,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-12,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,2900,3900,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-12,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2300,2250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-12,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2600,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-12,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-15,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,4000,5100,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-15,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-15,Ernakulam,North Paravur Market,coconut,Big,FAQ,3400,4400,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-15,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-16,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-16,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-16,Ernakulam,North Paravur Market,coconut,Big,FAQ,3400,4400,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-16,Kannur,Taliparamba Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-17,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-17,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2400,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-17,Ernakulam,North Paravur Market,coconut,Big,FAQ,3400,4400,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-17,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-18,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2350,2250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-18,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-18,Ernakulam,North Paravur Market,coconut,Big,FAQ,3400,4400,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-18,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-19,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,4000,5000,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-19,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-19,Malappuram,Manjeri Market,coconut,Other,FAQ,2950,3050,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,3400,4400,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-19,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-19,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-20,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,3400,4400,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-20,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-21,Malappuram,Manjeri Market,coconut,Other,FAQ,2950,3050,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-22,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,4000,5000,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-22,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-22,Malappuram,Manjeri Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-22,Ernakulam,North Paravur Market,coconut,Big,FAQ,3400,4400,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-22,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-22,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-23,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-23,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-23,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-23,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2800,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-23,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-24,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2300,2250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-24,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-24,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-24,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-25,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-25,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,2143,4686,4355,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-25,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-25,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4200,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-25,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-26,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-26,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-27,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,4100,5000,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-27,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-27,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-27,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-28,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -95,53 +123,71 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2024-01-29,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-29,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-29,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-29,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-30,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-30,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-30,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-30,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-31,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-31,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-01-31,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-01-31,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-01,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,4000,5200,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-01,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2300,2250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-01,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,2157,4857,3853,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-01,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-01,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-01,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-02,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3900,5100,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-02,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2600,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-02,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-02,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-02,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-03,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-03,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-03,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-03,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-04,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-05,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-05,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-05,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-05,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8500,8700,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-05,Kannur,Taliparamba Market,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-06,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-06,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-06,Kannur,Taliparamba Market,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-07,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2300,2250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-07,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-07,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-07,Kannur,Taliparamba Market,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-08,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,4000,4800,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-08,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2300,2250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-08,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,4438,4598,4506,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-08,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-08,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-08,Kannur,Taliparamba Market,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-09,Ernakulam,Ernakulam Market,coconut,Coconut,FAQ,3900,4800,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-09,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2480,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-09,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-09,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-09,Kannur,Taliparamba Market,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-10,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-12,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2500,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-12,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-12,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-12,Kannur,Taliparamba Market,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-13,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -149,105 +195,151 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2024-02-14,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2460,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-14,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-14,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-14,Kannur,Taliparamba Market,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-15,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,3571,4642,4391,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-15,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-15,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-15,Kannur,Taliparamba Market,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-16,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-16,Kannur,Taliparamba Market,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-17,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-17,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-17,Kannur,Taliparamba Market,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-18,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-19,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-20,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-20,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-21,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2450,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-21,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-21,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-21,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-22,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-22,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,4742,4770,4757,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-22,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-22,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-22,Kannur,Taliparamba Market,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-23,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-23,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-24,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-24,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-24,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-25,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-26,Malappuram,Kottakkal Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-26,Malappuram,Manjeri Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-26,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-27,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-28,Malappuram,Kottakkal Market,coconut,Other,FAQ,3700,3800,3750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-28,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-28,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-29,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2300,2250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-29,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,2330,2334,2331,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-02-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-02-29,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-01,Malappuram,Kottakkal Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-01,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-01,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-02,Malappuram,Kottakkal Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-02,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-02,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-04,Malappuram,Kottakkal Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-04,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-04,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-05,Ernakulam,Keerampara VFPCK Market,coconut,Big,FAQ,3800,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-05,Malappuram,Kottakkal Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-05,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-05,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-06,Malappuram,Kottakkal Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-06,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2760,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-06,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-07,Malappuram,Kottakkal Market,coconut,Other,FAQ,2800,2900,2860,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-07,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,21366,21700,21600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-07,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-07,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-08,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-09,Malappuram,Kottakkal Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-11,Malappuram,Kottakkal Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-11,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-11,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2950,3250,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-12,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-12,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-12,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-13,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-13,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-13,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-14,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-14,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,20422,23521,22007,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-14,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-14,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-15,Malappuram,Kottakkal Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-15,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-15,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-16,Malappuram,Kottakkal Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-16,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-16,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-18,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-18,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-18,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-19,Malappuram,Kottakkal Market,coconut,Other,FAQ,2650,2750,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-19,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2950,3300,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-20,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-21,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-21,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-21,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-22,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-22,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-22,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-22,Coimbatore,Pollachi APMC,coconut,Other,FAQ,3000,3300,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-23,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-23,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-23,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-24,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-25,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2600,2470,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-25,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2400,2600,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-25,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-25,Coimbatore,Pollachi APMC,coconut,Other,FAQ,3100,3300,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-26,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-26,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-26,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-27,Coimbatore,Pollachi APMC,coconut,Other,FAQ,3000,3200,3100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-28,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-29,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-29,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -255,164 +347,228 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2024-03-30,Malappuram,Kottakkal Market,coconut,Other,FAQ,2800,2900,2850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-30,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-03-30,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-03-31,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-01,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2550,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-01,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-01,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-02,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-02,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-03,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-03,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-04,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-04,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4800,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-05,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-05,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-05,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-06,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-06,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-06,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-08,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2550,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-08,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-09,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-09,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-09,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-10,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-11,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-11,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-12,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-12,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-12,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4900,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-13,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-13,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-14,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-15,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-15,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4900,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-16,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-16,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-16,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4800,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-17,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-17,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,3000,3400,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-17,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4800,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-18,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,21140,22535,22112,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-18,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-18,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4800,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-19,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2550,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-19,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4800,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-20,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-20,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4800,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-21,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-22,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-22,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-22,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4800,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-23,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-23,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-23,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4800,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-24,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-24,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-24,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4000,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-25,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2560,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-25,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,21126,22359,21725,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-25,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-25,Ernakulam,North Paravur Market,coconut,Big,FAQ,3700,4800,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-26,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2250,2200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-26,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-26,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4500,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-27,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-27,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4500,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-29,Malappuram,Kottakkal Market,coconut,Other,FAQ,2600,2700,2650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-29,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4500,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-30,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-04-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-04-30,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4500,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-01,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-02,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-02,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,10563,22887,21690,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-02,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-02,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4500,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-03,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2300,2200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-03,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-03,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4500,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-04,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-04,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-04,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4500,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-05,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-06,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-06,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-06,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4500,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-07,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-07,Malappuram,Manjeri Market,coconut,Other,FAQ,3100,3200,3150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-07,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4500,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-08,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-08,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-08,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-09,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-09,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,19718,20774,20140,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-09,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-09,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-10,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-10,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-10,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-11,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-11,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-13,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-13,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-14,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2300,2250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-14,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-14,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-15,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-15,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-16,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-16,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,18309,19366,19014,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-16,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-16,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-17,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2300,2240,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-17,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-17,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-18,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-18,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-18,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-20,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-20,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-21,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-21,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-22,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-22,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-23,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-23,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,17780,19710,19295,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-23,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-24,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-24,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-24,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-25,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-25,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-25,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-26,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-27,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2550,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-27,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-28,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-28,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-28,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-29,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-29,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-29,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-30,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2340,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-30,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,18309,19190,18873,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-30,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-30,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-31,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2450,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-31,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-05-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2300,2500,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-05-31,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-01,Malappuram,Kottakkal Market,coconut,Other,FAQ,2490,2540,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-01,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2200,2400,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-01,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-02,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-03,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2500,2430,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-03,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-04,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-04,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-04,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-05,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-05,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-06,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-06,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,17950,19470,18590,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-06,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-07,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-07,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-08,Malappuram,Kottakkal Market,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-08,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
@@ -421,364 +577,897 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2024-06-10,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2550,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-10,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-10,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-11,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-11,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-12,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-12,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-12,Coimbatore,Sulur APMC,coconut,Other,FAQ,4000,4200,4100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-13,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,17253,20420,19920,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-13,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-13,Ernakulam,North Paravur Market,coconut,Big,FAQ,3600,4600,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-13,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2900,3100,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-14,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-14,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-15,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-15,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-16,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-17,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-18,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-18,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-18,Coimbatore,Pollachi APMC,coconut,Other,FAQ,2500,2600,2550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-19,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-20,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2450,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-20,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,16900,20070,19436,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-20,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2960,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-21,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2550,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-21,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-21,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-22,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-22,Malappuram,Manjeri Market,coconut,Other,FAQ,2900,3000,2950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-22,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-23,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-24,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-24,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-24,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-25,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2350,2300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-25,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-25,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-26,Ernakulam,Koovapadi VFPCK Market,coconut,Big,FAQ,3400,3600,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-26,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-26,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-26,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-27,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2450,2430,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-27,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,17600,20500,20140,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-27,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-28,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-28,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-29,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-06-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,2800,2700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-06-29,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-01,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2550,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-01,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-02,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2430,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-02,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2760,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2700,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-02,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-03,Malappuram,Kottakkal Market,coconut,Other,FAQ,2340,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-03,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-03,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-04,Malappuram,Kottakkal Market,coconut,Other,FAQ,2100,2200,2150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-04,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2700,3000,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-04,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-05,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-05,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-05,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-06,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-06,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-08,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2550,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-08,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-08,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-08,Coimbatore,Pollachi APMC,coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-08,Coimbatore,Sulur APMC,coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-09,Malappuram,Kottakkal Market,coconut,Other,FAQ,2200,2300,2250,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-09,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-09,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-09,Coimbatore,Pollachi APMC,coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-09,Coimbatore,Sulur APMC,coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-10,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2550,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-10,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-10,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-10,Coimbatore,Pollachi APMC,coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-10,Coimbatore,Sulur APMC,coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-11,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-11,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,10563,21443,19859,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-11,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-11,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-11,Coimbatore,Pollachi APMC,coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-11,Coimbatore,Sulur APMC,coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-12,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-12,Malappuram,Manjeri Market,coconut,Other,FAQ,2700,2800,2750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-12,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-12,Coimbatore,Pollachi APMC,coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-12,Coimbatore,Sulur APMC,coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-13,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-13,Coimbatore,Pollachi APMC,coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-13,Coimbatore,Sulur APMC,coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-14,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-14,Coimbatore,Pollachi APMC,coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-14,Coimbatore,Sulur APMC,coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-15,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-15,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-15,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-15,Coimbatore,Pollachi APMC,coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-15,Coimbatore,Sulur APMC,coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-16,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-16,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-16,Coimbatore,Pollachi APMC,coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-16,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-16,Coimbatore,Sulur APMC,coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-16,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-17,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2400,2340,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-17,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-17,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-17,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-18,Malappuram,Kottakkal Market,coconut,Other,FAQ,2360,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-18,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,17605,22459,20704,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-18,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-18,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-18,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-19,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2450,2350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-19,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-19,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-19,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-20,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-20,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-20,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-20,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-21,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-21,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-21,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-22,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-22,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-22,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-22,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-22,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-23,Malappuram,Kottakkal Market,coconut,Other,FAQ,2300,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-23,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-23,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4500,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-23,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-23,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-24,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-24,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-24,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-24,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-25,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-25,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,14084,22992,20985,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-25,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-25,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-25,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-26,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-26,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-26,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-26,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3200,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-27,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-27,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-28,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-28,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-29,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-29,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-29,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-30,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-30,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-30,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-30,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-31,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-31,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-07-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2600,2900,2800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-31,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-31,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-07-31,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-01,Malappuram,Kottakkal Market,coconut,Other,FAQ,2450,2550,2500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-01,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,16900,23450,20140,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-01,Malappuram,Manjeri Market,coconut,Other,FAQ,2850,2950,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-01,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-01,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-01,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-02,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2550,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-02,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-02,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-02,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-02,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-03,Malappuram,Kottakkal Market,coconut,Other,FAQ,2350,2450,2400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-03,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-03,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-03,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-04,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-04,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-05,Malappuram,Kottakkal Market,coconut,Other,FAQ,2400,2500,2450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-05,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-05,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-05,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-05,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-06,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-06,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-06,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-06,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-07,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-07,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-07,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-08,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,10633,24345,22394,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-08,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-08,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-08,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-08,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-09,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-09,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-09,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-09,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-10,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-10,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-10,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-11,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-11,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-12,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-12,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-12,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-13,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-13,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-13,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-13,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-14,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-14,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-14,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-14,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-15,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-15,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-16,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-16,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-16,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-16,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-17,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,3000,3400,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-17,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-17,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-17,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-18,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-18,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-18,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-19,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-19,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-19,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-20,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-20,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-20,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-21,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-21,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-21,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-21,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-22,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,15490,24204,21440,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-22,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-22,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-22,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-22,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-23,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-23,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-23,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-23,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3400,3400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-24,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-24,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-24,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-24,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-25,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3000,3300,3300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-25,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-26,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-26,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-26,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3300,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-27,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-27,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-28,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-28,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-28,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3500,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-29,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,11988,24119,23521,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-29,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-29,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-29,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-29,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3400,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-30,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-08-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-30,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-30,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-30,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3400,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-31,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-31,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-08-31,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3300,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-01,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-01,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3300,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-02,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-02,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-02,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-02,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-03,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-03,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-03,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-04,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-04,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-04,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-04,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-05,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,11267,24014,22816,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-05,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-05,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-05,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-05,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-06,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-06,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-06,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3000,2900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-07,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-07,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-07,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3400,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-08,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-08,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3400,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-09,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-09,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-09,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-09,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-10,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-10,Ernakulam,North Paravur Market,coconut,Big,FAQ,4100,4600,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-10,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-10,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-11,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,3000,3400,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-11,Ernakulam,North Paravur Market,coconut,Big,FAQ,4100,4800,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-11,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-11,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-12,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,10630,24049,22816,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-12,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,3000,3400,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-12,Ernakulam,North Paravur Market,coconut,Big,FAQ,4100,4800,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-12,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-12,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-13,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,3000,3400,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-13,Ernakulam,North Paravur Market,coconut,Big,FAQ,4100,4800,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-13,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-13,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-14,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,3000,3400,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-14,Ernakulam,North Paravur Market,coconut,Big,FAQ,4100,4800,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-14,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-14,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-15,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-15,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-16,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-16,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-17,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-17,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-17,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-18,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,3000,3400,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-18,Ernakulam,North Paravur Market,coconut,Big,FAQ,4100,4800,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-18,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3200,3600,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-18,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3600,4000,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-19,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,26606,26887,26619,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-19,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,3000,3400,3200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,3500,4600,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-19,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3600,3900,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-19,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,3500,4000,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-20,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,4500,5500,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-20,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3600,3900,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-20,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4000,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-21,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-21,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3900,4200,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-21,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4000,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-22,Malappuram,Manjeri Market,coconut,Other,FAQ,3000,3100,3050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-22,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,3800,4200,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-22,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4000,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-23,Malappuram,Manjeri Market,coconut,Other,FAQ,3550,3650,3600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-23,Ernakulam,North Paravur Market,coconut,Big,FAQ,4500,5500,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-23,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-23,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4000,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-24,Malappuram,Manjeri Market,coconut,Other,FAQ,3500,3600,3550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,2800,3200,3000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-24,Ernakulam,North Paravur Market,coconut,Big,FAQ,4500,5500,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-24,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4600,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-24,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4500,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-25,Malappuram,Manjeri Market,coconut,Other,FAQ,3500,3600,3550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-25,Ernakulam,North Paravur Market,coconut,Big,FAQ,4500,5500,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-25,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-25,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-26,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,15492,31232,28345,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-26,Malappuram,Manjeri Market,coconut,Other,FAQ,3500,3600,3550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-26,Ernakulam,North Paravur Market,coconut,Big,FAQ,4500,5500,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-26,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-26,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-27,Malappuram,Manjeri Market,coconut,Other,FAQ,3500,3600,3550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,6600,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-27,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-27,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-28,Malappuram,Manjeri Market,coconut,Other,FAQ,3500,3600,3550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-28,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,6600,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-28,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-28,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-29,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-29,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-29,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-30,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-09-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-30,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,6600,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-30,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-09-30,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-01,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4300,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-01,Ernakulam,North Paravur Market,coconut,Big,FAQ,5500,6600,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-01,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-01,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-02,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-02,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-02,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-03,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,11267,30176,20590,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-03,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-03,Ernakulam,North Paravur Market,coconut,Big,FAQ,5500,6600,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-03,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-03,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-04,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-04,Ernakulam,North Paravur Market,coconut,Big,FAQ,5500,6800,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-04,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-04,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-05,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-05,Ernakulam,North Paravur Market,coconut,Big,FAQ,5500,6800,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-05,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-05,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-06,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-06,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5300,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-06,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-07,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-07,Ernakulam,North Paravur Market,coconut,Big,FAQ,5500,6800,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-07,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5300,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-07,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-08,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-08,Ernakulam,North Paravur Market,coconut,Big,FAQ,5000,6500,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-08,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5300,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-08,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-09,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-09,Ernakulam,North Paravur Market,coconut,Big,FAQ,5000,6000,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-09,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-09,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-10,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,11260,26935,25950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-10,Ernakulam,North Paravur Market,coconut,Big,FAQ,5000,6500,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-10,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5500,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-10,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-11,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-11,Ernakulam,North Paravur Market,coconut,Big,FAQ,5300,6000,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-11,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5500,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-11,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-12,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-12,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5500,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-12,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-13,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-13,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-13,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-14,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,3950,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-14,Ernakulam,North Paravur Market,coconut,Big,FAQ,5300,6000,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-14,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-14,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-15,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,3950,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-15,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6600,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-15,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-15,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-16,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,3950,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-16,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-16,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-16,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-17,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,3950,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-17,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-17,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4200,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-17,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-18,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,3950,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-18,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-18,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4200,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-18,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-19,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,3950,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-19,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4200,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-19,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-20,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4200,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-20,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-21,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-21,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4200,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-21,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-22,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-22,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4200,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-22,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-23,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,3950,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-23,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-23,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-23,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-24,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,11443,29993,27040,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-24,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,3950,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-24,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-24,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-24,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-25,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,3950,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-25,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-25,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-25,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-26,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,4000,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4100,4300,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-26,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-26,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-26,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-27,Malappuram,Manjeri Market,coconut,Other,FAQ,3850,3950,3900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-27,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-27,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-28,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-28,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-28,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-28,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-29,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-29,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-29,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-29,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-30,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-30,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-30,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-30,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-31,Ernakulam,Koovapadi VFPCK Market,coconut,Big,FAQ,5000,5500,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-10-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-31,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-10-31,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-01,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4000,4400,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-01,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-01,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-01,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-02,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-02,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-02,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-03,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-03,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-04,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-04,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-04,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-04,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-05,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-05,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-05,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4400,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-05,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-06,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-06,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-06,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4200,4600,4600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-06,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,4800,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-07,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,12042,32500,24929,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-07,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-07,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-07,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4200,4600,4600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-07,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-08,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-08,Ernakulam,North Paravur Market,coconut,Big,FAQ,5600,6600,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-08,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4200,4600,4600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-08,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-09,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-09,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-09,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-10,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-10,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-10,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-11,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-11,Ernakulam,North Paravur Market,coconut,Big,FAQ,5600,6600,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-11,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-11,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-12,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-12,Ernakulam,North Paravur Market,coconut,Big,FAQ,5600,6600,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-12,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-12,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-13,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-13,Ernakulam,North Paravur Market,coconut,Big,FAQ,5400,6600,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-13,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-13,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-14,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4500,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-14,Ernakulam,North Paravur Market,coconut,Big,FAQ,5600,6600,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-14,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-14,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5400,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-15,Malappuram,Manjeri Market,coconut,Other,FAQ,4300,4400,4350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-15,Ernakulam,North Paravur Market,coconut,Big,FAQ,5700,6600,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-15,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-15,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,5500,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-16,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-16,Ernakulam,North Paravur Market,coconut,Big,FAQ,5700,6700,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-16,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-16,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-17,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-17,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-18,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-18,Ernakulam,North Paravur Market,coconut,Big,FAQ,5700,6600,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-18,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-18,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-19,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,5800,6800,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-19,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-19,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-20,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,5800,6800,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-20,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-20,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5600,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-21,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4500,4700,4600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-21,Ernakulam,North Paravur Market,coconut,Big,FAQ,5800,6800,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-21,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-21,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-22,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4500,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-22,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-22,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-22,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-23,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4500,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-23,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,4500,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-23,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-24,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-24,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-25,Malappuram,Manjeri Market,coconut,Other,FAQ,4000,4100,4050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-25,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-25,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-25,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4600,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-26,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-26,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-26,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-27,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-27,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-28,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,12042,33732,28662,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-28,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-28,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-28,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-28,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-29,Malappuram,Manjeri Market,coconut,Other,FAQ,4300,4400,4350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-29,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-29,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-30,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-11-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-11-30,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-01,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-02,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-02,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-02,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-02,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-03,Malappuram,Manjeri Market,coconut,Other,FAQ,4300,4400,4350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-03,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-03,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-03,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-04,Malappuram,Manjeri Market,coconut,Other,FAQ,4300,4400,4350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-04,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-04,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-04,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4450,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-04,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-05,Uttara Kannada,Kumta APMC,coconut,Grade-I,FAQ,14007,32746,29436,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-05,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-05,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-05,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-05,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4450,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-05,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-06,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4500,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-06,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-06,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-06,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4150,4200,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-06,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-07,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-07,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-07,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-07,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4200,4200,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-07,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-08,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-08,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-08,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-09,Malappuram,Manjeri Market,coconut,Other,FAQ,4650,4750,4700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-09,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-09,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-09,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4150,4200,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-09,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-10,Malappuram,Manjeri Market,coconut,Other,FAQ,4600,4700,4650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4500,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-10,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-10,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-10,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4350,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-10,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-11,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-11,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-11,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-11,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4350,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-11,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-12,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-12,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-12,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-12,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4390,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-12,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-13,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-13,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-13,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-13,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4250,4300,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-13,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-14,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-14,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-14,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-15,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-15,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-16,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-16,Ernakulam,North Paravur Market,coconut,Big,FAQ,6000,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-16,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-16,Wayanad,Sultan bathery Market,coconut,Other,FAQ,3995,4000,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-16,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-17,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-17,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-17,Wayanad,Sultan bathery Market,coconut,Other,FAQ,3750,3800,3800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-17,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-18,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-18,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-18,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-18,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4190,4300,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-18,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-19,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-19,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-19,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-19,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4300,4300,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-19,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-20,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-20,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-20,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-20,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4195,4200,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-20,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-21,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-21,Wayanad,Sultan bathery Market,coconut,Other,FAQ,3955,4000,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-21,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-22,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-22,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-23,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-23,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-23,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-23,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-24,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-24,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-24,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4190,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-24,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-25,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-25,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4600,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-26,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-26,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-26,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4500,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-26,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5200,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-27,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-27,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-27,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-27,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-28,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-28,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7400,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-28,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-28,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4400,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-28,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5800,6000,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-29,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-29,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-29,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5000,6000,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-30,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4500,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-30,Ernakulam,North Paravur Market,coconut,Big,FAQ,6200,7000,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-30,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-30,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4455,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-30,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,6000,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-31,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-31,Ernakulam,North Paravur Market,coconut,Big,FAQ,6400,7400,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-31,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
 2024-12-31,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4655,4700,4700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2024-12-31,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00

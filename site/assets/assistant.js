@@ -57,7 +57,9 @@
   }
 
   function detectIntent(q) {
-    // "now" first: "is now a good time to sell" must not match sell-timing
+    // "where" first: market comparison beats timing words
+    if (/\b(where|which market|which mandi|arbitrage|spread|best market|highest price|lowest price)\b/.test(q)) return "where";
+    // "now" next: "is now a good time to sell" must not match sell-timing
     if (/\b(now|today|right now|current(ly)?|at the moment|this (week|month))\b/.test(q)) return "now";
     if (/\b(sell|selling)\b/.test(q) && /\b(when|best|month|time|season)\b/.test(q)) return "sell";
     if (/\b(buy|buying|purchase|cheap)\b/.test(q)) return "buy";
@@ -157,6 +159,18 @@
       }
       lines.push(`This dashboard doesn't read market news yet, so it can only explain what ` +
         `the price history shows — not one-off events.`);
+    } else if (intent === "where") {
+      const sp = doc.spread;
+      if (sp) {
+        lines.push(`${name}: highest recent price ${fmtPrice(sp.high.modal_price)} at ` +
+          `${sp.high.market} (${sp.high.district}); lowest ${fmtPrice(sp.low.modal_price)} at ` +
+          `${sp.low.market} (${sp.low.district}) — a ${sp.spread_pct}% gap across ` +
+          `${sp.n_markets} markets reporting in the last ${sp.window_days} days.`);
+        lines.push(`Mind that gaps vs distant benchmark markets (★) come before transport, ` +
+          `quality/variety and market-fee differences.`);
+      } else {
+        lines.push(`${name}: not enough recently-reporting markets to compare prices.`);
+      }
     } else if (intent === "price") {
       lines.push(`${name}: latest ${fmtPrice(view.latest.modal_price)}/quintal in ${area} ` +
         `(reported ${view.latest.date}); 30-day median ${fmtPrice(t.ma30)}.`);
@@ -176,9 +190,9 @@
 
   const EXAMPLES = [
     "When should I sell black pepper?",
+    "Which market pays most for arecanut?",
     "Is now a good time to sell coconut?",
     "Why are arecanut prices low?",
-    "Current black pepper price",
     "When is coconut cheapest to buy?",
   ];
 

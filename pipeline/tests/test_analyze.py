@@ -74,6 +74,33 @@ def test_empty_commodity_has_no_region_analysis(cfg, seeded_base):
     assert res["commodities"]["arecanut"]["districts"] == {}
 
 
+def test_benchmark_district_excluded_from_region(cfg, tmp_path):
+    """Sirsi-belt (benchmark) prices must not shift the home-region series."""
+    def row(district, market, price):
+        return {
+            "date": "2026-07-01", "district": district, "market": market,
+            "commodity_slug": "arecanut", "variety": "Other", "grade": "FAQ",
+            "min_price": price - 100, "max_price": price + 100,
+            "modal_price": price, "unit": "Rs/quintal",
+            "source": "ogd", "fetched_at": "2026-07-08T00:00:00+00:00",
+        }
+
+    upsert_rows([
+        row("Kasargod", "Kasargod Market", 40000),
+        row("Kannur", "Kuthuparambu Market", 42000),
+        row("Uttara Kannada", "Sirsi APMC", 90000),  # benchmark outlier
+    ], base=tmp_path)
+
+    res = analyze_all(cfg, base=tmp_path, today=TODAY)
+    areca = res["commodities"]["arecanut"]
+    # region latest = median of the two home districts only
+    assert areca["region"]["latest"]["modal_price"] == 41000
+    # but the benchmark district still gets its own analysis, flagged
+    assert areca["districts"]["Uttara Kannada"]["benchmark"] is True
+    assert areca["districts"]["Uttara Kannada"]["latest"]["modal_price"] == 90000
+    assert areca["districts"]["Kasargod"]["benchmark"] is False
+
+
 def test_sparse_history_degrades_gracefully(cfg, tmp_path):
     """A few months of data: no seasonality, but latest/freshness still work."""
     rows = [{

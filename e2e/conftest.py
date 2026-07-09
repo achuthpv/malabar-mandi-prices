@@ -31,7 +31,10 @@ TODAY = date(2026, 7, 8)
 FETCHED_AT = "2026-07-08T18:00:00+00:00"
 
 MARKETS = {
-    "arecanut": [("Kasargod", "Kasargod Market"), ("Kannur", "Kuthuparambu Market")],
+    # Sirsi APMC sits in a benchmark district (Uttara Kannada) and trades
+    # ~15% above the home region — exercises the spread/arbitrage view
+    "arecanut": [("Kasargod", "Kasargod Market"), ("Kannur", "Kuthuparambu Market"),
+                 ("Uttara Kannada", "Sirsi APMC")],
     "black-pepper": [("Wayanad", "Pulpally Market"), ("Kannur", "Kannur Market"),
                      ("Kasargod", "Kasargod Market")],
     "coconut": [("Kozhikode", "Mukkom Market"), ("Kannur", "Kannur Market")],
@@ -55,6 +58,8 @@ def _seed_rows() -> list[dict]:
             for slug, markets in MARKETS.items():
                 for i, (district, market) in enumerate(markets):
                     price = _price(slug, day, i)
+                    if market == "Sirsi APMC":
+                        price = int(price * 1.15)
                     rows.append({
                         "date": day.isoformat(), "district": district,
                         "market": market, "commodity_slug": slug,
