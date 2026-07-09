@@ -1,0 +1,914 @@
+date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_price,unit,source,fetched_at
+2025-01-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-03,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4200,4400,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-03,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4655,4700,4700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-04,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-04,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4650,4700,4700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-06,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-06,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4895,4900,4900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-07,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5200,5400,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-07,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4800,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-08,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4895,4900,4900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-09,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5200,5400,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-10,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-11,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-12,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-13,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-14,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-15,Malappuram,Manjeri Market,coconut,Other,FAQ,4900,5000,4950,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-15,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4695,4700,4700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-16,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-16,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4650,4700,4700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-17,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4700,4700,4700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-18,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4655,4700,4700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-20,Malappuram,Manjeri Market,coconut,Other,FAQ,4500,4600,4550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-21,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-21,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4555,4600,4600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-22,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-23,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-23,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4600,4600,4600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-24,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-25,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-25,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4400,4400,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-27,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-27,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4400,4400,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-28,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-28,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4350,4400,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-29,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-29,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4355,4400,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-30,Malappuram,Manjeri Market,coconut,Other,FAQ,5400,5500,5450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4800,5200,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-30,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4400,4400,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-31,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-01-31,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4355,4400,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-01,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5360,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-01,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4355,4400,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-03,Malappuram,Manjeri Market,coconut,Other,FAQ,5400,5500,5450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-03,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4795,4800,4800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-04,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-04,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4855,4900,4900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-05,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-05,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4855,4900,4900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-06,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-06,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4455,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-07,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-07,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4500,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-09,Malappuram,Manjeri Market,coconut,Other,FAQ,5300,5400,5350,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-10,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4800,5200,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-10,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4455,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-11,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4800,5200,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-12,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5200,5600,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-12,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4500,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-13,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5400,5600,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-13,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4500,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-14,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5200,5500,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-14,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4455,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-15,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-15,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4500,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-16,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-17,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-18,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-18,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4500,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-19,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-20,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-20,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4200,4200,4200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-21,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-21,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4400,4400,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-22,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-24,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4800,5200,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-24,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4400,4400,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-25,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-25,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4400,4400,4400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-26,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-27,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-27,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4000,4000,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-28,Malappuram,Manjeri Market,coconut,Other,FAQ,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-02-28,Wayanad,Sultan bathery Market,coconut,Other,FAQ,3950,4000,4000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-01,Malappuram,Manjeri Market,coconut,Other,FAQ,5400,5500,5450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-01,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4295,4300,4300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-02,Malappuram,Manjeri Market,coconut,Other,FAQ,5400,5500,5450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5200,5600,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-03,Malappuram,Manjeri Market,coconut,Other,FAQ,5400,5500,5450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5200,5600,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-03,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4695,4700,4700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-04,Malappuram,Manjeri Market,coconut,Other,FAQ,5400,5500,5450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-04,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4695,4700,4700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-05,Malappuram,Manjeri Market,coconut,Other,FAQ,5400,5500,5450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5200,5400,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-05,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4495,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-06,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5200,5400,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-06,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4495,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-07,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-07,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4495,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-08,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-09,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-10,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-10,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4495,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-11,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-11,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4495,4500,4500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-12,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-12,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4995,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-13,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5200,5400,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-13,Wayanad,Sultan bathery Market,coconut,Other,FAQ,5195,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-14,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-14,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4995,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-15,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-15,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4995,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-16,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-17,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-17,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4995,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-18,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-18,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4995,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-19,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-19,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4995,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-20,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-20,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4995,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-21,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-21,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4995,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-22,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-22,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4895,4900,4900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-23,Malappuram,Manjeri Market,coconut,Other,FAQ,5350,5450,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-24,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-24,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4900,4900,4900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-25,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-25,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4895,4900,4900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-26,Malappuram,Manjeri Market,coconut,Other,FAQ,6350,6450,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-26,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4895,4900,4900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-27,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4895,4900,4900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-28,Malappuram,Manjeri Market,coconut,Other,FAQ,6350,6450,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-28,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4895,4900,4900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-29,Malappuram,Manjeri Market,coconut,Other,FAQ,6350,6450,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-03-29,Wayanad,Sultan bathery Market,coconut,Other,FAQ,5195,5200,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-01,Malappuram,Manjeri Market,coconut,Other,FAQ,6350,6450,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-01,Wayanad,Sultan bathery Market,coconut,Other,FAQ,5495,5500,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-02,Malappuram,Manjeri Market,coconut,Other,FAQ,6350,6450,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-02,Wayanad,Sultan bathery Market,coconut,Other,FAQ,5495,5500,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-03,Malappuram,Manjeri Market,coconut,Other,FAQ,6350,6450,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-03,Wayanad,Sultan bathery Market,coconut,Other,FAQ,5495,5500,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-04,Malappuram,Manjeri Market,coconut,Other,FAQ,6400,6500,6450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-04,Wayanad,Sultan bathery Market,coconut,Other,FAQ,5495,5500,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-05,Wayanad,Sultan bathery Market,coconut,Other,FAQ,4995,5000,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-06,Malappuram,Manjeri Market,coconut,Other,FAQ,6400,6500,6450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-07,Malappuram,Manjeri Market,coconut,Other,FAQ,6400,6500,6450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6000,6200,6100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6000,6200,6100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-08,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-09,Malappuram,Manjeri Market,coconut,Other,FAQ,6400,6500,6450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-10,Malappuram,Manjeri Market,coconut,Other,FAQ,6400,6500,6450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-10,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-11,Malappuram,Manjeri Market,coconut,Other,FAQ,6400,6500,6450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-11,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-12,Malappuram,Manjeri Market,coconut,Other,FAQ,6400,6500,6450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-13,Malappuram,Manjeri Market,coconut,Other,FAQ,6400,6500,6450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-14,Malappuram,Manjeri Market,coconut,Other,FAQ,6400,6500,6450,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-15,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-15,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-16,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-16,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-17,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-18,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-19,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-19,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-20,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-21,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-22,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-23,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-24,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-24,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-25,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-25,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-26,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-26,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6895,6900,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5400,5600,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-28,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-28,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-29,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5200,5600,5400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-29,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-04-30,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6795,6800,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-02,Malappuram,Manjeri Market,coconut,Other,FAQ,6100,6200,6150,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-02,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-03,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-05,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-05,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-06,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-06,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-07,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-07,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-08,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-08,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-09,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-09,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-10,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-11,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-12,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-12,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7095,7100,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-13,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-13,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-14,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-14,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-15,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-15,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-16,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-16,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-17,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-17,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-19,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-20,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6000,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-20,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7395,7400,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-21,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6000,6200,6100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-21,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7395,7400,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-22,Malappuram,Manjeri Market,coconut,Other,FAQ,5850,5950,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6000,6200,6100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-22,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7395,7400,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-23,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6100,6300,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-23,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7395,7400,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-24,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-24,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7295,7300,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-25,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-26,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6000,6200,6100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-26,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-27,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6000,6200,6100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-27,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-28,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6000,6200,6100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-28,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-29,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-29,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-30,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-30,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6000,6200,6100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-05-31,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5700,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-02,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-03,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6400,6300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-03,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8395,8400,8400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-04,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-04,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8495,8500,8500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-05,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6400,6300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-05,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8195,8200,8200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-06,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6400,6300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-09,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,6800,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-09,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-10,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6400,6600,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-10,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6300,6500,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-11,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-12,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-13,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-14,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6500,7500,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-16,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-16,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-17,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-17,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-18,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-18,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-19,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-19,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-20,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-20,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-21,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-22,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-23,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-23,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-24,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-24,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-26,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-26,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-27,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-27,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-28,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-28,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-29,Malappuram,Manjeri Market,coconut,Other,FAQ,6500,6600,6550,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-30,Malappuram,Manjeri Market,coconut,Other,FAQ,7000,7100,7050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-06-30,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8395,8400,8400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-01,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-01,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8495,8500,8500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-02,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-03,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7000,7400,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-03,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8495,8500,8500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-04,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7000,7400,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-04,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8495,8500,8500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-05,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-05,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8495,8500,8500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-07,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7000,7400,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-08,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7000,7400,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-09,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-10,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7000,7400,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-11,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7000,7400,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-11,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-12,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-14,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7500,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-14,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-15,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-15,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-16,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7000,7400,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-16,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-17,Malappuram,Manjeri Market,coconut,Other,FAQ,7250,7350,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7000,7400,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-17,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-18,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7200,7600,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-19,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7500,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-21,Malappuram,Manjeri Market,coconut,Other,FAQ,6700,6800,6750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7200,7600,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-21,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-22,Malappuram,Manjeri Market,coconut,Other,FAQ,6700,6800,6750,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7200,7600,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-23,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7200,7600,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-24,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7600,8000,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-24,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-25,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-26,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-26,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-27,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7200,7600,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-28,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7200,7600,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-28,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-29,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7200,7600,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-29,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-30,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-31,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7600,7500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-07-31,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-01,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7200,7600,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-01,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-02,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-04,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-04,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-05,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-05,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-06,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-06,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-07,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-07,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-08,Malappuram,Manjeri Market,coconut,Other,FAQ,7050,7150,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-08,Wayanad,Sultan bathery Market,coconut,Other,FAQ,8595,8600,8600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6400,6800,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-11,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6100,6300,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-11,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7495,7500,7500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-12,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6000,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-13,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-13,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7595,7600,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-14,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-14,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7595,7600,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-15,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6400,6300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6400,6600,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-16,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7595,7600,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-18,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-19,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-19,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-20,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-20,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-21,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-22,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-22,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-23,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-23,Wayanad,Sultan bathery Market,coconut,Other,FAQ,6995,7000,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-24,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-25,Malappuram,Manjeri Market,coconut,Other,FAQ,5000,5100,5050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-25,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-26,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-27,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-27,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-28,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-29,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-29,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-30,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-08-30,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-01,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-01,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,6800,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-02,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7000,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-03,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7195,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-04,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-05,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-06,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-07,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-08,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-08,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7595,7600,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-09,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6000,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-09,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7595,7600,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-10,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-10,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7595,7600,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-11,Malappuram,Manjeri Market,coconut,Other,FAQ,6000,6100,6050,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-11,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7595,7600,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-12,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-13,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-15,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-16,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-16,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-17,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-17,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-18,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-18,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-19,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7000,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-19,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-20,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-23,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-23,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-24,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7000,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-26,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-26,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-26,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7895,7900,7900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-27,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7600,8000,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-28,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,6900,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-30,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-09-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-01,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-02,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-03,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-03,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-04,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-04,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-05,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-06,Malappuram,Manjeri Market,coconut,Other,FAQ,6650,6750,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-06,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-06,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7000,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-07,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-08,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6400,6800,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-08,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-09,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-10,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-11,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,6800,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-12,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,6800,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-13,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,6800,6700,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-13,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-14,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6400,6600,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-15,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6400,6600,6500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-15,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-16,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-16,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-17,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-17,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-18,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6400,6800,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-18,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-19,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-21,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-21,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-22,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-22,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7795,7800,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-23,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-24,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-28,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-29,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-30,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-10-31,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-01,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6400,6300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-01,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6400,6300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6100,6300,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6400,6300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-04,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-05,Malappuram,Manjeri Market,coconut,Other,FAQ,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-05,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6100,6300,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-05,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-06,Wayanad,Sultan bathery Market,coconut,Other,FAQ,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-07,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-09,Malappuram,Manjeri Market,coconut,Coconut,Local,6900,6900,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-10,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-10,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-11,Malappuram,Manjeri Market,coconut,Coconut,Local,6800,6900,6850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-11,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-11,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-12,Malappuram,Manjeri Market,coconut,Coconut,Local,6800,6900,6850,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-12,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-12,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6000,6400,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-12,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-13,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6900,7300,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-13,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6100,6400,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-13,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-14,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,7000,7300,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-14,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-14,Kozhikode,Mukkom Market,coconut,Other,Local,7400,7600,7500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-14,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6100,6300,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-14,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-15,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6900,7600,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-15,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-15,Wayanad,Pulpally Market,coconut,Coconut,FAQ,5200,5400,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-15,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-16,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6900,7300,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-17,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6900,7400,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-17,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-17,Wayanad,Pulpally Market,coconut,Coconut,FAQ,5200,5400,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-17,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-18,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,7000,7400,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-18,Malappuram,Manjeri Market,coconut,Coconut,Local,6850,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-18,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-18,Wayanad,Pulpally Market,coconut,Coconut,FAQ,5400,5600,5500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-18,Wayanad,Sultan bathery Market,coconut,Other,Local,8295,8300,8300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-19,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6400,6800,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-19,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7600,8000,7800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-19,Wayanad,Pulpally Market,coconut,Coconut,FAQ,5200,5400,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-19,Wayanad,Sultan bathery Market,coconut,Other,Local,8295,8300,8300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-20,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6200,6800,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-20,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-20,Kasargod,Neeleswaram Market,coconut,Other,FAQ,3000,4000,3500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-20,Wayanad,Sultan bathery Market,coconut,Other,Local,8295,8300,8300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-21,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6200,6800,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-21,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-21,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-21,Wayanad,Pulpally Market,coconut,Coconut,FAQ,5100,5120,5110,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-21,Wayanad,Sultan bathery Market,coconut,Other,Local,8295,8300,8300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-22,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-22,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-22,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-22,Wayanad,Pulpally Market,coconut,Coconut,FAQ,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-22,Wayanad,Sultan bathery Market,coconut,Other,Local,8295,8300,8300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-23,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6200,6800,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-23,Malappuram,Manjeri Market,coconut,Coconut,Local,6900,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-23,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7500,7700,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-23,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7800,8200,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-24,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-24,Malappuram,Manjeri Market,coconut,Coconut,Local,6900,6950,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-24,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-24,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7800,8200,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-24,Wayanad,Pulpally Market,coconut,Coconut,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-24,Wayanad,Sultan bathery Market,coconut,Other,Local,8295,8300,8300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-25,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-25,Malappuram,Manjeri Market,coconut,Coconut,Local,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-25,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-25,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-25,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-25,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-26,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-26,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-26,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-26,Wayanad,Pulpally Market,coconut,Coconut,FAQ,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-26,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-27,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-27,Malappuram,Manjeri Market,coconut,Coconut,Local,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-27,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-27,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7200,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-27,Wayanad,Pulpally Market,coconut,Coconut,Local,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-27,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-28,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-28,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-28,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-28,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-28,Wayanad,Pulpally Market,coconut,Coconut,Local,4900,5100,5000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-28,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-29,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6200,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-29,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-29,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7800,7600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-29,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-30,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-11-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-01,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6000,6400,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-01,Malappuram,Manjeri Market,coconut,Coconut,Local,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-01,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-01,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-01,Kasargod,Neeleswaram Market,coconut,Other,FAQ,7400,7600,7500,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-01,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-02,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6000,6400,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-02,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-02,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-02,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-02,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-02,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-03,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6000,6400,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-03,Malappuram,Manjeri Market,coconut,Coconut,Local,5600,5700,5650,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-03,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-03,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-03,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-03,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-04,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,6000,6400,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-04,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-04,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7300,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-04,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-04,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-05,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-05,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-05,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-05,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-06,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-06,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-06,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-06,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-06,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-07,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-07,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-08,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5400,5800,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-08,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-08,Kozhikode,Mukkom Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-08,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-08,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-08,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-09,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5400,5800,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-09,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-09,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7200,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-09,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-09,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-10,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5400,5800,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-10,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-10,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6300,6600,6400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-11,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-11,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-12,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5400,5800,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-12,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-12,Wayanad,Pulpally Market,coconut,Coconut,Local,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-12,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-13,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7300,7500,7400,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-13,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-13,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6800,7000,6900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-14,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5400,5800,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-14,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-15,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5700,6100,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-15,Malappuram,Manjeri Market,coconut,Coconut,Local,5750,5850,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-15,Kozhikode,Mukkom Market,coconut,Other,FAQ,6800,7100,7000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-15,Kasargod,Neeleswaram Market,coconut,Other,FAQ,6600,7000,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-15,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-15,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-16,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5700,6200,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-16,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-16,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-16,Wayanad,Pulpally Market,coconut,Coconut,Local,5000,5200,5100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-16,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-17,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5700,6100,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-17,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-17,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-17,Wayanad,Pulpally Market,coconut,Coconut,Local,5200,5400,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-17,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-18,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5700,6100,5900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-18,Malappuram,Manjeri Market,coconut,Coconut,Local,5750,5850,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-18,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-18,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-18,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-18,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-18,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-19,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-19,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-19,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-19,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-19,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-20,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-20,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-20,Wayanad,Pulpally Market,coconut,Coconut,Local,5200,5400,5300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-21,Kozhikode,Mukkom Market,coconut,Other,FAQ,7000,7300,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-22,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5800,6300,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-22,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-22,Kozhikode,Mukkom Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-22,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-22,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-22,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-23,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5000,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-23,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-23,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-23,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-23,Wayanad,Sultan bathery Market,coconut,Other,Local,7995,8000,8000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-24,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5000,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-24,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-24,Kozhikode,Mukkom Market,coconut,Other,FAQ,7100,7300,7200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-24,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-25,Kozhikode,Mukkom Market,coconut,Other,FAQ,7200,7400,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-26,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5000,5600,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-26,Malappuram,Manjeri Market,coconut,Coconut,Local,5750,5800,5800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-26,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-26,Kozhikode,Mukkom Market,coconut,Other,FAQ,7200,7500,7300,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-26,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-27,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5000,5400,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-27,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6500,6700,6600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-27,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6400,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-27,Wayanad,Sultan bathery Market,coconut,Other,Local,7895,7900,7900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-28,Kozhikode,Mukkom Market,coconut,Other,FAQ,6000,6300,6100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-29,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5400,5800,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-29,Kasargod,Manjeswaram Market,coconut,Other,FAQ,7000,7200,7100,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-29,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-29,Wayanad,Sultan bathery Market,coconut,Other,Local,7895,7900,7900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-30,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5400,5800,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-30,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6700,6900,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-30,Kozhikode,Mukkom Market,coconut,Other,FAQ,6000,6400,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-30,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-30,Wayanad,Sultan bathery Market,coconut,Other,Local,7895,7900,7900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-31,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5400,5800,5600,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-31,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6700,6900,6800,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-31,Kozhikode,Mukkom Market,coconut,Other,FAQ,6000,6300,6200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-31,Kasargod,Neeleswaram Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-31,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00
+2025-12-31,Wayanad,Sultan bathery Market,coconut,Other,Local,7895,7900,7900,Rs/quintal,agmarknet,2026-07-09T00:00:00+00:00

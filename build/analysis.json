@@ -1,5 +1,5 @@
 {
- "today": "2026-07-08",
+ "today": "2026-07-09",
  "commodities": {
   "arecanut": {
    "slug": "arecanut",
@@ -7,80 +7,1255 @@
    "unit": "Rs/quintal",
    "region": {
     "level": "Calicut & North Kerala (Malabar)",
-    "n_obs": 1,
+    "n_obs": 1783,
     "freshness": {
-     "last_observed": "2026-07-08",
+     "last_observed": "2026-07-09",
      "days_stale": 0,
      "stale": false
     },
     "latest": {
-     "date": "2026-07-08",
-     "modal_price": 42100
+     "date": "2026-07-09",
+     "modal_price": 43200
     },
     "trend": {
-     "ma30": null,
-     "ma90": null,
-     "yoy_pct": null,
-     "slope_pct_per_year": null,
+     "ma30": 42000,
+     "ma90": 43000,
+     "yoy_pct": -1.2,
+     "slope_pct_per_year": 2.7,
      "direction": "flat"
     },
-    "signal": null,
-    "seasonality": null,
+    "signal": {
+     "month": "Jul",
+     "vs_typical_pct": 1.7
+    },
+    "seasonality": {
+     "index": [
+      1.0301,
+      0.9504,
+      0.9451,
+      0.9473,
+      0.9766,
+      0.9892,
+      0.9832,
+      0.9992,
+      1.0121,
+      1.0192,
+      1.0246,
+      0.9999
+     ],
+     "iqr": [
+      0.085,
+      0.04,
+      0.0439,
+      0.0223,
+      0.0208,
+      0.0472,
+      0.032,
+      0.0176,
+      0.0252,
+      0.0177,
+      0.0322,
+      0.0191
+     ],
+     "n_years": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ],
+     "years_used": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "best_sell": {
+      "months": [
+       10,
+       11
+      ],
+      "month_names": [
+       "Oct",
+       "Nov"
+      ],
+      "premium_pct": 2.2,
+      "confidence": "medium",
+      "n_years": 4,
+      "mean_iqr": 0.0249
+     },
+     "best_buy": {
+      "months": [
+       3,
+       4
+      ],
+      "month_names": [
+       "Mar",
+       "Apr"
+      ],
+      "premium_pct": -5.4,
+      "confidence": "medium",
+      "n_years": 4,
+      "mean_iqr": 0.0331
+     }
+    },
     "narrative": [
-     "Not enough multi-year history yet to estimate seasonality for Arecanut in Calicut & North Kerala (Malabar). The daily pipeline is accumulating data."
+     "Historically, Arecanut sells about 2.2% above its yearly average in Oct–Nov in Calicut & North Kerala (Malabar) (4 years of data — medium confidence).",
+     "Prices tend to be lowest around Mar–Apr (5.4% below yearly average) — historically the better time to buy."
     ],
     "monthly": [
      {
+      "month": "2021-07",
+      "median": 37000,
+      "n_obs": 22
+     },
+     {
+      "month": "2021-08",
+      "median": 39000,
+      "n_obs": 31
+     },
+     {
+      "month": "2021-09",
+      "median": 42000,
+      "n_obs": 30
+     },
+     {
+      "month": "2021-10",
+      "median": 44750,
+      "n_obs": 31
+     },
+     {
+      "month": "2021-11",
+      "median": 45375,
+      "n_obs": 30
+     },
+     {
+      "month": "2021-12",
+      "median": 47000,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-01",
+      "median": 42550,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-02",
+      "median": 38000,
+      "n_obs": 28
+     },
+     {
+      "month": "2022-03",
+      "median": 40000,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-04",
+      "median": 40000,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-05",
+      "median": 40000,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-06",
+      "median": 37000,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-07",
+      "median": 37000,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-08",
+      "median": 40000,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-09",
+      "median": 40750,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-10",
+      "median": 40500,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-11",
+      "median": 39000,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-12",
+      "median": 38250,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-01",
+      "median": 38275,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-02",
+      "median": 36025,
+      "n_obs": 28
+     },
+     {
+      "month": "2023-03",
+      "median": 36000,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-04",
+      "median": 36000,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-05",
+      "median": 37000,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-06",
+      "median": 37000,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-07",
+      "median": 37500,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-08",
+      "median": 39500,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-09",
+      "median": 40250,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-10",
+      "median": 39250,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-11",
+      "median": 39000,
+      "n_obs": 29
+     },
+     {
+      "month": "2023-12",
+      "median": 38750,
+      "n_obs": 29
+     },
+     {
+      "month": "2024-01",
+      "median": 36550,
+      "n_obs": 31
+     },
+     {
+      "month": "2024-02",
+      "median": 35250,
+      "n_obs": 29
+     },
+     {
+      "month": "2024-03",
+      "median": 32725,
+      "n_obs": 30
+     },
+     {
+      "month": "2024-04",
+      "median": 32875,
+      "n_obs": 30
+     },
+     {
+      "month": "2024-05",
+      "median": 34000,
+      "n_obs": 31
+     },
+     {
+      "month": "2024-06",
+      "median": 34875,
+      "n_obs": 28
+     },
+     {
+      "month": "2024-07",
+      "median": 34000,
+      "n_obs": 28
+     },
+     {
+      "month": "2024-08",
+      "median": 34000,
+      "n_obs": 31
+     },
+     {
+      "month": "2024-09",
+      "median": 35000,
+      "n_obs": 29
+     },
+     {
+      "month": "2024-10",
+      "median": 35000,
+      "n_obs": 30
+     },
+     {
+      "month": "2024-11",
+      "median": 35500,
+      "n_obs": 30
+     },
+     {
+      "month": "2024-12",
+      "median": 34750,
+      "n_obs": 29
+     },
+     {
+      "month": "2025-01",
+      "median": 34500,
+      "n_obs": 29
+     },
+     {
+      "month": "2025-02",
+      "median": 35000,
+      "n_obs": 28
+     },
+     {
+      "month": "2025-03",
+      "median": 35000,
+      "n_obs": 30
+     },
+     {
+      "month": "2025-04",
+      "median": 38000,
+      "n_obs": 30
+     },
+     {
+      "month": "2025-05",
+      "median": 37550,
+      "n_obs": 31
+     },
+     {
+      "month": "2025-06",
+      "median": 42500,
+      "n_obs": 29
+     },
+     {
+      "month": "2025-07",
+      "median": 41500,
+      "n_obs": 31
+     },
+     {
+      "month": "2025-08",
+      "median": 40875,
+      "n_obs": 30
+     },
+     {
+      "month": "2025-09",
+      "median": 41000,
+      "n_obs": 28
+     },
+     {
+      "month": "2025-10",
+      "median": 42000,
+      "n_obs": 31
+     },
+     {
+      "month": "2025-11",
+      "median": 44000,
+      "n_obs": 28
+     },
+     {
+      "month": "2025-12",
+      "median": 41000,
+      "n_obs": 29
+     },
+     {
+      "month": "2026-01",
+      "median": 41250,
+      "n_obs": 28
+     },
+     {
+      "month": "2026-02",
+      "median": 42000,
+      "n_obs": 25
+     },
+     {
+      "month": "2026-03",
+      "median": 42500,
+      "n_obs": 28
+     },
+     {
+      "month": "2026-04",
+      "median": 43500,
+      "n_obs": 27
+     },
+     {
+      "month": "2026-05",
+      "median": 43250,
+      "n_obs": 29
+     },
+     {
+      "month": "2026-06",
+      "median": 42000,
+      "n_obs": 29
+     },
+     {
       "month": "2026-07",
-      "median": 42100,
-      "n_obs": 1
+      "median": 41250,
+      "n_obs": 8
      }
     ]
    },
    "districts": {
     "Kannur": {
      "level": "Kannur",
-     "n_obs": 1,
+     "n_obs": 1664,
      "freshness": {
-      "last_observed": "2026-07-08",
+      "last_observed": "2026-07-09",
       "days_stale": 0,
       "stale": false
      },
      "latest": {
-      "date": "2026-07-08",
-      "modal_price": 34000
+      "date": "2026-07-09",
+      "modal_price": 40000
      },
      "trend": {
-      "ma30": null,
-      "ma90": null,
-      "yoy_pct": null,
-      "slope_pct_per_year": null,
-      "direction": "flat"
+      "ma30": 37200,
+      "ma90": 39400,
+      "yoy_pct": 6.3,
+      "slope_pct_per_year": 15.0,
+      "direction": "up"
      },
-     "signal": null,
-     "seasonality": null,
+     "signal": {
+      "month": "Jul",
+      "vs_typical_pct": -6.4
+     },
+     "seasonality": {
+      "index": [
+       1.0283,
+       0.9714,
+       0.9707,
+       1.0003,
+       1.0071,
+       1.0119,
+       0.9946,
+       1.0146,
+       1.0313,
+       1.0287,
+       1.012,
+       1.0034
+      ],
+      "iqr": [
+       0.131,
+       0.0676,
+       0.0332,
+       0.0532,
+       0.0184,
+       0.0438,
+       0.0224,
+       0.0604,
+       0.0381,
+       0.0289,
+       0.0811,
+       0.0603
+      ],
+      "n_years": [
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4
+      ],
+      "years_used": [
+       2022,
+       2023,
+       2024,
+       2025
+      ],
+      "best_sell": {
+       "months": [
+        9,
+        10
+       ],
+       "month_names": [
+        "Sep",
+        "Oct"
+       ],
+       "premium_pct": 3.0,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.0335
+      },
+      "best_buy": {
+       "months": [
+        2,
+        3
+       ],
+       "month_names": [
+        "Feb",
+        "Mar"
+       ],
+       "premium_pct": -2.9,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.0504
+      }
+     },
      "narrative": [
-      "Not enough multi-year history yet to estimate seasonality for Arecanut in Kannur. The daily pipeline is accumulating data."
+      "Historically, Arecanut sells about 3.0% above its yearly average in Sep–Oct in Kannur (4 years of data — medium confidence).",
+      "Prices tend to be lowest around Feb–Mar (2.9% below yearly average) — historically the better time to buy."
      ],
      "monthly": [
       {
-       "month": "2026-07",
+       "month": "2021-07",
+       "median": 36125,
+       "n_obs": 18
+      },
+      {
+       "month": "2021-08",
+       "median": 37500,
+       "n_obs": 28
+      },
+      {
+       "month": "2021-09",
+       "median": 42000,
+       "n_obs": 29
+      },
+      {
+       "month": "2021-10",
+       "median": 42250,
+       "n_obs": 28
+      },
+      {
+       "month": "2021-11",
+       "median": 44125,
+       "n_obs": 26
+      },
+      {
+       "month": "2021-12",
+       "median": 46250,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-01",
+       "median": 40250,
+       "n_obs": 27
+      },
+      {
+       "month": "2022-02",
+       "median": 36000,
+       "n_obs": 27
+      },
+      {
+       "month": "2022-03",
+       "median": 37250,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-04",
+       "median": 38250,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-05",
+       "median": 37500,
+       "n_obs": 27
+      },
+      {
+       "month": "2022-06",
+       "median": 36500,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-07",
+       "median": 36000,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-08",
+       "median": 38750,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-09",
+       "median": 39000,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-10",
+       "median": 38250,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-11",
+       "median": 37000,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-12",
+       "median": 36000,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-01",
+       "median": 36000,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-02",
+       "median": 36000,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-03",
+       "median": 36000,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-04",
+       "median": 35500,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-05",
+       "median": 36000,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-06",
+       "median": 36500,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-07",
+       "median": 37500,
+       "n_obs": 28
+      },
+      {
+       "month": "2023-08",
+       "median": 39000,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-09",
+       "median": 39000,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-10",
+       "median": 38000,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-11",
+       "median": 38000,
+       "n_obs": 28
+      },
+      {
+       "month": "2023-12",
+       "median": 37000,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-01",
+       "median": 35500,
+       "n_obs": 30
+      },
+      {
+       "month": "2024-02",
+       "median": 35150,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-03",
+       "median": 31500,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-04",
+       "median": 32000,
+       "n_obs": 26
+      },
+      {
+       "month": "2024-05",
+       "median": 33750,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-06",
+       "median": 33750,
+       "n_obs": 26
+      },
+      {
+       "month": "2024-07",
+       "median": 32750,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-08",
+       "median": 32500,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-09",
+       "median": 33375,
+       "n_obs": 26
+      },
+      {
+       "month": "2024-10",
+       "median": 32250,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-11",
+       "median": 32250,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-12",
+       "median": 32750,
+       "n_obs": 27
+      },
+      {
+       "month": "2025-01",
+       "median": 29500,
+       "n_obs": 26
+      },
+      {
+       "month": "2025-02",
+       "median": 29500,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-03",
+       "median": 31750,
+       "n_obs": 27
+      },
+      {
+       "month": "2025-04",
+       "median": 36000,
+       "n_obs": 26
+      },
+      {
+       "month": "2025-05",
+       "median": 35000,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-06",
+       "median": 36000,
+       "n_obs": 27
+      },
+      {
+       "month": "2025-07",
+       "median": 34250,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-08",
+       "median": 33000,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-09",
        "median": 34000,
-       "n_obs": 1
+       "n_obs": 27
+      },
+      {
+       "month": "2025-10",
+       "median": 37000,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-11",
+       "median": 40750,
+       "n_obs": 26
+      },
+      {
+       "month": "2025-12",
+       "median": 41000,
+       "n_obs": 27
+      },
+      {
+       "month": "2026-01",
+       "median": 41250,
+       "n_obs": 27
+      },
+      {
+       "month": "2026-02",
+       "median": 41750,
+       "n_obs": 25
+      },
+      {
+       "month": "2026-03",
+       "median": 40500,
+       "n_obs": 28
+      },
+      {
+       "month": "2026-04",
+       "median": 41250,
+       "n_obs": 26
+      },
+      {
+       "month": "2026-05",
+       "median": 40000,
+       "n_obs": 29
+      },
+      {
+       "month": "2026-06",
+       "median": 37800,
+       "n_obs": 29
+      },
+      {
+       "month": "2026-07",
+       "median": 37000,
+       "n_obs": 8
       }
      ]
     },
     "Kasargod": {
      "level": "Kasargod",
-     "n_obs": 1,
+     "n_obs": 1756,
      "freshness": {
-      "last_observed": "2026-07-08",
+      "last_observed": "2026-07-09",
       "days_stale": 0,
       "stale": false
      },
      "latest": {
-      "date": "2026-07-08",
-      "modal_price": 43200
+      "date": "2026-07-09",
+      "modal_price": 45150
+     },
+     "trend": {
+      "ma30": 43000,
+      "ma90": 44300,
+      "yoy_pct": -7.0,
+      "slope_pct_per_year": -4.1,
+      "direction": "flat"
+     },
+     "signal": {
+      "month": "Jul",
+      "vs_typical_pct": -2.1
+     },
+     "seasonality": {
+      "index": [
+       1.0245,
+       0.9795,
+       0.9793,
+       0.9846,
+       0.9852,
+       0.9856,
+       0.9827,
+       1.0118,
+       1.0449,
+       1.0479,
+       1.0389,
+       0.9985
+      ],
+      "iqr": [
+       0.0789,
+       0.0679,
+       0.0792,
+       0.0369,
+       0.0081,
+       0.041,
+       0.0501,
+       0.0302,
+       0.0318,
+       0.0157,
+       0.0528,
+       0.0159
+      ],
+      "n_years": [
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4
+      ],
+      "years_used": [
+       2022,
+       2023,
+       2024,
+       2025
+      ],
+      "best_sell": {
+       "months": [
+        9,
+        10
+       ],
+       "month_names": [
+        "Sep",
+        "Oct"
+       ],
+       "premium_pct": 4.6,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.0238
+      },
+      "best_buy": {
+       "months": [
+        2,
+        3
+       ],
+       "month_names": [
+        "Feb",
+        "Mar"
+       ],
+       "premium_pct": -2.1,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.0736
+      }
+     },
+     "narrative": [
+      "Historically, Arecanut sells about 4.6% above its yearly average in Sep–Oct in Kasargod (4 years of data — medium confidence).",
+      "Prices tend to be lowest around Feb–Mar (2.1% below yearly average) — historically the better time to buy."
+     ],
+     "monthly": [
+      {
+       "month": "2021-07",
+       "median": 38250,
+       "n_obs": 22
+      },
+      {
+       "month": "2021-08",
+       "median": 41500,
+       "n_obs": 31
+      },
+      {
+       "month": "2021-09",
+       "median": 43000,
+       "n_obs": 30
+      },
+      {
+       "month": "2021-10",
+       "median": 46000,
+       "n_obs": 31
+      },
+      {
+       "month": "2021-11",
+       "median": 46500,
+       "n_obs": 30
+      },
+      {
+       "month": "2021-12",
+       "median": 48000,
+       "n_obs": 31
+      },
+      {
+       "month": "2022-01",
+       "median": 43375,
+       "n_obs": 31
+      },
+      {
+       "month": "2022-02",
+       "median": 42775,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-03",
+       "median": 43500,
+       "n_obs": 31
+      },
+      {
+       "month": "2022-04",
+       "median": 43275,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-05",
+       "median": 42550,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-06",
+       "median": 41125,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-07",
+       "median": 40275,
+       "n_obs": 31
+      },
+      {
+       "month": "2022-08",
+       "median": 43000,
+       "n_obs": 31
+      },
+      {
+       "month": "2022-09",
+       "median": 43000,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-10",
+       "median": 43050,
+       "n_obs": 31
+      },
+      {
+       "month": "2022-11",
+       "median": 43075,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-12",
+       "median": 42900,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-01",
+       "median": 40750,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-02",
+       "median": 37775,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-03",
+       "median": 37525,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-04",
+       "median": 38275,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-05",
+       "median": 38600,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-06",
+       "median": 38300,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-07",
+       "median": 37850,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-08",
+       "median": 40100,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-09",
+       "median": 40500,
+       "n_obs": 30
+      },
+      {
+       "month": "2023-10",
+       "median": 41000,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-11",
+       "median": 39750,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-12",
+       "median": 40000,
+       "n_obs": 28
+      },
+      {
+       "month": "2024-01",
+       "median": 37050,
+       "n_obs": 31
+      },
+      {
+       "month": "2024-02",
+       "median": 35800,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-03",
+       "median": 35300,
+       "n_obs": 30
+      },
+      {
+       "month": "2024-04",
+       "median": 35000,
+       "n_obs": 30
+      },
+      {
+       "month": "2024-05",
+       "median": 34750,
+       "n_obs": 31
+      },
+      {
+       "month": "2024-06",
+       "median": 35050,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-07",
+       "median": 35250,
+       "n_obs": 28
+      },
+      {
+       "month": "2024-08",
+       "median": 35250,
+       "n_obs": 30
+      },
+      {
+       "month": "2024-09",
+       "median": 37250,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-10",
+       "median": 37250,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-11",
+       "median": 37500,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-12",
+       "median": 35250,
+       "n_obs": 29
+      },
+      {
+       "month": "2025-01",
+       "median": 35750,
+       "n_obs": 29
+      },
+      {
+       "month": "2025-02",
+       "median": 36000,
+       "n_obs": 28
+      },
+      {
+       "month": "2025-03",
+       "median": 35500,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-04",
+       "median": 39000,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-05",
+       "median": 41300,
+       "n_obs": 31
+      },
+      {
+       "month": "2025-06",
+       "median": 46250,
+       "n_obs": 29
+      },
+      {
+       "month": "2025-07",
+       "median": 44750,
+       "n_obs": 31
+      },
+      {
+       "month": "2025-08",
+       "median": 45250,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-09",
+       "median": 45750,
+       "n_obs": 28
+      },
+      {
+       "month": "2025-10",
+       "median": 45250,
+       "n_obs": 29
+      },
+      {
+       "month": "2025-11",
+       "median": 46050,
+       "n_obs": 27
+      },
+      {
+       "month": "2025-12",
+       "median": 41500,
+       "n_obs": 28
+      },
+      {
+       "month": "2026-01",
+       "median": 41900,
+       "n_obs": 28
+      },
+      {
+       "month": "2026-02",
+       "median": 44025,
+       "n_obs": 24
+      },
+      {
+       "month": "2026-03",
+       "median": 44600,
+       "n_obs": 26
+      },
+      {
+       "month": "2026-04",
+       "median": 45000,
+       "n_obs": 25
+      },
+      {
+       "month": "2026-05",
+       "median": 44500,
+       "n_obs": 26
+      },
+      {
+       "month": "2026-06",
+       "median": 43100,
+       "n_obs": 25
+      },
+      {
+       "month": "2026-07",
+       "median": 42800,
+       "n_obs": 8
+      }
+     ]
+    },
+    "Wayanad": {
+     "level": "Wayanad",
+     "n_obs": 16,
+     "freshness": {
+      "last_observed": "2023-01-06",
+      "days_stale": 1280,
+      "stale": true
+     },
+     "latest": {
+      "date": "2023-01-06",
+      "modal_price": 6450
      },
      "trend": {
       "ma30": null,
@@ -92,12 +1267,27 @@
      "signal": null,
      "seasonality": null,
      "narrative": [
-      "Not enough multi-year history yet to estimate seasonality for Arecanut in Kasargod. The daily pipeline is accumulating data."
+      "Not enough multi-year history yet to estimate seasonality for Arecanut in Wayanad. The daily pipeline is accumulating data."
      ],
      "monthly": [
       {
-       "month": "2026-07",
-       "median": 43200,
+       "month": "2021-12",
+       "median": 5450,
+       "n_obs": 2
+      },
+      {
+       "month": "2022-01",
+       "median": 5500,
+       "n_obs": 12
+      },
+      {
+       "month": "2022-02",
+       "median": 5050,
+       "n_obs": 1
+      },
+      {
+       "month": "2023-01",
+       "median": 6450,
        "n_obs": 1
       }
      ]
@@ -110,84 +1300,1259 @@
    "unit": "Rs/quintal",
    "region": {
     "level": "Calicut & North Kerala (Malabar)",
-    "n_obs": 1,
+    "n_obs": 1814,
     "freshness": {
-     "last_observed": "2026-07-08",
+     "last_observed": "2026-07-09",
      "days_stale": 0,
      "stale": false
     },
     "latest": {
-     "date": "2026-07-08",
-     "modal_price": 66000
+     "date": "2026-07-09",
+     "modal_price": 65000
     },
     "trend": {
-     "ma30": null,
-     "ma90": null,
-     "yoy_pct": null,
-     "slope_pct_per_year": null,
+     "ma30": 66000,
+     "ma90": 66000,
+     "yoy_pct": 3.1,
+     "slope_pct_per_year": 1.6,
      "direction": "flat"
     },
-    "signal": null,
-    "seasonality": null,
+    "signal": {
+     "month": "Jul",
+     "vs_typical_pct": -0.5
+    },
+    "seasonality": {
+     "index": [
+      0.9649,
+      0.962,
+      0.9914,
+      1.0064,
+      0.9911,
+      0.9913,
+      1.0053,
+      1.025,
+      1.0241,
+      1.0043,
+      1.0043,
+      1.0043
+     ],
+     "iqr": [
+      0.0383,
+      0.0671,
+      0.0575,
+      0.0787,
+      0.0473,
+      0.0231,
+      0.0282,
+      0.0942,
+      0.082,
+      0.0633,
+      0.074,
+      0.066
+     ],
+     "n_years": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ],
+     "years_used": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "best_sell": {
+      "months": [
+       8,
+       9
+      ],
+      "month_names": [
+       "Aug",
+       "Sep"
+      ],
+      "premium_pct": 2.5,
+      "confidence": "medium",
+      "n_years": 4,
+      "mean_iqr": 0.0881
+     },
+     "best_buy": {
+      "months": [
+       1,
+       2
+      ],
+      "month_names": [
+       "Jan",
+       "Feb"
+      ],
+      "premium_pct": -3.7,
+      "confidence": "medium",
+      "n_years": 4,
+      "mean_iqr": 0.0527
+     }
+    },
     "narrative": [
-     "Not enough multi-year history yet to estimate seasonality for Black Pepper in Calicut & North Kerala (Malabar). The daily pipeline is accumulating data."
+     "Historically, Black Pepper sells about 2.5% above its yearly average in Aug–Sep in Calicut & North Kerala (Malabar) (4 years of data — medium confidence).",
+     "Prices tend to be lowest around Jan–Feb (3.7% below yearly average) — historically the better time to buy."
     ],
     "monthly": [
      {
+      "month": "2021-07",
+      "median": 37500,
+      "n_obs": 21
+     },
+     {
+      "month": "2021-08",
+      "median": 37350,
+      "n_obs": 29
+     },
+     {
+      "month": "2021-09",
+      "median": 38000,
+      "n_obs": 30
+     },
+     {
+      "month": "2021-10",
+      "median": 38950,
+      "n_obs": 31
+     },
+     {
+      "month": "2021-11",
+      "median": 46375,
+      "n_obs": 30
+     },
+     {
+      "month": "2021-12",
+      "median": 48500,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-01",
+      "median": 46800,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-02",
+      "median": 47500,
+      "n_obs": 28
+     },
+     {
+      "month": "2022-03",
+      "median": 48250,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-04",
+      "median": 48350,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-05",
+      "median": 47625,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-06",
+      "median": 46500,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-07",
+      "median": 47000,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-08",
+      "median": 47000,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-09",
+      "median": 47500,
+      "n_obs": 29
+     },
+     {
+      "month": "2022-10",
+      "median": 47000,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-11",
+      "median": 45000,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-12",
+      "median": 46000,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-01",
+      "median": 46300,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-02",
+      "median": 46500,
+      "n_obs": 28
+     },
+     {
+      "month": "2023-03",
+      "median": 46750,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-04",
+      "median": 46500,
+      "n_obs": 29
+     },
+     {
+      "month": "2023-05",
+      "median": 46000,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-06",
+      "median": 46600,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-07",
+      "median": 47750,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-08",
+      "median": 57650,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-09",
+      "median": 59250,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-10",
+      "median": 58000,
+      "n_obs": 31
+     },
+     {
+      "month": "2023-11",
+      "median": 58000,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-12",
+      "median": 57500,
+      "n_obs": 31
+     },
+     {
+      "month": "2024-01",
+      "median": 57000,
+      "n_obs": 31
+     },
+     {
+      "month": "2024-02",
+      "median": 52500,
+      "n_obs": 29
+     },
+     {
+      "month": "2024-03",
+      "median": 48500,
+      "n_obs": 31
+     },
+     {
+      "month": "2024-04",
+      "median": 51500,
+      "n_obs": 30
+     },
+     {
+      "month": "2024-05",
+      "median": 55750,
+      "n_obs": 31
+     },
+     {
+      "month": "2024-06",
+      "median": 64000,
+      "n_obs": 30
+     },
+     {
+      "month": "2024-07",
+      "median": 64000,
+      "n_obs": 30
+     },
+     {
+      "month": "2024-08",
+      "median": 63000,
+      "n_obs": 31
+     },
+     {
+      "month": "2024-09",
+      "median": 62250,
+      "n_obs": 29
+     },
+     {
+      "month": "2024-10",
+      "median": 60000,
+      "n_obs": 31
+     },
+     {
+      "month": "2024-11",
+      "median": 60000,
+      "n_obs": 30
+     },
+     {
+      "month": "2024-12",
+      "median": 60000,
+      "n_obs": 31
+     },
+     {
+      "month": "2025-01",
+      "median": 61000,
+      "n_obs": 31
+     },
+     {
+      "month": "2025-02",
+      "median": 61500,
+      "n_obs": 28
+     },
+     {
+      "month": "2025-03",
+      "median": 65000,
+      "n_obs": 31
+     },
+     {
+      "month": "2025-04",
+      "median": 68000,
+      "n_obs": 30
+     },
+     {
+      "month": "2025-05",
+      "median": 66000,
+      "n_obs": 31
+     },
+     {
+      "month": "2025-06",
+      "median": 65000,
+      "n_obs": 30
+     },
+     {
+      "month": "2025-07",
+      "median": 64500,
+      "n_obs": 31
+     },
+     {
+      "month": "2025-08",
+      "median": 65000,
+      "n_obs": 31
+     },
+     {
+      "month": "2025-09",
+      "median": 65875,
+      "n_obs": 30
+     },
+     {
+      "month": "2025-10",
+      "median": 66000,
+      "n_obs": 31
+     },
+     {
+      "month": "2025-11",
+      "median": 66000,
+      "n_obs": 29
+     },
+     {
+      "month": "2025-12",
+      "median": 66000,
+      "n_obs": 31
+     },
+     {
+      "month": "2026-01",
+      "median": 66250,
+      "n_obs": 31
+     },
+     {
+      "month": "2026-02",
+      "median": 66900,
+      "n_obs": 28
+     },
+     {
+      "month": "2026-03",
+      "median": 66450,
+      "n_obs": 31
+     },
+     {
+      "month": "2026-04",
+      "median": 66000,
+      "n_obs": 29
+     },
+     {
+      "month": "2026-05",
+      "median": 66000,
+      "n_obs": 29
+     },
+     {
+      "month": "2026-06",
+      "median": 66000,
+      "n_obs": 29
+     },
+     {
       "month": "2026-07",
       "median": 66000,
-      "n_obs": 1
+      "n_obs": 9
      }
     ]
    },
    "districts": {
     "Kannur": {
      "level": "Kannur",
-     "n_obs": 1,
+     "n_obs": 1775,
      "freshness": {
-      "last_observed": "2026-07-08",
+      "last_observed": "2026-07-09",
       "days_stale": 0,
       "stale": false
      },
      "latest": {
-      "date": "2026-07-08",
-      "modal_price": 64750
+      "date": "2026-07-09",
+      "modal_price": 65000
      },
      "trend": {
-      "ma30": null,
-      "ma90": null,
-      "yoy_pct": null,
-      "slope_pct_per_year": null,
+      "ma30": 65000,
+      "ma90": 65000,
+      "yoy_pct": 1.6,
+      "slope_pct_per_year": 1.4,
       "direction": "flat"
      },
-     "signal": null,
-     "seasonality": null,
+     "signal": {
+      "month": "Jul",
+      "vs_typical_pct": -0.6
+     },
+     "seasonality": {
+      "index": [
+       0.968,
+       0.9638,
+       0.9921,
+       1.0087,
+       0.9918,
+       0.9897,
+       1.006,
+       1.0235,
+       1.0246,
+       1.0058,
+       1.0083,
+       1.0079
+      ],
+      "iqr": [
+       0.0355,
+       0.0625,
+       0.0583,
+       0.0797,
+       0.0469,
+       0.0233,
+       0.0288,
+       0.0891,
+       0.0849,
+       0.0672,
+       0.0702,
+       0.0606
+      ],
+      "n_years": [
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4
+      ],
+      "years_used": [
+       2022,
+       2023,
+       2024,
+       2025
+      ],
+      "best_sell": {
+       "months": [
+        8,
+        9
+       ],
+       "month_names": [
+        "Aug",
+        "Sep"
+       ],
+       "premium_pct": 2.4,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.087
+      },
+      "best_buy": {
+       "months": [
+        1,
+        2
+       ],
+       "month_names": [
+        "Jan",
+        "Feb"
+       ],
+       "premium_pct": -3.4,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.049
+      }
+     },
      "narrative": [
-      "Not enough multi-year history yet to estimate seasonality for Black Pepper in Kannur. The daily pipeline is accumulating data."
+      "Historically, Black Pepper sells about 2.4% above its yearly average in Aug–Sep in Kannur (4 years of data — medium confidence).",
+      "Prices tend to be lowest around Jan–Feb (3.4% below yearly average) — historically the better time to buy."
      ],
      "monthly": [
       {
+       "month": "2021-07",
+       "median": 37500,
+       "n_obs": 21
+      },
+      {
+       "month": "2021-08",
+       "median": 37250,
+       "n_obs": 29
+      },
+      {
+       "month": "2021-09",
+       "median": 38150,
+       "n_obs": 30
+      },
+      {
+       "month": "2021-10",
+       "median": 39000,
+       "n_obs": 29
+      },
+      {
+       "month": "2021-11",
+       "median": 46750,
+       "n_obs": 28
+      },
+      {
+       "month": "2021-12",
+       "median": 49000,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-01",
+       "median": 46500,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-02",
+       "median": 47750,
+       "n_obs": 27
+      },
+      {
+       "month": "2022-03",
+       "median": 48000,
+       "n_obs": 31
+      },
+      {
+       "month": "2022-04",
+       "median": 48500,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-05",
+       "median": 47625,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-06",
+       "median": 46575,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-07",
+       "median": 47000,
+       "n_obs": 27
+      },
+      {
+       "month": "2022-08",
+       "median": 47000,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-09",
+       "median": 47500,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-10",
+       "median": 47000,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-11",
+       "median": 45500,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-12",
+       "median": 46200,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-01",
+       "median": 46300,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-02",
+       "median": 46500,
+       "n_obs": 28
+      },
+      {
+       "month": "2023-03",
+       "median": 46625,
+       "n_obs": 30
+      },
+      {
+       "month": "2023-04",
+       "median": 46500,
+       "n_obs": 28
+      },
+      {
+       "month": "2023-05",
+       "median": 46050,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-06",
+       "median": 46550,
+       "n_obs": 30
+      },
+      {
+       "month": "2023-07",
+       "median": 47750,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-08",
+       "median": 57000,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-09",
+       "median": 59450,
+       "n_obs": 30
+      },
+      {
+       "month": "2023-10",
+       "median": 58000,
+       "n_obs": 30
+      },
+      {
+       "month": "2023-11",
+       "median": 58000,
+       "n_obs": 30
+      },
+      {
+       "month": "2023-12",
+       "median": 57000,
+       "n_obs": 31
+      },
+      {
+       "month": "2024-01",
+       "median": 57000,
+       "n_obs": 31
+      },
+      {
+       "month": "2024-02",
+       "median": 53500,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-03",
+       "median": 48500,
+       "n_obs": 31
+      },
+      {
+       "month": "2024-04",
+       "median": 52000,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-05",
+       "median": 55000,
+       "n_obs": 31
+      },
+      {
+       "month": "2024-06",
+       "median": 64000,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-07",
+       "median": 63750,
+       "n_obs": 30
+      },
+      {
+       "month": "2024-08",
+       "median": 62500,
+       "n_obs": 31
+      },
+      {
+       "month": "2024-09",
+       "median": 62000,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-10",
+       "median": 59400,
+       "n_obs": 31
+      },
+      {
+       "month": "2024-11",
+       "median": 60000,
+       "n_obs": 30
+      },
+      {
+       "month": "2024-12",
+       "median": 60000,
+       "n_obs": 31
+      },
+      {
+       "month": "2025-01",
+       "median": 60000,
+       "n_obs": 31
+      },
+      {
+       "month": "2025-02",
+       "median": 61000,
+       "n_obs": 28
+      },
+      {
+       "month": "2025-03",
+       "median": 64500,
+       "n_obs": 31
+      },
+      {
+       "month": "2025-04",
+       "median": 68000,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-05",
+       "median": 65250,
+       "n_obs": 31
+      },
+      {
+       "month": "2025-06",
+       "median": 64000,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-07",
+       "median": 64000,
+       "n_obs": 31
+      },
+      {
+       "month": "2025-08",
+       "median": 64250,
+       "n_obs": 31
+      },
+      {
+       "month": "2025-09",
+       "median": 65000,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-10",
+       "median": 65500,
+       "n_obs": 31
+      },
+      {
+       "month": "2025-11",
+       "median": 65500,
+       "n_obs": 28
+      },
+      {
+       "month": "2025-12",
+       "median": 65450,
+       "n_obs": 31
+      },
+      {
+       "month": "2026-01",
+       "median": 66000,
+       "n_obs": 31
+      },
+      {
+       "month": "2026-02",
+       "median": 66000,
+       "n_obs": 27
+      },
+      {
+       "month": "2026-03",
+       "median": 65000,
+       "n_obs": 31
+      },
+      {
+       "month": "2026-04",
+       "median": 65000,
+       "n_obs": 27
+      },
+      {
+       "month": "2026-05",
+       "median": 65000,
+       "n_obs": 28
+      },
+      {
+       "month": "2026-06",
+       "median": 65000,
+       "n_obs": 28
+      },
+      {
        "month": "2026-07",
-       "median": 64750,
-       "n_obs": 1
+       "median": 65950,
+       "n_obs": 8
       }
      ]
     },
     "Kasargod": {
      "level": "Kasargod",
-     "n_obs": 1,
+     "n_obs": 1566,
      "freshness": {
-      "last_observed": "2026-07-08",
+      "last_observed": "2026-07-09",
       "days_stale": 0,
       "stale": false
      },
      "latest": {
-      "date": "2026-07-08",
-      "modal_price": 64000
+      "date": "2026-07-09",
+      "modal_price": 60500
+     },
+     "trend": {
+      "ma30": 61250,
+      "ma90": 62750,
+      "yoy_pct": -5.0,
+      "slope_pct_per_year": -4.2,
+      "direction": "flat"
+     },
+     "signal": {
+      "month": "Jul",
+      "vs_typical_pct": -4.1
+     },
+     "seasonality": {
+      "index": [
+       0.967,
+       0.9367,
+       0.9671,
+       0.9866,
+       0.9789,
+       0.9828,
+       0.9828,
+       1.0208,
+       1.0205,
+       1.0039,
+       1.0039,
+       1.0123
+      ],
+      "iqr": [
+       0.1016,
+       0.0402,
+       0.1188,
+       0.0904,
+       0.0591,
+       0.0372,
+       0.0456,
+       0.0705,
+       0.0622,
+       0.0489,
+       0.0432,
+       0.0376
+      ],
+      "n_years": [
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4
+      ],
+      "years_used": [
+       2022,
+       2023,
+       2024,
+       2025
+      ],
+      "best_sell": {
+       "months": [
+        8,
+        9
+       ],
+       "month_names": [
+        "Aug",
+        "Sep"
+       ],
+       "premium_pct": 2.1,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.0663
+      },
+      "best_buy": {
+       "months": [
+        1,
+        2
+       ],
+       "month_names": [
+        "Jan",
+        "Feb"
+       ],
+       "premium_pct": -4.8,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.0709
+      }
+     },
+     "narrative": [
+      "Historically, Black Pepper sells about 2.1% above its yearly average in Aug–Sep in Kasargod (4 years of data — medium confidence).",
+      "Prices tend to be lowest around Jan–Feb (4.8% below yearly average) — historically the better time to buy."
+     ],
+     "monthly": [
+      {
+       "month": "2021-07",
+       "median": 37000,
+       "n_obs": 15
+      },
+      {
+       "month": "2021-08",
+       "median": 35000,
+       "n_obs": 9
+      },
+      {
+       "month": "2021-09",
+       "median": 36000,
+       "n_obs": 29
+      },
+      {
+       "month": "2021-10",
+       "median": 38000,
+       "n_obs": 30
+      },
+      {
+       "month": "2021-11",
+       "median": 44000,
+       "n_obs": 30
+      },
+      {
+       "month": "2021-12",
+       "median": 47000,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-01",
+       "median": 45000,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-02",
+       "median": 41500,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-03",
+       "median": 49000,
+       "n_obs": 26
+      },
+      {
+       "month": "2022-04",
+       "median": 47000,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-05",
+       "median": 45000,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-06",
+       "median": 42000,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-07",
+       "median": 42000,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-08",
+       "median": 44000,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-09",
+       "median": 43000,
+       "n_obs": 22
+      },
+      {
+       "month": "2022-10",
+       "median": 43000,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-11",
+       "median": 44000,
+       "n_obs": 30
+      },
+      {
+       "month": "2022-12",
+       "median": 44000,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-01",
+       "median": 44000,
+       "n_obs": 30
+      },
+      {
+       "month": "2023-02",
+       "median": 43000,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-03",
+       "median": 43000,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-04",
+       "median": 42000,
+       "n_obs": 23
+      },
+      {
+       "month": "2023-05",
+       "median": 42000,
+       "n_obs": 31
+      },
+      {
+       "month": "2023-06",
+       "median": 42000,
+       "n_obs": 28
+      },
+      {
+       "month": "2023-07",
+       "median": 42000,
+       "n_obs": 28
+      },
+      {
+       "month": "2023-08",
+       "median": 50000,
+       "n_obs": 22
+      },
+      {
+       "month": "2023-09",
+       "median": 50000,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-10",
+       "median": 50000,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-11",
+       "median": 50000,
+       "n_obs": 25
+      },
+      {
+       "month": "2023-12",
+       "median": 49000,
+       "n_obs": 25
+      },
+      {
+       "month": "2024-01",
+       "median": 53000,
+       "n_obs": 28
+      },
+      {
+       "month": "2024-02",
+       "median": 52000,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-03",
+       "median": 46000,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-04",
+       "median": 50000,
+       "n_obs": 26
+      },
+      {
+       "month": "2024-05",
+       "median": 52000,
+       "n_obs": 28
+      },
+      {
+       "month": "2024-06",
+       "median": 60000,
+       "n_obs": 26
+      },
+      {
+       "month": "2024-07",
+       "median": 62000,
+       "n_obs": 24
+      },
+      {
+       "month": "2024-08",
+       "median": 62500,
+       "n_obs": 23
+      },
+      {
+       "month": "2024-09",
+       "median": 62000,
+       "n_obs": 23
+      },
+      {
+       "month": "2024-10",
+       "median": 60000,
+       "n_obs": 25
+      },
+      {
+       "month": "2024-11",
+       "median": 60000,
+       "n_obs": 25
+      },
+      {
+       "month": "2024-12",
+       "median": 60500,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-01",
+       "median": 59500,
+       "n_obs": 24
+      },
+      {
+       "month": "2025-02",
+       "median": 60000,
+       "n_obs": 24
+      },
+      {
+       "month": "2025-03",
+       "median": 61000,
+       "n_obs": 26
+      },
+      {
+       "month": "2025-04",
+       "median": 65000,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-05",
+       "median": 64000,
+       "n_obs": 24
+      },
+      {
+       "month": "2025-06",
+       "median": 64500,
+       "n_obs": 23
+      },
+      {
+       "month": "2025-07",
+       "median": 64500,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-08",
+       "median": 64000,
+       "n_obs": 24
+      },
+      {
+       "month": "2025-09",
+       "median": 65000,
+       "n_obs": 24
+      },
+      {
+       "month": "2025-10",
+       "median": 65000,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-11",
+       "median": 65000,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-12",
+       "median": 65550,
+       "n_obs": 27
+      },
+      {
+       "month": "2026-01",
+       "median": 65425,
+       "n_obs": 26
+      },
+      {
+       "month": "2026-02",
+       "median": 66250,
+       "n_obs": 23
+      },
+      {
+       "month": "2026-03",
+       "median": 65750,
+       "n_obs": 26
+      },
+      {
+       "month": "2026-04",
+       "median": 62750,
+       "n_obs": 24
+      },
+      {
+       "month": "2026-05",
+       "median": 62750,
+       "n_obs": 24
+      },
+      {
+       "month": "2026-06",
+       "median": 61250,
+       "n_obs": 25
+      },
+      {
+       "month": "2026-07",
+       "median": 62100,
+       "n_obs": 8
+      }
+     ]
+    },
+    "Malappuram": {
+     "level": "Malappuram",
+     "n_obs": 9,
+     "freshness": {
+      "last_observed": "2026-06-23",
+      "days_stale": 16,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-06-23",
+      "modal_price": 67000
      },
      "trend": {
       "ma30": null,
-      "ma90": null,
+      "ma90": 67500,
       "yoy_pct": null,
       "slope_pct_per_year": null,
       "direction": "flat"
@@ -195,45 +2560,436 @@
      "signal": null,
      "seasonality": null,
      "narrative": [
-      "Not enough multi-year history yet to estimate seasonality for Black Pepper in Kasargod. The daily pipeline is accumulating data."
+      "Not enough multi-year history yet to estimate seasonality for Black Pepper in Malappuram. The daily pipeline is accumulating data."
      ],
      "monthly": [
       {
-       "month": "2026-07",
-       "median": 64000,
+       "month": "2025-11",
+       "median": 65900,
        "n_obs": 1
+      },
+      {
+       "month": "2026-05",
+       "median": 67500,
+       "n_obs": 4
+      },
+      {
+       "month": "2026-06",
+       "median": 67250,
+       "n_obs": 4
       }
      ]
     },
     "Wayanad": {
      "level": "Wayanad",
-     "n_obs": 1,
+     "n_obs": 1503,
      "freshness": {
-      "last_observed": "2026-07-08",
+      "last_observed": "2026-07-09",
       "days_stale": 0,
       "stale": false
      },
      "latest": {
-      "date": "2026-07-08",
-      "modal_price": 68600
+      "date": "2026-07-09",
+      "modal_price": 69300
      },
      "trend": {
-      "ma30": null,
-      "ma90": null,
-      "yoy_pct": null,
-      "slope_pct_per_year": null,
+      "ma30": 68500,
+      "ma90": 68500,
+      "yoy_pct": 5.4,
+      "slope_pct_per_year": 5.0,
       "direction": "flat"
      },
-     "signal": null,
-     "seasonality": null,
+     "signal": {
+      "month": "Jul",
+      "vs_typical_pct": 2.1
+     },
+     "seasonality": {
+      "index": [
+       0.9726,
+       0.9736,
+       1.0075,
+       1.0149,
+       0.9976,
+       0.9814,
+       0.99,
+       1.0169,
+       1.0167,
+       1.0011,
+       0.9989,
+       1.0105
+      ],
+      "iqr": [
+       0.0564,
+       0.0514,
+       0.0763,
+       0.0864,
+       0.0312,
+       0.0262,
+       0.0343,
+       0.0809,
+       0.0854,
+       0.061,
+       0.0572,
+       0.0497
+      ],
+      "n_years": [
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4
+      ],
+      "years_used": [
+       2022,
+       2023,
+       2024,
+       2025
+      ],
+      "best_sell": {
+       "months": [
+        8,
+        9
+       ],
+       "month_names": [
+        "Aug",
+        "Sep"
+       ],
+       "premium_pct": 1.7,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.0832
+      },
+      "best_buy": {
+       "months": [
+        1,
+        2
+       ],
+       "month_names": [
+        "Jan",
+        "Feb"
+       ],
+       "premium_pct": -2.7,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.0539
+      }
+     },
      "narrative": [
-      "Not enough multi-year history yet to estimate seasonality for Black Pepper in Wayanad. The daily pipeline is accumulating data."
+      "Historically, Black Pepper sells about 1.7% above its yearly average in Aug–Sep in Wayanad (4 years of data — medium confidence).",
+      "Prices tend to be lowest around Jan–Feb (2.7% below yearly average) — historically the better time to buy."
      ],
      "monthly": [
       {
+       "month": "2021-07",
+       "median": 40000,
+       "n_obs": 17
+      },
+      {
+       "month": "2021-08",
+       "median": 39000,
+       "n_obs": 24
+      },
+      {
+       "month": "2021-09",
+       "median": 40000,
+       "n_obs": 24
+      },
+      {
+       "month": "2021-10",
+       "median": 42000,
+       "n_obs": 25
+      },
+      {
+       "month": "2021-11",
+       "median": 46000,
+       "n_obs": 1
+      },
+      {
+       "month": "2021-12",
+       "median": 51000,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-01",
+       "median": 50250,
+       "n_obs": 24
+      },
+      {
+       "month": "2022-02",
+       "median": 49250,
+       "n_obs": 22
+      },
+      {
+       "month": "2022-03",
+       "median": 51000,
+       "n_obs": 23
+      },
+      {
+       "month": "2022-04",
+       "median": 52000,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-05",
+       "median": 50500,
+       "n_obs": 24
+      },
+      {
+       "month": "2022-06",
+       "median": 49000,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-07",
+       "median": 49000,
+       "n_obs": 21
+      },
+      {
+       "month": "2022-08",
+       "median": 50000,
+       "n_obs": 26
+      },
+      {
+       "month": "2022-09",
+       "median": 50000,
+       "n_obs": 26
+      },
+      {
+       "month": "2022-10",
+       "median": 49250,
+       "n_obs": 22
+      },
+      {
+       "month": "2022-11",
+       "median": 48500,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-12",
+       "median": 50000,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-01",
+       "median": 49500,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-02",
+       "median": 49500,
+       "n_obs": 23
+      },
+      {
+       "month": "2023-03",
+       "median": 49250,
+       "n_obs": 25
+      },
+      {
+       "month": "2023-04",
+       "median": 49000,
+       "n_obs": 25
+      },
+      {
+       "month": "2023-05",
+       "median": 49000,
+       "n_obs": 25
+      },
+      {
+       "month": "2023-06",
+       "median": 48500,
+       "n_obs": 25
+      },
+      {
+       "month": "2023-07",
+       "median": 49500,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-08",
+       "median": 60000,
+       "n_obs": 28
+      },
+      {
+       "month": "2023-09",
+       "median": 63000,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-10",
+       "median": 60500,
+       "n_obs": 25
+      },
+      {
+       "month": "2023-11",
+       "median": 59000,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-12",
+       "median": 58875,
+       "n_obs": 24
+      },
+      {
+       "month": "2024-01",
+       "median": 58500,
+       "n_obs": 28
+      },
+      {
+       "month": "2024-02",
+       "median": 53500,
+       "n_obs": 23
+      },
+      {
+       "month": "2024-03",
+       "median": 49000,
+       "n_obs": 23
+      },
+      {
+       "month": "2024-04",
+       "median": 53000,
+       "n_obs": 20
+      },
+      {
+       "month": "2024-05",
+       "median": 57750,
+       "n_obs": 26
+      },
+      {
+       "month": "2024-06",
+       "median": 66725,
+       "n_obs": 24
+      },
+      {
+       "month": "2024-07",
+       "median": 65250,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-08",
+       "median": 64100,
+       "n_obs": 25
+      },
+      {
+       "month": "2024-09",
+       "median": 63750,
+       "n_obs": 24
+      },
+      {
+       "month": "2024-10",
+       "median": 62000,
+       "n_obs": 24
+      },
+      {
+       "month": "2024-11",
+       "median": 62000,
+       "n_obs": 25
+      },
+      {
+       "month": "2024-12",
+       "median": 62750,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-01",
+       "median": 63000,
+       "n_obs": 28
+      },
+      {
+       "month": "2025-02",
+       "median": 64125,
+       "n_obs": 26
+      },
+      {
+       "month": "2025-03",
+       "median": 68000,
+       "n_obs": 27
+      },
+      {
+       "month": "2025-04",
+       "median": 70000,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-05",
+       "median": 67000,
+       "n_obs": 28
+      },
+      {
+       "month": "2025-06",
+       "median": 65500,
+       "n_obs": 26
+      },
+      {
+       "month": "2025-07",
+       "median": 65000,
+       "n_obs": 30
+      },
+      {
+       "month": "2025-08",
+       "median": 66000,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-09",
+       "median": 67000,
+       "n_obs": 26
+      },
+      {
+       "month": "2025-10",
+       "median": 66800,
+       "n_obs": 26
+      },
+      {
+       "month": "2025-11",
+       "median": 66500,
+       "n_obs": 28
+      },
+      {
+       "month": "2025-12",
+       "median": 67250,
+       "n_obs": 27
+      },
+      {
+       "month": "2026-01",
+       "median": 67600,
+       "n_obs": 26
+      },
+      {
+       "month": "2026-02",
+       "median": 69000,
+       "n_obs": 28
+      },
+      {
+       "month": "2026-03",
+       "median": 68650,
+       "n_obs": 29
+      },
+      {
+       "month": "2026-04",
+       "median": 68350,
+       "n_obs": 29
+      },
+      {
+       "month": "2026-05",
+       "median": 68550,
+       "n_obs": 28
+      },
+      {
+       "month": "2026-06",
+       "median": 68475,
+       "n_obs": 28
+      },
+      {
        "month": "2026-07",
        "median": 68600,
-       "n_obs": 1
+       "n_obs": 9
       }
      ]
     }
@@ -245,48 +3001,429 @@
    "unit": "Rs/quintal",
    "region": {
     "level": "Calicut & North Kerala (Malabar)",
-    "n_obs": 1,
+    "n_obs": 1725,
     "freshness": {
-     "last_observed": "2026-07-08",
+     "last_observed": "2026-07-09",
      "days_stale": 0,
      "stale": false
     },
     "latest": {
-     "date": "2026-07-08",
+     "date": "2026-07-09",
      "modal_price": 5100
     },
     "trend": {
-     "ma30": null,
-     "ma90": null,
-     "yoy_pct": null,
-     "slope_pct_per_year": null,
-     "direction": "flat"
+     "ma30": 4900,
+     "ma90": 5150,
+     "yoy_pct": -30.0,
+     "slope_pct_per_year": -38.0,
+     "direction": "down"
     },
-    "signal": null,
-    "seasonality": null,
+    "signal": {
+     "month": "Jul",
+     "vs_typical_pct": -16.8
+    },
+    "seasonality": {
+     "index": [
+      0.9722,
+      1.0186,
+      0.9666,
+      0.9697,
+      0.9912,
+      0.9677,
+      0.958,
+      1.0024,
+      0.9895,
+      0.9971,
+      1.0517,
+      1.0172
+     ],
+     "iqr": [
+      0.1615,
+      0.0906,
+      0.1415,
+      0.0964,
+      0.0535,
+      0.064,
+      0.0626,
+      0.015,
+      0.0938,
+      0.1906,
+      0.1666,
+      0.1515
+     ],
+     "n_years": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ],
+     "years_used": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "best_sell": {
+      "months": [
+       11,
+       12
+      ],
+      "month_names": [
+       "Nov",
+       "Dec"
+      ],
+      "premium_pct": 3.4,
+      "confidence": "low",
+      "n_years": 4,
+      "mean_iqr": 0.159
+     },
+     "best_buy": {
+      "months": [
+       6,
+       7
+      ],
+      "month_names": [
+       "Jun",
+       "Jul"
+      ],
+      "premium_pct": -3.7,
+      "confidence": "medium",
+      "n_years": 4,
+      "mean_iqr": 0.0633
+     }
+    },
     "narrative": [
-     "Not enough multi-year history yet to estimate seasonality for Coconut in Calicut & North Kerala (Malabar). The daily pipeline is accumulating data."
+     "Historically, Coconut sells about 3.4% above its yearly average in Nov–Dec in Calicut & North Kerala (Malabar) (4 years of data — low confidence).",
+     "Prices tend to be lowest around Jun–Jul (3.7% below yearly average) — historically the better time to buy."
     ],
     "monthly": [
      {
+      "month": "2021-07",
+      "median": 3200,
+      "n_obs": 20
+     },
+     {
+      "month": "2021-08",
+      "median": 3150,
+      "n_obs": 27
+     },
+     {
+      "month": "2021-09",
+      "median": 3125,
+      "n_obs": 28
+     },
+     {
+      "month": "2021-10",
+      "median": 3150,
+      "n_obs": 31
+     },
+     {
+      "month": "2021-11",
+      "median": 3150,
+      "n_obs": 30
+     },
+     {
+      "month": "2021-12",
+      "median": 3150,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-01",
+      "median": 2800,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-02",
+      "median": 2875,
+      "n_obs": 27
+     },
+     {
+      "month": "2022-03",
+      "median": 2900,
+      "n_obs": 29
+     },
+     {
+      "month": "2022-04",
+      "median": 2850,
+      "n_obs": 27
+     },
+     {
+      "month": "2022-05",
+      "median": 2800,
+      "n_obs": 28
+     },
+     {
+      "month": "2022-06",
+      "median": 2550,
+      "n_obs": 26
+     },
+     {
+      "month": "2022-07",
+      "median": 2500,
+      "n_obs": 26
+     },
+     {
+      "month": "2022-08",
+      "median": 2575,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-09",
+      "median": 2425,
+      "n_obs": 30
+     },
+     {
+      "month": "2022-10",
+      "median": 2350,
+      "n_obs": 31
+     },
+     {
+      "month": "2022-11",
+      "median": 2375,
+      "n_obs": 29
+     },
+     {
+      "month": "2022-12",
+      "median": 2575,
+      "n_obs": 29
+     },
+     {
+      "month": "2023-01",
+      "median": 2600,
+      "n_obs": 28
+     },
+     {
+      "month": "2023-02",
+      "median": 2600,
+      "n_obs": 26
+     },
+     {
+      "month": "2023-03",
+      "median": 2550,
+      "n_obs": 27
+     },
+     {
+      "month": "2023-04",
+      "median": 2550,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-05",
+      "median": 2525,
+      "n_obs": 29
+     },
+     {
+      "month": "2023-06",
+      "median": 2350,
+      "n_obs": 27
+     },
+     {
+      "month": "2023-07",
+      "median": 2375,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-08",
+      "median": 2475,
+      "n_obs": 30
+     },
+     {
+      "month": "2023-09",
+      "median": 2400,
+      "n_obs": 29
+     },
+     {
+      "month": "2023-10",
+      "median": 2400,
+      "n_obs": 29
+     },
+     {
+      "month": "2023-11",
+      "median": 2600,
+      "n_obs": 28
+     },
+     {
+      "month": "2023-12",
+      "median": 2625,
+      "n_obs": 27
+     },
+     {
+      "month": "2024-01",
+      "median": 2725,
+      "n_obs": 30
+     },
+     {
+      "month": "2024-02",
+      "median": 3000,
+      "n_obs": 28
+     },
+     {
+      "month": "2024-03",
+      "median": 2750,
+      "n_obs": 29
+     },
+     {
+      "month": "2024-04",
+      "median": 2762,
+      "n_obs": 28
+     },
+     {
+      "month": "2024-05",
+      "median": 2925,
+      "n_obs": 31
+     },
+     {
+      "month": "2024-06",
+      "median": 2800,
+      "n_obs": 29
+     },
+     {
+      "month": "2024-07",
+      "median": 2800,
+      "n_obs": 29
+     },
+     {
+      "month": "2024-08",
+      "median": 3025,
+      "n_obs": 26
+     },
+     {
+      "month": "2024-09",
+      "median": 3125,
+      "n_obs": 27
+     },
+     {
+      "month": "2024-10",
+      "median": 4050,
+      "n_obs": 29
+     },
+     {
+      "month": "2024-11",
+      "median": 4225,
+      "n_obs": 28
+     },
+     {
+      "month": "2024-12",
+      "median": 4438,
+      "n_obs": 30
+     },
+     {
+      "month": "2025-01",
+      "median": 4975,
+      "n_obs": 30
+     },
+     {
+      "month": "2025-02",
+      "median": 5200,
+      "n_obs": 27
+     },
+     {
+      "month": "2025-03",
+      "median": 5200,
+      "n_obs": 29
+     },
+     {
+      "month": "2025-04",
+      "median": 6150,
+      "n_obs": 30
+     },
+     {
+      "month": "2025-05",
+      "median": 5900,
+      "n_obs": 29
+     },
+     {
+      "month": "2025-06",
+      "median": 6888,
+      "n_obs": 28
+     },
+     {
+      "month": "2025-07",
+      "median": 7300,
+      "n_obs": 29
+     },
+     {
+      "month": "2025-08",
+      "median": 6612,
+      "n_obs": 28
+     },
+     {
+      "month": "2025-09",
+      "median": 6800,
+      "n_obs": 29
+     },
+     {
+      "month": "2025-10",
+      "median": 6900,
+      "n_obs": 29
+     },
+     {
+      "month": "2025-11",
+      "median": 7100,
+      "n_obs": 29
+     },
+     {
+      "month": "2025-12",
+      "median": 6550,
+      "n_obs": 31
+     },
+     {
+      "month": "2026-01",
+      "median": 6000,
+      "n_obs": 30
+     },
+     {
+      "month": "2026-02",
+      "median": 6300,
+      "n_obs": 27
+     },
+     {
+      "month": "2026-03",
+      "median": 5625,
+      "n_obs": 30
+     },
+     {
+      "month": "2026-04",
+      "median": 5550,
+      "n_obs": 29
+     },
+     {
+      "month": "2026-05",
+      "median": 5350,
+      "n_obs": 29
+     },
+     {
+      "month": "2026-06",
+      "median": 4900,
+      "n_obs": 30
+     },
+     {
       "month": "2026-07",
-      "median": 5100,
-      "n_obs": 1
+      "median": 4950,
+      "n_obs": 9
      }
     ]
    },
    "districts": {
-    "Kasargod": {
-     "level": "Kasargod",
-     "n_obs": 1,
+    "Kannur": {
+     "level": "Kannur",
+     "n_obs": 762,
      "freshness": {
-      "last_observed": "2026-07-08",
-      "days_stale": 0,
-      "stale": false
+      "last_observed": "2024-02-22",
+      "days_stale": 868,
+      "stale": true
      },
      "latest": {
-      "date": "2026-07-08",
-      "modal_price": 4700
+      "date": "2024-02-22",
+      "modal_price": 3000
      },
      "trend": {
       "ma30": null,
@@ -296,36 +3433,680 @@
       "direction": "flat"
      },
      "signal": null,
-     "seasonality": null,
+     "seasonality": {
+      "index": [
+       1.0427,
+       1.071,
+       1.0803,
+       1.0518,
+       0.9858,
+       0.9192,
+       0.9477,
+       0.9953,
+       0.9479,
+       0.9481,
+       1.0618,
+       1.0807
+      ],
+      "iqr": [
+       0.0049,
+       0.0234,
+       0.0518,
+       0.0614,
+       0.0047,
+       0.043,
+       0.0334,
+       0.0142,
+       0.0045,
+       0.0424,
+       0.0429,
+       0.0241
+      ],
+      "n_years": [
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "years_used": [
+       2022,
+       2023
+      ],
+      "best_sell": {
+       "months": [
+        2,
+        3
+       ],
+       "month_names": [
+        "Feb",
+        "Mar"
+       ],
+       "premium_pct": 7.6,
+       "confidence": "low",
+       "n_years": 2,
+       "mean_iqr": 0.0376
+      },
+      "best_buy": {
+       "months": [
+        6,
+        7
+       ],
+       "month_names": [
+        "Jun",
+        "Jul"
+       ],
+       "premium_pct": -6.7,
+       "confidence": "low",
+       "n_years": 2,
+       "mean_iqr": 0.0382
+      }
+     },
      "narrative": [
-      "Not enough multi-year history yet to estimate seasonality for Coconut in Kasargod. The daily pipeline is accumulating data."
+      "Historically, Coconut sells about 7.6% above its yearly average in Feb–Mar in Kannur (2 years of data — low confidence).",
+      "Prices tend to be lowest around Jun–Jul (6.7% below yearly average) — historically the better time to buy."
      ],
      "monthly": [
       {
+       "month": "2021-07",
+       "median": 3000,
+       "n_obs": 17
+      },
+      {
+       "month": "2021-08",
+       "median": 3000,
+       "n_obs": 14
+      },
+      {
+       "month": "2021-09",
+       "median": 3100,
+       "n_obs": 24
+      },
+      {
+       "month": "2021-10",
+       "median": 3200,
+       "n_obs": 24
+      },
+      {
+       "month": "2021-11",
+       "median": 3200,
+       "n_obs": 23
+      },
+      {
+       "month": "2021-12",
+       "median": 3050,
+       "n_obs": 26
+      },
+      {
+       "month": "2022-01",
+       "median": 2750,
+       "n_obs": 26
+      },
+      {
+       "month": "2022-02",
+       "median": 2900,
+       "n_obs": 26
+      },
+      {
+       "month": "2022-03",
+       "median": 3000,
+       "n_obs": 26
+      },
+      {
+       "month": "2022-04",
+       "median": 2950,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-05",
+       "median": 2600,
+       "n_obs": 22
+      },
+      {
+       "month": "2022-06",
+       "median": 2550,
+       "n_obs": 26
+      },
+      {
+       "month": "2022-07",
+       "median": 2600,
+       "n_obs": 24
+      },
+      {
+       "month": "2022-08",
+       "median": 2600,
+       "n_obs": 27
+      },
+      {
+       "month": "2022-09",
+       "median": 2500,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-10",
+       "median": 2400,
+       "n_obs": 26
+      },
+      {
+       "month": "2022-11",
+       "median": 2700,
+       "n_obs": 26
+      },
+      {
+       "month": "2022-12",
+       "median": 2800,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-01",
+       "median": 2750,
+       "n_obs": 25
+      },
+      {
+       "month": "2023-02",
+       "median": 2750,
+       "n_obs": 24
+      },
+      {
+       "month": "2023-03",
+       "median": 2700,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-04",
+       "median": 2600,
+       "n_obs": 24
+      },
+      {
+       "month": "2023-05",
+       "median": 2600,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-06",
+       "median": 2300,
+       "n_obs": 24
+      },
+      {
+       "month": "2023-07",
+       "median": 2400,
+       "n_obs": 25
+      },
+      {
+       "month": "2023-08",
+       "median": 2650,
+       "n_obs": 23
+      },
+      {
+       "month": "2023-09",
+       "median": 2500,
+       "n_obs": 21
+      },
+      {
+       "month": "2023-10",
+       "median": 2600,
+       "n_obs": 20
+      },
+      {
+       "month": "2023-11",
+       "median": 2900,
+       "n_obs": 24
+      },
+      {
+       "month": "2023-12",
+       "median": 2900,
+       "n_obs": 23
+      },
+      {
+       "month": "2024-01",
+       "median": 3000,
+       "n_obs": 26
+      },
+      {
+       "month": "2024-02",
+       "median": 3100,
+       "n_obs": 16
+      }
+     ]
+    },
+    "Kasargod": {
+     "level": "Kasargod",
+     "n_obs": 1392,
+     "freshness": {
+      "last_observed": "2026-07-09",
+      "days_stale": 0,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-07-09",
+      "modal_price": 4800
+     },
+     "trend": {
+      "ma30": 4300,
+      "ma90": 4525,
+      "yoy_pct": -38.6,
+      "slope_pct_per_year": -49.6,
+      "direction": "down"
+     },
+     "signal": {
+      "month": "Jul",
+      "vs_typical_pct": -24.8
+     },
+     "seasonality": {
+      "index": [
+       0.9065,
+       1.0102,
+       0.9769,
+       1.0102,
+       1.0102,
+       0.965,
+       0.9527,
+       0.995,
+       1.0383,
+       1.0153,
+       1.1063,
+       1.0082
+      ],
+      "iqr": [
+       0.1929,
+       0.0985,
+       0.1584,
+       0.0799,
+       0.0837,
+       0.063,
+       0.0933,
+       0.0135,
+       0.0683,
+       0.1758,
+       0.1548,
+       0.1572
+      ],
+      "n_years": [
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4
+      ],
+      "years_used": [
+       2022,
+       2023,
+       2024,
+       2025
+      ],
+      "best_sell": {
+       "months": [
+        10,
+        11
+       ],
+       "month_names": [
+        "Oct",
+        "Nov"
+       ],
+       "premium_pct": 6.1,
+       "confidence": "low",
+       "n_years": 4,
+       "mean_iqr": 0.1653
+      },
+      "best_buy": {
+       "months": [
+        12,
+        1
+       ],
+       "month_names": [
+        "Dec",
+        "Jan"
+       ],
+       "premium_pct": -4.3,
+       "confidence": "low",
+       "n_years": 4,
+       "mean_iqr": 0.175
+      }
+     },
+     "narrative": [
+      "Historically, Coconut sells about 6.1% above its yearly average in Oct–Nov in Kasargod (4 years of data — low confidence).",
+      "Prices tend to be lowest around Dec–Jan (4.3% below yearly average) — historically the better time to buy."
+     ],
+     "monthly": [
+      {
+       "month": "2021-07",
+       "median": 3200,
+       "n_obs": 14
+      },
+      {
+       "month": "2021-08",
+       "median": 3200,
+       "n_obs": 19
+      },
+      {
+       "month": "2021-09",
+       "median": 3000,
+       "n_obs": 27
+      },
+      {
+       "month": "2021-10",
+       "median": 3200,
+       "n_obs": 30
+      },
+      {
+       "month": "2021-11",
+       "median": 3150,
+       "n_obs": 28
+      },
+      {
+       "month": "2021-12",
+       "median": 3200,
+       "n_obs": 23
+      },
+      {
+       "month": "2022-01",
+       "median": 2900,
+       "n_obs": 27
+      },
+      {
+       "month": "2022-02",
+       "median": 2900,
+       "n_obs": 23
+      },
+      {
+       "month": "2022-03",
+       "median": 3000,
+       "n_obs": 23
+      },
+      {
+       "month": "2022-04",
+       "median": 2950,
+       "n_obs": 18
+      },
+      {
+       "month": "2022-05",
+       "median": 2750,
+       "n_obs": 18
+      },
+      {
+       "month": "2022-06",
+       "median": 2400,
+       "n_obs": 21
+      },
+      {
+       "month": "2022-07",
+       "median": 2200,
+       "n_obs": 15
+      },
+      {
+       "month": "2022-08",
+       "median": 2500,
+       "n_obs": 20
+      },
+      {
+       "month": "2022-09",
+       "median": 2550,
+       "n_obs": 18
+      },
+      {
+       "month": "2022-10",
+       "median": 2300,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-11",
+       "median": 2300,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-12",
+       "median": 2300,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-01",
+       "median": 2400,
+       "n_obs": 24
+      },
+      {
+       "month": "2023-02",
+       "median": 2500,
+       "n_obs": 19
+      },
+      {
+       "month": "2023-03",
+       "median": 2500,
+       "n_obs": 20
+      },
+      {
+       "month": "2023-04",
+       "median": 2500,
+       "n_obs": 17
+      },
+      {
+       "month": "2023-05",
+       "median": 2500,
+       "n_obs": 25
+      },
+      {
+       "month": "2023-06",
+       "median": 2400,
+       "n_obs": 22
+      },
+      {
+       "month": "2023-07",
+       "median": 2300,
+       "n_obs": 22
+      },
+      {
+       "month": "2023-08",
+       "median": 2400,
+       "n_obs": 21
+      },
+      {
+       "month": "2023-09",
+       "median": 2400,
+       "n_obs": 17
+      },
+      {
+       "month": "2023-10",
+       "median": 2400,
+       "n_obs": 21
+      },
+      {
+       "month": "2023-11",
+       "median": 2750,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-12",
+       "median": 2500,
+       "n_obs": 24
+      },
+      {
+       "month": "2024-01",
+       "median": 2500,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-02",
+       "median": 3000,
+       "n_obs": 25
+      },
+      {
+       "month": "2024-03",
+       "median": 2800,
+       "n_obs": 22
+      },
+      {
+       "month": "2024-04",
+       "median": 3000,
+       "n_obs": 22
+      },
+      {
+       "month": "2024-05",
+       "median": 3000,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-06",
+       "median": 2800,
+       "n_obs": 23
+      },
+      {
+       "month": "2024-07",
+       "median": 2900,
+       "n_obs": 20
+      },
+      {
+       "month": "2024-08",
+       "median": 3000,
+       "n_obs": 22
+      },
+      {
+       "month": "2024-09",
+       "median": 3200,
+       "n_obs": 23
+      },
+      {
+       "month": "2024-10",
+       "median": 4200,
+       "n_obs": 21
+      },
+      {
+       "month": "2024-11",
+       "median": 4300,
+       "n_obs": 24
+      },
+      {
+       "month": "2024-12",
+       "median": 4400,
+       "n_obs": 23
+      },
+      {
+       "month": "2025-01",
+       "median": 5200,
+       "n_obs": 29
+      },
+      {
+       "month": "2025-02",
+       "median": 5200,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-03",
+       "median": 5200,
+       "n_obs": 29
+      },
+      {
+       "month": "2025-04",
+       "median": 5800,
+       "n_obs": 20
+      },
+      {
+       "month": "2025-05",
+       "median": 5200,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-06",
+       "median": 7000,
+       "n_obs": 23
+      },
+      {
+       "month": "2025-07",
+       "median": 7400,
+       "n_obs": 24
+      },
+      {
+       "month": "2025-08",
+       "median": 6400,
+       "n_obs": 22
+      },
+      {
+       "month": "2025-09",
+       "median": 6900,
+       "n_obs": 20
+      },
+      {
+       "month": "2025-10",
+       "median": 6700,
+       "n_obs": 23
+      },
+      {
+       "month": "2025-11",
+       "median": 6950,
+       "n_obs": 26
+      },
+      {
+       "month": "2025-12",
+       "median": 6350,
+       "n_obs": 27
+      },
+      {
+       "month": "2026-01",
+       "median": 5800,
+       "n_obs": 28
+      },
+      {
+       "month": "2026-02",
+       "median": 6000,
+       "n_obs": 23
+      },
+      {
+       "month": "2026-03",
+       "median": 5300,
+       "n_obs": 25
+      },
+      {
+       "month": "2026-04",
+       "median": 5100,
+       "n_obs": 25
+      },
+      {
+       "month": "2026-05",
+       "median": 4650,
+       "n_obs": 25
+      },
+      {
+       "month": "2026-06",
+       "median": 4200,
+       "n_obs": 25
+      },
+      {
        "month": "2026-07",
-       "median": 4700,
-       "n_obs": 1
+       "median": 4625,
+       "n_obs": 8
       }
      ]
     },
     "Kozhikode": {
      "level": "Kozhikode",
-     "n_obs": 1,
+     "n_obs": 181,
      "freshness": {
-      "last_observed": "2026-07-08",
+      "last_observed": "2026-07-09",
       "days_stale": 0,
       "stale": false
      },
      "latest": {
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "modal_price": 5100
      },
      "trend": {
-      "ma30": null,
-      "ma90": null,
+      "ma30": 5000,
+      "ma90": 5200,
       "yoy_pct": null,
-      "slope_pct_per_year": null,
-      "direction": "flat"
+      "slope_pct_per_year": -57.3,
+      "direction": "down"
      },
      "signal": null,
      "seasonality": null,
@@ -334,30 +4115,475 @@
      ],
      "monthly": [
       {
+       "month": "2025-11",
+       "median": 7100,
+       "n_obs": 10
+      },
+      {
+       "month": "2025-12",
+       "median": 7200,
+       "n_obs": 23
+      },
+      {
+       "month": "2026-01",
+       "median": 6300,
+       "n_obs": 23
+      },
+      {
+       "month": "2026-02",
+       "median": 6800,
+       "n_obs": 21
+      },
+      {
+       "month": "2026-03",
+       "median": 5500,
+       "n_obs": 24
+      },
+      {
+       "month": "2026-04",
+       "median": 6000,
+       "n_obs": 24
+      },
+      {
+       "month": "2026-05",
+       "median": 5400,
+       "n_obs": 26
+      },
+      {
+       "month": "2026-06",
+       "median": 5000,
+       "n_obs": 22
+      },
+      {
        "month": "2026-07",
        "median": 5100,
-       "n_obs": 1
+       "n_obs": 8
+      }
+     ]
+    },
+    "Malappuram": {
+     "level": "Malappuram",
+     "n_obs": 1354,
+     "freshness": {
+      "last_observed": "2026-06-23",
+      "days_stale": 16,
+      "stale": false
+     },
+     "latest": {
+      "date": "2026-06-23",
+      "modal_price": 4000
+     },
+     "trend": {
+      "ma30": null,
+      "ma90": 4950,
+      "yoy_pct": null,
+      "slope_pct_per_year": -31.3,
+      "direction": "down"
+     },
+     "signal": null,
+     "seasonality": {
+      "index": [
+       0.989,
+       1.0181,
+       1.0026,
+       1.0374,
+       1.0,
+       1.0228,
+       0.9643,
+       0.9761,
+       1.0097,
+       1.0309,
+       1.0464,
+       1.0032
+      ],
+      "iqr": [
+       0.1606,
+       0.063,
+       0.0497,
+       0.0322,
+       0.0802,
+       0.0595,
+       0.0797,
+       0.0509,
+       0.1593,
+       0.2679,
+       0.2446,
+       0.2615
+      ],
+      "n_years": [
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4,
+       4
+      ],
+      "years_used": [
+       2022,
+       2023,
+       2024,
+       2025
+      ],
+      "best_sell": {
+       "months": [
+        10,
+        11
+       ],
+       "month_names": [
+        "Oct",
+        "Nov"
+       ],
+       "premium_pct": 3.9,
+       "confidence": "low",
+       "n_years": 4,
+       "mean_iqr": 0.2563
+      },
+      "best_buy": {
+       "months": [
+        7,
+        8
+       ],
+       "month_names": [
+        "Jul",
+        "Aug"
+       ],
+       "premium_pct": -3.0,
+       "confidence": "medium",
+       "n_years": 4,
+       "mean_iqr": 0.0653
+      }
+     },
+     "narrative": [
+      "Historically, Coconut sells about 3.9% above its yearly average in Oct–Nov in Malappuram (4 years of data — low confidence).",
+      "Prices tend to be lowest around Jul–Aug (3.0% below yearly average) — historically the better time to buy."
+     ],
+     "monthly": [
+      {
+       "month": "2021-07",
+       "median": 3350,
+       "n_obs": 18
+      },
+      {
+       "month": "2021-08",
+       "median": 3150,
+       "n_obs": 23
+      },
+      {
+       "month": "2021-09",
+       "median": 3150,
+       "n_obs": 22
+      },
+      {
+       "month": "2021-10",
+       "median": 3150,
+       "n_obs": 22
+      },
+      {
+       "month": "2021-11",
+       "median": 3150,
+       "n_obs": 22
+      },
+      {
+       "month": "2021-12",
+       "median": 3150,
+       "n_obs": 23
+      },
+      {
+       "month": "2022-01",
+       "median": 2850,
+       "n_obs": 23
+      },
+      {
+       "month": "2022-02",
+       "median": 2850,
+       "n_obs": 22
+      },
+      {
+       "month": "2022-03",
+       "median": 2850,
+       "n_obs": 24
+      },
+      {
+       "month": "2022-04",
+       "median": 2850,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-05",
+       "median": 2850,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-06",
+       "median": 2850,
+       "n_obs": 21
+      },
+      {
+       "month": "2022-07",
+       "median": 2475,
+       "n_obs": 25
+      },
+      {
+       "month": "2022-08",
+       "median": 2525,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-09",
+       "median": 2365,
+       "n_obs": 28
+      },
+      {
+       "month": "2022-10",
+       "median": 2350,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-11",
+       "median": 2350,
+       "n_obs": 29
+      },
+      {
+       "month": "2022-12",
+       "median": 2575,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-01",
+       "median": 2575,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-02",
+       "median": 2500,
+       "n_obs": 23
+      },
+      {
+       "month": "2023-03",
+       "median": 2425,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-04",
+       "median": 2525,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-05",
+       "median": 2500,
+       "n_obs": 27
+      },
+      {
+       "month": "2023-06",
+       "median": 2400,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-07",
+       "median": 2350,
+       "n_obs": 29
+      },
+      {
+       "month": "2023-08",
+       "median": 2365,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-09",
+       "median": 2275,
+       "n_obs": 25
+      },
+      {
+       "month": "2023-10",
+       "median": 2300,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-11",
+       "median": 2375,
+       "n_obs": 26
+      },
+      {
+       "month": "2023-12",
+       "median": 2550,
+       "n_obs": 24
+      },
+      {
+       "month": "2024-01",
+       "median": 2550,
+       "n_obs": 28
+      },
+      {
+       "month": "2024-02",
+       "median": 2750,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-03",
+       "median": 2750,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-04",
+       "median": 2688,
+       "n_obs": 28
+      },
+      {
+       "month": "2024-05",
+       "median": 2650,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-06",
+       "median": 2700,
+       "n_obs": 29
+      },
+      {
+       "month": "2024-07",
+       "median": 2625,
+       "n_obs": 27
+      },
+      {
+       "month": "2024-08",
+       "median": 3050,
+       "n_obs": 22
+      },
+      {
+       "month": "2024-09",
+       "median": 3050,
+       "n_obs": 23
+      },
+      {
+       "month": "2024-10",
+       "median": 4050,
+       "n_obs": 26
+      },
+      {
+       "month": "2024-11",
+       "median": 4050,
+       "n_obs": 24
+      },
+      {
+       "month": "2024-12",
+       "median": 4550,
+       "n_obs": 24
+      },
+      {
+       "month": "2025-01",
+       "median": 4950,
+       "n_obs": 23
+      },
+      {
+       "month": "2025-02",
+       "median": 5650,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-03",
+       "median": 5400,
+       "n_obs": 28
+      },
+      {
+       "month": "2025-04",
+       "median": 6400,
+       "n_obs": 23
+      },
+      {
+       "month": "2025-05",
+       "median": 5900,
+       "n_obs": 26
+      },
+      {
+       "month": "2025-06",
+       "median": 6550,
+       "n_obs": 23
+      },
+      {
+       "month": "2025-07",
+       "median": 7300,
+       "n_obs": 24
+      },
+      {
+       "month": "2025-08",
+       "median": 6050,
+       "n_obs": 22
+      },
+      {
+       "month": "2025-09",
+       "median": 6700,
+       "n_obs": 23
+      },
+      {
+       "month": "2025-10",
+       "median": 6900,
+       "n_obs": 25
+      },
+      {
+       "month": "2025-11",
+       "median": 6900,
+       "n_obs": 10
+      },
+      {
+       "month": "2025-12",
+       "median": 5800,
+       "n_obs": 5
+      },
+      {
+       "month": "2026-01",
+       "median": 5450,
+       "n_obs": 5
+      },
+      {
+       "month": "2026-02",
+       "median": 6000,
+       "n_obs": 5
+      },
+      {
+       "month": "2026-03",
+       "median": 6000,
+       "n_obs": 3
+      },
+      {
+       "month": "2026-04",
+       "median": 4750,
+       "n_obs": 9
+      },
+      {
+       "month": "2026-05",
+       "median": 6000,
+       "n_obs": 4
+      },
+      {
+       "month": "2026-06",
+       "median": 5000,
+       "n_obs": 4
       }
      ]
     },
     "Wayanad": {
      "level": "Wayanad",
-     "n_obs": 1,
+     "n_obs": 405,
      "freshness": {
-      "last_observed": "2026-07-08",
+      "last_observed": "2026-07-09",
       "days_stale": 0,
       "stale": false
      },
      "latest": {
-      "date": "2026-07-08",
-      "modal_price": 5950
+      "date": "2026-07-09",
+      "modal_price": 6400
      },
      "trend": {
-      "ma30": null,
-      "ma90": null,
-      "yoy_pct": null,
-      "slope_pct_per_year": null,
-      "direction": "flat"
+      "ma30": 5900,
+      "ma90": 5850,
+      "yoy_pct": -26.2,
+      "slope_pct_per_year": -38.0,
+      "direction": "down"
      },
      "signal": null,
      "seasonality": null,
@@ -366,9 +4592,109 @@
      ],
      "monthly": [
       {
-       "month": "2026-07",
-       "median": 5950,
+       "month": "2024-02",
+       "median": 8600,
        "n_obs": 1
+      },
+      {
+       "month": "2024-12",
+       "median": 4400,
+       "n_obs": 20
+      },
+      {
+       "month": "2025-01",
+       "median": 4700,
+       "n_obs": 17
+      },
+      {
+       "month": "2025-02",
+       "median": 4500,
+       "n_obs": 18
+      },
+      {
+       "month": "2025-03",
+       "median": 4900,
+       "n_obs": 24
+      },
+      {
+       "month": "2025-04",
+       "median": 7000,
+       "n_obs": 20
+      },
+      {
+       "month": "2025-05",
+       "median": 7200,
+       "n_obs": 24
+      },
+      {
+       "month": "2025-06",
+       "median": 8000,
+       "n_obs": 18
+      },
+      {
+       "month": "2025-07",
+       "median": 8600,
+       "n_obs": 19
+      },
+      {
+       "month": "2025-08",
+       "median": 7500,
+       "n_obs": 21
+      },
+      {
+       "month": "2025-09",
+       "median": 7600,
+       "n_obs": 13
+      },
+      {
+       "month": "2025-10",
+       "median": 7800,
+       "n_obs": 13
+      },
+      {
+       "month": "2025-11",
+       "median": 8000,
+       "n_obs": 23
+      },
+      {
+       "month": "2025-12",
+       "median": 6600,
+       "n_obs": 23
+      },
+      {
+       "month": "2026-01",
+       "median": 5700,
+       "n_obs": 24
+      },
+      {
+       "month": "2026-02",
+       "median": 6700,
+       "n_obs": 24
+      },
+      {
+       "month": "2026-03",
+       "median": 6600,
+       "n_obs": 25
+      },
+      {
+       "month": "2026-04",
+       "median": 5900,
+       "n_obs": 22
+      },
+      {
+       "month": "2026-05",
+       "median": 5850,
+       "n_obs": 23
+      },
+      {
+       "month": "2026-06",
+       "median": 5800,
+       "n_obs": 25
+      },
+      {
+       "month": "2026-07",
+       "median": 6250,
+       "n_obs": 8
       }
      ]
     }

@@ -49,18 +49,21 @@ confidence label.
 
 ### Historical backfill (once, recommended)
 
-Register for a free API token at
-[CEDA](https://agmarknet.ceda.ashoka.edu.in/) (non-commercial use with
-attribution), then:
+The default backfill pulls from the **Agmarknet 2.0 public report API**
+(the same endpoint the "Daily Price and Arrival Report" page on
+agmarknet.gov.in uses) — no token needed, price data back to 2021:
 
 ```bash
-export CEDA_API_TOKEN="..."
 python -m venv .venv && source .venv/bin/activate
 pip install -r pipeline/requirements.txt && pip install --no-deps -e pipeline
-python -m mandi backfill --dry-run   # verify commodity/district ID matching
+python -m mandi backfill --dry-run   # verify commodity/state ID matching
 python -m mandi backfill --years 5
-git add data/ && git commit -m "data: CEDA historical backfill" && git push
+git add data/ && git commit -m "data: agmarknet historical backfill" && git push
 ```
+
+Alternative: `python -m mandi backfill --source ceda` uses the
+[CEDA](https://agmarknet.ceda.ashoka.edu.in/) archive instead (register for
+a free token, set `CEDA_API_TOKEN`; non-commercial use with attribution).
 
 Seasonality analysis needs at least 2 full years of history; 5 years gives
 stable estimates with honest confidence labels.

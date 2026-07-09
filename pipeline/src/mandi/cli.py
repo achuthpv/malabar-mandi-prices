@@ -65,9 +65,11 @@ def cmd_publish(_args: argparse.Namespace) -> int:
 
 
 def cmd_backfill(args: argparse.Namespace) -> int:
-    from .backfill_ceda import backfill
-
     cfg = load_config()
+    if args.source == "ceda":
+        from .backfill_ceda import backfill
+    else:
+        from .backfill_agmarknet import backfill
     return backfill(cfg, years=args.years, dry_run=args.dry_run)
 
 
@@ -89,7 +91,10 @@ def main(argv: list[str] | None = None) -> int:
     )
     sub.add_parser("publish", help="generate site/api/v1 JSON").set_defaults(func=cmd_publish)
 
-    p_back = sub.add_parser("backfill", help="one-time historical backfill (CEDA)")
+    p_back = sub.add_parser("backfill", help="one-time historical backfill")
+    p_back.add_argument("--source", choices=["agmarknet", "ceda"], default="agmarknet",
+                        help="agmarknet: public report API, no token (default); "
+                        "ceda: CEDA archive, needs CEDA_API_TOKEN")
     p_back.add_argument("--years", type=int, default=5)
     p_back.add_argument("--dry-run", action="store_true")
     p_back.set_defaults(func=cmd_backfill)

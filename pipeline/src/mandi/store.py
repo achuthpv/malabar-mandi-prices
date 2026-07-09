@@ -4,7 +4,8 @@ Layout: data/prices/{commodity_slug}/{year}.csv
 Natural key: (date, market, commodity_slug, variety, grade)
 
 Conflict rules on upsert:
-  - source "ogd" beats source "ceda" (official daily feed wins over archive)
+  - source rank: "ogd" (official daily feed) > "agmarknet" (agmarknet.gov.in
+    report API backfill) > "ceda" (archive)
   - same source: latest fetched_at wins
 
 Files are written sorted by natural key, so re-running the pipeline on the
@@ -24,7 +25,7 @@ from .normalize import COLUMNS
 
 Key = tuple[str, str, str, str, str]
 
-SOURCE_RANK = {"ceda": 0, "ogd": 1}
+SOURCE_RANK = {"ceda": 0, "agmarknet": 1, "ogd": 2}
 
 QUARANTINE_COLUMNS = ["quarantined_at", "reason", "source", "record"]
 
