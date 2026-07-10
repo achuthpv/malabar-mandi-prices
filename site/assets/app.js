@@ -59,6 +59,7 @@
     window.addEventListener("hashchange", onRoute);
     $("#district-select").addEventListener("change", (e) => {
       state.district = e.target.value;
+      renderVarietySelect(); // re-scope the Type list to the district (may reset variety)
       renderAll();
     });
     $("#variety-select").addEventListener("change", (e) => {
@@ -193,11 +194,42 @@
     sel.value = state.district;
   }
 
+  /* Variety summaries scoped to the current area selection.
+     - All districts: the region-wide 30-day summary from latest.json.
+     - One district: derived from that district's latest market rows
+       (current price per type), since the region summary isn't per-district. */
+  function areaVarietySummaries() {
+    if (state.district === ALL_DISTRICTS) {
+      return state.latest.varieties || [];
+    }
+    const rows = (state.latest.markets || [])
+      .filter((m) => m.district === state.district);
+    const byVariety = new Map();
+    for (const m of rows) {
+      if (!byVariety.has(m.variety)) byVariety.set(m.variety, []);
+      byVariety.get(m.variety).push(m);
+    }
+    const out = [];
+    for (const [variety, ms] of byVariety) {
+      const prices = ms.map((m) => m.modal_price);
+      out.push({
+        variety: variety,
+        median_modal: median(prices),
+        min_modal: Math.min(...prices),
+        max_modal: Math.max(...prices),
+        n_markets: new Set(ms.map((m) => m.market)).size,
+        last_observed: ms.reduce((a, m) => (m.date > a ? m.date : a), ""),
+      });
+    }
+    out.sort((a, b) => b.median_modal - a.median_modal);
+    return out;
+  }
+
   function renderVarietySelect() {
     const sel = $("#variety-select");
     const label = $("#variety-label");
-    const varieties = (state.latest.varieties || []);
-    const show = hasVarieties();
+    const varieties = areaVarietySummaries();
+    const show = varieties.length > 1;
     sel.hidden = !show;
     label.hidden = !show;
     sel.textContent = "";
@@ -213,22 +245,22 @@
       sel.appendChild(opt);
     }
     if (![...sel.options].some((o) => o.value === state.variety)) {
-      state.variety = ALL_VARIETIES;
+      state.variety = ALL_VARIETIES; // current type not sold in this district
     }
     sel.value = state.variety;
-  }
-
-  function hasVarieties() {
-    return (state.latest.varieties || []).length > 1;
   }
 
   function renderVarietiesTable() {
     const panel = $("#varieties-panel");
     const tbody = $("#varieties-table tbody");
+    const scope = $("#varieties-scope");
     tbody.textContent = "";
-    const varieties = state.latest.varieties || [];
-    if (!hasVarieties()) { panel.hidden = true; return; }
+    const varieties = areaVarietySummaries();
+    if (varieties.length < 2) { panel.hidden = true; return; }
     panel.hidden = false;
+    scope.textContent = state.district === ALL_DISTRICTS
+      ? "Median over the last 30 days across all reporting markets."
+      : `Latest reported price by type in ${state.district}.`;
     const asOf = state.summary.generated_at ? state.summary.generated_at.slice(0, 10) : null;
     for (const v of varieties) {
       const tr = document.createElement("tr");

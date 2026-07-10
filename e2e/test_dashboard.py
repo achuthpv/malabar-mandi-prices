@@ -219,12 +219,16 @@ def test_spread_line_and_benchmark_star(page: Page, site_url: str):
     expect(star_row.locator(".bench-star")).to_have_count(1)
     home_row = page.locator("#markets-table tbody tr", has_text="Kasargod Market").first
     expect(home_row.locator(".bench-star")).to_have_count(0)
-    # Vs median is per-variety: the premium Sirsi rows themselves must show
-    # a positive signed percentage (not just some cell somewhere)
+    # Vs median is per-variety: a premium Sirsi row with a cross-market
+    # median shows a positive %; a single-market variety (Api) shows "–"
     sirsi_rows = page.locator("#markets-table tbody tr", has_text="Sirsi APMC")
+    signed = []
     for i in range(sirsi_rows.count()):
         vs = sirsi_rows.nth(i).locator("td.vsmed").inner_text()
-        assert vs.startswith("+") and vs.endswith("%"), f"Sirsi row {i}: {vs}"
+        assert vs == "–" or (vs.startswith("+") and vs.endswith("%")), f"Sirsi row {i}: {vs}"
+        if vs != "–":
+            signed.append(vs)
+    assert signed, "expected at least one Sirsi row with a positive Vs-median"
 
 
 def test_variety_selector_and_panel(page: Page, site_url: str):
@@ -234,7 +238,10 @@ def test_variety_selector_and_panel(page: Page, site_url: str):
     options = page.locator("#variety-select option").all_inner_texts()
     assert "All types" in options and "Rashi" in options and "Chali" in options
     rows = page.locator("#varieties-table tbody tr").all_inner_texts()
-    assert len(rows) == 2 and "Rashi" in rows[0]
+    # region panel lists all three arecanut types, priced high-to-low
+    assert len(rows) == 3
+    joined = " | ".join(rows)
+    assert joined.index("Rashi") < joined.index("Chali")  # premium above base
 
     # selecting a type filters the markets table and annotates the chart
     page.select_option("#variety-select", "Rashi")
@@ -255,6 +262,41 @@ def test_variety_selector_hidden_for_single_type(page: Page, site_url: str):
     expect(page.locator("#varieties-panel")).to_be_hidden()
 
 
+def test_variety_list_scopes_to_selected_district(page: Page, site_url: str):
+    _open(page, site_url, "/#/arecanut")
+    # region view lists the Karnataka-only "Api" grade
+    all_types = page.locator("#variety-select option").all_inner_texts()
+    assert "Api" in all_types and "Chali" in all_types
+
+    # Kannur (home district) has no "Api" -> it drops out of the Type list
+    page.select_option("#district-select", "Kannur")
+    page.wait_for_timeout(300)
+    kannur_types = page.locator("#variety-select option").all_inner_texts()
+    assert "Api" not in kannur_types
+    assert "Chali" in kannur_types and "Rashi" in kannur_types
+    # the by-type panel scope note reflects the district
+    assert "Kannur" in page.locator("#varieties-scope").inner_text()
+
+    # Uttara Kannada (Sirsi) is where Api trades -> it reappears there
+    page.select_option("#district-select", "Uttara Kannada")
+    page.wait_for_timeout(300)
+    assert "Api" in page.locator("#variety-select option").all_inner_texts()
+
+
+def test_selected_type_resets_when_absent_in_new_district(page: Page, site_url: str):
+    _open(page, site_url, "/#/arecanut")
+    page.select_option("#district-select", "Uttara Kannada")
+    page.wait_for_timeout(300)
+    page.select_option("#variety-select", "Api")
+    page.wait_for_timeout(300)
+    # switch to a district without Api -> selection falls back to All types
+    page.select_option("#district-select", "Kannur")
+    page.wait_for_timeout(300)
+    assert page.locator("#variety-select").input_value() == "__all__"
+    # markets table is not empty (it isn't filtered to the now-absent type)
+    assert page.locator("#markets-table tbody tr").count() > 0
+
+
 def test_benchmark_excluded_from_seasonality_but_selectable(page: Page, site_url: str):
     _open(page, site_url, "/#/arecanut")
     options = page.locator("#district-select option").all_inner_texts()
@@ -262,8 +304,8 @@ def test_benchmark_excluded_from_seasonality_but_selectable(page: Page, site_url
     page.select_option("#district-select", "Uttara Kannada")
     page.wait_for_timeout(300)
     rows = page.locator("#markets-table tbody tr")
-    assert rows.count() == 2  # one per variety (Chali, Rashi)
-    for i in range(2):
+    assert rows.count() == 3  # one per variety at Sirsi (Chali, Rashi, Api)
+    for i in range(rows.count()):
         expect(rows.nth(i)).to_contain_text("Sirsi APMC")
 
 

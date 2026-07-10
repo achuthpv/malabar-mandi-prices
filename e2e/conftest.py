@@ -61,9 +61,13 @@ def _seed_rows() -> list[dict]:
             for slug, markets in MARKETS.items():
                 for i, (district, market) in enumerate(markets):
                     base = _price(slug, day, i)
+                    market_varieties = list(varieties.get(slug, [("Other", 1.0)]))
                     if market == "Sirsi APMC":
                         base = int(base * 1.15)
-                    for variety, mult in varieties.get(slug, [("Other", 1.0)]):
+                        # "Api" is a Karnataka-only grade — lets us test that
+                        # the Type list scopes to the selected district
+                        market_varieties.append(("Api", 1.3))
+                    for variety, mult in market_varieties:
                         price = int(base * mult)
                         rows.append({
                             "date": day.isoformat(), "district": district,
