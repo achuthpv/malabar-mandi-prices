@@ -53,6 +53,20 @@ jobs:
         continue-on-error: true
         run: python -m mandi des-fetch
 
+      # Commodity news headlines (Google News RSS) -> data/news/{slug}.csv.
+      # Informational: must never block the data commit.
+      - name: Fetch commodity news
+        continue-on-error: true
+        run: python -m mandi news
+
+      # Evaluate price/spread alert rules (config/alerts.yaml). Writes
+      # data/alerts_state.json (committed below) + build/alerts.txt.
+      # Informational: must never block the data commit.
+      - name: Evaluate price alerts
+        id: alerts
+        continue-on-error: true
+        run: python -m mandi alerts
+
       - name: Commit data if changed
         id: commit
         run: |
@@ -75,6 +89,24 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run deploy.yml --ref main
+
+      - name: Open price-alert issue
+        if: steps.alerts.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -s build/alerts.txt ]; then
+            echo "no new alerts"
+            exit 0
+          fi
+          title="Price alerts"
+          body="$(printf 'New alerts on %s:\n\n%s\n\n(from config/alerts.yaml — edit rules there)' "$(date -u +%F)" "$(cat build/alerts.txt)")"
+          existing=$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number' || true)
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
 
       - name: Surface DES failure after commit
         if: steps.des.outcome == 'failure'

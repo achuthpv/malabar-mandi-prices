@@ -1,0 +1,36 @@
+# ============================================================================
+# Alert rules — evaluated by `python -m mandi alerts` after each daily fetch.
+# Alerts are EDGE-TRIGGERED: an alert fires when its condition becomes true,
+# then stays silent until the condition clears and becomes true again
+# (state in data/alerts_state.json). Triggered alerts open/update a GitHub
+# issue titled "Price alerts" via the daily workflow.
+#
+# Rule types:
+#   price_above / price_below : region 30-day median crosses `threshold`
+#                               (set `district:` to watch one district)
+#   spread_above              : cross-market arbitrage gap exceeds `pct`
+#   vs_typical_above/below    : current price deviates more than `pct` %
+#                               from what is seasonally typical this month
+# ============================================================================
+
+rules:
+  # arbitrage watch: a wide comparable-market gap is worth a look
+  - { type: spread_above, commodity: arecanut,     pct: 30 }
+  - { type: spread_above, commodity: black-pepper, pct: 25 }
+  - { type: spread_above, commodity: coconut,      pct: 40 }
+  # copra grades differ hugely across states (Ball vs milling), so only a
+  # very wide gap is signal rather than grade mix
+  - { type: spread_above, commodity: copra,        pct: 60 }
+
+  # seasonal-deviation watch: prices running unusually hot or cold for
+  # the calendar month often precede a selling/buying opportunity
+  - { type: vs_typical_above, commodity: arecanut,     pct: 12 }
+  - { type: vs_typical_below, commodity: arecanut,     pct: 12 }
+  - { type: vs_typical_above, commodity: black-pepper, pct: 10 }
+  - { type: vs_typical_below, commodity: black-pepper, pct: 10 }
+  - { type: vs_typical_above, commodity: coconut,      pct: 15 }
+  - { type: vs_typical_below, commodity: coconut,      pct: 15 }
+
+  # absolute thresholds — edit to taste
+  - { type: price_above, commodity: black-pepper, threshold: 85000 }
+  - { type: price_below, commodity: black-pepper, threshold: 55000 }

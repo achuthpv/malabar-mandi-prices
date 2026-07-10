@@ -46,7 +46,8 @@ def _load_analysis(cfg: Config) -> dict[str, Any]:
 
 def publish_all(cfg: Config, generated_at: str, api_dir: Path | None = None,
                 data_base: Path | None = None,
-                analysis: dict[str, Any] | None = None) -> list[Path]:
+                analysis: dict[str, Any] | None = None,
+                news_base: Path | None = None) -> list[Path]:
     api_dir = api_dir or API_DIR
     analysis = analysis or _load_analysis(cfg)
     rows = read_all_rows(data_base)
@@ -182,6 +183,18 @@ def publish_all(cfg: Config, generated_at: str, api_dir: Path | None = None,
             "spread": spread,
         })))
 
+    # --- news headlines (data/news/{slug}.csv -> last 30 days, capped) -----
+    news_written: set[str] = set()
+    for c in cfg.commodities:
+        items = _news_items(c.slug, generated_at, news_base)
+        if items:
+            written.append(_write(api_dir / "news" / f"{c.slug}.json",
+                                  _envelope(generated_at, {
+                "commodity": c.slug,
+                "items": items,
+            })))
+            news_written.add(c.slug)
+
     # --- discovery index ----------------------------------------------------
     endpoints = ["/api/v1/meta.json", "/api/v1/commodities.json", "/api/v1/markets.json"]
     for c in cfg.commodities:
@@ -191,6 +204,8 @@ def publish_all(cfg: Config, generated_at: str, api_dir: Path | None = None,
                       for y in sorted({r['date'][:4] for r in rows_by_slug.get(c.slug, [])})]
         endpoints += [f"/api/v1/analysis/{c.slug}/seasonality.json",
                       f"/api/v1/analysis/{c.slug}/summary.json"]
+        if c.slug in news_written:
+            endpoints.append(f"/api/v1/news/{c.slug}.json")
     written.insert(0, _write(api_dir / "index.json", _envelope(generated_at, {
         "endpoints": endpoints,
         "openapi": "/openapi.json",
@@ -216,6 +231,33 @@ def _summary_view(series: dict[str, Any] | None) -> dict[str, Any] | None:
         "narrative": series["narrative"],
         "n_obs": series["n_obs"],
     }
+
+
+def _news_items(slug: str, generated_at: str, news_base: Path | None,
+                window_days: int = 30, cap: int = 20) -> list[dict[str, Any]]:
+    """Freshest headlines for a commodity, URL-validated, newest first."""
+    import csv
+    from datetime import date, timedelta
+
+    from .news import NEWS_DIR
+
+    path = (news_base or NEWS_DIR) / f"{slug}.csv"
+    if not path.exists():
+        return []
+    cutoff = (date.fromisoformat(generated_at[:10])
+              - timedelta(days=window_days)).isoformat()
+    items = []
+    with open(path, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            url = str(row.get("url", ""))
+            if row.get("date", "") < cutoff:
+                continue
+            if not url.startswith(("http://", "https://")):
+                continue  # headlines are untrusted input; only real links
+            items.append({"date": row["date"], "title": row["title"],
+                          "source": row.get("source", ""), "url": url})
+    items.sort(key=lambda r: r["date"], reverse=True)
+    return items[:cap]
 
 
 def _recent_rows(rows: list[dict[str, Any]], window_days: int

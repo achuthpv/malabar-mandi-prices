@@ -89,10 +89,18 @@ def built_site(tmp_path_factory: pytest.TempPathFactory) -> Path:
     data = root / "data"
     upsert_rows(_seed_rows(), base=data)
 
+    news = root / "news"
+    news.mkdir()
+    (news / "black-pepper.csv").write_text(
+        "date,title,source,url,fetched_at\n"
+        f"{TODAY.isoformat()},Pepper exports jump on Vietnam crop shortfall,"
+        f"Test Wire,https://example.com/pepper,{FETCHED_AT}\n"
+    )
+
     cfg = load_config()
     analysis = analyze_all(cfg, base=data, today=TODAY)
     publish_all(cfg, generated_at=FETCHED_AT, api_dir=site / "api" / "v1",
-                data_base=data, analysis=analysis)
+                data_base=data, analysis=analysis, news_base=news)
     return site
 
 

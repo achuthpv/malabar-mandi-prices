@@ -1,9 +1,11 @@
 # Malabar Mandi Prices
 
 A lightweight, mobile-friendly dashboard tracking wholesale mandi prices of
-**arecanut, black pepper and coconut** in **Calicut (Kozhikode) & North Kerala**
-— with seasonality analysis that estimates the best months of the year to
-sell (and buy) each commodity.
+**arecanut, black pepper, coconut and copra** in **Calicut (Kozhikode) &
+North Kerala** — with seasonality analysis that estimates the best months of
+the year to sell (and buy) each commodity, cross-market arbitrage spreads,
+edge-triggered price alerts (`config/alerts.yaml` → GitHub issues), and a
+news-aware ask box.
 
 - **Data**: [Agmarknet](https://agmarknet.gov.in/) daily mandi prices via the
   official [data.gov.in](https://data.gov.in/) API; ~5-year history backfilled

@@ -1,0 +1,14 @@
+{
+ "price_above:black-pepper::85000:": false,
+ "price_below:black-pepper::55000:": false,
+ "spread_above:arecanut:::30": true,
+ "spread_above:black-pepper:::25": true,
+ "spread_above:coconut:::40": true,
+ "spread_above:copra:::30": true,
+ "vs_typical_above:arecanut:::12": false,
+ "vs_typical_above:black-pepper:::10": false,
+ "vs_typical_above:coconut:::15": false,
+ "vs_typical_below:arecanut:::12": false,
+ "vs_typical_below:black-pepper:::10": false,
+ "vs_typical_below:coconut:::15": true
+}

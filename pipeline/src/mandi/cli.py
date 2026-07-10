@@ -64,6 +64,18 @@ def cmd_publish(_args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_news(_args: argparse.Namespace) -> int:
+    from .news import fetch as news_fetch
+
+    return news_fetch(load_config())
+
+
+def cmd_alerts(_args: argparse.Namespace) -> int:
+    from .alerts import run as alerts_run
+
+    return alerts_run(load_config())
+
+
 def cmd_des_fetch(_args: argparse.Namespace) -> int:
     from .des import fetch as des_fetch
 
@@ -102,6 +114,16 @@ def main(argv: list[str] | None = None) -> int:
         func=cmd_analyze
     )
     sub.add_parser("publish", help="generate site/api/v1 JSON").set_defaults(func=cmd_publish)
+
+    sub.add_parser(
+        "news",
+        help="fetch commodity news headlines (Google News RSS) into data/news",
+    ).set_defaults(func=cmd_news)
+
+    sub.add_parser(
+        "alerts",
+        help="evaluate config/alerts.yaml rules; write build/alerts.txt",
+    ).set_defaults(func=cmd_alerts)
 
     sub.add_parser(
         "des-fetch",

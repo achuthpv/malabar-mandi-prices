@@ -106,3 +106,16 @@ commodities:
     sanity: { min: 500, max: 30000 }
     des_items:
       "Coconut Without Husk (W O H)": "Without Husk"
+
+  - slug: copra
+    display: Copra
+    ogd_names: ["Copra"]
+    unit: "Rs/quintal"
+    sanity: { min: 4000, max: 60000 }
+    des_items:
+      "Copra Sundried": "Sundried"
+      "Copra Smoked": "Smoked"
+      "Copra (Dilpas)": "Dilpas"
+      "Copra (Eduthapadi)": "Eduthapadi"
+      "Copra (Milling)": "Milling"
+      "Copra Ball": "Ball"

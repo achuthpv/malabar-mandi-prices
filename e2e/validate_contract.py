@@ -35,6 +35,7 @@ TEMPLATES = {
     "/api/v1/prices/{slug}/monthly.json": r"^prices/[a-z0-9-]+/monthly\.json$",
     "/api/v1/analysis/{slug}/seasonality.json": r"^analysis/[a-z0-9-]+/seasonality\.json$",
     "/api/v1/analysis/{slug}/summary.json": r"^analysis/[a-z0-9-]+/summary\.json$",
+    "/api/v1/news/{slug}.json": r"^news/[a-z0-9-]+\.json$",
 }
 
 # data.gov.in keys are 56+ hex chars; also catch obvious assignments

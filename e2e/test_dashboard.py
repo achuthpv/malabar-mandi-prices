@@ -171,6 +171,25 @@ def test_ask_box_now_question(page: Page, site_url: str):
     assert "Coconut" in answer
 
 
+def test_why_answer_cites_news_when_available(page: Page, site_url: str):
+    _open(page, site_url)
+    page.fill("#ask-input", "Why are black pepper prices high?")
+    page.click("#ask-btn")
+    page.wait_for_timeout(700)
+    answer = page.locator(".ask-a").first.inner_text()
+    assert "Vietnam crop shortfall" in answer  # fixture headline cited
+    assert "Test Wire" in answer
+
+
+def test_why_answer_without_news_says_so(page: Page, site_url: str):
+    _open(page, site_url)
+    page.fill("#ask-input", "Why are coconut prices low?")  # no news seeded
+    page.click("#ask-btn")
+    page.wait_for_timeout(700)
+    answer = page.locator(".ask-a").first.inner_text()
+    assert "No recent news collected" in answer
+
+
 def test_ask_box_help_for_unknown(page: Page, site_url: str):
     _open(page, site_url)
     page.fill("#ask-input", "hello there")

@@ -349,6 +349,47 @@
         }
       }
     },
+    "/api/v1/news/{slug}.json": {
+      "get": {
+        "operationId": "getNews",
+        "summary": "Recent news headlines for a commodity (last 30 days, Google News RSS) — cite these when explaining price moves",
+        "parameters": [{ "$ref": "#/components/parameters/SlugParam" }],
+        "responses": {
+          "200": {
+            "description": "Headlines, newest first. Only present for commodities with collected news.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    { "$ref": "#/components/schemas/Envelope" },
+                    {
+                      "type": "object",
+                      "required": ["commodity", "items"],
+                      "properties": {
+                        "commodity": { "$ref": "#/components/schemas/Slug" },
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "required": ["date", "title", "url"],
+                            "properties": {
+                              "date": { "type": "string", "format": "date" },
+                              "title": { "type": "string" },
+                              "source": { "type": "string" },
+                              "url": { "type": "string" }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/v1/analysis/{slug}/summary.json": {
       "get": {
         "operationId": "getSummary",
@@ -399,7 +440,7 @@
     "schemas": {
       "Slug": {
         "type": "string",
-        "enum": ["arecanut", "black-pepper", "coconut"],
+        "enum": ["arecanut", "black-pepper", "coconut", "copra"],
         "description": "Commodity identifier. The authoritative list is /api/v1/commodities.json (this enum is regenerated when commodities are added)."
       },
       "Envelope": {
