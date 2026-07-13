@@ -5247,3 +5247,12 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-07-10,Uttara Kannada,Yellapur APMC,arecanut,api,Local,53609,55185,54819,Rs/quintal,ogd,2026-07-10T15:43:33+00:00
 2026-07-11,Kannur,Kuthuparambu Market,arecanut,Malbar,Local,30000,38000,34000,Rs/quintal,ogd,2026-07-11T14:34:03+00:00
 2026-07-11,Kasargod,Manjeswaram Market,arecanut,Other,FAQ,47000,47200,47100,Rs/quintal,ogd,2026-07-11T14:34:03+00:00
+2026-07-13,Uttara Kannada,Honnavar APMC,arecanut,Hale Chali,Local,40000,42000,41000,Rs/quintal,ogd,2026-07-13T11:48:24+00:00
+2026-07-13,Kasargod,Kanjangadu Market,arecanut,Malbar,FAQ,40600,41600,41000,Rs/quintal,ogd,2026-07-13T11:48:24+00:00
+2026-07-13,Kasargod,Neeleswaram Market,arecanut,Other,FAQ,42000,44000,43000,Rs/quintal,ogd,2026-07-13T11:48:24+00:00
+2026-07-13,Shivamogga,Sagar APMC,arecanut,Bilegotu,Local,19699,32109,30300,Rs/quintal,ogd,2026-07-13T11:48:24+00:00
+2026-07-13,Shivamogga,Sagar APMC,arecanut,Chali,Local,34699,41529,40506,Rs/quintal,ogd,2026-07-13T11:48:24+00:00
+2026-07-13,Shivamogga,Sagar APMC,arecanut,Cqca,Local,14088,30699,28099,Rs/quintal,ogd,2026-07-13T11:48:24+00:00
+2026-07-13,Shivamogga,Sagar APMC,arecanut,Kempugotu,Local,28800,40199,36600,Rs/quintal,ogd,2026-07-13T11:48:24+00:00
+2026-07-13,Shivamogga,Sagar APMC,arecanut,Rashi,Local,37299,52749,51699,Rs/quintal,ogd,2026-07-13T11:48:24+00:00
+2026-07-13,Shivamogga,Sagar APMC,arecanut,Sippegotu,Local,8099,22140,21409,Rs/quintal,ogd,2026-07-13T11:48:24+00:00
