@@ -1,7 +1,7 @@
 # Dev/CI dependencies (compile with: pip-compile --generate-hashes requirements-dev.in)
 -c requirements.txt
 pytest>=8
-ruff>=0.6
+ruff>=0.15.21
 pip-audit>=2.7
 openapi-spec-validator>=0.7
 jsonschema>=4.21
