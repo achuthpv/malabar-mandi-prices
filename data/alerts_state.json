@@ -3,7 +3,7 @@
  "price_below:black-pepper::55000:": false,
  "spread_above:arecanut:::30": true,
  "spread_above:black-pepper:::25": true,
- "spread_above:coconut:::40": true,
+ "spread_above:coconut:::40": false,
  "spread_above:copra:::60": true,
  "vs_typical_above:arecanut:::12": false,
  "vs_typical_above:black-pepper:::10": false,
