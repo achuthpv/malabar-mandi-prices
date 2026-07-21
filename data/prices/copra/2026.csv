@@ -2265,3 +2265,6 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-07-20,Kannur,Payyannur Market,copra,Other,Local,12900,13100,13000,Rs/quintal,ogd,2026-07-20T15:25:56+00:00
 2026-07-20,Kannur,Thalassery,copra,Sundried,DES,12500,12500,12500,Rs/quintal,des,2026-07-20T11:33:30+00:00
 2026-07-20,Kozhikode,Vadakara,copra,Milling,DES,14000,14000,14000,Rs/quintal,des,2026-07-20T11:33:30+00:00
+2026-07-21,Kasargod,Kasargod Market,copra,Copra,Local,13500,14000,13800,Rs/quintal,ogd,2026-07-21T10:54:41+00:00
+2026-07-21,Kasargod,Manjeswaram Market,copra,Copra,FAQ,15000,15200,15100,Rs/quintal,ogd,2026-07-21T10:54:41+00:00
+2026-07-21,Kannur,Payyannur Market,copra,Other,Local,12900,13100,13000,Rs/quintal,ogd,2026-07-21T10:54:41+00:00
