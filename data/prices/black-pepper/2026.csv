@@ -3697,3 +3697,10 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-07-21,Uttara Kannada,Sirsi APMC,black-pepper,Black Pepper,Local,62099,72167,65542,Rs/quintal,ogd,2026-07-21T15:21:15+00:00
 2026-07-21,Wayanad,Sultan bathery Market,black-pepper,Ungrabled,Local,68495,68500,68500,Rs/quintal,ogd,2026-07-21T15:21:15+00:00
 2026-07-21,Kannur,Thalassery,black-pepper,Ungarbled,DES,67500,67500,67500,Rs/quintal,des,2026-07-21T15:21:33+00:00
+2026-07-22,Kannur,Kannur Market,black-pepper,Other,Grade Range-1,65000,67000,66000,Rs/quintal,ogd,2026-07-22T10:56:20+00:00
+2026-07-22,Wayanad,Mananthavady Market,black-pepper,Ungrabled,Local,68500,68500,68500,Rs/quintal,ogd,2026-07-22T10:56:20+00:00
+2026-07-22,Kasargod,Manjeswaram Market,black-pepper,Other,FAQ,67500,68000,67750,Rs/quintal,ogd,2026-07-22T10:56:20+00:00
+2026-07-22,Ernakulam,North Paravur Market,black-pepper,Garbled,Grade Range-1,70000,80000,75000,Rs/quintal,ogd,2026-07-22T10:56:20+00:00
+2026-07-22,Kannur,Payyannur Market,black-pepper,Other,Local,64000,66000,65000,Rs/quintal,ogd,2026-07-22T10:56:20+00:00
+2026-07-22,Wayanad,Pulpally Market,black-pepper,Ungrabled,Local,67400,67600,67500,Rs/quintal,ogd,2026-07-22T10:56:20+00:00
+2026-07-22,Wayanad,Sultan bathery Market,black-pepper,Ungrabled,Local,68495,68500,68500,Rs/quintal,ogd,2026-07-22T10:56:20+00:00
