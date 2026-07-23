@@ -2290,14 +2290,15 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-07-22,Kannur,Thalassery,copra,Sundried,DES,13000,13000,13000,Rs/quintal,des,2026-07-22T15:19:20+00:00
 2026-07-22,Kozhikode,Vadakara,copra,Milling,DES,14000,14000,14000,Rs/quintal,des,2026-07-22T15:19:20+00:00
 2026-07-23,Ernakulam,Ernakulam,copra,Sundried,DES,16150,16150,16150,Rs/quintal,des,2026-07-23T10:56:57+00:00
-2026-07-23,Kasargod,Kanjangadu Market,copra,Other,FAQ,11000,11800,11400,Rs/quintal,ogd,2026-07-23T10:56:24+00:00
+2026-07-23,Kasargod,Kanjangadu Market,copra,Other,FAQ,11000,11800,11400,Rs/quintal,ogd,2026-07-23T15:30:29+00:00
 2026-07-23,Kannur,Kannur,copra,Sundried,DES,15400,15400,15400,Rs/quintal,des,2026-07-23T10:56:57+00:00
 2026-07-23,Kasargod,Kasargod,copra,Smoked,DES,13000,13000,13000,Rs/quintal,des,2026-07-23T10:56:57+00:00
-2026-07-23,Kasargod,Kasargod Market,copra,Copra,Local,13500,14000,13800,Rs/quintal,ogd,2026-07-23T10:56:24+00:00
+2026-07-23,Kasargod,Kasargod Market,copra,Copra,Local,13500,14000,13800,Rs/quintal,ogd,2026-07-23T15:30:29+00:00
 2026-07-23,Kozhikode,Kozhikode,copra,Eduthapadi,DES,14800,14800,14800,Rs/quintal,des,2026-07-23T10:56:57+00:00
-2026-07-23,Kasargod,Manjeswaram Market,copra,Copra,FAQ,15000,15200,15100,Rs/quintal,ogd,2026-07-23T10:56:24+00:00
+2026-07-23,Kannur,Kuthuparambu Market,copra,Copra,FAQ,8000,13000,10500,Rs/quintal,ogd,2026-07-23T15:30:29+00:00
+2026-07-23,Kasargod,Manjeswaram Market,copra,Copra,FAQ,15000,15200,15100,Rs/quintal,ogd,2026-07-23T15:30:29+00:00
 2026-07-23,Ernakulam,Muvattupuzha,copra,Sundried,DES,15500,15500,15500,Rs/quintal,des,2026-07-23T10:56:57+00:00
 2026-07-23,Ernakulam,North Paravur,copra,Smoked,DES,14900,14900,14900,Rs/quintal,des,2026-07-23T10:56:57+00:00
-2026-07-23,Kannur,Payyannur Market,copra,Other,Local,12900,13100,13000,Rs/quintal,ogd,2026-07-23T10:56:24+00:00
+2026-07-23,Kannur,Payyannur Market,copra,Other,Local,12900,13100,13000,Rs/quintal,ogd,2026-07-23T15:30:29+00:00
 2026-07-23,Kannur,Thalassery,copra,Sundried,DES,13000,13000,13000,Rs/quintal,des,2026-07-23T10:56:57+00:00
 2026-07-23,Kozhikode,Vadakara,copra,Milling,DES,14250,14250,14250,Rs/quintal,des,2026-07-23T10:56:57+00:00
