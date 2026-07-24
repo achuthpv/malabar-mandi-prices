@@ -5514,3 +5514,5 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-07-23,Uttara Kannada,Sirsi APMC,arecanut,Rashi,Local,49339,53549,50825,Rs/quintal,ogd,2026-07-23T15:30:29+00:00
 2026-07-23,Kannur,Thalassery,arecanut,Dry New,DES,38500,38500,38500,Rs/quintal,des,2026-07-23T10:56:57+00:00
 2026-07-23,Kannur,Thalassery,arecanut,Dry Old,DES,39000,39000,39000,Rs/quintal,des,2026-07-23T10:56:57+00:00
+2026-07-24,Kasargod,Manjeswaram Market,arecanut,Other,FAQ,48000,48200,48100,Rs/quintal,ogd,2026-07-24T10:52:17+00:00
+2026-07-24,Kannur,Payyannur Market,arecanut,Other,Local,39000,41000,40000,Rs/quintal,ogd,2026-07-24T10:52:17+00:00
