@@ -5548,5 +5548,12 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-07-24,Uttara Kannada,Yellapur APMC,arecanut,Kempugotu,Local,26621,34969,32399,Rs/quintal,ogd,2026-07-24T15:12:02+00:00
 2026-07-24,Uttara Kannada,Yellapur APMC,arecanut,Rashi,Local,49300,54799,52499,Rs/quintal,ogd,2026-07-24T15:12:02+00:00
 2026-07-24,Uttara Kannada,Yellapur APMC,arecanut,Tattibettee,Local,39421,46099,43399,Rs/quintal,ogd,2026-07-24T15:12:02+00:00
-2026-07-25,Kasargod,Kasargod Market,arecanut,Malbar,Local,43000,44000,43500,Rs/quintal,ogd,2026-07-25T10:19:15+00:00
-2026-07-25,Kannur,Payyannur Market,arecanut,Other,Local,39000,41000,40000,Rs/quintal,ogd,2026-07-25T10:19:15+00:00
+2026-07-25,Kasargod,Kasargod,arecanut,Dry New,DES,46000,46000,46000,Rs/quintal,des,2026-07-25T14:44:33+00:00
+2026-07-25,Kasargod,Kasargod,arecanut,Dry Old,DES,51000,51000,51000,Rs/quintal,des,2026-07-25T14:44:33+00:00
+2026-07-25,Kasargod,Kasargod Market,arecanut,Malbar,Local,43000,44000,43500,Rs/quintal,ogd,2026-07-25T14:44:14+00:00
+2026-07-25,Kozhikode,Kozhikode,arecanut,Dry New,DES,37000,37000,37000,Rs/quintal,des,2026-07-25T14:44:33+00:00
+2026-07-25,Kozhikode,Kozhikode,arecanut,Dry Old,DES,37000,37000,37000,Rs/quintal,des,2026-07-25T14:44:33+00:00
+2026-07-25,Kozhikode,Kozhikode,arecanut,Ripe,DES,7000,7000,7000,Rs/quintal,des,2026-07-25T14:44:33+00:00
+2026-07-25,Kannur,Payyannur Market,arecanut,Other,Local,39000,41000,40000,Rs/quintal,ogd,2026-07-25T14:44:14+00:00
+2026-07-25,Kannur,Thalassery,arecanut,Dry New,DES,38200,38200,38200,Rs/quintal,des,2026-07-25T14:44:33+00:00
+2026-07-25,Kannur,Thalassery,arecanut,Dry Old,DES,39000,39000,39000,Rs/quintal,des,2026-07-25T14:44:33+00:00
