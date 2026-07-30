@@ -2367,4 +2367,13 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-07-29,Kannur,Payyannur Market,copra,Other,Local,13400,13600,13500,Rs/quintal,ogd,2026-07-29T15:25:16+00:00
 2026-07-29,Kannur,Thalassery,copra,Sundried,DES,14000,14000,14000,Rs/quintal,des,2026-07-29T11:12:50+00:00
 2026-07-29,Kozhikode,Vadakara,copra,Milling,DES,16000,16000,16000,Rs/quintal,des,2026-07-29T11:12:50+00:00
-2026-07-30,Kannur,Payyannur Market,copra,Other,Local,13400,13600,13500,Rs/quintal,ogd,2026-07-30T10:56:33+00:00
+2026-07-30,Ernakulam,Ernakulam,copra,Sundried,DES,16800,16800,16800,Rs/quintal,des,2026-07-30T15:30:03+00:00
+2026-07-30,Kannur,Kannur,copra,Sundried,DES,17000,17000,17000,Rs/quintal,des,2026-07-30T15:30:03+00:00
+2026-07-30,Kasargod,Kasargod,copra,Smoked,DES,14000,14000,14000,Rs/quintal,des,2026-07-30T15:30:03+00:00
+2026-07-30,Kozhikode,Kozhikode,copra,Eduthapadi,DES,15500,15500,15500,Rs/quintal,des,2026-07-30T15:30:03+00:00
+2026-07-30,Kannur,Kuthuparambu Market,copra,Copra,FAQ,15000,18000,16500,Rs/quintal,ogd,2026-07-30T15:29:43+00:00
+2026-07-30,Ernakulam,Muvattupuzha,copra,Sundried,DES,16500,16500,16500,Rs/quintal,des,2026-07-30T15:30:03+00:00
+2026-07-30,Ernakulam,North Paravur,copra,Smoked,DES,15900,15900,15900,Rs/quintal,des,2026-07-30T15:30:03+00:00
+2026-07-30,Kannur,Payyannur Market,copra,Other,Local,13400,13600,13500,Rs/quintal,ogd,2026-07-30T15:29:43+00:00
+2026-07-30,Kannur,Thalassery,copra,Sundried,DES,14000,14000,14000,Rs/quintal,des,2026-07-30T15:30:03+00:00
+2026-07-30,Kozhikode,Vadakara,copra,Milling,DES,16000,16000,16000,Rs/quintal,des,2026-07-30T15:30:03+00:00
