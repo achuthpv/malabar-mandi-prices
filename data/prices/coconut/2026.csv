@@ -2436,12 +2436,14 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-08-03,Wayanad,Sultan bathery Market,coconut,Other,Local,6195,6200,6200,Rs/quintal,ogd,2026-08-03T16:00:06+00:00
 2026-08-03,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5650,Rs/quintal,ogd,2026-08-03T12:09:55+00:00
 2026-08-03,Kannur,Thalassery,coconut,Without Husk,DES,6000,6000,6000,Rs/quintal,des,2026-08-03T12:10:23+00:00
+2026-08-04,Kasargod,Kanjangadu Market,coconut,Coconut,FAQ,5000,5500,5200,Rs/quintal,ogd,2026-08-04T15:42:58+00:00
 2026-08-04,Kannur,Kannur,coconut,Without Husk,DES,5600,5600,5600,Rs/quintal,des,2026-08-04T11:13:21+00:00
 2026-08-04,Kasargod,Kasargod,coconut,Without Husk,DES,5500,5500,5500,Rs/quintal,des,2026-08-04T11:13:21+00:00
 2026-08-04,Wayanad,Mananthavady,coconut,Without Husk,DES,5800,5800,5800,Rs/quintal,des,2026-08-04T11:13:21+00:00
-2026-08-04,Kasargod,Manjeswaram Market,coconut,Other,FAQ,5500,5700,5600,Rs/quintal,ogd,2026-08-04T11:12:58+00:00
+2026-08-04,Kasargod,Manjeswaram Market,coconut,Other,FAQ,5500,5700,5600,Rs/quintal,ogd,2026-08-04T15:42:58+00:00
 2026-08-04,Ernakulam,North Paravur,coconut,Without Husk,DES,5000,5000,5000,Rs/quintal,des,2026-08-04T11:13:21+00:00
-2026-08-04,Ernakulam,North Paravur Market,coconut,Big,Local,6200,7200,6800,Rs/quintal,ogd,2026-08-04T11:12:58+00:00
-2026-08-04,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-04T11:12:58+00:00
-2026-08-04,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5600,Rs/quintal,ogd,2026-08-04T11:12:58+00:00
+2026-08-04,Ernakulam,North Paravur Market,coconut,Big,Local,6200,7200,6800,Rs/quintal,ogd,2026-08-04T15:42:58+00:00
+2026-08-04,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-04T15:42:58+00:00
+2026-08-04,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5600,Rs/quintal,ogd,2026-08-04T15:42:58+00:00
 2026-08-04,Kannur,Thalassery,coconut,Without Husk,DES,6000,6000,6000,Rs/quintal,des,2026-08-04T11:13:21+00:00
+2026-08-04,Uttara Kannada,Yellapur APMC,coconut,Medium,Local,24000,28000,26500,Rs/quintal,ogd,2026-08-04T15:42:58+00:00
