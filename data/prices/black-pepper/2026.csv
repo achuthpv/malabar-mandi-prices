@@ -3975,8 +3975,12 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-08-06,Uttara Kannada,Sirsi APMC,black-pepper,Black Pepper,Local,53199,66899,61974,Rs/quintal,ogd,2026-08-06T15:41:20+00:00
 2026-08-06,Wayanad,Sultan bathery Market,black-pepper,Ungrabled,Local,68495,68500,68500,Rs/quintal,ogd,2026-08-06T15:41:20+00:00
 2026-08-06,Kannur,Thalassery,black-pepper,Ungarbled,DES,67000,67000,67000,Rs/quintal,des,2026-08-06T11:11:14+00:00
-2026-08-07,Kasargod,Kanjangadu Market,black-pepper,Malabar,FAQ,64000,64800,64400,Rs/quintal,ogd,2026-08-07T09:47:19+00:00
-2026-08-07,Wayanad,Mananthavady Market,black-pepper,Ungrabled,Local,68500,68700,68600,Rs/quintal,ogd,2026-08-07T09:47:19+00:00
-2026-08-07,Ernakulam,North Paravur Market,black-pepper,Garbled,Grade Range-1,70000,80000,75000,Rs/quintal,ogd,2026-08-07T09:47:19+00:00
-2026-08-07,Kannur,Payyannur Market,black-pepper,Other,Local,64000,66000,65000,Rs/quintal,ogd,2026-08-07T09:47:19+00:00
-2026-08-07,Wayanad,Pulpally Market,black-pepper,Ungrabled,Local,67800,68000,67900,Rs/quintal,ogd,2026-08-07T09:47:19+00:00
+2026-08-07,Kasargod,Kanjangadu Market,black-pepper,Malabar,FAQ,64000,64800,64400,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Wayanad,Mananthavady Market,black-pepper,Ungrabled,Local,68500,68700,68600,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Ernakulam,North Paravur Market,black-pepper,Garbled,Grade Range-1,70000,80000,75000,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Kannur,Payyannur Market,black-pepper,Other,Local,64000,66000,65000,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Wayanad,Pulpally Market,black-pepper,Ungrabled,Local,67800,68000,67900,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Uttara Kannada,Siddapur APMC,black-pepper,Black Pepper,Small,54699,69000,65099,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Uttara Kannada,Sirsi APMC,black-pepper,Black Pepper,Local,61289,70080,65318,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Wayanad,Sultan bathery Market,black-pepper,Ungrabled,Local,68495,68500,68500,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Uttara Kannada,Yellapur APMC,black-pepper,Other,Local,58415,68299,63701,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
