@@ -3975,15 +3975,33 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-08-06,Uttara Kannada,Sirsi APMC,black-pepper,Black Pepper,Local,53199,66899,61974,Rs/quintal,ogd,2026-08-06T15:41:20+00:00
 2026-08-06,Wayanad,Sultan bathery Market,black-pepper,Ungrabled,Local,68495,68500,68500,Rs/quintal,ogd,2026-08-06T15:41:20+00:00
 2026-08-06,Kannur,Thalassery,black-pepper,Ungarbled,DES,67000,67000,67000,Rs/quintal,des,2026-08-06T11:11:14+00:00
+2026-08-07,Ernakulam,Aluva,black-pepper,Ungarbled,DES,67500,67500,67500,Rs/quintal,des,2026-08-10T10:07:40+00:00
 2026-08-07,Kasargod,Kanjangadu Market,black-pepper,Malabar,FAQ,64000,64800,64400,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Kasargod,Kasargod,black-pepper,Ungarbled,DES,66000,66000,66000,Rs/quintal,des,2026-08-10T10:07:40+00:00
+2026-08-07,Ernakulam,Kochi,black-pepper,Garbled,DES,71500,71500,71500,Rs/quintal,des,2026-08-10T10:07:40+00:00
+2026-08-07,Ernakulam,Kochi,black-pepper,Ungarbled,DES,69500,69500,69500,Rs/quintal,des,2026-08-10T10:07:40+00:00
+2026-08-07,Kozhikode,Kozhikode,black-pepper,Chettan,DES,67000,67000,67000,Rs/quintal,des,2026-08-10T10:07:40+00:00
+2026-08-07,Kozhikode,Kozhikode,black-pepper,Nadan,DES,66500,66500,66500,Rs/quintal,des,2026-08-10T10:07:40+00:00
+2026-08-07,Kozhikode,Kozhikode,black-pepper,Wayanadan,DES,68500,68500,68500,Rs/quintal,des,2026-08-10T10:07:40+00:00
+2026-08-07,Wayanad,Mananthavady,black-pepper,Chettan,DES,68500,68500,68500,Rs/quintal,des,2026-08-10T10:07:40+00:00
+2026-08-07,Wayanad,Mananthavady,black-pepper,Wayanadan,DES,69000,69000,69000,Rs/quintal,des,2026-08-10T10:07:40+00:00
 2026-08-07,Wayanad,Mananthavady Market,black-pepper,Ungrabled,Local,68500,68700,68600,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Malappuram,Manjeri,black-pepper,Ungarbled,DES,67500,67500,67500,Rs/quintal,des,2026-08-10T10:07:40+00:00
+2026-08-07,Ernakulam,Muvattupuzha,black-pepper,Ungarbled,DES,70000,70000,70000,Rs/quintal,des,2026-08-10T10:07:40+00:00
 2026-08-07,Ernakulam,North Paravur Market,black-pepper,Garbled,Grade Range-1,70000,80000,75000,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
 2026-08-07,Kannur,Payyannur Market,black-pepper,Other,Local,64000,66000,65000,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Malappuram,Perinthalmanna,black-pepper,Nadan,DES,68000,68000,68000,Rs/quintal,des,2026-08-10T10:07:40+00:00
 2026-08-07,Wayanad,Pulpally Market,black-pepper,Ungrabled,Local,67800,68000,67900,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
 2026-08-07,Uttara Kannada,Siddapur APMC,black-pepper,Black Pepper,Small,54699,69000,65099,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
 2026-08-07,Uttara Kannada,Sirsi APMC,black-pepper,Black Pepper,Local,61289,70080,65318,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
 2026-08-07,Wayanad,Sultan bathery Market,black-pepper,Ungrabled,Local,68495,68500,68500,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
+2026-08-07,Kannur,Thalassery,black-pepper,Ungarbled,DES,67000,67000,67000,Rs/quintal,des,2026-08-10T10:07:40+00:00
 2026-08-07,Uttara Kannada,Yellapur APMC,black-pepper,Other,Local,58415,68299,63701,Rs/quintal,ogd,2026-08-07T14:30:09+00:00
 2026-08-08,Ernakulam,North Paravur Market,black-pepper,Garbled,Grade Range-1,70000,80000,75000,Rs/quintal,ogd,2026-08-08T14:04:29+00:00
 2026-08-08,Ernakulam,Perumbavoor Market,black-pepper,Garbled,Grade Range-1,82000,88000,84000,Rs/quintal,ogd,2026-08-08T14:04:29+00:00
 2026-08-09,Ernakulam,Perumbavoor Market,black-pepper,Garbled,Grade Range-1,85000,95000,90000,Rs/quintal,ogd,2026-08-09T14:03:59+00:00
+2026-08-10,Kasargod,Manjeswaram Market,black-pepper,Other,FAQ,67000,67500,67250,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
+2026-08-10,Ernakulam,North Paravur Market,black-pepper,Garbled,Grade Range-1,70000,80000,75000,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
+2026-08-10,Kannur,Payyannur Market,black-pepper,Other,Local,63000,65000,64000,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
+2026-08-10,Ernakulam,Perumbavoor Market,black-pepper,Garbled,Grade Range-1,80000,90000,85000,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
+2026-08-10,Wayanad,Pulpally Market,black-pepper,Ungrabled,Local,68400,68600,68500,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
