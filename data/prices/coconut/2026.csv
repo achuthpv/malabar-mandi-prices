@@ -2493,9 +2493,16 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-08-09,Kozhikode,Mukkom Market,coconut,Other,FAQ,5100,5300,5200,Rs/quintal,ogd,2026-08-09T14:03:59+00:00
 2026-08-09,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-09T14:03:59+00:00
 2026-08-09,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,6000,5800,Rs/quintal,ogd,2026-08-09T14:03:59+00:00
-2026-08-10,Kasargod,Manjeswaram Market,coconut,Other,FAQ,5700,5900,5800,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
-2026-08-10,Kozhikode,Mukkom Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
-2026-08-10,Ernakulam,North Paravur Market,coconut,Big,Local,6200,7200,6800,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
-2026-08-10,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
-2026-08-10,Wayanad,Pulpally Market,coconut,Coconut,Local,5200,5400,5300,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
-2026-08-10,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,6000,5800,Rs/quintal,ogd,2026-08-10T10:07:13+00:00
+2026-08-10,Kannur,Kannur,coconut,Without Husk,DES,5800,5800,5800,Rs/quintal,des,2026-08-10T14:34:48+00:00
+2026-08-10,Kasargod,Kasargod,coconut,Without Husk,DES,5500,5500,5500,Rs/quintal,des,2026-08-10T14:34:48+00:00
+2026-08-10,Uttara Kannada,Kumta APMC,coconut,Small,Local,28169,28169,28169,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
+2026-08-10,Wayanad,Mananthavady,coconut,Without Husk,DES,6000,6000,6000,Rs/quintal,des,2026-08-10T14:34:48+00:00
+2026-08-10,Kasargod,Manjeswaram Market,coconut,Other,FAQ,5700,5900,5800,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
+2026-08-10,Kozhikode,Mukkom Market,coconut,Other,FAQ,5600,6000,5800,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
+2026-08-10,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4600,5000,4800,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
+2026-08-10,Ernakulam,North Paravur Market,coconut,Big,Local,6200,7200,6800,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
+2026-08-10,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
+2026-08-10,Wayanad,Pulpally Market,coconut,Coconut,Local,5200,5400,5300,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
+2026-08-10,Uttara Kannada,Sirsi APMC,coconut,Small,Local,4930,6200,5550,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
+2026-08-10,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,6000,5800,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
+2026-08-10,Kannur,Thalassery,coconut,Without Husk,DES,6000,6000,6000,Rs/quintal,des,2026-08-10T14:34:48+00:00
