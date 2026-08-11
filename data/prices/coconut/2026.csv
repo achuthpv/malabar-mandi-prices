@@ -2506,6 +2506,15 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-08-10,Uttara Kannada,Sirsi APMC,coconut,Small,Local,4930,6200,5550,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
 2026-08-10,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,6000,5800,Rs/quintal,ogd,2026-08-10T14:34:28+00:00
 2026-08-10,Kannur,Thalassery,coconut,Without Husk,DES,6000,6000,6000,Rs/quintal,des,2026-08-10T14:34:48+00:00
-2026-08-11,Ernakulam,North Paravur Market,coconut,Big,Local,6300,7500,6800,Rs/quintal,ogd,2026-08-11T09:47:05+00:00
-2026-08-11,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-11T09:47:05+00:00
+2026-08-11,Kannur,Kannur,coconut,Without Husk,DES,5800,5800,5800,Rs/quintal,des,2026-08-11T14:34:14+00:00
+2026-08-11,Kasargod,Kasargod,coconut,Without Husk,DES,5500,5500,5500,Rs/quintal,des,2026-08-11T14:34:14+00:00
+2026-08-11,Wayanad,Mananthavady,coconut,Without Husk,DES,6000,6000,6000,Rs/quintal,des,2026-08-11T14:34:14+00:00
+2026-08-11,Kasargod,Manjeswaram Market,coconut,Other,FAQ,5700,5900,5800,Rs/quintal,ogd,2026-08-11T14:33:51+00:00
+2026-08-11,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4600,4400,Rs/quintal,ogd,2026-08-11T14:33:51+00:00
+2026-08-11,Ernakulam,North Paravur,coconut,Without Husk,DES,5000,5000,5000,Rs/quintal,des,2026-08-11T14:34:14+00:00
+2026-08-11,Ernakulam,North Paravur Market,coconut,Big,Local,6300,7500,6800,Rs/quintal,ogd,2026-08-11T14:33:51+00:00
+2026-08-11,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-11T14:33:51+00:00
+2026-08-11,Wayanad,Sultan bathery Market,coconut,Other,Local,6195,6200,6200,Rs/quintal,ogd,2026-08-11T14:33:51+00:00
 2026-08-11,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,6000,5800,Rs/quintal,ogd,2026-08-11T09:47:05+00:00
+2026-08-11,Kannur,Thalassery,coconut,Without Husk,DES,5800,5800,5800,Rs/quintal,des,2026-08-11T14:34:14+00:00
+2026-08-11,Uttara Kannada,Yellapur APMC,coconut,Medium,Local,23000,28000,26000,Rs/quintal,ogd,2026-08-11T14:33:51+00:00
