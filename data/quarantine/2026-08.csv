@@ -1,2 +1,3 @@
 quarantined_at,reason,source,record
 2026-08-06T15:41:20+00:00,outside_sanity_range_500_30000,ogd,"{'state': 'Karnataka', 'district': 'Uttara Kannada', 'market': 'Kumta APMC', 'commodity': 'Coconut', 'variety': 'Small', 'grade': 'Local', 'arrival_date': '06/08/2026', 'min_price': 35211, 'max_price': 40197, 'modal_price': 40035}"
+2026-08-12T14:34:19+00:00,outside_sanity_range_500_30000,ogd,"{'state': 'Karnataka', 'district': 'Uttara Kannada', 'market': 'Kumta APMC', 'commodity': 'Coconut', 'variety': 'Small', 'grade': 'Local', 'arrival_date': '12/08/2026', 'min_price': 35211, 'max_price': 35211, 'modal_price': 35211}"
