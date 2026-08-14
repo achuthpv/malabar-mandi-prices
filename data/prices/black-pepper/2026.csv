@@ -4059,7 +4059,10 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-08-13,Ernakulam,Perumbavoor Market,black-pepper,Garbled,Grade Range-1,85000,95000,90000,Rs/quintal,ogd,2026-08-13T09:51:44+00:00
 2026-08-13,Wayanad,Pulpally Market,black-pepper,Ungrabled,Local,67800,68000,67900,Rs/quintal,ogd,2026-08-13T09:51:44+00:00
 2026-08-13,Kannur,Thalassery,black-pepper,Ungarbled,DES,67000,67000,67000,Rs/quintal,des,2026-08-14T09:49:49+00:00
-2026-08-14,Ernakulam,North Paravur Market,black-pepper,Garbled,Grade Range-1,70000,80000,75000,Rs/quintal,ogd,2026-08-14T09:49:30+00:00
-2026-08-14,Kannur,Payyannur Market,black-pepper,Other,Local,65000,67000,66000,Rs/quintal,ogd,2026-08-14T09:49:30+00:00
-2026-08-14,Ernakulam,Perumbavoor Market,black-pepper,Garbled,Grade Range-1,85000,95000,90000,Rs/quintal,ogd,2026-08-14T09:49:30+00:00
-2026-08-14,Wayanad,Pulpally Market,black-pepper,Ungrabled,Local,67800,68000,67900,Rs/quintal,ogd,2026-08-14T09:49:30+00:00
+2026-08-14,Ernakulam,North Paravur Market,black-pepper,Garbled,Grade Range-1,70000,80000,75000,Rs/quintal,ogd,2026-08-14T14:29:21+00:00
+2026-08-14,Kannur,Payyannur Market,black-pepper,Other,Local,65000,67000,66000,Rs/quintal,ogd,2026-08-14T14:29:21+00:00
+2026-08-14,Ernakulam,Perumbavoor Market,black-pepper,Garbled,Grade Range-1,85000,95000,90000,Rs/quintal,ogd,2026-08-14T14:29:21+00:00
+2026-08-14,Wayanad,Pulpally Market,black-pepper,Ungrabled,Local,67800,68000,67900,Rs/quintal,ogd,2026-08-14T14:29:21+00:00
+2026-08-14,Uttara Kannada,Siddapur APMC,black-pepper,Black Pepper,Small,57789,67200,65689,Rs/quintal,ogd,2026-08-14T14:29:21+00:00
+2026-08-14,Wayanad,Sultan bathery Market,black-pepper,Ungrabled,Local,68495,68500,68500,Rs/quintal,ogd,2026-08-14T14:29:21+00:00
+2026-08-14,Uttara Kannada,Yellapur APMC,black-pepper,Other,Local,50000,65795,62005,Rs/quintal,ogd,2026-08-14T14:29:21+00:00
