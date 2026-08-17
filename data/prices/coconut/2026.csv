@@ -2545,3 +2545,8 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-08-15,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,6000,5800,Rs/quintal,ogd,2026-08-15T13:49:06+00:00
 2026-08-16,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-16T13:50:09+00:00
 2026-08-16,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,6000,5800,Rs/quintal,ogd,2026-08-16T13:50:09+00:00
+2026-08-17,Kozhikode,Mukkom Market,coconut,Other,FAQ,5800,6200,5900,Rs/quintal,ogd,2026-08-17T09:27:51+00:00
+2026-08-17,Kasargod,Neeleswaram Market,coconut,Other,FAQ,4300,4600,4400,Rs/quintal,ogd,2026-08-17T09:27:51+00:00
+2026-08-17,Ernakulam,North Paravur Market,coconut,Big,Local,6300,7500,6800,Rs/quintal,ogd,2026-08-17T09:27:51+00:00
+2026-08-17,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-17T09:27:51+00:00
+2026-08-17,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,6000,5800,Rs/quintal,ogd,2026-08-17T09:27:51+00:00
