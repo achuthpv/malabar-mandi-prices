@@ -2564,8 +2564,15 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-08-17,Wayanad,Pulpally Market,coconut,Coconut,Local,5500,5700,5600,Rs/quintal,ogd,2026-08-17T13:58:59+00:00
 2026-08-17,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,6000,5800,Rs/quintal,ogd,2026-08-17T13:58:59+00:00
 2026-08-17,Kannur,Thalassery,coconut,Without Husk,DES,5700,5700,5700,Rs/quintal,des,2026-08-17T13:59:19+00:00
-2026-08-18,Kozhikode,Mukkom Market,coconut,Other,FAQ,6000,6400,6200,Rs/quintal,ogd,2026-08-18T09:20:09+00:00
-2026-08-18,Ernakulam,North Paravur Market,coconut,Big,Local,6300,7500,6800,Rs/quintal,ogd,2026-08-18T09:20:09+00:00
-2026-08-18,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-18T09:20:09+00:00
-2026-08-18,Wayanad,Pulpally Market,coconut,Coconut,Local,5600,5800,5700,Rs/quintal,ogd,2026-08-18T09:20:09+00:00
+2026-08-18,Kannur,Kannur,coconut,Without Husk,DES,5800,5800,5800,Rs/quintal,des,2026-08-18T14:03:41+00:00
+2026-08-18,Kasargod,Kasargod,coconut,Without Husk,DES,5500,5500,5500,Rs/quintal,des,2026-08-18T14:03:41+00:00
+2026-08-18,Wayanad,Mananthavady,coconut,Without Husk,DES,6000,6000,6000,Rs/quintal,des,2026-08-18T14:03:41+00:00
+2026-08-18,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6000,6200,6100,Rs/quintal,ogd,2026-08-18T14:03:22+00:00
+2026-08-18,Kozhikode,Mukkom Market,coconut,Other,FAQ,6000,6400,6200,Rs/quintal,ogd,2026-08-18T14:03:22+00:00
+2026-08-18,Ernakulam,North Paravur,coconut,Without Husk,DES,5000,5000,5000,Rs/quintal,des,2026-08-18T14:03:41+00:00
+2026-08-18,Ernakulam,North Paravur Market,coconut,Big,Local,6300,7500,6800,Rs/quintal,ogd,2026-08-18T14:03:22+00:00
+2026-08-18,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-08-18T14:03:22+00:00
+2026-08-18,Wayanad,Pulpally Market,coconut,Coconut,Local,5600,5800,5700,Rs/quintal,ogd,2026-08-18T14:03:22+00:00
 2026-08-18,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5600,5900,5750,Rs/quintal,ogd,2026-08-18T09:20:09+00:00
+2026-08-18,Kannur,Thalassery,coconut,Without Husk,DES,5500,5500,5500,Rs/quintal,des,2026-08-18T14:03:41+00:00
+2026-08-18,Uttara Kannada,Yellapur APMC,coconut,Medium,Local,26000,27000,26500,Rs/quintal,ogd,2026-08-18T14:03:22+00:00
