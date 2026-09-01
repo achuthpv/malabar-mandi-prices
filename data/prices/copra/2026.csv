@@ -2638,14 +2638,15 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-08-31,Kannur,Thalassery,copra,Sundried,DES,14500,14500,14500,Rs/quintal,des,2026-08-31T16:27:06+00:00
 2026-08-31,Kozhikode,Vadakara,copra,Milling,DES,16500,16500,16500,Rs/quintal,des,2026-08-31T16:27:06+00:00
 2026-09-01,Ernakulam,Ernakulam,copra,Sundried,DES,17100,17100,17100,Rs/quintal,des,2026-09-01T13:45:08+00:00
-2026-09-01,Kasargod,Kanjangadu Market,copra,Other,FAQ,12700,13400,13000,Rs/quintal,ogd,2026-09-01T13:44:51+00:00
+2026-09-01,Kasargod,Kanjangadu Market,copra,Other,FAQ,12700,13400,13000,Rs/quintal,ogd,2026-09-01T17:21:43+00:00
 2026-09-01,Kannur,Kannur,copra,Sundried,DES,17000,17000,17000,Rs/quintal,des,2026-09-01T13:45:08+00:00
 2026-09-01,Kasargod,Kasargod,copra,Smoked,DES,15000,15000,15000,Rs/quintal,des,2026-09-01T13:45:08+00:00
 2026-09-01,Kozhikode,Kozhikode,copra,Ball,DES,22000,22000,22000,Rs/quintal,des,2026-09-01T13:45:08+00:00
 2026-09-01,Kozhikode,Kozhikode,copra,Eduthapadi,DES,16800,16800,16800,Rs/quintal,des,2026-09-01T13:45:08+00:00
-2026-09-01,Kasargod,Manjeswaram Market,copra,Copra,FAQ,17000,17200,17100,Rs/quintal,ogd,2026-09-01T13:44:51+00:00
+2026-09-01,Kannur,Kuthuparambu Market,copra,Copra,FAQ,15000,17000,16000,Rs/quintal,ogd,2026-09-01T17:21:43+00:00
+2026-09-01,Kasargod,Manjeswaram Market,copra,Copra,FAQ,17000,17200,17100,Rs/quintal,ogd,2026-09-01T17:21:43+00:00
 2026-09-01,Ernakulam,Muvattupuzha,copra,Sundried,DES,16500,16500,16500,Rs/quintal,des,2026-09-01T13:45:08+00:00
 2026-09-01,Ernakulam,North Paravur,copra,Smoked,DES,16400,16400,16400,Rs/quintal,des,2026-09-01T13:45:08+00:00
-2026-09-01,Kannur,Payyannur Market,copra,Other,Local,13900,14100,14000,Rs/quintal,ogd,2026-09-01T13:44:51+00:00
+2026-09-01,Kannur,Payyannur Market,copra,Other,Local,13900,14100,14000,Rs/quintal,ogd,2026-09-01T17:21:43+00:00
 2026-09-01,Kannur,Thalassery,copra,Sundried,DES,14500,14500,14500,Rs/quintal,des,2026-09-01T13:45:08+00:00
 2026-09-01,Kozhikode,Vadakara,copra,Milling,DES,16500,16500,16500,Rs/quintal,des,2026-09-01T13:45:08+00:00
