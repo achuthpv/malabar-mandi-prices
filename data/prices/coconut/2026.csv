@@ -2698,3 +2698,16 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-09-01,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5650,Rs/quintal,ogd,2026-09-01T17:21:43+00:00
 2026-09-01,Kannur,Thalassery,coconut,Without Husk,DES,5600,5600,5600,Rs/quintal,des,2026-09-01T13:45:08+00:00
 2026-09-01,Uttara Kannada,Yellapur APMC,coconut,Medium,Local,23000,23000,23000,Rs/quintal,ogd,2026-09-01T17:21:43+00:00
+2026-09-02,Ernakulam,Aluva,coconut,Without Husk,DES,6200,6200,6200,Rs/quintal,des,2026-09-02T13:02:04+00:00
+2026-09-02,Kannur,Kannur,coconut,Without Husk,DES,6000,6000,6000,Rs/quintal,des,2026-09-02T13:02:04+00:00
+2026-09-02,Kasargod,Kasargod,coconut,Without Husk,DES,5200,5200,5200,Rs/quintal,des,2026-09-02T13:02:04+00:00
+2026-09-02,Wayanad,Mananthavady,coconut,Without Husk,DES,5400,5400,5400,Rs/quintal,des,2026-09-02T13:02:04+00:00
+2026-09-02,Kasargod,Manjeswaram Market,coconut,Other,FAQ,6000,6200,6100,Rs/quintal,ogd,2026-09-02T13:01:35+00:00
+2026-09-02,Kozhikode,Mukkom Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,ogd,2026-09-02T13:01:35+00:00
+2026-09-02,Ernakulam,North Paravur,coconut,Without Husk,DES,5000,5000,5000,Rs/quintal,des,2026-09-02T13:02:04+00:00
+2026-09-02,Ernakulam,North Paravur Market,coconut,Big,Local,6000,7000,6500,Rs/quintal,ogd,2026-09-02T13:01:35+00:00
+2026-09-02,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-09-02T13:01:35+00:00
+2026-09-02,Uttara Kannada,Sirsi APMC,coconut,Small,Local,4801,6277,5305,Rs/quintal,ogd,2026-09-02T13:01:35+00:00
+2026-09-02,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5650,Rs/quintal,ogd,2026-09-02T13:01:35+00:00
+2026-09-02,Kannur,Thalassery,coconut,Without Husk,DES,5600,5600,5600,Rs/quintal,des,2026-09-02T13:02:04+00:00
+2026-09-02,Uttara Kannada,Yellapur APMC,coconut,Medium,Local,22500,26000,23000,Rs/quintal,ogd,2026-09-02T13:01:35+00:00
