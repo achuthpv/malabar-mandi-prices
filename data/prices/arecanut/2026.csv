@@ -6277,6 +6277,11 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-09-03,Uttara Kannada,Honnavar APMC,arecanut,Hale Chali,Local,40000,42000,41000,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
 2026-09-03,Uttara Kannada,Honnavar APMC,arecanut,Hosa Chali,Local,37000,39000,38000,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
 2026-09-03,Kasargod,Kanjangadu Market,arecanut,Malbar,FAQ,40700,41400,41000,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
+2026-09-03,Kasargod,Kasargod,arecanut,Dry New,DES,46000,46000,46000,Rs/quintal,des,2026-09-05T12:11:15+00:00
+2026-09-03,Kasargod,Kasargod,arecanut,Dry Old,DES,52000,52000,52000,Rs/quintal,des,2026-09-05T12:11:15+00:00
+2026-09-03,Kozhikode,Kozhikode,arecanut,Dry New,DES,36500,36500,36500,Rs/quintal,des,2026-09-05T12:11:15+00:00
+2026-09-03,Kozhikode,Kozhikode,arecanut,Dry Old,DES,36500,36500,36500,Rs/quintal,des,2026-09-05T12:11:15+00:00
+2026-09-03,Kozhikode,Kozhikode,arecanut,Ripe,DES,7300,7300,7300,Rs/quintal,des,2026-09-05T12:11:15+00:00
 2026-09-03,Uttara Kannada,Kumta APMC,arecanut,Chippu,Local,22109,35269,32759,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
 2026-09-03,Uttara Kannada,Kumta APMC,arecanut,Cqca,Local,15910,32399,30679,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
 2026-09-03,Uttara Kannada,Kumta APMC,arecanut,Hale Chali,Local,36619,48499,47649,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
@@ -6301,6 +6306,8 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-09-03,Uttara Kannada,Sirsi APMC,arecanut,Chali,Local,42380,48499,45916,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
 2026-09-03,Uttara Kannada,Sirsi APMC,arecanut,Kempugotu,Local,34100,34799,34450,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
 2026-09-03,Uttara Kannada,Sirsi APMC,arecanut,Rashi,Local,48250,51699,50215,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
+2026-09-03,Kannur,Thalassery,arecanut,Dry New,DES,36000,36000,36000,Rs/quintal,des,2026-09-05T12:11:15+00:00
+2026-09-03,Kannur,Thalassery,arecanut,Dry Old,DES,37200,37200,37200,Rs/quintal,des,2026-09-05T12:11:15+00:00
 2026-09-03,Uttara Kannada,Yellapur APMC,arecanut,Bilegotu,Local,17009,35499,31899,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
 2026-09-03,Uttara Kannada,Yellapur APMC,arecanut,Chali,Local,36969,47640,46469,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
 2026-09-03,Uttara Kannada,Yellapur APMC,arecanut,Cqca,Local,11510,29499,24129,Rs/quintal,ogd,2026-09-03T17:05:19+00:00
@@ -6330,3 +6337,8 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-09-04,Uttara Kannada,Yellapur APMC,arecanut,Rashi,Local,46899,55599,52899,Rs/quintal,ogd,2026-09-04T16:54:39+00:00
 2026-09-04,Uttara Kannada,Yellapur APMC,arecanut,Tattibettee,Local,34399,46009,43799,Rs/quintal,ogd,2026-09-04T16:54:39+00:00
 2026-09-04,Uttara Kannada,Yellapur APMC,arecanut,api,Local,60119,60119,60119,Rs/quintal,ogd,2026-09-04T16:54:39+00:00
+2026-09-05,Uttara Kannada,Honnavar APMC,arecanut,Hale Chali,Local,40000,42000,41000,Rs/quintal,ogd,2026-09-05T12:10:55+00:00
+2026-09-05,Uttara Kannada,Honnavar APMC,arecanut,Hosa Chali,Local,37000,39000,38000,Rs/quintal,ogd,2026-09-05T12:10:55+00:00
+2026-09-05,Kasargod,Kanjangadu Market,arecanut,Malbar,FAQ,40800,41600,41200,Rs/quintal,ogd,2026-09-05T12:10:55+00:00
+2026-09-05,Uttara Kannada,Kumta APMC,arecanut,Chali,Local,40491,40491,40491,Rs/quintal,ogd,2026-09-05T12:10:55+00:00
+2026-09-05,Kannur,Payyannur Market,arecanut,Other,Local,37000,39000,38000,Rs/quintal,ogd,2026-09-05T12:10:55+00:00
