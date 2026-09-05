@@ -6337,8 +6337,13 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-09-04,Uttara Kannada,Yellapur APMC,arecanut,Rashi,Local,46899,55599,52899,Rs/quintal,ogd,2026-09-04T16:54:39+00:00
 2026-09-04,Uttara Kannada,Yellapur APMC,arecanut,Tattibettee,Local,34399,46009,43799,Rs/quintal,ogd,2026-09-04T16:54:39+00:00
 2026-09-04,Uttara Kannada,Yellapur APMC,arecanut,api,Local,60119,60119,60119,Rs/quintal,ogd,2026-09-04T16:54:39+00:00
-2026-09-05,Uttara Kannada,Honnavar APMC,arecanut,Hale Chali,Local,40000,42000,41000,Rs/quintal,ogd,2026-09-05T12:10:55+00:00
-2026-09-05,Uttara Kannada,Honnavar APMC,arecanut,Hosa Chali,Local,37000,39000,38000,Rs/quintal,ogd,2026-09-05T12:10:55+00:00
-2026-09-05,Kasargod,Kanjangadu Market,arecanut,Malbar,FAQ,40800,41600,41200,Rs/quintal,ogd,2026-09-05T12:10:55+00:00
-2026-09-05,Uttara Kannada,Kumta APMC,arecanut,Chali,Local,40491,40491,40491,Rs/quintal,ogd,2026-09-05T12:10:55+00:00
-2026-09-05,Kannur,Payyannur Market,arecanut,Other,Local,37000,39000,38000,Rs/quintal,ogd,2026-09-05T12:10:55+00:00
+2026-09-05,Uttara Kannada,Honnavar APMC,arecanut,Hale Chali,Local,40000,42000,41000,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
+2026-09-05,Uttara Kannada,Honnavar APMC,arecanut,Hosa Chali,Local,37000,39000,38000,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
+2026-09-05,Kasargod,Kanjangadu Market,arecanut,Malbar,FAQ,40800,41600,41200,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
+2026-09-05,Uttara Kannada,Kumta APMC,arecanut,Chali,Local,40491,40491,40491,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
+2026-09-05,Kannur,Payyannur Market,arecanut,Other,Local,37000,39000,38000,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
+2026-09-05,Uttara Kannada,Sirsi APMC,arecanut,Bette,Local,39501,47109,41600,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
+2026-09-05,Uttara Kannada,Sirsi APMC,arecanut,Bilegotu,Local,24299,32430,29348,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
+2026-09-05,Uttara Kannada,Sirsi APMC,arecanut,Chali,Local,42151,48259,45457,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
+2026-09-05,Uttara Kannada,Sirsi APMC,arecanut,Kempugotu,Local,28099,34599,31506,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
+2026-09-05,Uttara Kannada,Sirsi APMC,arecanut,Rashi,Local,48450,51449,49985,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
