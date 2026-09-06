@@ -2733,3 +2733,6 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-09-05,Uttara Kannada,Sirsi APMC,coconut,Small,Local,4501,6279,5218,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
 2026-09-05,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
 2026-09-05,Uttara Kannada,Yellapur APMC,coconut,Medium,Local,25945,25945,25945,Rs/quintal,ogd,2026-09-05T16:09:12+00:00
+2026-09-06,Kozhikode,Mukkom Market,coconut,Other,FAQ,5800,6200,6000,Rs/quintal,ogd,2026-09-06T12:25:31+00:00
+2026-09-06,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-09-06T12:25:31+00:00
+2026-09-06,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-09-06T12:25:31+00:00
