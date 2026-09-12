@@ -2804,3 +2804,6 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-09-11,Wayanad,Pulpally Market,coconut,Coconut,Local,5100,5300,5200,Rs/quintal,ogd,2026-09-11T13:04:03+00:00
 2026-09-11,Wayanad,Sultan bathery Market,coconut,Other,Local,6795,6800,6800,Rs/quintal,ogd,2026-09-11T13:04:03+00:00
 2026-09-11,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5500,5800,5650,Rs/quintal,ogd,2026-09-11T13:04:03+00:00
+2026-09-12,Kozhikode,Mukkom Market,coconut,Other,FAQ,5800,6100,5900,Rs/quintal,ogd,2026-09-12T12:27:24+00:00
+2026-09-12,Coimbatore,Pollachi(Uzhavar Sandhai ),coconut,Coconut,Local,5500,6000,5750,Rs/quintal,ogd,2026-09-12T12:27:24+00:00
+2026-09-12,Coimbatore,Sulur(Uzhavar Sandhai ),coconut,Coconut,Local,5400,5800,5600,Rs/quintal,ogd,2026-09-12T12:27:24+00:00
