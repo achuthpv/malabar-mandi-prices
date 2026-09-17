@@ -6571,29 +6571,30 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-09-16,Uttara Kannada,Sirsi APMC,arecanut,Bilegotu,Local,20299,33499,27261,Rs/quintal,ogd,2026-09-16T17:40:10+00:00
 2026-09-16,Uttara Kannada,Sirsi APMC,arecanut,Chali,Local,39009,46500,42980,Rs/quintal,ogd,2026-09-16T17:40:10+00:00
 2026-09-16,Kannur,Thalassery,arecanut,Dry Old,DES,37000,37000,37000,Rs/quintal,des,2026-09-16T13:48:35+00:00
-2026-09-17,Uttara Kannada,Honnavar APMC,arecanut,Hale Chali,Local,40000,42000,41000,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Honnavar APMC,arecanut,Hosa Chali,Local,37000,39000,38000,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Uttara Kannada,Honnavar APMC,arecanut,Hale Chali,Local,40000,42000,41000,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Honnavar APMC,arecanut,Hosa Chali,Local,37000,39000,38000,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
 2026-09-17,Kasargod,Kasargod,arecanut,Dry New,DES,46000,46000,46000,Rs/quintal,des,2026-09-17T13:51:00+00:00
 2026-09-17,Kasargod,Kasargod,arecanut,Dry Old,DES,52000,52000,52000,Rs/quintal,des,2026-09-17T13:51:00+00:00
 2026-09-17,Kozhikode,Kozhikode,arecanut,Dry New,DES,36500,36500,36500,Rs/quintal,des,2026-09-17T13:51:00+00:00
 2026-09-17,Kozhikode,Kozhikode,arecanut,Dry Old,DES,36500,36500,36500,Rs/quintal,des,2026-09-17T13:51:00+00:00
 2026-09-17,Kozhikode,Kozhikode,arecanut,Ripe,DES,7000,7000,7000,Rs/quintal,des,2026-09-17T13:51:00+00:00
-2026-09-17,Kasargod,Manjeswaram Market,arecanut,Other,FAQ,47500,47700,47600,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Shivamogga,Sagar APMC,arecanut,Bilegotu,Local,16219,30999,28119,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Shivamogga,Sagar APMC,arecanut,Chali,Local,27099,40309,39399,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Shivamogga,Sagar APMC,arecanut,Cqca,Local,10999,32099,28999,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Shivamogga,Sagar APMC,arecanut,Kempugotu,Local,28199,36699,34989,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Shivamogga,Sagar APMC,arecanut,Rashi,Local,27199,49869,48499,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Shivamogga,Sagar APMC,arecanut,Sippegotu,Local,7029,21400,20799,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Sirsi APMC,arecanut,Bette,Local,37399,44229,38915,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Sirsi APMC,arecanut,Bilegotu,Local,22100,32099,26834,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Sirsi APMC,arecanut,Chali,Local,39399,46900,42441,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Sirsi APMC,arecanut,Kempugotu,Local,26011,32899,30130,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Sirsi APMC,arecanut,Rashi,Local,48100,49669,48300,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Kannur,Kuthuparambu Market,arecanut,Malbar,Local,36000,38000,37000,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Kasargod,Manjeswaram Market,arecanut,Other,FAQ,47500,47700,47600,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Shivamogga,Sagar APMC,arecanut,Bilegotu,Local,16219,30999,28119,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Shivamogga,Sagar APMC,arecanut,Chali,Local,27099,40309,39399,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Shivamogga,Sagar APMC,arecanut,Cqca,Local,10999,32099,28999,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Shivamogga,Sagar APMC,arecanut,Kempugotu,Local,28199,36699,34989,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Shivamogga,Sagar APMC,arecanut,Rashi,Local,27199,49869,48499,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Shivamogga,Sagar APMC,arecanut,Sippegotu,Local,7029,21400,20799,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Sirsi APMC,arecanut,Bette,Local,37399,44229,38915,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Sirsi APMC,arecanut,Bilegotu,Local,22100,32099,26834,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Sirsi APMC,arecanut,Chali,Local,39399,46900,42441,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Sirsi APMC,arecanut,Kempugotu,Local,26011,32899,30130,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Sirsi APMC,arecanut,Rashi,Local,48100,49669,48300,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
 2026-09-17,Kannur,Thalassery,arecanut,Dry Old,DES,37000,37000,37000,Rs/quintal,des,2026-09-17T13:51:00+00:00
-2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Bilegotu,Local,18600,29119,26099,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Chali,Local,32699,41899,38899,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Cqca,Local,19909,23869,21899,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Kempugotu,Local,18900,31699,28399,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Rashi,Local,44900,52969,48689,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
-2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Tattibettee,Local,32699,41899,38899,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Bilegotu,Local,18600,29119,26099,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Chali,Local,32699,41899,38899,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Cqca,Local,19909,23869,21899,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Kempugotu,Local,18900,31699,28399,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Rashi,Local,44900,52969,48689,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
+2026-09-17,Uttara Kannada,Yellapur APMC,arecanut,Tattibettee,Local,32699,41899,38899,Rs/quintal,ogd,2026-09-17T17:40:28+00:00
