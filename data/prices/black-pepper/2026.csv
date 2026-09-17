@@ -4545,3 +4545,24 @@ date,district,market,commodity_slug,variety,grade,min_price,max_price,modal_pric
 2026-09-16,Uttara Kannada,Sirsi APMC,black-pepper,Black Pepper,Local,56479,66699,63744,Rs/quintal,ogd,2026-09-16T17:40:10+00:00
 2026-09-16,Wayanad,Sultan bathery Market,black-pepper,Ungrabled,Local,68495,68500,68500,Rs/quintal,ogd,2026-09-16T17:40:10+00:00
 2026-09-16,Kannur,Thalassery,black-pepper,Ungarbled,DES,67500,67500,67500,Rs/quintal,des,2026-09-16T13:48:35+00:00
+2026-09-17,Ernakulam,Aluva,black-pepper,Ungarbled,DES,68500,68500,68500,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Kannur,Kannur Market,black-pepper,Other,Grade Range-1,67000,69000,68000,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Kasargod,Kasargod,black-pepper,Ungarbled,DES,67500,67500,67500,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Ernakulam,Kochi,black-pepper,Garbled,DES,72400,72400,72400,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Ernakulam,Kochi,black-pepper,Ungarbled,DES,70400,70400,70400,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Kozhikode,Kozhikode,black-pepper,Chettan,DES,67000,67000,67000,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Kozhikode,Kozhikode,black-pepper,Nadan,DES,66500,66500,66500,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Kozhikode,Kozhikode,black-pepper,Wayanadan,DES,68500,68500,68500,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Wayanad,Mananthavady,black-pepper,Chettan,DES,69500,69500,69500,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Wayanad,Mananthavady,black-pepper,Wayanadan,DES,70000,70000,70000,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Malappuram,Manjeri Market,black-pepper,Other,Local,66950,67050,67000,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Kasargod,Manjeswaram Market,black-pepper,Other,FAQ,67500,68000,67750,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Ernakulam,Muvattupuzha,black-pepper,Ungarbled,DES,70000,70000,70000,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Ernakulam,North Paravur Market,black-pepper,Garbled,Grade Range-1,70000,80000,75000,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Ernakulam,Perumbavoor Market,black-pepper,Garbled,Grade Range-1,80000,90000,85000,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Wayanad,Pulpally Market,black-pepper,Ungrabled,Local,69600,69800,69700,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Shivamogga,Sagar APMC,black-pepper,Other,Local,63299,67219,65415,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Uttara Kannada,Sirsi APMC,black-pepper,Black Pepper,Local,57127,71702,63339,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Wayanad,Sultan bathery Market,black-pepper,Ungrabled,Local,68495,68500,68500,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
+2026-09-17,Kannur,Thalassery,black-pepper,Ungarbled,DES,68000,68000,68000,Rs/quintal,des,2026-09-17T13:51:00+00:00
+2026-09-17,Uttara Kannada,Yellapur APMC,black-pepper,Other,Local,64655,64655,64655,Rs/quintal,ogd,2026-09-17T13:50:39+00:00
